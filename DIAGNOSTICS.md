@@ -20,6 +20,8 @@ The implementation author maps original intents to the narrow workflow: recover_
 
 No technical-malfunction, security, multi-intent, sensitive-context or injection cases are covered by this slice. It is an independently authored input sample, **not** a newly commissioned blind benchmark, representative customer traffic or proof of generalization. Public training data may have appeared in provider training. Do not compare headline percentages directly with earlier datasets.
 
+Pre-run label audit: `ext-002` says only “I am looking for information about a forgotten key.” Its original intent is recover_password, which the fixed mapping treats as access. The text itself is ambiguous, so a review decision is defensible under our uncertainty policy. Scores will measure agreement with the predeclared mapped source intents, not independently adjudicated semantic correctness. Keep this case and the original mapping visible rather than repairing its label after prediction. Signup errors may also sit near the access/technical boundary; payment errors are mapped to billing by their original intent. These interpretation limits must accompany the results.
+
 The source revision, raw-file hash, CSV line, instruction hash, original intent, ranking seed and mapped expectation are recorded in `independent-evaluation.json`. Freeze this file and diagnostics implementation before any model call. Do not adjust labels or select different cases after inspecting predictions. The first live run will be retained even if it fails.
 
 ## Data license

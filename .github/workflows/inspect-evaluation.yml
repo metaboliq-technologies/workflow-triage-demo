@@ -1,0 +1,18 @@
+name: Inspect saved evaluation
+on:
+  workflow_dispatch:
+permissions:
+  actions: read
+  contents: read
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: synthetic-model-comparison-43861730495
+          run-id: 43861730495
+          github-token: ${{ github.token }}
+      - name: Print existing fictional-case report without additional model calls
+        run: cat comparison.local.json

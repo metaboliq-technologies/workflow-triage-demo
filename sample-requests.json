@@ -1,0 +1,7 @@
+[
+  {"id":"sample-01","subject":"Invoice copy","body":"Please send a copy of the invoice for our fictional workspace."},
+  {"id":"sample-02","subject":"Cannot sign in","body":"My fictional test account is locked."},
+  {"id":"sample-03","subject":"Export error","body":"The synthetic report export shows an error."},
+  {"id":"sample-04","subject":"Two problems","body":"I need a refund and cannot log in."},
+  {"id":"sample-05","subject":"Security review","body":"The fictional account may be compromised."}
+]

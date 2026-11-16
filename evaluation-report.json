@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "dataset": "synthetic-v1",
+  "model": "rules-baseline",
+  "actionsExecuted": 0,
+  "splits": {
+    "development": {
+      "total": 6,
+      "correct": 6,
+      "exactMatchRate": 1,
+      "proposals": 3,
+      "correctProposals": 3,
+      "proposalPrecision": 1,
+      "expectedReview": 3,
+      "caughtReview": 3,
+      "reviewRecall": 1,
+      "mismatches": []
+    },
+    "evaluation": {
+      "total": 30,
+      "correct": 25,
+      "exactMatchRate": 0.8333333333333334,
+      "proposals": 17,
+      "correctProposals": 14,
+      "proposalPrecision": 0.8235294117647058,
+      "expectedReview": 14,
+      "caughtReview": 11,
+      "reviewRecall": 0.7857142857142857,
+      "mismatches": [
+        {
+          "id": "eval-23",
+          "expected": {
+            "route": "access",
+            "requiresHumanReview": false
+          },
+          "actual": {
+            "route": null,
+            "requiresHumanReview": true
+          },
+          "note": "Paraphrase is not covered by the narrow baseline vocabulary."
+        },
+        {
+          "id": "eval-25",
+          "expected": {
+            "route": null,
+            "requiresHumanReview": true
+          },
+          "actual": {
+            "route": "billing",
+            "requiresHumanReview": false
+          },
+          "note": "Negation produces a known wrong automatic proposal."
+        },
+        {
+          "id": "eval-26",
+          "expected": {
+            "route": "billing",
+            "requiresHumanReview": false
+          },
+          "actual": {
+            "route": null,
+            "requiresHumanReview": true
+          },
+          "note": "Guard over-triggers on quoted context."
+        },
+        {
+          "id": "eval-27",
+          "expected": {
+            "route": null,
+            "requiresHumanReview": true
+          },
+          "actual": {
+            "route": "access",
+            "requiresHumanReview": false
+          },
+          "note": "The guard misses a security paraphrase."
+        },
+        {
+          "id": "eval-28",
+          "expected": {
+            "route": null,
+            "requiresHumanReview": true
+          },
+          "actual": {
+            "route": "billing",
+            "requiresHumanReview": false
+          },
+          "note": "Unsupported destructive intent is not detected by keyword guards."
+        }
+      ]
+    }
+  }
+}

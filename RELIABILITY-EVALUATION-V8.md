@@ -69,3 +69,9 @@ The bounded strategy is an implementation choice informed by the official
 [generateContent error reference](https://ai.google.dev/gemini-api/docs/generate-content/api-errors)
 and [HTTP Retry-After semantics](https://www.rfc-editor.org/rfc/rfc9110.html#name-retry-after).
 It is deliberately stricter about quota/auth errors than general retry guidance.
+
+## Completed execution
+
+The completed [bounded reliability and negation evaluation](reliability-negation-results.md) used 41/80 allowed attempts for 40 fresh cases. One HTTP 503 retry recovered a valid but incorrect route under the frozen label: availability rose from 39/40 to 40/40 while exact matches stayed 38/40. Rules matched 29/40; guarded final matched 33/40. All 15 negated ordinary requests matched, but two required-review labels were missed; the fictional-medical-context label is explicitly debatable. No first attempt exceeded the old 15-second deadline. This is not an independent legacy-timeout comparison or a measured semantic gain. Labels were AI-authored and separately AI-reviewed, not human-adjudicated. See [every attempt and diagnostic](reliability-negation-comparison.json).
+
+All 71 tests passed before live calls. The complete manual run intentionally has a failure conclusion because its initial HTTP 503 remains recorded, even though final calls all produced valid output. No prompts, reference labels or frozen implementation were tuned after results; no extra provider run was submitted.

@@ -2,7 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFile} from 'node:fs/promises';
 import {createHash} from 'node:crypto';
-import {createGeminiAdapter,MODEL_POLICY,ModelError,modelDecision,guardedModelDecision} from './model-adapter.mjs';
+import {createGeminiAdapter,MODEL_POLICY,LEGACY_MODEL_POLICY,ModelError,modelDecision,guardedModelDecision} from './model-adapter.mjs';
 import {compareCases,score} from './compare.mjs';
 
 const input={id:'adapter-test',subject:'Invoice copy',body:'Please share the fictional invoice.'};
@@ -113,6 +113,6 @@ test('fresh set has 40 unique new inputs; labels never enter adapter calls',asyn
   assert.equal(calls,40);assert.equal(result.metrics.model.correct,0);assert.equal(result.metrics.model.errors,40);
   const report=JSON.parse(await readFile(new URL('./fresh-baseline-report.json',import.meta.url),'utf8'));
   assert.equal(report.datasetSha256,createHash('sha256').update(bytes).digest('hex'));
-  assert.equal(report.promptSha256,createHash('sha256').update(MODEL_POLICY).digest('hex'));
+  assert.equal(report.promptSha256,createHash('sha256').update(LEGACY_MODEL_POLICY).digest('hex'));
   assert.deepEqual(result.metrics.baseline,report.metrics.baseline);
 });

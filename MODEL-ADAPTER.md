@@ -1,5 +1,7 @@
 # Gemini adapter and fresh evaluation
 
+Current policy/version and reviewed evaluation: [REVIEWED-EVALUATION-V4.md](REVIEWED-EVALUATION-V4.md). The reports below describe earlier prompts on their frozen revisions; existing historical comparison modes explicitly use `legacy-v3`.
+
 For the subsequent diagnostics implementation and externally authored sample, see [DIAGNOSTICS.md](DIAGNOSTICS.md). The first live results below remain historical evidence on their recorded revision.
 
 The optional Node.js adapter calls the Gemini Developer API. It is not imported into the public browser lab. The browser lab and original rules evaluation remain offline and unchanged.

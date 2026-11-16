@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "frozenAt": "2026-11-16T13:32:34.526893+00:00",
+  "caseInspectionByImplementerBeforeFreeze": false,
+  "method": "Implementation author froze code and policy before opening independent author/reviewer case files. Separate fresh-context AI author and reviewer had access to the policy but not adapter code or prior model results.",
+  "files": {
+    "model-adapter.mjs": "fdb51d078943024890b7f22532fbd29b1875d390d11576ab9058ab67e8fcbcec",
+    "paired-evaluation.mjs": "d449ada1878ae8e431b9332b7bbfd74f375815fc7164f8ea650867ce67e1cbd9",
+    "ROUTING-POLICY-V4.md": "e7178bf3890c41581cc7af07c0f5f7880b29f975b462f2f740683f07d39e04a9",
+    "triage.mjs": "15f49d62481a71da7d2eef83b8b18fcecaab0e1893873a3a88f81c37cf6a9978"
+  }
+}

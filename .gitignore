@@ -6,4 +6,5 @@ coverage/
 requests.local.json
 report.local.json
 comparison.local.json
+independent-comparison.local.json
 .DS_Store

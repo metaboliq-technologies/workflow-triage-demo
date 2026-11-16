@@ -1,5 +1,7 @@
 # Gemini adapter and fresh evaluation
 
+For the subsequent diagnostics implementation and externally authored sample, see [DIAGNOSTICS.md](DIAGNOSTICS.md). The first live results below remain historical evidence on their recorded revision.
+
 The optional Node.js adapter calls the Gemini Developer API. It is not imported into the public browser lab. The browser lab and original rules evaluation remain offline and unchanged.
 
 ## Run status

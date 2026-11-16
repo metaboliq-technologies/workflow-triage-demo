@@ -1,0 +1,52 @@
+name: Independent synthetic evaluation
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: Import source only, or run the committed frozen sample
+        type: choice
+        options: [import, live]
+        default: import
+permissions:
+  contents: read
+concurrency:
+  group: synthetic-model-comparison
+  cancel-in-progress: false
+jobs:
+  evaluate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v6
+        with:
+          node-version: '22'
+      - name: Verify contracts and sanitized diagnostics
+        run: npm test
+      - name: Import independently authored instructions without model calls
+        if: inputs.mode == 'import'
+        run: python3 import-independent.py
+      - name: Evaluate the committed sample with the unchanged prompt
+        if: inputs.mode == 'live'
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_MODEL: gemini-3.5-flash-lite
+          MBQ_ALLOW_SYNTHETIC_MODEL_RUN: 'yes'
+        run: |
+          node compare.mjs --independent-baseline
+          node compare.mjs --independent-live
+      - name: Retain reports even when output validation fails
+        if: always()
+        uses: actions/upload-artifact@v7
+        with:
+          name: independent-evaluation-${{ github.run_id }}
+          path: |
+            independent-evaluation.json
+            independent-baseline-report.json
+            independent-comparison.local.json
+          retention-days: 14
+      - name: Print existing fictional comparison for auditable retrieval
+        if: always() && inputs.mode == 'live'
+        run: test ! -f independent-comparison.local.json || cat independent-comparison.local.json

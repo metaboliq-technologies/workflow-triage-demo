@@ -1,5 +1,8 @@
 # Gemini adapter and fresh evaluation
 
+The [fresh account-closure negation comparison](negated-closure-results.md) found **no observed routing gain**: updated v7 matched 36/40, previous v6 38/40, rules 26/40 and guarded v7 29/40. Both prompts made identical correct decisions on all 35 common-valid cases. V7 had two timeouts and two HTTP 503 failures; v6 had one rejected exact quote and one unnecessary review. The v7 call on that remaining review-error case failed, so its correction is unmeasured. All 80 planned calls were attempted once without retries; every failure stays without correctness credit. Labels were AI-authored and separately AI-reviewed, not human-adjudicated. See [every result and diagnostic](negated-closure-comparison.json).
+
+
 Current default: `closure-negation-v7`, with quoted evidence. See [the negation comparison plan](NEGATION-EVALUATION-V7.md) and [written v7 policy](ROUTING-POLICY-V7.md). The previous `intent-sufficiency-v6` prompt is unchanged and explicit. See [the vague-request experiment and limits](VAGUE-EVALUATION-V6.md) and [written routing policy](ROUTING-POLICY-V6.md). Explicit `clarified-v4` and `legacy-v3` policies remain unchanged. Historical comparisons and reports below use their frozen source revisions; do not rerun an old freeze against the current root adapter.
 
 For the subsequent diagnostics implementation and externally authored sample, see [DIAGNOSTICS.md](DIAGNOSTICS.md). The first live results below remain historical evidence on their recorded revision.

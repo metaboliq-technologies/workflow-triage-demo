@@ -52,3 +52,9 @@ independently adjudicated by these routing labels. This set becomes seen after
 the freeze; later tuning needs new evidence. Historical evaluations must use
 their pinned source revisions. Archived adapters preserve hashes and are not
 standalone runnable packages. Previous sets are not an accuracy progress curve.
+
+## Completed run
+
+The [fresh account-closure negation comparison](negated-closure-results.md) found **no observed routing gain**: updated v7 matched 36/40, previous v6 38/40, rules 26/40 and guarded v7 29/40. Both prompts made identical correct decisions on all 35 common-valid cases. V7 had two timeouts and two HTTP 503 failures; v6 had one rejected exact quote and one unnecessary review. The v7 call on that remaining review-error case failed, so its correction is unmeasured. All 80 planned calls were attempted once without retries; every failure stays without correctness credit. Labels were AI-authored and separately AI-reviewed, not human-adjudicated. See [every result and diagnostic](negated-closure-comparison.json).
+
+Both prompts caught all 22 required-review cases in this synthetic set. The completed experiment intentionally has a failed workflow conclusion because it records call/output errors. No evaluated prompt or reference label was changed after results; a further assessment needs new evidence.

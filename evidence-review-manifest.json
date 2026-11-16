@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "independent-context-ai-label-review",
+  "humanReviewed": false,
+  "caseCount": 40,
+  "initialAgreement": {
+    "agreed": 40,
+    "total": 40
+  },
+  "unresolvedDisagreements": 0,
+  "resolvedDisagreements": 0,
+  "datasetSha256": "e75575b86b9835e115df0f8393efad4b4d780f3db1336a63b95beab5df62fb9a",
+  "policySha256": "e7178bf3890c41581cc7af07c0f5f7880b29f975b462f2f740683f07d39e04a9",
+  "originalFiles": {
+    "evidence-review/author-inputs.json": "ead52043cbff3e4e18a204ebe9af157c0602cd36f6f0eb7c53bbbfd2929275c9",
+    "evidence-review/author-labels.json": "0f9d93deab5f9f08933a4dc82c710c30d8950a4a00331d1df3285e7c91d1df7b",
+    "evidence-review/reviewer-initial-labels.json": "6758e9ab92c34cc4da1fa3b17dbe6da3144e6fff53e62f5394549f5e4c950d2d",
+    "evidence-review/review-resolutions.json": "d81a464b5e8cc3534ad5f6bbc9dd8092b953c6615212406b11cb14a92badd87e",
+    "evidence-review/final-labels.json": "0366924cf0d9c58b79c43920881396bdfe4b8b97857a56de50c4ebaecbe2a98a"
+  },
+  "implementationFrozenAt": "2026-11-16T15:35:22.447Z",
+  "assembledAt": "2026-11-16T15:36:11.457Z",
+  "limitations": "Separate AI author/reviewer; shared blind spots possible. No human adjudication. Newly authored does not prove training novelty. Set is now seen."
+}

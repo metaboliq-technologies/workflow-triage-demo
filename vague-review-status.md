@@ -1,0 +1,5 @@
+# Vague-request evaluation: completed
+
+The completed [vague-request paired evaluation](vague-review-results.md) matched 38/40 cases with the updated v6 prompt, 35/40 with previous v4, and 28/40 with rules. All 80 planned calls were attempted once; the comparison includes one HTTP 503 and one evidence-length violation without correctness credit. V6 reviewed all five vague cases and routed all five terse-clear controls correctly. Both prompts unnecessarily reviewed a negated account-closure example. Labels were authored and separately reviewed by AI, not human-adjudicated; this small synthetic result does not establish production readiness. See [every decision and diagnostic](vague-review-comparison.json).
+
+[Original run](https://github.com/metaboliq-technologies/workflow-triage-demo/actions/runs/43910453557) completed all 80 planned calls. The initial queued-status report is superseded. Normal cancellation failed; the guarded recovery skipped its model-call step. The original later started without a retry or duplicated provider comparison. Root cause of the queue delay remains unknown. Full chronology, all failures and limitations are in the completed report.

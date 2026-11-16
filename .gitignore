@@ -8,4 +8,7 @@ report.local.json
 comparison.local.json
 independent-comparison.local.json
 paired-comparison.local.json
+evidence-comparison.local.json
+sealed-v5-author/
+sealed-v5-review/
 .DS_Store

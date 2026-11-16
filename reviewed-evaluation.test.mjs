@@ -26,7 +26,7 @@ test('reviewed set has 40 new unique instructions with required strata and exclu
   assert.equal(new Set(bodies).size,40);assert.ok(bodies.every(b=>!oldBodies.has(b)));
   assert.equal(dataset.cases.filter(c=>c.stratum==='technical').length,5);assert.equal(dataset.cases.filter(c=>c.stratum==='security').length,5);assert.equal(dataset.cases.filter(c=>c.stratum==='injection').length,5);
 });
-test('implementation freeze still matches the four core files',async()=>{
+test('historical freeze matches archived adapter and unchanged remaining v4 files',async()=>{
   const freeze=await json('./implementation-freeze.json');assert.equal(freeze.caseInspectionByImplementerBeforeFreeze,false);
-  for(const [path,hash] of Object.entries(freeze.files))assert.equal(digest(await bytes('./'+path)),hash);
+  for(const [path,hash] of Object.entries(freeze.files))assert.equal(digest(await bytes('./'+(path==='model-adapter.mjs'?'frozen-v4/':'')+path)),hash);
 });

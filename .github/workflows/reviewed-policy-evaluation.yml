@@ -19,18 +19,27 @@ jobs:
           node-version: '22'
       - name: Verify transport, diagnostics, policies and paired-run limits
         run: npm test
-      - name: Compare both frozen prompts against independently AI-reviewed cases
+      - name: Compare frozen adapters against independently AI-reviewed cases
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           MBQ_ALLOW_SYNTHETIC_MODEL_RUN: 'yes'
-        run: node paired-evaluation.mjs
+        run: |
+          if test -f evidence-implementation-freeze.json; then
+            node evidence-evaluation.mjs
+          else
+            node paired-evaluation.mjs
+          fi
       - name: Retain checkpoint including failures or interrupted runs
         if: always()
         uses: actions/upload-artifact@v7
         with:
           name: reviewed-policy-evaluation-${{ github.run_id }}
-          path: paired-comparison.local.json
+          path: |
+            paired-comparison.local.json
+            evidence-comparison.local.json
           retention-days: 14
       - name: Print saved synthetic report without more provider calls
         if: always()
-        run: test ! -f paired-comparison.local.json || cat paired-comparison.local.json
+        run: |
+          test ! -f paired-comparison.local.json || cat paired-comparison.local.json
+          test ! -f evidence-comparison.local.json || cat evidence-comparison.local.json

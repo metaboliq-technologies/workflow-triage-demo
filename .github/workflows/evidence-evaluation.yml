@@ -1,0 +1,36 @@
+name: Evidence contract evaluation
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: synthetic-model-comparison
+  cancel-in-progress: false
+jobs:
+  compare:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v6
+        with:
+          node-version: '22'
+      - name: Test adapter and contracts
+        run: npm test
+      - name: Compare quoted and indexed evidence against reviewed synthetic cases
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          MBQ_ALLOW_SYNTHETIC_MODEL_RUN: 'yes'
+        run: node evidence-evaluation.mjs
+      - name: Retain checkpoint even on failure
+        if: always()
+        uses: actions/upload-artifact@v7
+        with:
+          name: evidence-evaluation-${{ github.run_id }}
+          path: evidence-comparison.local.json
+          retention-days: 14
+      - name: Print report without more provider calls
+        if: always()
+        run: test ! -f evidence-comparison.local.json || cat evidence-comparison.local.json

@@ -1,5 +1,8 @@
 # Gemini adapter and fresh evaluation
 
+An optional [sensitive-context scope adapter](SENSITIVE-EVALUATION-V9.md) now distinguishes real or plausibly real health/financial disclosures from explicitly fictional nonpersonal data. Mixed or unclear scope retains review. Use createSensitiveGeminiAdapter from sensitive-adapter.mjs explicitly; historical adapters and rules remain unchanged. The fresh v9 run has not yet completed; software tests do not establish semantic gains.
+
+
 The completed [bounded reliability and negation evaluation](reliability-negation-results.md) used 41/80 allowed attempts for 40 fresh cases. One HTTP 503 retry recovered a valid but incorrect route under the frozen label: availability rose from 39/40 to 40/40 while exact matches stayed 38/40. Rules matched 29/40; guarded final matched 33/40. All 15 negated ordinary requests matched, but two required-review labels were missed; the fictional-medical-context label is explicitly debatable. No first attempt exceeded the old 15-second deadline. This is not an independent legacy-timeout comparison or a measured semantic gain. Labels were AI-authored and separately AI-reviewed, not human-adjudicated. See [every attempt and diagnostic](reliability-negation-comparison.json).
 
 

@@ -1,0 +1,25 @@
+{
+  "reviewType": "separate-context-ai-label-review",
+  "humanReviewed": false,
+  "initialAgreement": {
+    "agreed": 40,
+    "total": 40
+  },
+  "disagreements": [],
+  "unresolvedDisagreements": 0,
+  "process": {
+    "initialLabelsSavedAt": "2026-11-16T20:29:36.0933747Z",
+    "authorLabelsExposedAfterInitialSave": true,
+    "reconciliationCompletedAt": "2026-11-16T20:29:59.1098813Z",
+    "blinding": "Read only ROUTING-POLICY-V9.md and sealed-v9-author/inputs.json. Independently labeled all 40 before author labels, strata, implementation, results or earlier cases were exposed. Python attempt failed before writing; PowerShell saved the independent labels.",
+    "comparison": "Compared route and requiresHumanReview for every id against author labels only after sealing independent labels. All 40 decisions matched. Final strata copied from author labels after exposure; reviewer rationales retained.",
+    "implementationOrModelResultsRead": false,
+    "initialLabelsModifiedAfterExposure": false,
+    "inputsModified": false
+  },
+  "limitations": [
+    "Separate-context AI review, not human adjudication.",
+    "Agreement does not establish correctness, statistical performance or training-data exclusion.",
+    "Cases are synthetic; actual versus fictional scope is interpreted within each request, not from the external fact that the corpus is synthetic."
+  ]
+}

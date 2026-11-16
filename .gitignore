@@ -24,3 +24,7 @@ reliability-comparison.local.json
 sealed-v8-author/
 sealed-v8-review/
 reliability-verifier.part
+
+sensitive-comparison.local.json
+sealed-v9-author/
+sealed-v9-review/

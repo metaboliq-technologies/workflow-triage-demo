@@ -1,6 +1,6 @@
 {
   "name": "@metaboliq/workflow-triage-demo",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "type": "module",
   "description": "An offline support-triage engineering demo with synthetic evaluation data.",
@@ -9,6 +9,8 @@
     "start": "node serve.mjs",
     "demo": "node cli.mjs sample-requests.json",
     "test": "node --test",
-    "evaluate": "node evaluate.mjs"
+    "evaluate": "node evaluate.mjs",
+    "compare:baseline": "node compare.mjs --baseline",
+    "compare:live": "node compare.mjs --live"
   }
 }

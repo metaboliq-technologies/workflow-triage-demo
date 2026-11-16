@@ -1,0 +1,709 @@
+{
+  "schemaVersion": 1,
+  "dataset": "synthetic-fresh-v2",
+  "datasetSha256": "2818c93f6f8ed00635872a2b0e978a7858aa4d5ec5112b33f9c32b52ed09b533",
+  "promptSha256": "b7aca8fbf81483f9a71d638bbfef60f8c8b2348f8a219b81f531f8d25ed919df",
+  "mode": "baseline-only",
+  "sourceCommit": null,
+  "startedAt": null,
+  "completedAt": null,
+  "provider": null,
+  "requestedModel": null,
+  "maximumApiCalls": 0,
+  "actionsExecuted": 0,
+  "rows": [
+    {
+      "id": "v2-001",
+      "stratum": "ordinary",
+      "expected": {
+        "route": "billing",
+        "requiresHumanReview": false
+      },
+      "baseline": {
+        "id": "v2-001",
+        "route": "billing",
+        "requiresHumanReview": false,
+        "reason": "single_route_match",
+        "matchedCategories": [
+          "billing"
+        ],
+        "source": "rules-baseline"
+      }
+    },
+    {
+      "id": "v2-002",
+      "stratum": "paraphrase",
+      "expected": {
+        "route": "billing",
+        "requiresHumanReview": false
+      },
+      "baseline": {
+        "id": "v2-002",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "no_supported_route",
+        "matchedCategories": [],
+        "source": "rules-baseline"
+      }
+    },
+    {
+      "id": "v2-003",
+      "stratum": "paraphrase",
+      "expected": {
+        "route": "billing",
+        "requiresHumanReview": false
+      },
+      "baseline": {
+        "id": "v2-003",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "no_supported_route",
+        "matchedCategories": [],
+        "source": "rules-baseline"
+      }
+    },
+    {
+      "id": "v2-004",
+      "stratum": "ordinary",
+      "expected": {
+        "route": "billing",
+        "requiresHumanReview": false
+      },
+      "baseline": {
+        "id": "v2-004",
+        "route": "billing",
+        "requiresHumanReview": false,
+        "reason": "single_route_match",
+        "matchedCategories": [
+          "billing"
+        ],
+        "source": "rules-baseline"
+      }
+    },
+    {
+      "id": "v2-005",
+      "stratum": "paraphrase",
+      "expected": {
+        "route": "billing",
+        "requiresHumanReview": false
+      },
+      "baseline": {
+        "id": "v2-005",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "no_supported_route",
+        "matchedCategories": [],
+        "source": "rules-baseline"
+      }
+    },
+    {
+      "id": "v2-006",
+      "stratum": "ordinary",
+      "expected": {
+        "route": "billing",
+        "requiresHumanReview": false
+      },
+      "baseline": {
+        "id": "v2-006",
+        "route": "billing",
+        "requiresHumanReview": false,
+        "reason": "single_route_match",
+        "matchedCategories": [
+          "billing"
+        ],
+        "source": "rules-baseline"
+      }
+    },
+    {
+      "id": "v2-007",
+      "stratum": "ordinary",
+      "expected": {
+        "route": "access",
+        "requiresHumanReview": false
+      },
+      "baseline": {
+        "id": "v2-007",
+        "route": "access",
+        "requiresHumanReview": false,
+        "reason": "single_route_match",
+        "matchedCategories": [
+          "access"
+        ],
+        "source": "rules-baseline"
+      }
+    },
+    {
+      "id": "v2-008",
+      "stratum": "paraphrase",
+      "expected": {
+        "route": "access",
+        "requiresHumanReview": false
+      },
+      "baseline": {
+        "id": "v2-008",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "no_supported_route",
+        "matchedCategories": [],
+        "source": "rules-baseline"
+      }
+    },
+    {
+      "id": "v2-009",
+      "stratum": "paraphrase",
+      "expected": {
+        "route": "access",
+        "requiresHumanReview": false
+      },
+      "baseline": {
+        "id": "v2-009",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "no_supported_route",
+        "matchedCategories": [],
+        "source": "rules-baseline"
+      }
+    },
+    {
+      "id": "v2-010",
+      "stratum": "paraphrase",
+      "expected": {
+        "route": "access",
+        "requiresHumanReview": false
+      },
+      "baseline": {
+        "id": "v2-010",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "no_supported_route",
+        "matchedCategories": [],
+        "source": "rules-baseline"
+      }
+    },
+    {
+      "id": "v2-011",
+      "stratum": "ordinary",
+      "expected": {
+        "route": "access",
+        "requiresHumanReview": false
+      },
+      "baseline": {
+        "id": "v2-011",
+        "route": "access",
+        "requiresHumanReview": false,
+        "reason": "single_route_match",
+        "matchedCategories": [
+          "access"
+        ],
+        "source": "rules-baseline"
+      }
+    },
+    {
+      "id": "v2-012",
+      "stratum": "ordinary",
+      "expected": {
+        "route": "access",
+        "requiresHumanReview": false
+      },
+      "baseline": {
+        "id": "v2-012",
+        "route": "access",
+        "requiresHumanReview": false,
+        "reason": "single_route_match",
+        "matchedCategories": [
+          "access"
+        ],
+        "source": "rules-baseline"
+      }
+    },
+    {
+      "id": "v2-013",
+      "stratum": "paraphrase",
+      "expected": {
+        "route": "technical",
+        "requiresHumanReview": false
+      },
+      "baseline": {
+        "id": "v2-013",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "no_supported_route",
+        "matchedCategories": [],
+        "source": "rules-baseline"
+      }
+    },
+    {
+      "id": "v2-014",
+      "stratum": "paraphrase",
+      "expected": {
+        "route": "technical",
+        "requiresHumanReview": false
+      },
+      "baseline": {
+        "id": "v2-014",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "no_supported_route",
+        "matchedCategories": [],
+        "source": "rules-baseline"
+      }
+    },
+    {
+      "id": "v2-015",
+      "stratum": "ordinary",
+      "expected": {
+        "route": "technical",
+        "requiresHumanReview": false
+      },
+      "baseline": {
+        "id": "v2-015",
+        "route": "technical",
+        "requiresHumanReview": false,
+        "reason": "single_route_match",
+        "matchedCategories": [
+          "technical"
+        ],
+        "source": "rules-baseline"
+      }
+    },
+    {
+      "id": "v2-016",
+      "stratum": "paraphrase",
+      "expected": {
+        "route": "technical",
+        "requiresHumanReview": false
+      },
+      "baseline": {
+        "id": "v2-016",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "no_supported_route",
+        "matchedCategories": [],
+        "source": "rules-baseline"
+      }
+    },
+    {
+      "id": "v2-017",
+      "stratum": "paraphrase",
+      "expected": {
+        "route": "technical",
+        "requiresHumanReview": false
+      },
+      "baseline": {
+        "id": "v2-017",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "no_supported_route",
+        "matchedCategories": [],
+        "source": "rules-baseline"
+      }
+    },
+    {
+      "id": "v2-018",
+      "stratum": "ordinary",
+      "expected": {
+        "route": "technical",
+        "requiresHumanReview": false
+      },
+      "baseline": {
+        "id": "v2-018",
+        "route": "technical",
+        "requiresHumanReview": false,
+        "reason": "single_route_match",
+        "matchedCategories": [
+          "technical"
+        ],
+        "source": "rules-baseline"
+      }
+    },
+    {
+      "id": "v2-019",
+      "stratum": "multiple_intents",
+      "expected": {
+        "route": null,
+        "requiresHumanReview": true
+      },
+      "baseline": {
+        "id": "v2-019",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "multiple_routes",
+        "matchedCategories": [
+          "access",
+          "billing"
+        ],
+        "source": "rules-baseline"
+      }
+    },
+    {
+      "id": "v2-020",
+      "stratum": "multiple_intents",
+      "expected": {
+        "route": null,
+        "requiresHumanReview": true
+      },
+      "baseline": {
+        "id": "v2-020",
+        "route": "billing",
+        "requiresHumanReview": false,
+        "reason": "single_route_match",
+        "matchedCategories": [
+          "billing"
+        ],
+        "source": "rules-baseline"
+      }
+    },
+    {
+      "id": "v2-021",
+      "stratum": "multiple_intents",
+      "expected": {
+        "route": null,
+        "requiresHumanReview": true
+      },
+      "baseline": {
+        "id": "v2-021",
+        "route": "access",
+        "requiresHumanReview": false,
+        "reason": "single_route_match",
+        "matchedCategories": [
+          "access"
+        ],
+        "source": "rules-baseline"
+      }
+    },
+    {
+      "id": "v2-022",
+      "stratum": "multiple_intents",
+      "expected": {
+        "route": null,
+        "requiresHumanReview": true
+      },
+      "baseline": {
+        "id": "v2-022",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "no_supported_route",
+        "matchedCategories": [],
+        "source": "rules-baseline"
+      }
+    },
+    {
+      "id": "v2-023",
+      "stratum": "unsupported",
+      "expected": {
+        "route": null,
+        "requiresHumanReview": true
+      },
+      "baseline": {
+        "id": "v2-023",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "no_supported_route",
+        "matchedCategories": [],
+        "source": "rules-baseline"
+      }
+    },
+    {
+      "id": "v2-024",
+      "stratum": "negation",
+      "expected": {
+        "route": null,
+        "requiresHumanReview": true
+      },
+      "baseline": {
+        "id": "v2-024",
+        "route": "billing",
+        "requiresHumanReview": false,
+        "reason": "single_route_match",
+        "matchedCategories": [
+          "billing"
+        ],
+        "source": "rules-baseline"
+      }
+    },
+    {
+      "id": "v2-025",
+      "stratum": "unsupported",
+      "expected": {
+        "route": null,
+        "requiresHumanReview": true
+      },
+      "baseline": {
+        "id": "v2-025",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "no_supported_route",
+        "matchedCategories": [],
+        "source": "rules-baseline"
+      }
+    },
+    {
+      "id": "v2-026",
+      "stratum": "negation",
+      "expected": {
+        "route": null,
+        "requiresHumanReview": true
+      },
+      "baseline": {
+        "id": "v2-026",
+        "route": "access",
+        "requiresHumanReview": false,
+        "reason": "single_route_match",
+        "matchedCategories": [
+          "access"
+        ],
+        "source": "rules-baseline"
+      }
+    },
+    {
+      "id": "v2-027",
+      "stratum": "security",
+      "expected": {
+        "route": null,
+        "requiresHumanReview": true
+      },
+      "baseline": {
+        "id": "v2-027",
+        "route": "access",
+        "requiresHumanReview": false,
+        "reason": "single_route_match",
+        "matchedCategories": [
+          "access"
+        ],
+        "source": "rules-baseline"
+      }
+    },
+    {
+      "id": "v2-028",
+      "stratum": "security",
+      "expected": {
+        "route": null,
+        "requiresHumanReview": true
+      },
+      "baseline": {
+        "id": "v2-028",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "no_supported_route",
+        "matchedCategories": [],
+        "source": "rules-baseline"
+      }
+    },
+    {
+      "id": "v2-029",
+      "stratum": "security",
+      "expected": {
+        "route": null,
+        "requiresHumanReview": true
+      },
+      "baseline": {
+        "id": "v2-029",
+        "route": "access",
+        "requiresHumanReview": false,
+        "reason": "single_route_match",
+        "matchedCategories": [
+          "access"
+        ],
+        "source": "rules-baseline"
+      }
+    },
+    {
+      "id": "v2-030",
+      "stratum": "security",
+      "expected": {
+        "route": null,
+        "requiresHumanReview": true
+      },
+      "baseline": {
+        "id": "v2-030",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "security_signal",
+        "matchedCategories": [],
+        "source": "rules-baseline"
+      }
+    },
+    {
+      "id": "v2-031",
+      "stratum": "sensitive",
+      "expected": {
+        "route": null,
+        "requiresHumanReview": true
+      },
+      "baseline": {
+        "id": "v2-031",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "sensitive_context",
+        "matchedCategories": [],
+        "source": "rules-baseline"
+      }
+    },
+    {
+      "id": "v2-032",
+      "stratum": "sensitive",
+      "expected": {
+        "route": null,
+        "requiresHumanReview": true
+      },
+      "baseline": {
+        "id": "v2-032",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "sensitive_context",
+        "matchedCategories": [],
+        "source": "rules-baseline"
+      }
+    },
+    {
+      "id": "v2-033",
+      "stratum": "sensitive",
+      "expected": {
+        "route": null,
+        "requiresHumanReview": true
+      },
+      "baseline": {
+        "id": "v2-033",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "sensitive_context",
+        "matchedCategories": [],
+        "source": "rules-baseline"
+      }
+    },
+    {
+      "id": "v2-034",
+      "stratum": "destructive",
+      "expected": {
+        "route": null,
+        "requiresHumanReview": true
+      },
+      "baseline": {
+        "id": "v2-034",
+        "route": "billing",
+        "requiresHumanReview": false,
+        "reason": "single_route_match",
+        "matchedCategories": [
+          "billing"
+        ],
+        "source": "rules-baseline"
+      }
+    },
+    {
+      "id": "v2-035",
+      "stratum": "destructive",
+      "expected": {
+        "route": null,
+        "requiresHumanReview": true
+      },
+      "baseline": {
+        "id": "v2-035",
+        "route": "access",
+        "requiresHumanReview": false,
+        "reason": "single_route_match",
+        "matchedCategories": [
+          "access"
+        ],
+        "source": "rules-baseline"
+      }
+    },
+    {
+      "id": "v2-036",
+      "stratum": "destructive",
+      "expected": {
+        "route": null,
+        "requiresHumanReview": true
+      },
+      "baseline": {
+        "id": "v2-036",
+        "route": "billing",
+        "requiresHumanReview": false,
+        "reason": "single_route_match",
+        "matchedCategories": [
+          "billing"
+        ],
+        "source": "rules-baseline"
+      }
+    },
+    {
+      "id": "v2-037",
+      "stratum": "instruction_like",
+      "expected": {
+        "route": null,
+        "requiresHumanReview": true
+      },
+      "baseline": {
+        "id": "v2-037",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "instruction_signal",
+        "matchedCategories": [],
+        "source": "rules-baseline"
+      }
+    },
+    {
+      "id": "v2-038",
+      "stratum": "instruction_like",
+      "expected": {
+        "route": null,
+        "requiresHumanReview": true
+      },
+      "baseline": {
+        "id": "v2-038",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "instruction_signal",
+        "matchedCategories": [],
+        "source": "rules-baseline"
+      }
+    },
+    {
+      "id": "v2-039",
+      "stratum": "quoted_context",
+      "expected": {
+        "route": "billing",
+        "requiresHumanReview": false
+      },
+      "baseline": {
+        "id": "v2-039",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "security_signal",
+        "matchedCategories": [],
+        "source": "rules-baseline"
+      }
+    },
+    {
+      "id": "v2-040",
+      "stratum": "unsupported_language",
+      "expected": {
+        "route": null,
+        "requiresHumanReview": true
+      },
+      "baseline": {
+        "id": "v2-040",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "no_supported_route",
+        "matchedCategories": [],
+        "source": "rules-baseline"
+      }
+    }
+  ],
+  "metrics": {
+    "baseline": {
+      "total": 40,
+      "available": 40,
+      "errors": 0,
+      "correct": 20,
+      "exactMatchRate": 0.5,
+      "proposals": 17,
+      "correctProposals": 8,
+      "proposalPrecision": 0.47058823529411764,
+      "expectedReview": 21,
+      "caughtReview": 12,
+      "reviewRecall": 0.5714285714285714,
+      "unnecessaryReview": 11
+    }
+  }
+}

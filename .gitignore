@@ -5,4 +5,5 @@ coverage/
 .env.*
 requests.local.json
 report.local.json
+comparison.local.json
 .DS_Store

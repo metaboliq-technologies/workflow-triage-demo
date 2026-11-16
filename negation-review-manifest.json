@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "separate-context-ai-label-review",
+  "humanReviewed": false,
+  "caseCount": 40,
+  "initialAgreement": {
+    "agreed": 40,
+    "total": 40
+  },
+  "resolvedDisagreements": 0,
+  "unresolvedDisagreements": 0,
+  "datasetSha256": "8bbf957ffe3ecc392433be930c8b69a1d2bfbecdc9df8284f646a3560be93c41",
+  "policySha256": "9f2fb582d007ed1eb957dab666057d268f58fa9009509df3e7bf6890354ca61d",
+  "originalFiles": {
+    "author-inputs.json": "28f5cad0c3cbf5452008b9595f064f205a1ae8f058b4fcc4a7a02ecbf57260c3",
+    "author-labels.json": "3510f489eb1dd1019d7528f014ca5068765a98fff80d56932c4e90b1b489907e",
+    "reviewer-initial-labels.json": "9805267132456b7b1e94619263007ab44744cbe34a43bc39698300b87ca2ec95",
+    "review-resolutions.json": "0ea712231ce4115a2225668d7d40324e164110cb8513e39dd19738ad2ef288a1",
+    "final-labels.json": "9805267132456b7b1e94619263007ab44744cbe34a43bc39698300b87ca2ec95"
+  },
+  "implementationFrozenAt": "2026-11-16T18:43:35.708Z",
+  "assembledAt": "2026-11-16T18:45:53.356Z",
+  "exactBodyReuseFromSixPriorSets": 0,
+  "caseReplacements": 0,
+  "authorProcess": {
+    "role": "Case author AI only; not reviewer or implementer",
+    "readScope": [
+      "C:/Users/tusha/OneDrive/Documents/ChatGPT/METABOLIQ/work/triage-negation-v7/ROUTING-POLICY-V7.md"
+    ],
+    "excludedSources": "No implementation, prior datasets/results, sibling reviewer files or parent task history inspected. Only the supplied task instructions and named policy informed the cases.",
+    "authorship": "40 original fictional English software support requests composed in this author session, five per stratum. No model APIs called; no branches created.",
+    "limits": "AI authorship does not prove training-data exclusion or supply human adjudication. Author labels are proposals for subsequent independent AI review.",
+    "validation": "40 sequential unique IDs; subject and body bounds; five per stratum; every review route null.",
+    "toolNote": "An initial Python process failed before script execution because its standard library was unavailable. The cases were then saved and validated using Node."
+  },
+  "limitations": "Separate AI contexts, not human adjudication. Reviewer knew assigned strata but labelled actual content. Agreement is not truth; shared blind spots and conceptual overlap remain possible. Routing labels do not independently establish evidence relevance. Set is now seen."
+}

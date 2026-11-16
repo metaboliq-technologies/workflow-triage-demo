@@ -6,8 +6,8 @@ import {verifyVagueSet,digest} from './vague-evaluation.mjs';
 const input={id:'dev-vague',subject:'Invoice copy',body:'Please send a fictional invoice copy.'};
 const result={output:{category:'billing',evidence:'invoice'},attempts:1,attemptLog:[]};
 const makeCases=()=>({cases:Array.from({length:40},(_,i)=>({input:{...input,id:'dev-'+i},stratum:'development',expected:{route:'billing',requiresHumanReview:false}}))});
-test('v6 is the default prompt with quoted evidence; historical v4 remains explicit and label-blind',async()=>{
-  for(const [policyVersion,prompt]of [[undefined,VAGUE_REVIEW_POLICY],['clarified-v4',MODEL_POLICY]]){
+test('v6 remains an explicit historical prompt with quoted evidence; historical v4 remains explicit and label-blind',async()=>{
+  for(const [policyVersion,prompt]of [['intent-sufficiency-v6',VAGUE_REVIEW_POLICY],['clarified-v4',MODEL_POLICY]]){
     let sent;const a=createGeminiAdapter({apiKey:'mock',...(policyVersion?{policyVersion}:{}),fetchImpl:async(url,options)=>{
       sent=JSON.parse(options.body);return new Response(JSON.stringify({candidates:[{finishReason:'STOP',content:{parts:[{text:JSON.stringify(result.output)}]}}]}));
     }});

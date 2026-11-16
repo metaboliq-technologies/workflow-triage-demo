@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "frozenAt": "2026-11-16T19:41:14.777Z",
+  "caseInspectionByImplementerBeforeFreeze": false,
+  "files": {
+    "model-adapter.mjs": "5a3db4ba79a3dee844c6c402463dd5c03ef83d46e676c4ebe14c0c16afefb6a1",
+    "reliable-adapter.mjs": "ab28c650366db3d20a6be702f432ef7e5e615a56a6ff26758d1098c81fc62a7d",
+    "reliability-runner.mjs": "df0150b353990bda46b821c7450d4ba06e44e50770baf2c41d2e5d6d8151c0d4",
+    "reliability-review.mjs": "47c37231307d08cb925b411745f79008c1155d5bd1acad931b1e1c19eb129a2a",
+    "reliability-evaluation.mjs": "face6495c3a74adcdf9001bcbf429a759f23e602eb0a8cc8f8385147586ca3f0",
+    "triage.mjs": "15f49d62481a71da7d2eef83b8b18fcecaab0e1893873a3a88f81c37cf6a9978",
+    "compare.mjs": "953ee7809e350e8f4a228da398fd14f54c9beb3ae33b830910edef4a556b2c49",
+    "ROUTING-POLICY-V8.md": "d32ec0f0c295f6864a152db73af14bbdeacdeb28aa3150162630c06a5a1a2de8"
+  }
+}

@@ -1,5 +1,7 @@
 # Gemini adapter and fresh evaluation
 
+Optional bounded transport: import `createReliableGeminiAdapter` from `./reliable-adapter.mjs`. See [the v8 design and limits](RELIABILITY-EVALUATION-V8.md). It holds the v7 prompt and evidence contract fixed, with at most two attempts, 30 seconds each and 65 seconds total. Invalid output and quota/auth errors are not retried. The historical adapter remains unchanged.
+
 The [fresh account-closure negation comparison](negated-closure-results.md) found **no observed routing gain**: updated v7 matched 36/40, previous v6 38/40, rules 26/40 and guarded v7 29/40. Both prompts made identical correct decisions on all 35 common-valid cases. V7 had two timeouts and two HTTP 503 failures; v6 had one rejected exact quote and one unnecessary review. The v7 call on that remaining review-error case failed, so its correction is unmeasured. All 80 planned calls were attempted once without retries; every failure stays without correctness credit. Labels were AI-authored and separately AI-reviewed, not human-adjudicated. See [every result and diagnostic](negated-closure-comparison.json).
 
 

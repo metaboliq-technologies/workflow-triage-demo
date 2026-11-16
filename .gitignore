@@ -19,3 +19,8 @@ sealed-v5-review/
 negation-comparison.local.json
 sealed-v7-author/
 sealed-v7-review/
+
+reliability-comparison.local.json
+sealed-v8-author/
+sealed-v8-review/
+reliability-verifier.part

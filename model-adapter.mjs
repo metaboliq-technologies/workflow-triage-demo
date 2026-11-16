@@ -15,7 +15,10 @@ Use billing for one ordinary invoice, receipt, charge, payment-method/payment-fa
 Use technical for one ordinary software malfunction outside signup/authentication and payment: signed-in dashboard, search, export, API, upload, sync or other application feature. Signup/authentication takes access; payment takes billing. Two substantive workflow intents require review.
 Use review for account/workspace closure, deletion, erasure or permanent cancellation, including typo wording or membership tiers. Questions about how to close/delete an account also require review. Account cancellation or deactivation with unclear scope/permanence requires review. A clear subscription-only cancellation remains billing. A benign quoted cancellation term does not override the actual ordinary request.`;
 
-export const MODEL_POLICIES=Object.freeze({'legacy-v3':LEGACY_MODEL_POLICY,'clarified-v4':MODEL_POLICY});
+export const INTENT_SUFFICIENCY_INSTRUCTION = `Before choosing any ordinary route, check intent sufficiency using the subject and body together. The request must identify one supported ordinary intent or a specific observable malfunction. Generic dissatisfaction, an unspecified request to fix something, unexplained references such as it/this, or a claim that the service is wrong, broken or unusable without a concrete symptom or identifiable workflow require review. Never use technical as a default for vague complaints; do not invent a missing object, symptom or intent. This classifier cannot ask follow-up questions: choose review so a person can clarify first.
+Do not confuse brevity with vagueness. A concise identified password-recovery request, invoice/receipt inquiry or specific feature failure can route without diagnostic detail, reproduction steps or personal/account information. A concrete app crash or service-unavailable symptom can be technical even without a feature name. Long generic frustration is still insufficient. Protective review conditions retain precedence. Apply this sufficiency check before the ordinary technical route; uncertainty requires review.`;
+export const VAGUE_REVIEW_POLICY = MODEL_POLICY+'\n'+INTENT_SUFFICIENCY_INSTRUCTION;
+export const MODEL_POLICIES=Object.freeze({'legacy-v3':LEGACY_MODEL_POLICY,'clarified-v4':MODEL_POLICY,'intent-sufficiency-v6':VAGUE_REVIEW_POLICY});
 
 export class ModelError extends Error {
   constructor(code, attempts=0, httpStatus=null, diagnostics={}) {
@@ -117,7 +120,7 @@ export function resolveEvidenceReference(request, output) {
   return validateModelDecision(request,{category:output.category,evidence:selected.text});
 }
 
-export function createGeminiAdapter({apiKey,model='gemini-3.8-flash',policyVersion='clarified-v4',evidenceMode='quoted-v1',fetchImpl=fetch,timeoutMs=15000,maxAttempts=2,sleep=ms=>new Promise(r=>setTimeout(r,ms)),now=()=>performance.now()}={}) {
+export function createGeminiAdapter({apiKey,model='gemini-3.8-flash',policyVersion='intent-sufficiency-v6',evidenceMode='quoted-v1',fetchImpl=fetch,timeoutMs=15000,maxAttempts=2,sleep=ms=>new Promise(r=>setTimeout(r,ms)),now=()=>performance.now()}={}) {
   if(typeof apiKey!=='string'||!apiKey.trim()||/[\r\n]/.test(apiKey))throw new ModelError('missing_or_invalid_api_key');
   if(typeof model!=='string'||! /^[a-zA-Z0-9][a-zA-Z0-9._-]{0,100}$/.test(model))throw new ModelError('invalid_model_name');
   if(!Number.isInteger(timeoutMs)||timeoutMs<1||timeoutMs>60000||![1,2].includes(maxAttempts))throw new ModelError('invalid_adapter_limits');

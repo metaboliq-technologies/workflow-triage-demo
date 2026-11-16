@@ -1,5 +1,7 @@
 # Workflow triage lab
 
+An explicit [bounded reliability adapter](RELIABILITY-EVALUATION-V8.md) now wraps the unchanged v7 prompt and validator. It allows longer bounded waits and one selected transient retry, preserves every failed attempt and stops on quota/auth rejection. Historical transport remains unchanged. Software tests do not establish live availability or semantic gains.
+
 The [fresh account-closure negation comparison](negated-closure-results.md) found **no observed routing gain**: updated v7 matched 36/40, previous v6 38/40, rules 26/40 and guarded v7 29/40. Both prompts made identical correct decisions on all 35 common-valid cases. V7 had two timeouts and two HTTP 503 failures; v6 had one rejected exact quote and one unnecessary review. The v7 call on that remaining review-error case failed, so its correction is unmeasured. All 80 planned calls were attempted once without retries; every failure stays without correctness credit. Labels were AI-authored and separately AI-reviewed, not human-adjudicated. See [every result and diagnostic](negated-closure-comparison.json).
 
 

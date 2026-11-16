@@ -6,7 +6,7 @@ const read=p=>readFile(new URL('./'+p,import.meta.url),'utf8'),json=async p=>JSO
 test('v6 frozen implementation and saved independent review bind the actual fresh set',async()=>{
   const freeze=await json('vague-implementation-freeze.json');assert.equal(freeze.caseInspectionByImplementerBeforeFreeze,false);
   assert.deepEqual(Object.keys(freeze.files).sort(),freezeFiles.slice().sort());
-  for(const [p,h]of Object.entries(freeze.files))assert.equal(digest(await read(p)),h,p);
+  for(const [p,h]of Object.entries(freeze.files))assert.equal(digest(await read((p==='model-adapter.mjs'?'frozen-v6/':'')+p)),h,p);
   const datasetBytes=await read('vague-evaluation.json'),policyBytes=await read('ROUTING-POLICY-V6.md'),review=await json('vague-review-manifest.json'),originals={};
   for(const name of Object.keys(review.originalFiles))originals[name]=await read('vague-review/'+name);
   const d=verifyVagueSet(JSON.parse(datasetBytes),review,{datasetBytes,policyBytes,originals});assert.equal(d.cases.length,40);

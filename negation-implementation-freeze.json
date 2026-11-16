@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "frozenAt": "2026-11-16T18:43:35.708Z",
+  "caseInspectionByImplementerBeforeFreeze": false,
+  "files": {
+    "model-adapter.mjs": "5a3db4ba79a3dee844c6c402463dd5c03ef83d46e676c4ebe14c0c16afefb6a1",
+    "vague-runner.mjs": "ff61ed75ec747642916a8ea4e31128aabe6ad7679bf74503bf9b561f8b5d6c91",
+    "negation-evaluation.mjs": "deed86a8f310b04470e4964adbdb8f876db3f0c28ed3e84c20eb2a8762277b9e",
+    "triage.mjs": "15f49d62481a71da7d2eef83b8b18fcecaab0e1893873a3a88f81c37cf6a9978",
+    "compare.mjs": "953ee7809e350e8f4a228da398fd14f54c9beb3ae33b830910edef4a556b2c49",
+    "ROUTING-POLICY-V7.md": "9f2fb582d007ed1eb957dab666057d268f58fa9009509df3e7bf6890354ca61d"
+  }
+}

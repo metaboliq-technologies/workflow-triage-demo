@@ -1,5 +1,7 @@
 # Workflow triage lab
 
+The default Node adapter now checks [account-closure negation and clause scope](NEGATION-EVALUATION-V7.md) before activating protective closure review. The previous v6 prompt remains frozen and selectable. This is a prompt change; tests do not establish semantic improvement. The rules baseline is unchanged.
+
 The completed [vague-request paired evaluation](vague-review-results.md) matched 38/40 cases with the updated v6 prompt, 35/40 with previous v4, and 28/40 with rules. All 80 planned calls were attempted once; the comparison includes one HTTP 503 and one evidence-length violation without correctness credit. V6 reviewed all five vague cases and routed all five terse-clear controls correctly. Both prompts unnecessarily reviewed a negated account-closure example. Labels were authored and separately reviewed by AI, not human-adjudicated; this small synthetic result does not establish production readiness. See [every decision and diagnostic](vague-review-comparison.json).
 
 

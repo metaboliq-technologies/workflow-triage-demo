@@ -13,7 +13,7 @@ test('explicit historical prompts cannot be replaced by arbitrary text',async()=
       body=JSON.parse(options.body);return new Response(JSON.stringify({candidates:[{finishReason:'STOP',content:{parts:[{text:JSON.stringify(result.output)}]}}]}));}});
     await a.classify(input);assert.equal(body.systemInstruction.parts[0].text,expected);
   }
-  assert.equal(createGeminiAdapter({apiKey:'mock'}).policyVersion,'intent-sufficiency-v6');
+  assert.equal(createGeminiAdapter({apiKey:'mock'}).policyVersion,'closure-negation-v7');
   assert.throws(()=>createGeminiAdapter({apiKey:'mock',policyVersion:'arbitrary instructions'}),{code:'invalid_policy_version'});
   assert.equal(createHash('sha256').update(LEGACY_MODEL_POLICY).digest('hex'),'b7aca8fbf81483f9a71d638bbfef60f8c8b2348f8a219b81f531f8d25ed919df');
 });

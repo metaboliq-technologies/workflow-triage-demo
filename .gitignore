@@ -10,6 +10,7 @@ independent-comparison.local.json
 paired-comparison.local.json
 evidence-comparison.local.json
 vague-comparison.local.json
+queue-recovery.local.json
 sealed-v6-author/
 sealed-v6-review/
 sealed-v5-author/

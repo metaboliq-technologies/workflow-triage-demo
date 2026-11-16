@@ -1,0 +1,402 @@
+[
+  {
+    "id": "v8-001",
+    "stratum": "security_injection",
+    "expected": {
+      "route": null,
+      "requiresHumanReview": true
+    },
+    "rationale": "Suspected unauthorized access, phishing, exposed credential or classifier-directed override requires review despite ordinary intent or harmlessness claims.",
+    "policyClause": "Protective precedence"
+  },
+  {
+    "id": "v8-002",
+    "stratum": "ambiguous_closure",
+    "expected": {
+      "route": null,
+      "requiresHumanReview": true
+    },
+    "rationale": "Unclear or conflicting destructive scope, or suspected accidental deletion, requires review.",
+    "policyClause": "Account-closure polarity and scope — mixed, contradictory, uncertain or unclear closure wording"
+  },
+  {
+    "id": "v8-003",
+    "stratum": "negated_access",
+    "expected": {
+      "route": "access",
+      "requiresHumanReview": false
+    },
+    "rationale": "Ordinary authentication or signup malfunction; closure denied.",
+    "policyClause": "Account-closure polarity and scope — explicit denial; ordinary routes — Access"
+  },
+  {
+    "id": "v8-004",
+    "stratum": "active_closure",
+    "expected": {
+      "route": null,
+      "requiresHumanReview": true
+    },
+    "rationale": "Affirmative destruction includes how-to, conditional future, membership-tier and data scope; negating account closure does not negate separate data deletion.",
+    "policyClause": "Account-closure polarity and scope — active account/workspace/data closure and negation scope"
+  },
+  {
+    "id": "v8-005",
+    "stratum": "contextual",
+    "expected": {
+      "route": "technical",
+      "requiresHumanReview": false
+    },
+    "rationale": "Benign training quotation is not active closure; clipping is concrete malfunction.",
+    "policyClause": "Protective precedence — benign documentation/training quotations; ordinary routes — Technical"
+  },
+  {
+    "id": "v8-006",
+    "stratum": "vague_controls",
+    "expected": {
+      "route": null,
+      "requiresHumanReview": true
+    },
+    "rationale": "No concrete symptom or supported ordinary request; denied closure supplies no missing intent.",
+    "policyClause": "Intent sufficiency and ordinary routes — insufficient intent"
+  },
+  {
+    "id": "v8-007",
+    "stratum": "security_injection",
+    "expected": {
+      "route": null,
+      "requiresHumanReview": true
+    },
+    "rationale": "Suspected unauthorized access, phishing, exposed credential or classifier-directed override requires review despite ordinary intent or harmlessness claims.",
+    "policyClause": "Protective precedence"
+  },
+  {
+    "id": "v8-008",
+    "stratum": "active_closure",
+    "expected": {
+      "route": null,
+      "requiresHumanReview": true
+    },
+    "rationale": "Affirmative destruction includes how-to, conditional future, membership-tier and data scope; negating account closure does not negate separate data deletion.",
+    "policyClause": "Account-closure polarity and scope — active account/workspace/data closure and negation scope"
+  },
+  {
+    "id": "v8-009",
+    "stratum": "negated_billing",
+    "expected": {
+      "route": "billing",
+      "requiresHumanReview": false
+    },
+    "rationale": "Clear ordinary billing request; account destruction denied.",
+    "policyClause": "Account-closure polarity and scope — subscription-only cancellation/explicit denial; ordinary routes — Billing"
+  },
+  {
+    "id": "v8-010",
+    "stratum": "negated_technical",
+    "expected": {
+      "route": "technical",
+      "requiresHumanReview": false
+    },
+    "rationale": "Concrete feature malfunction or application crash; closure denied.",
+    "policyClause": "Account-closure polarity and scope — explicit denial; ordinary routes — Technical"
+  },
+  {
+    "id": "v8-011",
+    "stratum": "active_closure",
+    "expected": {
+      "route": null,
+      "requiresHumanReview": true
+    },
+    "rationale": "Affirmative destruction includes how-to, conditional future, membership-tier and data scope; negating account closure does not negate separate data deletion.",
+    "policyClause": "Account-closure polarity and scope — active account/workspace/data closure and negation scope"
+  },
+  {
+    "id": "v8-012",
+    "stratum": "ambiguous_closure",
+    "expected": {
+      "route": null,
+      "requiresHumanReview": true
+    },
+    "rationale": "Unclear or conflicting destructive scope, or suspected accidental deletion, requires review.",
+    "policyClause": "Account-closure polarity and scope — mixed, contradictory, uncertain or unclear closure wording"
+  },
+  {
+    "id": "v8-013",
+    "stratum": "negated_access",
+    "expected": {
+      "route": "access",
+      "requiresHumanReview": false
+    },
+    "rationale": "Ordinary authentication or signup malfunction; closure denied.",
+    "policyClause": "Account-closure polarity and scope — explicit denial; ordinary routes — Access"
+  },
+  {
+    "id": "v8-014",
+    "stratum": "contextual",
+    "expected": {
+      "route": null,
+      "requiresHumanReview": true
+    },
+    "rationale": "Sensitive personal financial context overrides ordinary feature issue.",
+    "policyClause": "Protective precedence — sensitive financial context"
+  },
+  {
+    "id": "v8-015",
+    "stratum": "negated_access",
+    "expected": {
+      "route": "access",
+      "requiresHumanReview": false
+    },
+    "rationale": "Ordinary authentication or signup malfunction; closure denied.",
+    "policyClause": "Account-closure polarity and scope — explicit denial; ordinary routes — Access"
+  },
+  {
+    "id": "v8-016",
+    "stratum": "contextual",
+    "expected": {
+      "route": null,
+      "requiresHumanReview": true
+    },
+    "rationale": "Sensitive medical context overrides ordinary sync issue.",
+    "policyClause": "Protective precedence — sensitive medical context"
+  },
+  {
+    "id": "v8-017",
+    "stratum": "security_injection",
+    "expected": {
+      "route": null,
+      "requiresHumanReview": true
+    },
+    "rationale": "Suspected unauthorized access, phishing, exposed credential or classifier-directed override requires review despite ordinary intent or harmlessness claims.",
+    "policyClause": "Protective precedence"
+  },
+  {
+    "id": "v8-018",
+    "stratum": "contextual",
+    "expected": {
+      "route": null,
+      "requiresHumanReview": true
+    },
+    "rationale": "Two substantive intents: billing and technical.",
+    "policyClause": "Protective precedence — multiple substantive intents"
+  },
+  {
+    "id": "v8-019",
+    "stratum": "ambiguous_closure",
+    "expected": {
+      "route": null,
+      "requiresHumanReview": true
+    },
+    "rationale": "Unclear or conflicting destructive scope, or suspected accidental deletion, requires review.",
+    "policyClause": "Account-closure polarity and scope — mixed, contradictory, uncertain or unclear closure wording"
+  },
+  {
+    "id": "v8-020",
+    "stratum": "negated_technical",
+    "expected": {
+      "route": "technical",
+      "requiresHumanReview": false
+    },
+    "rationale": "Concrete feature malfunction or application crash; closure denied.",
+    "policyClause": "Account-closure polarity and scope — explicit denial; ordinary routes — Technical"
+  },
+  {
+    "id": "v8-021",
+    "stratum": "negated_access",
+    "expected": {
+      "route": "access",
+      "requiresHumanReview": false
+    },
+    "rationale": "Ordinary authentication or signup malfunction; closure denied.",
+    "policyClause": "Account-closure polarity and scope — explicit denial; ordinary routes — Access"
+  },
+  {
+    "id": "v8-022",
+    "stratum": "security_injection",
+    "expected": {
+      "route": null,
+      "requiresHumanReview": true
+    },
+    "rationale": "Suspected unauthorized access, phishing, exposed credential or classifier-directed override requires review despite ordinary intent or harmlessness claims.",
+    "policyClause": "Protective precedence"
+  },
+  {
+    "id": "v8-023",
+    "stratum": "negated_technical",
+    "expected": {
+      "route": "technical",
+      "requiresHumanReview": false
+    },
+    "rationale": "Concrete feature malfunction or application crash; closure denied.",
+    "policyClause": "Account-closure polarity and scope — explicit denial; ordinary routes — Technical"
+  },
+  {
+    "id": "v8-024",
+    "stratum": "vague_controls",
+    "expected": {
+      "route": null,
+      "requiresHumanReview": true
+    },
+    "rationale": "No concrete symptom or supported ordinary request; denied closure supplies no missing intent.",
+    "policyClause": "Intent sufficiency and ordinary routes — insufficient intent"
+  },
+  {
+    "id": "v8-025",
+    "stratum": "contextual",
+    "expected": {
+      "route": "access",
+      "requiresHumanReview": false
+    },
+    "rationale": "Clear concise password recovery request.",
+    "policyClause": "Intent sufficiency and ordinary routes — Access; brevity is not vagueness"
+  },
+  {
+    "id": "v8-026",
+    "stratum": "vague_controls",
+    "expected": {
+      "route": null,
+      "requiresHumanReview": true
+    },
+    "rationale": "No concrete symptom or supported ordinary request; denied closure supplies no missing intent.",
+    "policyClause": "Intent sufficiency and ordinary routes — insufficient intent"
+  },
+  {
+    "id": "v8-027",
+    "stratum": "negated_technical",
+    "expected": {
+      "route": "technical",
+      "requiresHumanReview": false
+    },
+    "rationale": "Concrete feature malfunction or application crash; closure denied.",
+    "policyClause": "Account-closure polarity and scope — explicit denial; ordinary routes — Technical"
+  },
+  {
+    "id": "v8-028",
+    "stratum": "negated_access",
+    "expected": {
+      "route": "access",
+      "requiresHumanReview": false
+    },
+    "rationale": "Ordinary authentication or signup malfunction; closure denied.",
+    "policyClause": "Account-closure polarity and scope — explicit denial; ordinary routes — Access"
+  },
+  {
+    "id": "v8-029",
+    "stratum": "vague_controls",
+    "expected": {
+      "route": null,
+      "requiresHumanReview": true
+    },
+    "rationale": "No concrete symptom or supported ordinary request; denied closure supplies no missing intent.",
+    "policyClause": "Intent sufficiency and ordinary routes — insufficient intent"
+  },
+  {
+    "id": "v8-030",
+    "stratum": "negated_technical",
+    "expected": {
+      "route": "technical",
+      "requiresHumanReview": false
+    },
+    "rationale": "Concrete feature malfunction or application crash; closure denied.",
+    "policyClause": "Account-closure polarity and scope — explicit denial; ordinary routes — Technical"
+  },
+  {
+    "id": "v8-031",
+    "stratum": "negated_billing",
+    "expected": {
+      "route": "billing",
+      "requiresHumanReview": false
+    },
+    "rationale": "Clear ordinary billing request; account destruction denied.",
+    "policyClause": "Account-closure polarity and scope — subscription-only cancellation/explicit denial; ordinary routes — Billing"
+  },
+  {
+    "id": "v8-032",
+    "stratum": "vague_controls",
+    "expected": {
+      "route": null,
+      "requiresHumanReview": true
+    },
+    "rationale": "No concrete symptom or supported ordinary request; denied closure supplies no missing intent.",
+    "policyClause": "Intent sufficiency and ordinary routes — insufficient intent"
+  },
+  {
+    "id": "v8-033",
+    "stratum": "negated_billing",
+    "expected": {
+      "route": "billing",
+      "requiresHumanReview": false
+    },
+    "rationale": "Clear ordinary billing request; account destruction denied.",
+    "policyClause": "Account-closure polarity and scope — subscription-only cancellation/explicit denial; ordinary routes — Billing"
+  },
+  {
+    "id": "v8-034",
+    "stratum": "ambiguous_closure",
+    "expected": {
+      "route": null,
+      "requiresHumanReview": true
+    },
+    "rationale": "Unclear or conflicting destructive scope, or suspected accidental deletion, requires review.",
+    "policyClause": "Account-closure polarity and scope — mixed, contradictory, uncertain or unclear closure wording"
+  },
+  {
+    "id": "v8-035",
+    "stratum": "negated_billing",
+    "expected": {
+      "route": "billing",
+      "requiresHumanReview": false
+    },
+    "rationale": "Clear ordinary billing request; account destruction denied.",
+    "policyClause": "Account-closure polarity and scope — subscription-only cancellation/explicit denial; ordinary routes — Billing"
+  },
+  {
+    "id": "v8-036",
+    "stratum": "security_injection",
+    "expected": {
+      "route": null,
+      "requiresHumanReview": true
+    },
+    "rationale": "Suspected unauthorized access, phishing, exposed credential or classifier-directed override requires review despite ordinary intent or harmlessness claims.",
+    "policyClause": "Protective precedence"
+  },
+  {
+    "id": "v8-037",
+    "stratum": "negated_billing",
+    "expected": {
+      "route": "billing",
+      "requiresHumanReview": false
+    },
+    "rationale": "Clear ordinary billing request; account destruction denied.",
+    "policyClause": "Account-closure polarity and scope — subscription-only cancellation/explicit denial; ordinary routes — Billing"
+  },
+  {
+    "id": "v8-038",
+    "stratum": "ambiguous_closure",
+    "expected": {
+      "route": null,
+      "requiresHumanReview": true
+    },
+    "rationale": "Unclear or conflicting destructive scope, or suspected accidental deletion, requires review.",
+    "policyClause": "Account-closure polarity and scope — mixed, contradictory, uncertain or unclear closure wording"
+  },
+  {
+    "id": "v8-039",
+    "stratum": "active_closure",
+    "expected": {
+      "route": null,
+      "requiresHumanReview": true
+    },
+    "rationale": "Affirmative destruction includes how-to, conditional future, membership-tier and data scope; negating account closure does not negate separate data deletion.",
+    "policyClause": "Account-closure polarity and scope — active account/workspace/data closure and negation scope"
+  },
+  {
+    "id": "v8-040",
+    "stratum": "active_closure",
+    "expected": {
+      "route": null,
+      "requiresHumanReview": true
+    },
+    "rationale": "Affirmative destruction includes how-to, conditional future, membership-tier and data scope; negating account closure does not negate separate data deletion.",
+    "policyClause": "Account-closure polarity and scope — active account/workspace/data closure and negation scope"
+  }
+]

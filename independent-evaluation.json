@@ -1,0 +1,757 @@
+{
+  "schemaVersion": 1,
+  "id": "bitext-independent-v3",
+  "license": "CDLA-Sharing-1.0",
+  "licenseUrl": "https://github.com/bitext/customer-support-llm-chatbot-training-dataset/blob/72ea2203180d14a416b579c657033ecd21e59a11/LICENSE.txt",
+  "attribution": "Bitext Innovations (original synthetic instructions and intent labels).",
+  "modificationNotice": "METABOLIQ selected and reformatted 40 instructions, added neutral subjects and IDs, and mapped original intents to workflow expectations. Original instruction text is unchanged. This enhanced dataset remains CDLA-Sharing-1.0; the repository source license does not restrict this data.",
+  "source": {
+    "repository": "https://github.com/bitext/customer-support-llm-chatbot-training-dataset",
+    "revision": "72ea2203180d14a416b579c657033ecd21e59a11",
+    "file": "data/Bitext_Sample_Customer_Support_Training_Dataset_27K_responses-v11.csv",
+    "sha256": "6f81102b0100b97b8468eb04368033a23206bf1fde9d53500d5806ec1001a434",
+    "sourceRows": 26872
+  },
+  "sampling": {
+    "seed": "metaboliq-independent-v3-2026-11-16",
+    "rule": "Lowest SHA-256(seed|intent|instruction), five unique eligible instructions per predefined intent; transport eligibility only.",
+    "intentMapping": {
+      "recover_password": "access",
+      "registration_problems": "access",
+      "check_invoice": "billing",
+      "get_invoice": "billing",
+      "check_payment_methods": "billing",
+      "payment_issue": "billing",
+      "delete_account": null,
+      "contact_human_agent": null
+    }
+  },
+  "limitations": [
+    "Public synthetic training data, potentially present in model training; not a blind benchmark or customer traffic.",
+    "Inputs authored independently by Bitext; workflow mapping authored by implementation author, not independent adjudication.",
+    "10 access, 20 billing, 10 review; no technical, security, prompt-injection or multi-intent coverage. Diagnostics tested separately.",
+    "No claims of improvement against earlier sets with different case mixes."
+  ],
+  "cases": [
+    {
+      "input": {
+        "id": "ext-001",
+        "subject": "Support request",
+        "body": "i want help resetting my user pass"
+      },
+      "expected": {
+        "route": "access",
+        "requiresHumanReview": false
+      },
+      "stratum": "recover_password",
+      "provenance": {
+        "csvLine": 20802,
+        "originalIntent": "recover_password",
+        "instructionSha256": "027e6f801244bfc129660fbf0d2012a62b10bac3e275c5ca632ec18454ddf8a5",
+        "selectionRank": "000ce9e6f789fbd747e172b98449107b277f018ab963245b4efd84116756ac3e"
+      }
+    },
+    {
+      "input": {
+        "id": "ext-002",
+        "subject": "Support request",
+        "body": "I am looking for information about a forgotten key"
+      },
+      "expected": {
+        "route": "access",
+        "requiresHumanReview": false
+      },
+      "stratum": "recover_password",
+      "provenance": {
+        "csvLine": 20550,
+        "originalIntent": "recover_password",
+        "instructionSha256": "02bccc1f9cdf4fe11319a8212d6b587f800c4f5053790692220a50b79181f1cf",
+        "selectionRank": "0026920238f05aeebbb02422c1b985e08d8352a58e6ecbf87aad7876c6cc32d0"
+      }
+    },
+    {
+      "input": {
+        "id": "ext-003",
+        "subject": "Support request",
+        "body": "can you help me to reset the PIN code of my user?"
+      },
+      "expected": {
+        "route": "access",
+        "requiresHumanReview": false
+      },
+      "stratum": "recover_password",
+      "provenance": {
+        "csvLine": 20797,
+        "originalIntent": "recover_password",
+        "instructionSha256": "1b8250b8bab7a980a3a3532d29b5661b9f5680537b03c47755a04ea3907576d8",
+        "selectionRank": "0032528c7c53f345000e7961ca99ebddeedf2c99e2ad49a218eda6a7dd5c13e8"
+      }
+    },
+    {
+      "input": {
+        "id": "ext-004",
+        "subject": "Support request",
+        "body": "i need help to reset my account password"
+      },
+      "expected": {
+        "route": "access",
+        "requiresHumanReview": false
+      },
+      "stratum": "recover_password",
+      "provenance": {
+        "csvLine": 20054,
+        "originalIntent": "recover_password",
+        "instructionSha256": "4ad2e0db4bc967cf3673b90b899d1f2bb7ffb04d2c432c99e73558fb6af1b223",
+        "selectionRank": "011747d50a0bc6daa7f57640414c29b71e83c89d382b0c26fc72409fca7de2b3"
+      }
+    },
+    {
+      "input": {
+        "id": "ext-005",
+        "subject": "Support request",
+        "body": "I need to reset my damn PIN code"
+      },
+      "expected": {
+        "route": "access",
+        "requiresHumanReview": false
+      },
+      "stratum": "recover_password",
+      "provenance": {
+        "csvLine": 20760,
+        "originalIntent": "recover_password",
+        "instructionSha256": "11749cb0308335fad0334bcdd1454e6ab19154391ed1353ec797b569712fc646",
+        "selectionRank": "0119ef7e9a15a190fbae122a1cbe908ceefbfb31999252aa367f6fc778ea9521"
+      }
+    },
+    {
+      "input": {
+        "id": "ext-006",
+        "subject": "Support request",
+        "body": "i dont know how i can inform of an problem with sign-up"
+      },
+      "expected": {
+        "route": "access",
+        "requiresHumanReview": false
+      },
+      "stratum": "registration_problems",
+      "provenance": {
+        "csvLine": 20899,
+        "originalIntent": "registration_problems",
+        "instructionSha256": "80b98c0e332a1b23468dceb401707866b4c3fd2423d66726ae3976bce30e39e3",
+        "selectionRank": "001c0ff296ca59cf9c165fe1dd5cd677dec68727e6431fa143377a64d75b5391"
+      }
+    },
+    {
+      "input": {
+        "id": "ext-007",
+        "subject": "Support request",
+        "body": "i cannot notify of a problem with a sign-up"
+      },
+      "expected": {
+        "route": "access",
+        "requiresHumanReview": false
+      },
+      "stratum": "registration_problems",
+      "provenance": {
+        "csvLine": 21028,
+        "originalIntent": "registration_problems",
+        "instructionSha256": "483c6390f106df1ce450b84b88b953f4903ef975c718ecf8565883d781af033e",
+        "selectionRank": "001f52b5da564c508e5f2f61d09d44f1fcb57716f96c85f352118696cda6cd1d"
+      }
+    },
+    {
+      "input": {
+        "id": "ext-008",
+        "subject": "Support request",
+        "body": "wanna notify of errors with sign-up"
+      },
+      "expected": {
+        "route": "access",
+        "requiresHumanReview": false
+      },
+      "stratum": "registration_problems",
+      "provenance": {
+        "csvLine": 21168,
+        "originalIntent": "registration_problems",
+        "instructionSha256": "791d3c67b01db3868a187cf82a10e60a89e91a9c75ff1285bec55ad6dc4e8028",
+        "selectionRank": "002eb1086358a7cc20d6332d4b502a1ca7beb1bcdb6f161fabcd263bf104c1e0"
+      }
+    },
+    {
+      "input": {
+        "id": "ext-009",
+        "subject": "Support request",
+        "body": "need help regadring my sign-up"
+      },
+      "expected": {
+        "route": "access",
+        "requiresHumanReview": false
+      },
+      "stratum": "registration_problems",
+      "provenance": {
+        "csvLine": 21493,
+        "originalIntent": "registration_problems",
+        "instructionSha256": "5f54191f5514adb4f8562cf6e0dcabf754336b9cddd00a124e1761f869458859",
+        "selectionRank": "004e664e2a953f349cf0e13fbea6f783a533f163466bc19c1c9b692444cc9105"
+      }
+    },
+    {
+      "input": {
+        "id": "ext-010",
+        "subject": "Support request",
+        "body": "inform of a problem with sign-up"
+      },
+      "expected": {
+        "route": "access",
+        "requiresHumanReview": false
+      },
+      "stratum": "registration_problems",
+      "provenance": {
+        "csvLine": 21432,
+        "originalIntent": "registration_problems",
+        "instructionSha256": "97cc7d5a6ca109db53064b30cca94c5f170b72518e3cdbf42cf5e496695734fc",
+        "selectionRank": "0079de65aac7336e3437930b22580f2f4759a148d89ebfc973edc9d7b1a329ae"
+      }
+    },
+    {
+      "input": {
+        "id": "ext-011",
+        "subject": "Support request",
+        "body": "I try to locate my invoice #00108"
+      },
+      "expected": {
+        "route": "billing",
+        "requiresHumanReview": false
+      },
+      "stratum": "check_invoice",
+      "provenance": {
+        "csvLine": 4258,
+        "originalIntent": "check_invoice",
+        "instructionSha256": "5dbe0302b3e823c49f6095c41e247d9510d7fb985ebde599f040811ee89a93b8",
+        "selectionRank": "00051c85c950fd6f09b3ff15d54cc91573af392e0ee886e9b2b43f0abcc1dff5"
+      }
+    },
+    {
+      "input": {
+        "id": "ext-012",
+        "subject": "Support request",
+        "body": "I awnt assistance to locate the bill #00108"
+      },
+      "expected": {
+        "route": "billing",
+        "requiresHumanReview": false
+      },
+      "stratum": "check_invoice",
+      "provenance": {
+        "csvLine": 4395,
+        "originalIntent": "check_invoice",
+        "instructionSha256": "769b33b837a69047e6f0f4a0075de2d1d6bccaaceb3aff14543afe41bb2a6bc4",
+        "selectionRank": "0011cc2e2435f4503bab37dfa05f485705e570283ee27bc94a62a3d0a117886b"
+      }
+    },
+    {
+      "input": {
+        "id": "ext-013",
+        "subject": "Support request",
+        "body": "can you help me locate the invoice #37777?"
+      },
+      "expected": {
+        "route": "billing",
+        "requiresHumanReview": false
+      },
+      "stratum": "check_invoice",
+      "provenance": {
+        "csvLine": 4842,
+        "originalIntent": "check_invoice",
+        "instructionSha256": "22dcfa0401b1151324a5d3140ce0f008eafd3c4791ec88f2bf36115347e8a2f1",
+        "selectionRank": "009ba2bd7cd4bb3d79631219e636d962e97d0f56c51c42472617e032331b97a9"
+      }
+    },
+    {
+      "input": {
+        "id": "ext-014",
+        "subject": "Support request",
+        "body": "what do i need to do to find my bill #37777"
+      },
+      "expected": {
+        "route": "billing",
+        "requiresHumanReview": false
+      },
+      "stratum": "check_invoice",
+      "provenance": {
+        "csvLine": 4859,
+        "originalIntent": "check_invoice",
+        "instructionSha256": "ef39c4e1b1fd68ccbef80f48fedf878312362c1ac912040102a608c864f330c8",
+        "selectionRank": "00b4616e93cc48fc426d1527cef933ec30ebe3da93db04efa107f4e27d7d7680"
+      }
+    },
+    {
+      "input": {
+        "id": "ext-015",
+        "subject": "Support request",
+        "body": "help me to check my bill from {{Person Name}}"
+      },
+      "expected": {
+        "route": "billing",
+        "requiresHumanReview": false
+      },
+      "stratum": "check_invoice",
+      "provenance": {
+        "csvLine": 4732,
+        "originalIntent": "check_invoice",
+        "instructionSha256": "b7cb26d7911101929f21a062ff0938bdf29ccb4effaf88eb75e31bead4982ad9",
+        "selectionRank": "00f1ac0b2af8f32f52d54c87c7452cbd5d9f8aacfff2945b60c78ced42ab772a"
+      }
+    },
+    {
+      "input": {
+        "id": "ext-016",
+        "subject": "Support request",
+        "body": "I cannot find my invoice #12588, will you mail it to me?"
+      },
+      "expected": {
+        "route": "billing",
+        "requiresHumanReview": false
+      },
+      "stratum": "get_invoice",
+      "provenance": {
+        "csvLine": 14911,
+        "originalIntent": "get_invoice",
+        "instructionSha256": "723e8eedb881d8b6f703d2d6d8270fe53d3d842b1f1c1033d376d086a811dad3",
+        "selectionRank": "007e3e386a45fc04598461b57a3bab77503ae9f2e031fce4c36e756fdf79ec5c"
+      }
+    },
+    {
+      "input": {
+        "id": "ext-017",
+        "subject": "Support request",
+        "body": "what do I have to doto download the invoice #85632?"
+      },
+      "expected": {
+        "route": "billing",
+        "requiresHumanReview": false
+      },
+      "stratum": "get_invoice",
+      "provenance": {
+        "csvLine": 15551,
+        "originalIntent": "get_invoice",
+        "instructionSha256": "d9b60aa76319802e9dcd8c4cf60108465bcdad4736f4eb1b60da974bbb0c6c08",
+        "selectionRank": "00820d038511cb22f9686194b83f507099138ebb7f4f52fcb1d8ebe2eff3620d"
+      }
+    },
+    {
+      "input": {
+        "id": "ext-018",
+        "subject": "Support request",
+        "body": "send me invoice #37777"
+      },
+      "expected": {
+        "route": "billing",
+        "requiresHumanReview": false
+      },
+      "stratum": "get_invoice",
+      "provenance": {
+        "csvLine": 15777,
+        "originalIntent": "get_invoice",
+        "instructionSha256": "69515660f9051e64654a97835ba58678476389346b4f3be1ad570fbf270d0ee6",
+        "selectionRank": "008939a6607284603838b73218509ef98262528167742c205bb59a52ad3e86bf"
+      }
+    },
+    {
+      "input": {
+        "id": "ext-019",
+        "subject": "Support request",
+        "body": "download bill #12588"
+      },
+      "expected": {
+        "route": "billing",
+        "requiresHumanReview": false
+      },
+      "stratum": "get_invoice",
+      "provenance": {
+        "csvLine": 15898,
+        "originalIntent": "get_invoice",
+        "instructionSha256": "5dc4cd230c28f2d0a247476414a309d154657729f26e62cca334a2a8e4562d73",
+        "selectionRank": "008edc2d85644bdcf5024083cd52439b4cd69d256aa99f8f5abcf3065b9e6604"
+      }
+    },
+    {
+      "input": {
+        "id": "ext-020",
+        "subject": "Support request",
+        "body": "I have got to download the bill from {{Person Name}}, help me"
+      },
+      "expected": {
+        "route": "billing",
+        "requiresHumanReview": false
+      },
+      "stratum": "get_invoice",
+      "provenance": {
+        "csvLine": 15201,
+        "originalIntent": "get_invoice",
+        "instructionSha256": "cca36e014417b970aa24b59036fa054ca96349f65f8384523209791555971ec8",
+        "selectionRank": "018007caf7be5af8f089231bb2ba3d3634e4054424baf068690cd708e24b3221"
+      }
+    },
+    {
+      "input": {
+        "id": "ext-021",
+        "subject": "Support request",
+        "body": "show me ur accepted payment methods"
+      },
+      "expected": {
+        "route": "billing",
+        "requiresHumanReview": false
+      },
+      "stratum": "check_payment_methods",
+      "provenance": {
+        "csvLine": 5700,
+        "originalIntent": "check_payment_methods",
+        "instructionSha256": "99ff6a376dadd63452f997210b905afaa66d73c89234e9f6edbaad203c1adb1f",
+        "selectionRank": "0048e5637c517c77bcada26c40c5950eaf00a153133218f3bf1a6c5fbb05c847"
+      }
+    },
+    {
+      "input": {
+        "id": "ext-022",
+        "subject": "Support request",
+        "body": "I have got to see the payment opitons, how to do it?"
+      },
+      "expected": {
+        "route": "billing",
+        "requiresHumanReview": false
+      },
+      "stratum": "check_payment_methods",
+      "provenance": {
+        "csvLine": 5543,
+        "originalIntent": "check_payment_methods",
+        "instructionSha256": "6ab4bf60ec6143619e99f55b470f69a545cd16a4364b58bea0fcc6c70e9ee7e9",
+        "selectionRank": "009f6c00a59dce015fe0a42a8aa4bddccdf36afc827eadc9b5f3af49e8f0e1e9"
+      }
+    },
+    {
+      "input": {
+        "id": "ext-023",
+        "subject": "Support request",
+        "body": "I try to check what payment options are allowed"
+      },
+      "expected": {
+        "route": "billing",
+        "requiresHumanReview": false
+      },
+      "stratum": "check_payment_methods",
+      "provenance": {
+        "csvLine": 5466,
+        "originalIntent": "check_payment_methods",
+        "instructionSha256": "976803278dd5ebcb1daa0ed70292c29ee14269903a4ae21cd033980429f1e915",
+        "selectionRank": "012014b16c2998ae6e9995ada412471f340ec7376fc2d0d71a62e5eb0fb50311"
+      }
+    },
+    {
+      "input": {
+        "id": "ext-024",
+        "subject": "Support request",
+        "body": "I have to check your payment methods, how do I do it?"
+      },
+      "expected": {
+        "route": "billing",
+        "requiresHumanReview": false
+      },
+      "stratum": "check_payment_methods",
+      "provenance": {
+        "csvLine": 4944,
+        "originalIntent": "check_payment_methods",
+        "instructionSha256": "c9a59501a3ee339e3faf463daf9fe649977d4a7157cf2fb1a3fb971b55a61176",
+        "selectionRank": "01566bdf9d377ffa096ade9b09996bb82e58e1fdca0e0c59ebe9f9d78505dc83"
+      }
+    },
+    {
+      "input": {
+        "id": "ext-025",
+        "subject": "Support request",
+        "body": "I have to check the payment optiins"
+      },
+      "expected": {
+        "route": "billing",
+        "requiresHumanReview": false
+      },
+      "stratum": "check_payment_methods",
+      "provenance": {
+        "csvLine": 5372,
+        "originalIntent": "check_payment_methods",
+        "instructionSha256": "89ae30274956224c65ab372f2f88a567d73c19f89627b410e4583f9de69f19f6",
+        "selectionRank": "015ab9ebde377c26cf6cd45c7fd1e74b11b6ea8f1110db8a554e877b222d39b4"
+      }
+    },
+    {
+      "input": {
+        "id": "ext-026",
+        "subject": "Support request",
+        "body": "I don't know how I can report an error with online payment"
+      },
+      "expected": {
+        "route": "billing",
+        "requiresHumanReview": false
+      },
+      "stratum": "payment_issue",
+      "provenance": {
+        "csvLine": 18661,
+        "originalIntent": "payment_issue",
+        "instructionSha256": "e4e1aba9c70326947c0eebf7fa7945c5450cd8f15cada275c7ef1b1c0febb551",
+        "selectionRank": "01a905b7a31261db4a2a670097454b5b8741b8f6b643ca1d6970b2cc937e8cb5"
+      }
+    },
+    {
+      "input": {
+        "id": "ext-027",
+        "subject": "Support request",
+        "body": "wanna notify of a trouble with online payments"
+      },
+      "expected": {
+        "route": "billing",
+        "requiresHumanReview": false
+      },
+      "stratum": "payment_issue",
+      "provenance": {
+        "csvLine": 18279,
+        "originalIntent": "payment_issue",
+        "instructionSha256": "332e20d118a703454928201ac1236162f433ee5edd9b6bf3672c0100cf743379",
+        "selectionRank": "01d35e660b237fb41401bdf714e3dcf9b3df781939ea28b51b47caccf112954f"
+      }
+    },
+    {
+      "input": {
+        "id": "ext-028",
+        "subject": "Support request",
+        "body": "report problems with payment"
+      },
+      "expected": {
+        "route": "billing",
+        "requiresHumanReview": false
+      },
+      "stratum": "payment_issue",
+      "provenance": {
+        "csvLine": 18635,
+        "originalIntent": "payment_issue",
+        "instructionSha256": "4f5112b4a59b7174a456bed4a4aa5a97d24de55cd7f05b20e1397d97132fddbe",
+        "selectionRank": "021ccf1c9ccb83903fb5770e4a25c23b6f182318eecf9472fe7a0a15858d31ef"
+      }
+    },
+    {
+      "input": {
+        "id": "ext-029",
+        "subject": "Support request",
+        "body": "I need help to inform of a problem with payments"
+      },
+      "expected": {
+        "route": "billing",
+        "requiresHumanReview": false
+      },
+      "stratum": "payment_issue",
+      "provenance": {
+        "csvLine": 18875,
+        "originalIntent": "payment_issue",
+        "instructionSha256": "18417dd3b06a9b48d14eb467c8574516090f21425e5678712618c84c89c4ca34",
+        "selectionRank": "029d64c9a13a0bf4d88b5f963cf855c8a1e591e6876d86e5f758b56a5bad344a"
+      }
+    },
+    {
+      "input": {
+        "id": "ext-030",
+        "subject": "Support request",
+        "body": "i need help to inform of issues with online payments"
+      },
+      "expected": {
+        "route": "billing",
+        "requiresHumanReview": false
+      },
+      "stratum": "payment_issue",
+      "provenance": {
+        "csvLine": 17930,
+        "originalIntent": "payment_issue",
+        "instructionSha256": "e6983ecf74c17182389d9d865af05025933459ad33f58522c8d3a3eacb651faa",
+        "selectionRank": "02dd283e16e04e791ed0999be5cf6527fb09ab9d55b338b6034a41d428e76499"
+      }
+    },
+    {
+      "input": {
+        "id": "ext-031",
+        "subject": "Support request",
+        "body": "i have a question about the removal of my {{Account Category}} account"
+      },
+      "expected": {
+        "route": null,
+        "requiresHumanReview": true
+      },
+      "stratum": "delete_account",
+      "provenance": {
+        "csvLine": 10972,
+        "originalIntent": "delete_account",
+        "instructionSha256": "b43d37447416bdfa8969d6ed622f41c5b1a92f2e04f9ee0ef8870db665de3a22",
+        "selectionRank": "009408fef38d5919a9a7f06d8eb27dc5245ae2fcd9773d99c38a232032cb39b2"
+      }
+    },
+    {
+      "input": {
+        "id": "ext-032",
+        "subject": "Support request",
+        "body": "clsoe gold account"
+      },
+      "expected": {
+        "route": null,
+        "requiresHumanReview": true
+      },
+      "stratum": "delete_account",
+      "provenance": {
+        "csvLine": 11776,
+        "originalIntent": "delete_account",
+        "instructionSha256": "781179342d4401678200895d55874c6689d7adbc1759c3455be6886aae54c6ba",
+        "selectionRank": "00a5f969e27428889021f1700914f5e5b73d48c020349c71ea40ffffeb649653"
+      }
+    },
+    {
+      "input": {
+        "id": "ext-033",
+        "subject": "Support request",
+        "body": "I do not need my {{Account Category}} account, I want help to delete it"
+      },
+      "expected": {
+        "route": null,
+        "requiresHumanReview": true
+      },
+      "stratum": "delete_account",
+      "provenance": {
+        "csvLine": 11228,
+        "originalIntent": "delete_account",
+        "instructionSha256": "b3535b765c241d2292f9d7b036a242396b2dc9e709059e160134ac6714168c58",
+        "selectionRank": "00dd8dcc8bd4bf9b6f3dea25eade09eab1665a7ff7a69865f8948c3efc41c2cb"
+      }
+    },
+    {
+      "input": {
+        "id": "ext-034",
+        "subject": "Support request",
+        "body": "i have a question about the cancellation of my {{Account Type}} account"
+      },
+      "expected": {
+        "route": null,
+        "requiresHumanReview": true
+      },
+      "stratum": "delete_account",
+      "provenance": {
+        "csvLine": 11489,
+        "originalIntent": "delete_account",
+        "instructionSha256": "ebc812a514f5c3076580be106cf2c7671e2fe770ff9dbb0f52a8f38d43d76769",
+        "selectionRank": "0120e6d5f371d299fbea264f3f010dc1e2231bee8ebe04e070ebf1ef5dc7e0a4"
+      }
+    },
+    {
+      "input": {
+        "id": "ext-035",
+        "subject": "Support request",
+        "body": "canceling premium account"
+      },
+      "expected": {
+        "route": null,
+        "requiresHumanReview": true
+      },
+      "stratum": "delete_account",
+      "provenance": {
+        "csvLine": 11885,
+        "originalIntent": "delete_account",
+        "instructionSha256": "efc6e462f019879a19fb9cabd2408e77418bdb4d96b372153eeae04ea54e4e86",
+        "selectionRank": "0184fbb2964fb19ff0fcecde792836ba61fb87b0b909b68630e763f9f6270890"
+      }
+    },
+    {
+      "input": {
+        "id": "ext-036",
+        "subject": "Support request",
+        "body": "speak to an assistnat"
+      },
+      "expected": {
+        "route": null,
+        "requiresHumanReview": true
+      },
+      "stratum": "contact_human_agent",
+      "provenance": {
+        "csvLine": 9807,
+        "originalIntent": "contact_human_agent",
+        "instructionSha256": "b924f21a91955c4a605d00567f266f5ddd06de68a8b70cfab1ac8b417ac3240d",
+        "selectionRank": "00554da91617ec4bf66ed9ad2d175b71b8d0e8880dcc7773af7f6c5680943de1"
+      }
+    },
+    {
+      "input": {
+        "id": "ext-037",
+        "subject": "Support request",
+        "body": "talk with a human agent"
+      },
+      "expected": {
+        "route": null,
+        "requiresHumanReview": true
+      },
+      "stratum": "contact_human_agent",
+      "provenance": {
+        "csvLine": 9713,
+        "originalIntent": "contact_human_agent",
+        "instructionSha256": "7684e531719a8d261103acf6537f40d4fcd502dca0fc7cf6322dcb4a9937979f",
+        "selectionRank": "006b6f3c8353a228230b54c3edc84e371ed703af8454c25e2b133d0cf11dd1aa"
+      }
+    },
+    {
+      "input": {
+        "id": "ext-038",
+        "subject": "Support request",
+        "body": "need help to talk to an operator"
+      },
+      "expected": {
+        "route": null,
+        "requiresHumanReview": true
+      },
+      "stratum": "contact_human_agent",
+      "provenance": {
+        "csvLine": 9438,
+        "originalIntent": "contact_human_agent",
+        "instructionSha256": "16ba39ae9e05fbefc4a4609e13ee0b2a894cafc5d0c69254edde519040e61c71",
+        "selectionRank": "00a67cd657a6202b3f01de3b05140f9c07b262d2d0b330e3b50287c0cdcc4391"
+      }
+    },
+    {
+      "input": {
+        "id": "ext-039",
+        "subject": "Support request",
+        "body": "i try to speak with an agent"
+      },
+      "expected": {
+        "route": null,
+        "requiresHumanReview": true
+      },
+      "stratum": "contact_human_agent",
+      "provenance": {
+        "csvLine": 9072,
+        "originalIntent": "contact_human_agent",
+        "instructionSha256": "d4a9bbcd39c3251656da0de765e18fe35d93fe58f99e37975388b09d48c817ea",
+        "selectionRank": "00bc11a3b9348cdcad2193c9b8eaf960e4714484f3917f7d755b34882cf5d762"
+      }
+    },
+    {
+      "input": {
+        "id": "ext-040",
+        "subject": "Support request",
+        "body": "help speaking with a human agent"
+      },
+      "expected": {
+        "route": null,
+        "requiresHumanReview": true
+      },
+      "stratum": "contact_human_agent",
+      "provenance": {
+        "csvLine": 9184,
+        "originalIntent": "contact_human_agent",
+        "instructionSha256": "5f012cfd9c6ba5906b1711f7e266f64dd41c6837ca0ef98c85089b0c63ba1404",
+        "selectionRank": "00c956c89d6c339abb3249b8d45cceb3afee07a2814bb2bff789c30d787a95d9"
+      }
+    }
+  ]
+}

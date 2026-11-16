@@ -1,0 +1,700 @@
+{
+  "schemaVersion": 2,
+  "diagnosticsVersion": 1,
+  "dataset": "bitext-independent-v3",
+  "datasetSha256": "14c940cc189dac0228c402d5715014288b5f10354536ae6319139ce256d592ed",
+  "promptSha256": "b7aca8fbf81483f9a71d638bbfef60f8c8b2348f8a219b81f531f8d25ed919df",
+  "mode": "baseline-only",
+  "sourceCommit": null,
+  "startedAt": null,
+  "completedAt": null,
+  "provider": null,
+  "requestedModel": null,
+  "maximumApiCalls": 0,
+  "actionsExecuted": 0,
+  "rows": [
+    {
+      "id": "ext-001",
+      "stratum": "recover_password",
+      "expected": {
+        "route": "access",
+        "requiresHumanReview": false
+      },
+      "baseline": {
+        "id": "ext-001",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "no_supported_route",
+        "matchedCategories": [],
+        "source": "rules-baseline"
+      }
+    },
+    {
+      "id": "ext-002",
+      "stratum": "recover_password",
+      "expected": {
+        "route": "access",
+        "requiresHumanReview": false
+      },
+      "baseline": {
+        "id": "ext-002",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "no_supported_route",
+        "matchedCategories": [],
+        "source": "rules-baseline"
+      }
+    },
+    {
+      "id": "ext-003",
+      "stratum": "recover_password",
+      "expected": {
+        "route": "access",
+        "requiresHumanReview": false
+      },
+      "baseline": {
+        "id": "ext-003",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "no_supported_route",
+        "matchedCategories": [],
+        "source": "rules-baseline"
+      }
+    },
+    {
+      "id": "ext-004",
+      "stratum": "recover_password",
+      "expected": {
+        "route": "access",
+        "requiresHumanReview": false
+      },
+      "baseline": {
+        "id": "ext-004",
+        "route": "access",
+        "requiresHumanReview": false,
+        "reason": "single_route_match",
+        "matchedCategories": [
+          "access"
+        ],
+        "source": "rules-baseline"
+      }
+    },
+    {
+      "id": "ext-005",
+      "stratum": "recover_password",
+      "expected": {
+        "route": "access",
+        "requiresHumanReview": false
+      },
+      "baseline": {
+        "id": "ext-005",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "no_supported_route",
+        "matchedCategories": [],
+        "source": "rules-baseline"
+      }
+    },
+    {
+      "id": "ext-006",
+      "stratum": "registration_problems",
+      "expected": {
+        "route": "access",
+        "requiresHumanReview": false
+      },
+      "baseline": {
+        "id": "ext-006",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "no_supported_route",
+        "matchedCategories": [],
+        "source": "rules-baseline"
+      }
+    },
+    {
+      "id": "ext-007",
+      "stratum": "registration_problems",
+      "expected": {
+        "route": "access",
+        "requiresHumanReview": false
+      },
+      "baseline": {
+        "id": "ext-007",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "no_supported_route",
+        "matchedCategories": [],
+        "source": "rules-baseline"
+      }
+    },
+    {
+      "id": "ext-008",
+      "stratum": "registration_problems",
+      "expected": {
+        "route": "access",
+        "requiresHumanReview": false
+      },
+      "baseline": {
+        "id": "ext-008",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "no_supported_route",
+        "matchedCategories": [],
+        "source": "rules-baseline"
+      }
+    },
+    {
+      "id": "ext-009",
+      "stratum": "registration_problems",
+      "expected": {
+        "route": "access",
+        "requiresHumanReview": false
+      },
+      "baseline": {
+        "id": "ext-009",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "no_supported_route",
+        "matchedCategories": [],
+        "source": "rules-baseline"
+      }
+    },
+    {
+      "id": "ext-010",
+      "stratum": "registration_problems",
+      "expected": {
+        "route": "access",
+        "requiresHumanReview": false
+      },
+      "baseline": {
+        "id": "ext-010",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "no_supported_route",
+        "matchedCategories": [],
+        "source": "rules-baseline"
+      }
+    },
+    {
+      "id": "ext-011",
+      "stratum": "check_invoice",
+      "expected": {
+        "route": "billing",
+        "requiresHumanReview": false
+      },
+      "baseline": {
+        "id": "ext-011",
+        "route": "billing",
+        "requiresHumanReview": false,
+        "reason": "single_route_match",
+        "matchedCategories": [
+          "billing"
+        ],
+        "source": "rules-baseline"
+      }
+    },
+    {
+      "id": "ext-012",
+      "stratum": "check_invoice",
+      "expected": {
+        "route": "billing",
+        "requiresHumanReview": false
+      },
+      "baseline": {
+        "id": "ext-012",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "no_supported_route",
+        "matchedCategories": [],
+        "source": "rules-baseline"
+      }
+    },
+    {
+      "id": "ext-013",
+      "stratum": "check_invoice",
+      "expected": {
+        "route": "billing",
+        "requiresHumanReview": false
+      },
+      "baseline": {
+        "id": "ext-013",
+        "route": "billing",
+        "requiresHumanReview": false,
+        "reason": "single_route_match",
+        "matchedCategories": [
+          "billing"
+        ],
+        "source": "rules-baseline"
+      }
+    },
+    {
+      "id": "ext-014",
+      "stratum": "check_invoice",
+      "expected": {
+        "route": "billing",
+        "requiresHumanReview": false
+      },
+      "baseline": {
+        "id": "ext-014",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "no_supported_route",
+        "matchedCategories": [],
+        "source": "rules-baseline"
+      }
+    },
+    {
+      "id": "ext-015",
+      "stratum": "check_invoice",
+      "expected": {
+        "route": "billing",
+        "requiresHumanReview": false
+      },
+      "baseline": {
+        "id": "ext-015",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "no_supported_route",
+        "matchedCategories": [],
+        "source": "rules-baseline"
+      }
+    },
+    {
+      "id": "ext-016",
+      "stratum": "get_invoice",
+      "expected": {
+        "route": "billing",
+        "requiresHumanReview": false
+      },
+      "baseline": {
+        "id": "ext-016",
+        "route": "billing",
+        "requiresHumanReview": false,
+        "reason": "single_route_match",
+        "matchedCategories": [
+          "billing"
+        ],
+        "source": "rules-baseline"
+      }
+    },
+    {
+      "id": "ext-017",
+      "stratum": "get_invoice",
+      "expected": {
+        "route": "billing",
+        "requiresHumanReview": false
+      },
+      "baseline": {
+        "id": "ext-017",
+        "route": "billing",
+        "requiresHumanReview": false,
+        "reason": "single_route_match",
+        "matchedCategories": [
+          "billing"
+        ],
+        "source": "rules-baseline"
+      }
+    },
+    {
+      "id": "ext-018",
+      "stratum": "get_invoice",
+      "expected": {
+        "route": "billing",
+        "requiresHumanReview": false
+      },
+      "baseline": {
+        "id": "ext-018",
+        "route": "billing",
+        "requiresHumanReview": false,
+        "reason": "single_route_match",
+        "matchedCategories": [
+          "billing"
+        ],
+        "source": "rules-baseline"
+      }
+    },
+    {
+      "id": "ext-019",
+      "stratum": "get_invoice",
+      "expected": {
+        "route": "billing",
+        "requiresHumanReview": false
+      },
+      "baseline": {
+        "id": "ext-019",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "no_supported_route",
+        "matchedCategories": [],
+        "source": "rules-baseline"
+      }
+    },
+    {
+      "id": "ext-020",
+      "stratum": "get_invoice",
+      "expected": {
+        "route": "billing",
+        "requiresHumanReview": false
+      },
+      "baseline": {
+        "id": "ext-020",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "no_supported_route",
+        "matchedCategories": [],
+        "source": "rules-baseline"
+      }
+    },
+    {
+      "id": "ext-021",
+      "stratum": "check_payment_methods",
+      "expected": {
+        "route": "billing",
+        "requiresHumanReview": false
+      },
+      "baseline": {
+        "id": "ext-021",
+        "route": "billing",
+        "requiresHumanReview": false,
+        "reason": "single_route_match",
+        "matchedCategories": [
+          "billing"
+        ],
+        "source": "rules-baseline"
+      }
+    },
+    {
+      "id": "ext-022",
+      "stratum": "check_payment_methods",
+      "expected": {
+        "route": "billing",
+        "requiresHumanReview": false
+      },
+      "baseline": {
+        "id": "ext-022",
+        "route": "billing",
+        "requiresHumanReview": false,
+        "reason": "single_route_match",
+        "matchedCategories": [
+          "billing"
+        ],
+        "source": "rules-baseline"
+      }
+    },
+    {
+      "id": "ext-023",
+      "stratum": "check_payment_methods",
+      "expected": {
+        "route": "billing",
+        "requiresHumanReview": false
+      },
+      "baseline": {
+        "id": "ext-023",
+        "route": "billing",
+        "requiresHumanReview": false,
+        "reason": "single_route_match",
+        "matchedCategories": [
+          "billing"
+        ],
+        "source": "rules-baseline"
+      }
+    },
+    {
+      "id": "ext-024",
+      "stratum": "check_payment_methods",
+      "expected": {
+        "route": "billing",
+        "requiresHumanReview": false
+      },
+      "baseline": {
+        "id": "ext-024",
+        "route": "billing",
+        "requiresHumanReview": false,
+        "reason": "single_route_match",
+        "matchedCategories": [
+          "billing"
+        ],
+        "source": "rules-baseline"
+      }
+    },
+    {
+      "id": "ext-025",
+      "stratum": "check_payment_methods",
+      "expected": {
+        "route": "billing",
+        "requiresHumanReview": false
+      },
+      "baseline": {
+        "id": "ext-025",
+        "route": "billing",
+        "requiresHumanReview": false,
+        "reason": "single_route_match",
+        "matchedCategories": [
+          "billing"
+        ],
+        "source": "rules-baseline"
+      }
+    },
+    {
+      "id": "ext-026",
+      "stratum": "payment_issue",
+      "expected": {
+        "route": "billing",
+        "requiresHumanReview": false
+      },
+      "baseline": {
+        "id": "ext-026",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "multiple_routes",
+        "matchedCategories": [
+          "billing",
+          "technical"
+        ],
+        "source": "rules-baseline"
+      }
+    },
+    {
+      "id": "ext-027",
+      "stratum": "payment_issue",
+      "expected": {
+        "route": "billing",
+        "requiresHumanReview": false
+      },
+      "baseline": {
+        "id": "ext-027",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "no_supported_route",
+        "matchedCategories": [],
+        "source": "rules-baseline"
+      }
+    },
+    {
+      "id": "ext-028",
+      "stratum": "payment_issue",
+      "expected": {
+        "route": "billing",
+        "requiresHumanReview": false
+      },
+      "baseline": {
+        "id": "ext-028",
+        "route": "billing",
+        "requiresHumanReview": false,
+        "reason": "single_route_match",
+        "matchedCategories": [
+          "billing"
+        ],
+        "source": "rules-baseline"
+      }
+    },
+    {
+      "id": "ext-029",
+      "stratum": "payment_issue",
+      "expected": {
+        "route": "billing",
+        "requiresHumanReview": false
+      },
+      "baseline": {
+        "id": "ext-029",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "no_supported_route",
+        "matchedCategories": [],
+        "source": "rules-baseline"
+      }
+    },
+    {
+      "id": "ext-030",
+      "stratum": "payment_issue",
+      "expected": {
+        "route": "billing",
+        "requiresHumanReview": false
+      },
+      "baseline": {
+        "id": "ext-030",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "no_supported_route",
+        "matchedCategories": [],
+        "source": "rules-baseline"
+      }
+    },
+    {
+      "id": "ext-031",
+      "stratum": "delete_account",
+      "expected": {
+        "route": null,
+        "requiresHumanReview": true
+      },
+      "baseline": {
+        "id": "ext-031",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "no_supported_route",
+        "matchedCategories": [],
+        "source": "rules-baseline"
+      }
+    },
+    {
+      "id": "ext-032",
+      "stratum": "delete_account",
+      "expected": {
+        "route": null,
+        "requiresHumanReview": true
+      },
+      "baseline": {
+        "id": "ext-032",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "no_supported_route",
+        "matchedCategories": [],
+        "source": "rules-baseline"
+      }
+    },
+    {
+      "id": "ext-033",
+      "stratum": "delete_account",
+      "expected": {
+        "route": null,
+        "requiresHumanReview": true
+      },
+      "baseline": {
+        "id": "ext-033",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "no_supported_route",
+        "matchedCategories": [],
+        "source": "rules-baseline"
+      }
+    },
+    {
+      "id": "ext-034",
+      "stratum": "delete_account",
+      "expected": {
+        "route": null,
+        "requiresHumanReview": true
+      },
+      "baseline": {
+        "id": "ext-034",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "no_supported_route",
+        "matchedCategories": [],
+        "source": "rules-baseline"
+      }
+    },
+    {
+      "id": "ext-035",
+      "stratum": "delete_account",
+      "expected": {
+        "route": null,
+        "requiresHumanReview": true
+      },
+      "baseline": {
+        "id": "ext-035",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "no_supported_route",
+        "matchedCategories": [],
+        "source": "rules-baseline"
+      }
+    },
+    {
+      "id": "ext-036",
+      "stratum": "contact_human_agent",
+      "expected": {
+        "route": null,
+        "requiresHumanReview": true
+      },
+      "baseline": {
+        "id": "ext-036",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "no_supported_route",
+        "matchedCategories": [],
+        "source": "rules-baseline"
+      }
+    },
+    {
+      "id": "ext-037",
+      "stratum": "contact_human_agent",
+      "expected": {
+        "route": null,
+        "requiresHumanReview": true
+      },
+      "baseline": {
+        "id": "ext-037",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "no_supported_route",
+        "matchedCategories": [],
+        "source": "rules-baseline"
+      }
+    },
+    {
+      "id": "ext-038",
+      "stratum": "contact_human_agent",
+      "expected": {
+        "route": null,
+        "requiresHumanReview": true
+      },
+      "baseline": {
+        "id": "ext-038",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "no_supported_route",
+        "matchedCategories": [],
+        "source": "rules-baseline"
+      }
+    },
+    {
+      "id": "ext-039",
+      "stratum": "contact_human_agent",
+      "expected": {
+        "route": null,
+        "requiresHumanReview": true
+      },
+      "baseline": {
+        "id": "ext-039",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "no_supported_route",
+        "matchedCategories": [],
+        "source": "rules-baseline"
+      }
+    },
+    {
+      "id": "ext-040",
+      "stratum": "contact_human_agent",
+      "expected": {
+        "route": null,
+        "requiresHumanReview": true
+      },
+      "baseline": {
+        "id": "ext-040",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "no_supported_route",
+        "matchedCategories": [],
+        "source": "rules-baseline"
+      }
+    }
+  ],
+  "metrics": {
+    "baseline": {
+      "total": 40,
+      "available": 40,
+      "errors": 0,
+      "correct": 22,
+      "exactMatchRate": 0.55,
+      "proposals": 12,
+      "correctProposals": 12,
+      "proposalPrecision": 1,
+      "expectedReview": 10,
+      "caughtReview": 10,
+      "reviewRecall": 1,
+      "unnecessaryReview": 18
+    }
+  }
+}

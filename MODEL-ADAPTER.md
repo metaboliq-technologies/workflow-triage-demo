@@ -4,7 +4,7 @@ The optional Node.js adapter calls the Gemini Developer API. It is not imported 
 
 ## Run status
 
-The implementation has deterministic mocked transport tests. **No live Gemini comparison has been recorded yet.** `fresh-baseline-report.json` contains only the rules result on the new set; it is not a model result. The live run requires an authorized key and quota.
+The first live comparison ran on 16 November 2026 with `gemini-3.5-flash-lite`: rules matched 20/40 decisions, Gemini 38/40, and guarded Gemini 29/40. One invalid model output was rejected, so the workflow deliberately exited with failure and retained the complete report. All 22 automated tests passed before the live run. See [results, failures and limitations](triage-gemini-results.md) and the [full per-case report](triage-gemini-comparison.json). The key is an Actions secret in a separate unbilled evaluation project; the public browser lab remains offline.
 
 ## The new set
 

@@ -24,7 +24,9 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           MBQ_ALLOW_SYNTHETIC_MODEL_RUN: 'yes'
         run: |
-          if test -f vague-implementation-freeze.json; then
+          if test -f negation-implementation-freeze.json; then
+            node negation-evaluation.mjs
+          elif test -f vague-implementation-freeze.json; then
             node vague-evaluation.mjs
           elif test -f evidence-implementation-freeze.json; then
             node evidence-evaluation.mjs
@@ -40,6 +42,7 @@ jobs:
             paired-comparison.local.json
             evidence-comparison.local.json
             vague-comparison.local.json
+            negation-comparison.local.json
           retention-days: 14
       - name: Print saved synthetic report without more provider calls
         if: always()
@@ -47,3 +50,4 @@ jobs:
           test ! -f paired-comparison.local.json || cat paired-comparison.local.json
           test ! -f evidence-comparison.local.json || cat evidence-comparison.local.json
           test ! -f vague-comparison.local.json || cat vague-comparison.local.json
+          test ! -f negation-comparison.local.json || cat negation-comparison.local.json

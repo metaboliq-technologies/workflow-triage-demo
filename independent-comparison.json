@@ -1,0 +1,2716 @@
+{
+  "schemaVersion": 2,
+  "diagnosticsVersion": 1,
+  "dataset": "bitext-independent-v3",
+  "datasetSha256": "14c940cc189dac0228c402d5715014288b5f10354536ae6319139ce256d592ed",
+  "promptSha256": "b7aca8fbf81483f9a71d638bbfef60f8c8b2348f8a219b81f531f8d25ed919df",
+  "mode": "live-gemini",
+  "sourceCommit": "d3664b3f6cceb9006569c736d3e06f3c4282ee50",
+  "startedAt": "2026-11-16T12:49:22.825Z",
+  "completedAt": "2026-11-16T12:58:34.480Z",
+  "provider": "gemini-developer-api",
+  "requestedModel": "gemini-3.5-flash-lite",
+  "maximumApiCalls": 80,
+  "actionsExecuted": 0,
+  "rows": [
+    {
+      "id": "ext-001",
+      "stratum": "recover_password",
+      "expected": {
+        "route": "access",
+        "requiresHumanReview": false
+      },
+      "baseline": {
+        "id": "ext-001",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "no_supported_route",
+        "matchedCategories": [],
+        "source": "rules-baseline"
+      },
+      "model": {
+        "id": "ext-001",
+        "route": "access",
+        "requiresHumanReview": false,
+        "reason": "model_route_proposal",
+        "source": "gemini"
+      },
+      "guarded": {
+        "id": "ext-001",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "no_supported_route",
+        "matchedCategories": [],
+        "source": "guarded-gemini"
+      },
+      "provider": {
+        "output": {
+          "category": "access",
+          "evidence": "resetting my user pass"
+        },
+        "attempts": 1,
+        "latencyMs": 1062,
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 236,
+          "candidatesTokenCount": 23,
+          "thoughtsTokenCount": null,
+          "totalTokenCount": 259
+        },
+        "attemptLog": [
+          {
+            "attempt": 1,
+            "outcome": "success",
+            "stage": "decision",
+            "finishReason": "STOP",
+            "attemptLatencyMs": 1062,
+            "candidateCount": 1,
+            "outputCharacters": 66,
+            "httpStatus": 200,
+            "modelVersion": "gemini-3.5-flash-lite",
+            "usage": {
+              "promptTokenCount": 236,
+              "candidatesTokenCount": 23,
+              "thoughtsTokenCount": null,
+              "totalTokenCount": 259
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-002",
+      "stratum": "recover_password",
+      "expected": {
+        "route": "access",
+        "requiresHumanReview": false
+      },
+      "baseline": {
+        "id": "ext-002",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "no_supported_route",
+        "matchedCategories": [],
+        "source": "rules-baseline"
+      },
+      "model": {
+        "id": "ext-002",
+        "route": "access",
+        "requiresHumanReview": false,
+        "reason": "model_route_proposal",
+        "source": "gemini"
+      },
+      "guarded": {
+        "id": "ext-002",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "no_supported_route",
+        "matchedCategories": [],
+        "source": "guarded-gemini"
+      },
+      "provider": {
+        "output": {
+          "category": "access",
+          "evidence": "information about a forgotten key"
+        },
+        "attempts": 1,
+        "latencyMs": 706,
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 238,
+          "candidatesTokenCount": 16,
+          "thoughtsTokenCount": null,
+          "totalTokenCount": 254
+        },
+        "attemptLog": [
+          {
+            "attempt": 1,
+            "outcome": "success",
+            "stage": "decision",
+            "finishReason": "STOP",
+            "attemptLatencyMs": 706,
+            "candidateCount": 1,
+            "outputCharacters": 71,
+            "httpStatus": 200,
+            "modelVersion": "gemini-3.5-flash-lite",
+            "usage": {
+              "promptTokenCount": 238,
+              "candidatesTokenCount": 16,
+              "thoughtsTokenCount": null,
+              "totalTokenCount": 254
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-003",
+      "stratum": "recover_password",
+      "expected": {
+        "route": "access",
+        "requiresHumanReview": false
+      },
+      "baseline": {
+        "id": "ext-003",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "no_supported_route",
+        "matchedCategories": [],
+        "source": "rules-baseline"
+      },
+      "model": {
+        "id": "ext-003",
+        "route": "access",
+        "requiresHumanReview": false,
+        "reason": "model_route_proposal",
+        "source": "gemini"
+      },
+      "guarded": {
+        "id": "ext-003",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "no_supported_route",
+        "matchedCategories": [],
+        "source": "guarded-gemini"
+      },
+      "provider": {
+        "output": {
+          "category": "access",
+          "evidence": "reset the PIN code of my user"
+        },
+        "attempts": 1,
+        "latencyMs": 906,
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 242,
+          "candidatesTokenCount": 25,
+          "thoughtsTokenCount": null,
+          "totalTokenCount": 267
+        },
+        "attemptLog": [
+          {
+            "attempt": 1,
+            "outcome": "success",
+            "stage": "decision",
+            "finishReason": "STOP",
+            "attemptLatencyMs": 906,
+            "candidateCount": 1,
+            "outputCharacters": 73,
+            "httpStatus": 200,
+            "modelVersion": "gemini-3.5-flash-lite",
+            "usage": {
+              "promptTokenCount": 242,
+              "candidatesTokenCount": 25,
+              "thoughtsTokenCount": null,
+              "totalTokenCount": 267
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-004",
+      "stratum": "recover_password",
+      "expected": {
+        "route": "access",
+        "requiresHumanReview": false
+      },
+      "baseline": {
+        "id": "ext-004",
+        "route": "access",
+        "requiresHumanReview": false,
+        "reason": "single_route_match",
+        "matchedCategories": [
+          "access"
+        ],
+        "source": "rules-baseline"
+      },
+      "model": {
+        "id": "ext-004",
+        "route": "access",
+        "requiresHumanReview": false,
+        "reason": "model_route_proposal",
+        "source": "gemini"
+      },
+      "guarded": {
+        "id": "ext-004",
+        "route": "access",
+        "requiresHumanReview": false,
+        "reason": "model_baseline_agreement",
+        "matchedCategories": [
+          "access"
+        ],
+        "source": "guarded-gemini"
+      },
+      "provider": {
+        "output": {
+          "category": "access",
+          "evidence": "reset my account password"
+        },
+        "attempts": 1,
+        "latencyMs": 985,
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 237,
+          "candidatesTokenCount": 22,
+          "thoughtsTokenCount": null,
+          "totalTokenCount": 259
+        },
+        "attemptLog": [
+          {
+            "attempt": 1,
+            "outcome": "success",
+            "stage": "decision",
+            "finishReason": "STOP",
+            "attemptLatencyMs": 985,
+            "candidateCount": 1,
+            "outputCharacters": 69,
+            "httpStatus": 200,
+            "modelVersion": "gemini-3.5-flash-lite",
+            "usage": {
+              "promptTokenCount": 237,
+              "candidatesTokenCount": 22,
+              "thoughtsTokenCount": null,
+              "totalTokenCount": 259
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-005",
+      "stratum": "recover_password",
+      "expected": {
+        "route": "access",
+        "requiresHumanReview": false
+      },
+      "baseline": {
+        "id": "ext-005",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "no_supported_route",
+        "matchedCategories": [],
+        "source": "rules-baseline"
+      },
+      "model": {
+        "id": "ext-005",
+        "route": "access",
+        "requiresHumanReview": false,
+        "reason": "model_route_proposal",
+        "source": "gemini"
+      },
+      "guarded": {
+        "id": "ext-005",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "no_supported_route",
+        "matchedCategories": [],
+        "source": "guarded-gemini"
+      },
+      "provider": {
+        "output": {
+          "category": "access",
+          "evidence": "reset my damn PIN code"
+        },
+        "attempts": 1,
+        "latencyMs": 869,
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 237,
+          "candidatesTokenCount": 23,
+          "thoughtsTokenCount": null,
+          "totalTokenCount": 260
+        },
+        "attemptLog": [
+          {
+            "attempt": 1,
+            "outcome": "success",
+            "stage": "decision",
+            "finishReason": "STOP",
+            "attemptLatencyMs": 869,
+            "candidateCount": 1,
+            "outputCharacters": 66,
+            "httpStatus": 200,
+            "modelVersion": "gemini-3.5-flash-lite",
+            "usage": {
+              "promptTokenCount": 237,
+              "candidatesTokenCount": 23,
+              "thoughtsTokenCount": null,
+              "totalTokenCount": 260
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-006",
+      "stratum": "registration_problems",
+      "expected": {
+        "route": "access",
+        "requiresHumanReview": false
+      },
+      "baseline": {
+        "id": "ext-006",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "no_supported_route",
+        "matchedCategories": [],
+        "source": "rules-baseline"
+      },
+      "model": {
+        "id": "ext-006",
+        "route": "technical",
+        "requiresHumanReview": false,
+        "reason": "model_route_proposal",
+        "source": "gemini"
+      },
+      "guarded": {
+        "id": "ext-006",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "no_supported_route",
+        "matchedCategories": [],
+        "source": "guarded-gemini"
+      },
+      "provider": {
+        "output": {
+          "category": "technical",
+          "evidence": "i dont know how i can inform of an problem with sign-up"
+        },
+        "attempts": 1,
+        "latencyMs": 1403,
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 243,
+          "candidatesTokenCount": 32,
+          "thoughtsTokenCount": null,
+          "totalTokenCount": 275
+        },
+        "attemptLog": [
+          {
+            "attempt": 1,
+            "outcome": "success",
+            "stage": "decision",
+            "finishReason": "STOP",
+            "attemptLatencyMs": 1403,
+            "candidateCount": 1,
+            "outputCharacters": 102,
+            "httpStatus": 200,
+            "modelVersion": "gemini-3.5-flash-lite",
+            "usage": {
+              "promptTokenCount": 243,
+              "candidatesTokenCount": 32,
+              "thoughtsTokenCount": null,
+              "totalTokenCount": 275
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-007",
+      "stratum": "registration_problems",
+      "expected": {
+        "route": "access",
+        "requiresHumanReview": false
+      },
+      "baseline": {
+        "id": "ext-007",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "no_supported_route",
+        "matchedCategories": [],
+        "source": "rules-baseline"
+      },
+      "model": {
+        "id": "ext-007",
+        "route": "technical",
+        "requiresHumanReview": false,
+        "reason": "model_route_proposal",
+        "source": "gemini"
+      },
+      "guarded": {
+        "id": "ext-007",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "no_supported_route",
+        "matchedCategories": [],
+        "source": "guarded-gemini"
+      },
+      "provider": {
+        "output": {
+          "category": "technical",
+          "evidence": "i cannot notify of a problem with a sign-up"
+        },
+        "attempts": 1,
+        "latencyMs": 827,
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 240,
+          "candidatesTokenCount": 29,
+          "thoughtsTokenCount": null,
+          "totalTokenCount": 269
+        },
+        "attemptLog": [
+          {
+            "attempt": 1,
+            "outcome": "success",
+            "stage": "decision",
+            "finishReason": "STOP",
+            "attemptLatencyMs": 827,
+            "candidateCount": 1,
+            "outputCharacters": 90,
+            "httpStatus": 200,
+            "modelVersion": "gemini-3.5-flash-lite",
+            "usage": {
+              "promptTokenCount": 240,
+              "candidatesTokenCount": 29,
+              "thoughtsTokenCount": null,
+              "totalTokenCount": 269
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-008",
+      "stratum": "registration_problems",
+      "expected": {
+        "route": "access",
+        "requiresHumanReview": false
+      },
+      "baseline": {
+        "id": "ext-008",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "no_supported_route",
+        "matchedCategories": [],
+        "source": "rules-baseline"
+      },
+      "model": {
+        "id": "ext-008",
+        "route": "technical",
+        "requiresHumanReview": false,
+        "reason": "model_route_proposal",
+        "source": "gemini"
+      },
+      "guarded": {
+        "id": "ext-008",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "no_supported_route",
+        "matchedCategories": [],
+        "source": "guarded-gemini"
+      },
+      "provider": {
+        "output": {
+          "category": "technical",
+          "evidence": "wanna notify of errors with sign-up"
+        },
+        "attempts": 1,
+        "latencyMs": 911,
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 238,
+          "candidatesTokenCount": 27,
+          "thoughtsTokenCount": null,
+          "totalTokenCount": 265
+        },
+        "attemptLog": [
+          {
+            "attempt": 1,
+            "outcome": "success",
+            "stage": "decision",
+            "finishReason": "STOP",
+            "attemptLatencyMs": 911,
+            "candidateCount": 1,
+            "outputCharacters": 82,
+            "httpStatus": 200,
+            "modelVersion": "gemini-3.5-flash-lite",
+            "usage": {
+              "promptTokenCount": 238,
+              "candidatesTokenCount": 27,
+              "thoughtsTokenCount": null,
+              "totalTokenCount": 265
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-009",
+      "stratum": "registration_problems",
+      "expected": {
+        "route": "access",
+        "requiresHumanReview": false
+      },
+      "baseline": {
+        "id": "ext-009",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "no_supported_route",
+        "matchedCategories": [],
+        "source": "rules-baseline"
+      },
+      "model": {
+        "id": "ext-009",
+        "route": "access",
+        "requiresHumanReview": false,
+        "reason": "model_route_proposal",
+        "source": "gemini"
+      },
+      "guarded": {
+        "id": "ext-009",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "no_supported_route",
+        "matchedCategories": [],
+        "source": "guarded-gemini"
+      },
+      "provider": {
+        "output": {
+          "category": "access",
+          "evidence": "need help regadring my sign-up"
+        },
+        "attempts": 1,
+        "latencyMs": 907,
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 238,
+          "candidatesTokenCount": 27,
+          "thoughtsTokenCount": null,
+          "totalTokenCount": 265
+        },
+        "attemptLog": [
+          {
+            "attempt": 1,
+            "outcome": "success",
+            "stage": "decision",
+            "finishReason": "STOP",
+            "attemptLatencyMs": 907,
+            "candidateCount": 1,
+            "outputCharacters": 74,
+            "httpStatus": 200,
+            "modelVersion": "gemini-3.5-flash-lite",
+            "usage": {
+              "promptTokenCount": 238,
+              "candidatesTokenCount": 27,
+              "thoughtsTokenCount": null,
+              "totalTokenCount": 265
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-010",
+      "stratum": "registration_problems",
+      "expected": {
+        "route": "access",
+        "requiresHumanReview": false
+      },
+      "baseline": {
+        "id": "ext-010",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "no_supported_route",
+        "matchedCategories": [],
+        "source": "rules-baseline"
+      },
+      "model": {
+        "id": "ext-010",
+        "route": "technical",
+        "requiresHumanReview": false,
+        "reason": "model_route_proposal",
+        "source": "gemini"
+      },
+      "guarded": {
+        "id": "ext-010",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "no_supported_route",
+        "matchedCategories": [],
+        "source": "guarded-gemini"
+      },
+      "provider": {
+        "output": {
+          "category": "technical",
+          "evidence": "inform of a problem with sign-up"
+        },
+        "attempts": 1,
+        "latencyMs": 1087,
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 237,
+          "candidatesTokenCount": 26,
+          "thoughtsTokenCount": null,
+          "totalTokenCount": 263
+        },
+        "attemptLog": [
+          {
+            "attempt": 1,
+            "outcome": "success",
+            "stage": "decision",
+            "finishReason": "STOP",
+            "attemptLatencyMs": 1087,
+            "candidateCount": 1,
+            "outputCharacters": 79,
+            "httpStatus": 200,
+            "modelVersion": "gemini-3.5-flash-lite",
+            "usage": {
+              "promptTokenCount": 237,
+              "candidatesTokenCount": 26,
+              "thoughtsTokenCount": null,
+              "totalTokenCount": 263
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-011",
+      "stratum": "check_invoice",
+      "expected": {
+        "route": "billing",
+        "requiresHumanReview": false
+      },
+      "baseline": {
+        "id": "ext-011",
+        "route": "billing",
+        "requiresHumanReview": false,
+        "reason": "single_route_match",
+        "matchedCategories": [
+          "billing"
+        ],
+        "source": "rules-baseline"
+      },
+      "model": {
+        "id": "ext-011",
+        "route": "billing",
+        "requiresHumanReview": false,
+        "reason": "model_route_proposal",
+        "source": "gemini"
+      },
+      "guarded": {
+        "id": "ext-011",
+        "route": "billing",
+        "requiresHumanReview": false,
+        "reason": "model_baseline_agreement",
+        "matchedCategories": [
+          "billing"
+        ],
+        "source": "guarded-gemini"
+      },
+      "provider": {
+        "output": {
+          "category": "billing",
+          "evidence": "I try to locate my invoice #00108"
+        },
+        "attempts": 1,
+        "latencyMs": 710,
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 241,
+          "candidatesTokenCount": 30,
+          "thoughtsTokenCount": null,
+          "totalTokenCount": 271
+        },
+        "attemptLog": [
+          {
+            "attempt": 1,
+            "outcome": "success",
+            "stage": "decision",
+            "finishReason": "STOP",
+            "attemptLatencyMs": 710,
+            "candidateCount": 1,
+            "outputCharacters": 78,
+            "httpStatus": 200,
+            "modelVersion": "gemini-3.5-flash-lite",
+            "usage": {
+              "promptTokenCount": 241,
+              "candidatesTokenCount": 30,
+              "thoughtsTokenCount": null,
+              "totalTokenCount": 271
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-012",
+      "stratum": "check_invoice",
+      "expected": {
+        "route": "billing",
+        "requiresHumanReview": false
+      },
+      "baseline": {
+        "id": "ext-012",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "no_supported_route",
+        "matchedCategories": [],
+        "source": "rules-baseline"
+      },
+      "model": {
+        "id": "ext-012",
+        "route": "billing",
+        "requiresHumanReview": false,
+        "reason": "model_route_proposal",
+        "source": "gemini"
+      },
+      "guarded": {
+        "id": "ext-012",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "no_supported_route",
+        "matchedCategories": [],
+        "source": "guarded-gemini"
+      },
+      "provider": {
+        "output": {
+          "category": "billing",
+          "evidence": "locate the bill #00108"
+        },
+        "attempts": 1,
+        "latencyMs": 746,
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 243,
+          "candidatesTokenCount": 27,
+          "thoughtsTokenCount": null,
+          "totalTokenCount": 270
+        },
+        "attemptLog": [
+          {
+            "attempt": 1,
+            "outcome": "success",
+            "stage": "decision",
+            "finishReason": "STOP",
+            "attemptLatencyMs": 746,
+            "candidateCount": 1,
+            "outputCharacters": 67,
+            "httpStatus": 200,
+            "modelVersion": "gemini-3.5-flash-lite",
+            "usage": {
+              "promptTokenCount": 243,
+              "candidatesTokenCount": 27,
+              "thoughtsTokenCount": null,
+              "totalTokenCount": 270
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-013",
+      "stratum": "check_invoice",
+      "expected": {
+        "route": "billing",
+        "requiresHumanReview": false
+      },
+      "baseline": {
+        "id": "ext-013",
+        "route": "billing",
+        "requiresHumanReview": false,
+        "reason": "single_route_match",
+        "matchedCategories": [
+          "billing"
+        ],
+        "source": "rules-baseline"
+      },
+      "model": {
+        "id": "ext-013",
+        "route": "billing",
+        "requiresHumanReview": false,
+        "reason": "model_route_proposal",
+        "source": "gemini"
+      },
+      "guarded": {
+        "id": "ext-013",
+        "route": "billing",
+        "requiresHumanReview": false,
+        "reason": "model_baseline_agreement",
+        "matchedCategories": [
+          "billing"
+        ],
+        "source": "guarded-gemini"
+      },
+      "provider": {
+        "output": {
+          "category": "billing",
+          "evidence": "invoice #37777"
+        },
+        "attempts": 1,
+        "latencyMs": 1067,
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 243,
+          "candidatesTokenCount": 25,
+          "thoughtsTokenCount": null,
+          "totalTokenCount": 268
+        },
+        "attemptLog": [
+          {
+            "attempt": 1,
+            "outcome": "success",
+            "stage": "decision",
+            "finishReason": "STOP",
+            "attemptLatencyMs": 1067,
+            "candidateCount": 1,
+            "outputCharacters": 59,
+            "httpStatus": 200,
+            "modelVersion": "gemini-3.5-flash-lite",
+            "usage": {
+              "promptTokenCount": 243,
+              "candidatesTokenCount": 25,
+              "thoughtsTokenCount": null,
+              "totalTokenCount": 268
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-014",
+      "stratum": "check_invoice",
+      "expected": {
+        "route": "billing",
+        "requiresHumanReview": false
+      },
+      "baseline": {
+        "id": "ext-014",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "no_supported_route",
+        "matchedCategories": [],
+        "source": "rules-baseline"
+      },
+      "model": {
+        "id": "ext-014",
+        "route": "billing",
+        "requiresHumanReview": false,
+        "reason": "model_route_proposal",
+        "source": "gemini"
+      },
+      "guarded": {
+        "id": "ext-014",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "no_supported_route",
+        "matchedCategories": [],
+        "source": "guarded-gemini"
+      },
+      "provider": {
+        "output": {
+          "category": "billing",
+          "evidence": "find my bill #37777"
+        },
+        "attempts": 1,
+        "latencyMs": 883,
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 245,
+          "candidatesTokenCount": 27,
+          "thoughtsTokenCount": null,
+          "totalTokenCount": 272
+        },
+        "attemptLog": [
+          {
+            "attempt": 1,
+            "outcome": "success",
+            "stage": "decision",
+            "finishReason": "STOP",
+            "attemptLatencyMs": 883,
+            "candidateCount": 1,
+            "outputCharacters": 64,
+            "httpStatus": 200,
+            "modelVersion": "gemini-3.5-flash-lite",
+            "usage": {
+              "promptTokenCount": 245,
+              "candidatesTokenCount": 27,
+              "thoughtsTokenCount": null,
+              "totalTokenCount": 272
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-015",
+      "stratum": "check_invoice",
+      "expected": {
+        "route": "billing",
+        "requiresHumanReview": false
+      },
+      "baseline": {
+        "id": "ext-015",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "no_supported_route",
+        "matchedCategories": [],
+        "source": "rules-baseline"
+      },
+      "model": {
+        "id": "ext-015",
+        "route": "billing",
+        "requiresHumanReview": false,
+        "reason": "model_route_proposal",
+        "source": "gemini"
+      },
+      "guarded": {
+        "id": "ext-015",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "no_supported_route",
+        "matchedCategories": [],
+        "source": "guarded-gemini"
+      },
+      "provider": {
+        "output": {
+          "category": "billing",
+          "evidence": "check my bill"
+        },
+        "attempts": 1,
+        "latencyMs": 623,
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 240,
+          "candidatesTokenCount": 21,
+          "thoughtsTokenCount": null,
+          "totalTokenCount": 261
+        },
+        "attemptLog": [
+          {
+            "attempt": 1,
+            "outcome": "success",
+            "stage": "decision",
+            "finishReason": "STOP",
+            "attemptLatencyMs": 623,
+            "candidateCount": 1,
+            "outputCharacters": 58,
+            "httpStatus": 200,
+            "modelVersion": "gemini-3.5-flash-lite",
+            "usage": {
+              "promptTokenCount": 240,
+              "candidatesTokenCount": 21,
+              "thoughtsTokenCount": null,
+              "totalTokenCount": 261
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-016",
+      "stratum": "get_invoice",
+      "expected": {
+        "route": "billing",
+        "requiresHumanReview": false
+      },
+      "baseline": {
+        "id": "ext-016",
+        "route": "billing",
+        "requiresHumanReview": false,
+        "reason": "single_route_match",
+        "matchedCategories": [
+          "billing"
+        ],
+        "source": "rules-baseline"
+      },
+      "model": {
+        "id": "ext-016",
+        "route": "billing",
+        "requiresHumanReview": false,
+        "reason": "model_route_proposal",
+        "source": "gemini"
+      },
+      "guarded": {
+        "id": "ext-016",
+        "route": "billing",
+        "requiresHumanReview": false,
+        "reason": "model_baseline_agreement",
+        "matchedCategories": [
+          "billing"
+        ],
+        "source": "guarded-gemini"
+      },
+      "provider": {
+        "output": {
+          "category": "billing",
+          "evidence": "I cannot find my invoice #12588"
+        },
+        "attempts": 1,
+        "latencyMs": 1165,
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 248,
+          "candidatesTokenCount": 29,
+          "thoughtsTokenCount": null,
+          "totalTokenCount": 277
+        },
+        "attemptLog": [
+          {
+            "attempt": 1,
+            "outcome": "success",
+            "stage": "decision",
+            "finishReason": "STOP",
+            "attemptLatencyMs": 1165,
+            "candidateCount": 1,
+            "outputCharacters": 76,
+            "httpStatus": 200,
+            "modelVersion": "gemini-3.5-flash-lite",
+            "usage": {
+              "promptTokenCount": 248,
+              "candidatesTokenCount": 29,
+              "thoughtsTokenCount": null,
+              "totalTokenCount": 277
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-017",
+      "stratum": "get_invoice",
+      "expected": {
+        "route": "billing",
+        "requiresHumanReview": false
+      },
+      "baseline": {
+        "id": "ext-017",
+        "route": "billing",
+        "requiresHumanReview": false,
+        "reason": "single_route_match",
+        "matchedCategories": [
+          "billing"
+        ],
+        "source": "rules-baseline"
+      },
+      "model": {
+        "id": "ext-017",
+        "route": "billing",
+        "requiresHumanReview": false,
+        "reason": "model_route_proposal",
+        "source": "gemini"
+      },
+      "guarded": {
+        "id": "ext-017",
+        "route": "billing",
+        "requiresHumanReview": false,
+        "reason": "model_baseline_agreement",
+        "matchedCategories": [
+          "billing"
+        ],
+        "source": "guarded-gemini"
+      },
+      "provider": {
+        "output": {
+          "category": "billing",
+          "evidence": "download the invoice #85632"
+        },
+        "attempts": 1,
+        "latencyMs": 8956,
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 246,
+          "candidatesTokenCount": 27,
+          "thoughtsTokenCount": null,
+          "totalTokenCount": 273
+        },
+        "attemptLog": [
+          {
+            "attempt": 1,
+            "outcome": "success",
+            "stage": "decision",
+            "finishReason": "STOP",
+            "attemptLatencyMs": 8956,
+            "candidateCount": 1,
+            "outputCharacters": 72,
+            "httpStatus": 200,
+            "modelVersion": "gemini-3.5-flash-lite",
+            "usage": {
+              "promptTokenCount": 246,
+              "candidatesTokenCount": 27,
+              "thoughtsTokenCount": null,
+              "totalTokenCount": 273
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-018",
+      "stratum": "get_invoice",
+      "expected": {
+        "route": "billing",
+        "requiresHumanReview": false
+      },
+      "baseline": {
+        "id": "ext-018",
+        "route": "billing",
+        "requiresHumanReview": false,
+        "reason": "single_route_match",
+        "matchedCategories": [
+          "billing"
+        ],
+        "source": "rules-baseline"
+      },
+      "model": {
+        "id": "ext-018",
+        "route": "billing",
+        "requiresHumanReview": false,
+        "reason": "model_route_proposal",
+        "source": "gemini"
+      },
+      "guarded": {
+        "id": "ext-018",
+        "route": "billing",
+        "requiresHumanReview": false,
+        "reason": "model_baseline_agreement",
+        "matchedCategories": [
+          "billing"
+        ],
+        "source": "guarded-gemini"
+      },
+      "provider": {
+        "output": {
+          "category": "billing",
+          "evidence": "send me invoice #37777"
+        },
+        "attempts": 1,
+        "latencyMs": 991,
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 238,
+          "candidatesTokenCount": 27,
+          "thoughtsTokenCount": null,
+          "totalTokenCount": 265
+        },
+        "attemptLog": [
+          {
+            "attempt": 1,
+            "outcome": "success",
+            "stage": "decision",
+            "finishReason": "STOP",
+            "attemptLatencyMs": 991,
+            "candidateCount": 1,
+            "outputCharacters": 67,
+            "httpStatus": 200,
+            "modelVersion": "gemini-3.5-flash-lite",
+            "usage": {
+              "promptTokenCount": 238,
+              "candidatesTokenCount": 27,
+              "thoughtsTokenCount": null,
+              "totalTokenCount": 265
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-019",
+      "stratum": "get_invoice",
+      "expected": {
+        "route": "billing",
+        "requiresHumanReview": false
+      },
+      "baseline": {
+        "id": "ext-019",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "no_supported_route",
+        "matchedCategories": [],
+        "source": "rules-baseline"
+      },
+      "model": {
+        "id": "ext-019",
+        "route": "billing",
+        "requiresHumanReview": false,
+        "reason": "model_route_proposal",
+        "source": "gemini"
+      },
+      "guarded": {
+        "id": "ext-019",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "no_supported_route",
+        "matchedCategories": [],
+        "source": "guarded-gemini"
+      },
+      "provider": {
+        "output": {
+          "category": "billing",
+          "evidence": "download bill #12588"
+        },
+        "attempts": 1,
+        "latencyMs": 738,
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 237,
+          "candidatesTokenCount": 26,
+          "thoughtsTokenCount": null,
+          "totalTokenCount": 263
+        },
+        "attemptLog": [
+          {
+            "attempt": 1,
+            "outcome": "success",
+            "stage": "decision",
+            "finishReason": "STOP",
+            "attemptLatencyMs": 738,
+            "candidateCount": 1,
+            "outputCharacters": 65,
+            "httpStatus": 200,
+            "modelVersion": "gemini-3.5-flash-lite",
+            "usage": {
+              "promptTokenCount": 237,
+              "candidatesTokenCount": 26,
+              "thoughtsTokenCount": null,
+              "totalTokenCount": 263
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-020",
+      "stratum": "get_invoice",
+      "expected": {
+        "route": "billing",
+        "requiresHumanReview": false
+      },
+      "baseline": {
+        "id": "ext-020",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "no_supported_route",
+        "matchedCategories": [],
+        "source": "rules-baseline"
+      },
+      "model": {
+        "id": "ext-020",
+        "route": "billing",
+        "requiresHumanReview": false,
+        "reason": "model_route_proposal",
+        "source": "gemini"
+      },
+      "guarded": {
+        "id": "ext-020",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "no_supported_route",
+        "matchedCategories": [],
+        "source": "guarded-gemini"
+      },
+      "provider": {
+        "output": {
+          "category": "billing",
+          "evidence": "download the bill"
+        },
+        "attempts": 1,
+        "latencyMs": 668,
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 243,
+          "candidatesTokenCount": 21,
+          "thoughtsTokenCount": null,
+          "totalTokenCount": 264
+        },
+        "attemptLog": [
+          {
+            "attempt": 1,
+            "outcome": "success",
+            "stage": "decision",
+            "finishReason": "STOP",
+            "attemptLatencyMs": 668,
+            "candidateCount": 1,
+            "outputCharacters": 62,
+            "httpStatus": 200,
+            "modelVersion": "gemini-3.5-flash-lite",
+            "usage": {
+              "promptTokenCount": 243,
+              "candidatesTokenCount": 21,
+              "thoughtsTokenCount": null,
+              "totalTokenCount": 264
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-021",
+      "stratum": "check_payment_methods",
+      "expected": {
+        "route": "billing",
+        "requiresHumanReview": false
+      },
+      "baseline": {
+        "id": "ext-021",
+        "route": "billing",
+        "requiresHumanReview": false,
+        "reason": "single_route_match",
+        "matchedCategories": [
+          "billing"
+        ],
+        "source": "rules-baseline"
+      },
+      "model": {
+        "id": "ext-021",
+        "route": "billing",
+        "requiresHumanReview": false,
+        "reason": "model_route_proposal",
+        "source": "gemini"
+      },
+      "guarded": {
+        "id": "ext-021",
+        "route": "billing",
+        "requiresHumanReview": false,
+        "reason": "model_baseline_agreement",
+        "matchedCategories": [
+          "billing"
+        ],
+        "source": "guarded-gemini"
+      },
+      "provider": {
+        "output": {
+          "category": "billing",
+          "evidence": "accepted payment methods"
+        },
+        "attempts": 1,
+        "latencyMs": 1041,
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 235,
+          "candidatesTokenCount": 11,
+          "thoughtsTokenCount": null,
+          "totalTokenCount": 246
+        },
+        "attemptLog": [
+          {
+            "attempt": 1,
+            "outcome": "success",
+            "stage": "decision",
+            "finishReason": "STOP",
+            "attemptLatencyMs": 1041,
+            "candidateCount": 1,
+            "outputCharacters": 60,
+            "httpStatus": 200,
+            "modelVersion": "gemini-3.5-flash-lite",
+            "usage": {
+              "promptTokenCount": 235,
+              "candidatesTokenCount": 11,
+              "thoughtsTokenCount": null,
+              "totalTokenCount": 246
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-022",
+      "stratum": "check_payment_methods",
+      "expected": {
+        "route": "billing",
+        "requiresHumanReview": false
+      },
+      "baseline": {
+        "id": "ext-022",
+        "route": "billing",
+        "requiresHumanReview": false,
+        "reason": "single_route_match",
+        "matchedCategories": [
+          "billing"
+        ],
+        "source": "rules-baseline"
+      },
+      "model": {
+        "id": "ext-022",
+        "route": "billing",
+        "requiresHumanReview": false,
+        "reason": "model_route_proposal",
+        "source": "gemini"
+      },
+      "guarded": {
+        "id": "ext-022",
+        "route": "billing",
+        "requiresHumanReview": false,
+        "reason": "model_baseline_agreement",
+        "matchedCategories": [
+          "billing"
+        ],
+        "source": "guarded-gemini"
+      },
+      "provider": {
+        "output": {
+          "category": "billing",
+          "evidence": "payment opitons"
+        },
+        "attempts": 1,
+        "latencyMs": 550,
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 244,
+          "candidatesTokenCount": 21,
+          "thoughtsTokenCount": null,
+          "totalTokenCount": 265
+        },
+        "attemptLog": [
+          {
+            "attempt": 1,
+            "outcome": "success",
+            "stage": "decision",
+            "finishReason": "STOP",
+            "attemptLatencyMs": 550,
+            "candidateCount": 1,
+            "outputCharacters": 60,
+            "httpStatus": 200,
+            "modelVersion": "gemini-3.5-flash-lite",
+            "usage": {
+              "promptTokenCount": 244,
+              "candidatesTokenCount": 21,
+              "thoughtsTokenCount": null,
+              "totalTokenCount": 265
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-023",
+      "stratum": "check_payment_methods",
+      "expected": {
+        "route": "billing",
+        "requiresHumanReview": false
+      },
+      "baseline": {
+        "id": "ext-023",
+        "route": "billing",
+        "requiresHumanReview": false,
+        "reason": "single_route_match",
+        "matchedCategories": [
+          "billing"
+        ],
+        "source": "rules-baseline"
+      },
+      "model": {
+        "id": "ext-023",
+        "route": "billing",
+        "requiresHumanReview": false,
+        "reason": "model_route_proposal",
+        "source": "gemini"
+      },
+      "guarded": {
+        "id": "ext-023",
+        "route": "billing",
+        "requiresHumanReview": false,
+        "reason": "model_baseline_agreement",
+        "matchedCategories": [
+          "billing"
+        ],
+        "source": "guarded-gemini"
+      },
+      "provider": {
+        "output": {
+          "category": "billing",
+          "evidence": "payment options are allowed"
+        },
+        "attempts": 1,
+        "latencyMs": 843,
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 238,
+          "candidatesTokenCount": 22,
+          "thoughtsTokenCount": null,
+          "totalTokenCount": 260
+        },
+        "attemptLog": [
+          {
+            "attempt": 1,
+            "outcome": "success",
+            "stage": "decision",
+            "finishReason": "STOP",
+            "attemptLatencyMs": 843,
+            "candidateCount": 1,
+            "outputCharacters": 72,
+            "httpStatus": 200,
+            "modelVersion": "gemini-3.5-flash-lite",
+            "usage": {
+              "promptTokenCount": 238,
+              "candidatesTokenCount": 22,
+              "thoughtsTokenCount": null,
+              "totalTokenCount": 260
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-024",
+      "stratum": "check_payment_methods",
+      "expected": {
+        "route": "billing",
+        "requiresHumanReview": false
+      },
+      "baseline": {
+        "id": "ext-024",
+        "route": "billing",
+        "requiresHumanReview": false,
+        "reason": "single_route_match",
+        "matchedCategories": [
+          "billing"
+        ],
+        "source": "rules-baseline"
+      },
+      "model": {
+        "id": "ext-024",
+        "route": "billing",
+        "requiresHumanReview": false,
+        "reason": "model_route_proposal",
+        "source": "gemini"
+      },
+      "guarded": {
+        "id": "ext-024",
+        "route": "billing",
+        "requiresHumanReview": false,
+        "reason": "model_baseline_agreement",
+        "matchedCategories": [
+          "billing"
+        ],
+        "source": "guarded-gemini"
+      },
+      "provider": {
+        "output": {
+          "category": "billing",
+          "evidence": "I have to check your payment methods, how do I do it?"
+        },
+        "attempts": 1,
+        "latencyMs": 1420,
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 243,
+          "candidatesTokenCount": 31,
+          "thoughtsTokenCount": null,
+          "totalTokenCount": 274
+        },
+        "attemptLog": [
+          {
+            "attempt": 1,
+            "outcome": "success",
+            "stage": "decision",
+            "finishReason": "STOP",
+            "attemptLatencyMs": 1420,
+            "candidateCount": 1,
+            "outputCharacters": 98,
+            "httpStatus": 200,
+            "modelVersion": "gemini-3.5-flash-lite",
+            "usage": {
+              "promptTokenCount": 243,
+              "candidatesTokenCount": 31,
+              "thoughtsTokenCount": null,
+              "totalTokenCount": 274
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-025",
+      "stratum": "check_payment_methods",
+      "expected": {
+        "route": "billing",
+        "requiresHumanReview": false
+      },
+      "baseline": {
+        "id": "ext-025",
+        "route": "billing",
+        "requiresHumanReview": false,
+        "reason": "single_route_match",
+        "matchedCategories": [
+          "billing"
+        ],
+        "source": "rules-baseline"
+      },
+      "model": {
+        "id": "ext-025",
+        "route": "billing",
+        "requiresHumanReview": false,
+        "reason": "model_route_proposal",
+        "source": "gemini"
+      },
+      "guarded": {
+        "id": "ext-025",
+        "route": "billing",
+        "requiresHumanReview": false,
+        "reason": "model_baseline_agreement",
+        "matchedCategories": [
+          "billing"
+        ],
+        "source": "guarded-gemini"
+      },
+      "provider": {
+        "output": {
+          "category": "billing",
+          "evidence": "payment optiins"
+        },
+        "attempts": 1,
+        "latencyMs": 824,
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 238,
+          "candidatesTokenCount": 22,
+          "thoughtsTokenCount": null,
+          "totalTokenCount": 260
+        },
+        "attemptLog": [
+          {
+            "attempt": 1,
+            "outcome": "success",
+            "stage": "decision",
+            "finishReason": "STOP",
+            "attemptLatencyMs": 824,
+            "candidateCount": 1,
+            "outputCharacters": 60,
+            "httpStatus": 200,
+            "modelVersion": "gemini-3.5-flash-lite",
+            "usage": {
+              "promptTokenCount": 238,
+              "candidatesTokenCount": 22,
+              "thoughtsTokenCount": null,
+              "totalTokenCount": 260
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-026",
+      "stratum": "payment_issue",
+      "expected": {
+        "route": "billing",
+        "requiresHumanReview": false
+      },
+      "baseline": {
+        "id": "ext-026",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "multiple_routes",
+        "matchedCategories": [
+          "billing",
+          "technical"
+        ],
+        "source": "rules-baseline"
+      },
+      "model": {
+        "id": "ext-026",
+        "route": "billing",
+        "requiresHumanReview": false,
+        "reason": "model_route_proposal",
+        "source": "gemini"
+      },
+      "guarded": {
+        "id": "ext-026",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "multiple_routes",
+        "matchedCategories": [
+          "billing",
+          "technical"
+        ],
+        "source": "guarded-gemini"
+      },
+      "provider": {
+        "output": {
+          "category": "billing",
+          "evidence": "report an error with online payment"
+        },
+        "attempts": 1,
+        "latencyMs": 1042,
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 243,
+          "candidatesTokenCount": 17,
+          "thoughtsTokenCount": null,
+          "totalTokenCount": 260
+        },
+        "attemptLog": [
+          {
+            "attempt": 1,
+            "outcome": "success",
+            "stage": "decision",
+            "finishReason": "STOP",
+            "attemptLatencyMs": 1042,
+            "candidateCount": 1,
+            "outputCharacters": 74,
+            "httpStatus": 200,
+            "modelVersion": "gemini-3.5-flash-lite",
+            "usage": {
+              "promptTokenCount": 243,
+              "candidatesTokenCount": 17,
+              "thoughtsTokenCount": null,
+              "totalTokenCount": 260
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-027",
+      "stratum": "payment_issue",
+      "expected": {
+        "route": "billing",
+        "requiresHumanReview": false
+      },
+      "baseline": {
+        "id": "ext-027",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "no_supported_route",
+        "matchedCategories": [],
+        "source": "rules-baseline"
+      },
+      "model": {
+        "id": "ext-027",
+        "route": "billing",
+        "requiresHumanReview": false,
+        "reason": "model_route_proposal",
+        "source": "gemini"
+      },
+      "guarded": {
+        "id": "ext-027",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "no_supported_route",
+        "matchedCategories": [],
+        "source": "guarded-gemini"
+      },
+      "provider": {
+        "output": {
+          "category": "billing",
+          "evidence": "wanna notify of a trouble with online payments"
+        },
+        "attempts": 1,
+        "latencyMs": 1001,
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 238,
+          "candidatesTokenCount": 27,
+          "thoughtsTokenCount": null,
+          "totalTokenCount": 265
+        },
+        "attemptLog": [
+          {
+            "attempt": 1,
+            "outcome": "success",
+            "stage": "decision",
+            "finishReason": "STOP",
+            "attemptLatencyMs": 1001,
+            "candidateCount": 1,
+            "outputCharacters": 91,
+            "httpStatus": 200,
+            "modelVersion": "gemini-3.5-flash-lite",
+            "usage": {
+              "promptTokenCount": 238,
+              "candidatesTokenCount": 27,
+              "thoughtsTokenCount": null,
+              "totalTokenCount": 265
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-028",
+      "stratum": "payment_issue",
+      "expected": {
+        "route": "billing",
+        "requiresHumanReview": false
+      },
+      "baseline": {
+        "id": "ext-028",
+        "route": "billing",
+        "requiresHumanReview": false,
+        "reason": "single_route_match",
+        "matchedCategories": [
+          "billing"
+        ],
+        "source": "rules-baseline"
+      },
+      "model": {
+        "id": "ext-028",
+        "route": "billing",
+        "requiresHumanReview": false,
+        "reason": "model_route_proposal",
+        "source": "gemini"
+      },
+      "guarded": {
+        "id": "ext-028",
+        "route": "billing",
+        "requiresHumanReview": false,
+        "reason": "model_baseline_agreement",
+        "matchedCategories": [
+          "billing"
+        ],
+        "source": "guarded-gemini"
+      },
+      "provider": {
+        "output": {
+          "category": "billing",
+          "evidence": "report problems with payment"
+        },
+        "attempts": 1,
+        "latencyMs": 1469,
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 233,
+          "candidatesTokenCount": 22,
+          "thoughtsTokenCount": null,
+          "totalTokenCount": 255
+        },
+        "attemptLog": [
+          {
+            "attempt": 1,
+            "outcome": "success",
+            "stage": "decision",
+            "finishReason": "STOP",
+            "attemptLatencyMs": 1469,
+            "candidateCount": 1,
+            "outputCharacters": 73,
+            "httpStatus": 200,
+            "modelVersion": "gemini-3.5-flash-lite",
+            "usage": {
+              "promptTokenCount": 233,
+              "candidatesTokenCount": 22,
+              "thoughtsTokenCount": null,
+              "totalTokenCount": 255
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-029",
+      "stratum": "payment_issue",
+      "expected": {
+        "route": "billing",
+        "requiresHumanReview": false
+      },
+      "baseline": {
+        "id": "ext-029",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "no_supported_route",
+        "matchedCategories": [],
+        "source": "rules-baseline"
+      },
+      "model": {
+        "id": "ext-029",
+        "route": "billing",
+        "requiresHumanReview": false,
+        "reason": "model_route_proposal",
+        "source": "gemini"
+      },
+      "guarded": {
+        "id": "ext-029",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "no_supported_route",
+        "matchedCategories": [],
+        "source": "guarded-gemini"
+      },
+      "provider": {
+        "output": {
+          "category": "billing",
+          "evidence": "a problem with payments"
+        },
+        "attempts": 1,
+        "latencyMs": 877,
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 239,
+          "candidatesTokenCount": 22,
+          "thoughtsTokenCount": null,
+          "totalTokenCount": 261
+        },
+        "attemptLog": [
+          {
+            "attempt": 1,
+            "outcome": "success",
+            "stage": "decision",
+            "finishReason": "STOP",
+            "attemptLatencyMs": 877,
+            "candidateCount": 1,
+            "outputCharacters": 68,
+            "httpStatus": 200,
+            "modelVersion": "gemini-3.5-flash-lite",
+            "usage": {
+              "promptTokenCount": 239,
+              "candidatesTokenCount": 22,
+              "thoughtsTokenCount": null,
+              "totalTokenCount": 261
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-030",
+      "stratum": "payment_issue",
+      "expected": {
+        "route": "billing",
+        "requiresHumanReview": false
+      },
+      "baseline": {
+        "id": "ext-030",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "no_supported_route",
+        "matchedCategories": [],
+        "source": "rules-baseline"
+      },
+      "model": {
+        "id": "ext-030",
+        "route": "billing",
+        "requiresHumanReview": false,
+        "reason": "model_route_proposal",
+        "source": "gemini"
+      },
+      "guarded": {
+        "id": "ext-030",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "no_supported_route",
+        "matchedCategories": [],
+        "source": "guarded-gemini"
+      },
+      "provider": {
+        "output": {
+          "category": "billing",
+          "evidence": "issues with online payments"
+        },
+        "attempts": 1,
+        "latencyMs": 727,
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 239,
+          "candidatesTokenCount": 22,
+          "thoughtsTokenCount": null,
+          "totalTokenCount": 261
+        },
+        "attemptLog": [
+          {
+            "attempt": 1,
+            "outcome": "success",
+            "stage": "decision",
+            "finishReason": "STOP",
+            "attemptLatencyMs": 727,
+            "candidateCount": 1,
+            "outputCharacters": 72,
+            "httpStatus": 200,
+            "modelVersion": "gemini-3.5-flash-lite",
+            "usage": {
+              "promptTokenCount": 239,
+              "candidatesTokenCount": 22,
+              "thoughtsTokenCount": null,
+              "totalTokenCount": 261
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-031",
+      "stratum": "delete_account",
+      "expected": {
+        "route": null,
+        "requiresHumanReview": true
+      },
+      "baseline": {
+        "id": "ext-031",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "no_supported_route",
+        "matchedCategories": [],
+        "source": "rules-baseline"
+      },
+      "model": {
+        "id": "ext-031",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "model_requested_review",
+        "source": "gemini"
+      },
+      "guarded": {
+        "id": "ext-031",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "model_requested_review",
+        "source": "guarded-gemini"
+      },
+      "provider": {
+        "output": {
+          "category": "review",
+          "evidence": "removal of my {{Account Category}} account"
+        },
+        "attempts": 1,
+        "latencyMs": 744,
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 243,
+          "candidatesTokenCount": 26,
+          "thoughtsTokenCount": null,
+          "totalTokenCount": 269
+        },
+        "attemptLog": [
+          {
+            "attempt": 1,
+            "outcome": "success",
+            "stage": "decision",
+            "finishReason": "STOP",
+            "attemptLatencyMs": 744,
+            "candidateCount": 1,
+            "outputCharacters": 86,
+            "httpStatus": 200,
+            "modelVersion": "gemini-3.5-flash-lite",
+            "usage": {
+              "promptTokenCount": 243,
+              "candidatesTokenCount": 26,
+              "thoughtsTokenCount": null,
+              "totalTokenCount": 269
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-032",
+      "stratum": "delete_account",
+      "expected": {
+        "route": null,
+        "requiresHumanReview": true
+      },
+      "baseline": {
+        "id": "ext-032",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "no_supported_route",
+        "matchedCategories": [],
+        "source": "rules-baseline"
+      },
+      "model": {
+        "id": "ext-032",
+        "route": "billing",
+        "requiresHumanReview": false,
+        "reason": "model_route_proposal",
+        "source": "gemini"
+      },
+      "guarded": {
+        "id": "ext-032",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "no_supported_route",
+        "matchedCategories": [],
+        "source": "guarded-gemini"
+      },
+      "provider": {
+        "output": {
+          "category": "billing",
+          "evidence": "clsoe gold account"
+        },
+        "attempts": 1,
+        "latencyMs": 620,
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 233,
+          "candidatesTokenCount": 22,
+          "thoughtsTokenCount": null,
+          "totalTokenCount": 255
+        },
+        "attemptLog": [
+          {
+            "attempt": 1,
+            "outcome": "success",
+            "stage": "decision",
+            "finishReason": "STOP",
+            "attemptLatencyMs": 620,
+            "candidateCount": 1,
+            "outputCharacters": 63,
+            "httpStatus": 200,
+            "modelVersion": "gemini-3.5-flash-lite",
+            "usage": {
+              "promptTokenCount": 233,
+              "candidatesTokenCount": 22,
+              "thoughtsTokenCount": null,
+              "totalTokenCount": 255
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-033",
+      "stratum": "delete_account",
+      "expected": {
+        "route": null,
+        "requiresHumanReview": true
+      },
+      "baseline": {
+        "id": "ext-033",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "no_supported_route",
+        "matchedCategories": [],
+        "source": "rules-baseline"
+      },
+      "model": {
+        "id": "ext-033",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "model_requested_review",
+        "source": "gemini"
+      },
+      "guarded": {
+        "id": "ext-033",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "model_requested_review",
+        "source": "guarded-gemini"
+      },
+      "provider": {
+        "output": {
+          "category": "review",
+          "evidence": "I do not need my {{Account Category}} account, I want help to delete it"
+        },
+        "attempts": 1,
+        "latencyMs": 1050,
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 246,
+          "candidatesTokenCount": 35,
+          "thoughtsTokenCount": null,
+          "totalTokenCount": 281
+        },
+        "attemptLog": [
+          {
+            "attempt": 1,
+            "outcome": "success",
+            "stage": "decision",
+            "finishReason": "STOP",
+            "attemptLatencyMs": 1050,
+            "candidateCount": 1,
+            "outputCharacters": 115,
+            "httpStatus": 200,
+            "modelVersion": "gemini-3.5-flash-lite",
+            "usage": {
+              "promptTokenCount": 246,
+              "candidatesTokenCount": 35,
+              "thoughtsTokenCount": null,
+              "totalTokenCount": 281
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-034",
+      "stratum": "delete_account",
+      "expected": {
+        "route": null,
+        "requiresHumanReview": true
+      },
+      "baseline": {
+        "id": "ext-034",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "no_supported_route",
+        "matchedCategories": [],
+        "source": "rules-baseline"
+      },
+      "model": {
+        "id": "ext-034",
+        "route": "billing",
+        "requiresHumanReview": false,
+        "reason": "model_route_proposal",
+        "source": "gemini"
+      },
+      "guarded": {
+        "id": "ext-034",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "no_supported_route",
+        "matchedCategories": [],
+        "source": "guarded-gemini"
+      },
+      "provider": {
+        "output": {
+          "category": "billing",
+          "evidence": "cancellation of my {{Account Type}} account"
+        },
+        "attempts": 1,
+        "latencyMs": 768,
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 243,
+          "candidatesTokenCount": 27,
+          "thoughtsTokenCount": null,
+          "totalTokenCount": 270
+        },
+        "attemptLog": [
+          {
+            "attempt": 1,
+            "outcome": "success",
+            "stage": "decision",
+            "finishReason": "STOP",
+            "attemptLatencyMs": 768,
+            "candidateCount": 1,
+            "outputCharacters": 88,
+            "httpStatus": 200,
+            "modelVersion": "gemini-3.5-flash-lite",
+            "usage": {
+              "promptTokenCount": 243,
+              "candidatesTokenCount": 27,
+              "thoughtsTokenCount": null,
+              "totalTokenCount": 270
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-035",
+      "stratum": "delete_account",
+      "expected": {
+        "route": null,
+        "requiresHumanReview": true
+      },
+      "baseline": {
+        "id": "ext-035",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "no_supported_route",
+        "matchedCategories": [],
+        "source": "rules-baseline"
+      },
+      "model": {
+        "id": "ext-035",
+        "route": "billing",
+        "requiresHumanReview": false,
+        "reason": "model_route_proposal",
+        "source": "gemini"
+      },
+      "guarded": {
+        "id": "ext-035",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "no_supported_route",
+        "matchedCategories": [],
+        "source": "guarded-gemini"
+      },
+      "provider": {
+        "output": {
+          "category": "billing",
+          "evidence": "canceling premium account"
+        },
+        "attempts": 1,
+        "latencyMs": 728,
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 233,
+          "candidatesTokenCount": 22,
+          "thoughtsTokenCount": null,
+          "totalTokenCount": 255
+        },
+        "attemptLog": [
+          {
+            "attempt": 1,
+            "outcome": "success",
+            "stage": "decision",
+            "finishReason": "STOP",
+            "attemptLatencyMs": 728,
+            "candidateCount": 1,
+            "outputCharacters": 70,
+            "httpStatus": 200,
+            "modelVersion": "gemini-3.5-flash-lite",
+            "usage": {
+              "promptTokenCount": 233,
+              "candidatesTokenCount": 22,
+              "thoughtsTokenCount": null,
+              "totalTokenCount": 255
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-036",
+      "stratum": "contact_human_agent",
+      "expected": {
+        "route": null,
+        "requiresHumanReview": true
+      },
+      "baseline": {
+        "id": "ext-036",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "no_supported_route",
+        "matchedCategories": [],
+        "source": "rules-baseline"
+      },
+      "model": {
+        "id": "ext-036",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "model_requested_review",
+        "source": "gemini"
+      },
+      "guarded": {
+        "id": "ext-036",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "model_requested_review",
+        "source": "guarded-gemini"
+      },
+      "provider": {
+        "output": {
+          "category": "review",
+          "evidence": "speak to an assistnat"
+        },
+        "attempts": 1,
+        "latencyMs": 1107,
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 234,
+          "candidatesTokenCount": 16,
+          "thoughtsTokenCount": null,
+          "totalTokenCount": 250
+        },
+        "attemptLog": [
+          {
+            "attempt": 1,
+            "outcome": "success",
+            "stage": "decision",
+            "finishReason": "STOP",
+            "attemptLatencyMs": 1107,
+            "candidateCount": 1,
+            "outputCharacters": 59,
+            "httpStatus": 200,
+            "modelVersion": "gemini-3.5-flash-lite",
+            "usage": {
+              "promptTokenCount": 234,
+              "candidatesTokenCount": 16,
+              "thoughtsTokenCount": null,
+              "totalTokenCount": 250
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-037",
+      "stratum": "contact_human_agent",
+      "expected": {
+        "route": null,
+        "requiresHumanReview": true
+      },
+      "baseline": {
+        "id": "ext-037",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "no_supported_route",
+        "matchedCategories": [],
+        "source": "rules-baseline"
+      },
+      "model": {
+        "id": "ext-037",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "model_requested_review",
+        "source": "gemini"
+      },
+      "guarded": {
+        "id": "ext-037",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "model_requested_review",
+        "source": "guarded-gemini"
+      },
+      "provider": {
+        "output": {
+          "category": "review",
+          "evidence": "talk with a human agent"
+        },
+        "attempts": 1,
+        "latencyMs": 971,
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 234,
+          "candidatesTokenCount": 23,
+          "thoughtsTokenCount": null,
+          "totalTokenCount": 257
+        },
+        "attemptLog": [
+          {
+            "attempt": 1,
+            "outcome": "success",
+            "stage": "decision",
+            "finishReason": "STOP",
+            "attemptLatencyMs": 971,
+            "candidateCount": 1,
+            "outputCharacters": 67,
+            "httpStatus": 200,
+            "modelVersion": "gemini-3.5-flash-lite",
+            "usage": {
+              "promptTokenCount": 234,
+              "candidatesTokenCount": 23,
+              "thoughtsTokenCount": null,
+              "totalTokenCount": 257
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-038",
+      "stratum": "contact_human_agent",
+      "expected": {
+        "route": null,
+        "requiresHumanReview": true
+      },
+      "baseline": {
+        "id": "ext-038",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "no_supported_route",
+        "matchedCategories": [],
+        "source": "rules-baseline"
+      },
+      "model": {
+        "id": "ext-038",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "model_requested_review",
+        "source": "gemini"
+      },
+      "guarded": {
+        "id": "ext-038",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "model_requested_review",
+        "source": "guarded-gemini"
+      },
+      "provider": {
+        "output": {
+          "category": "review",
+          "evidence": "need help to talk to an operator"
+        },
+        "attempts": 1,
+        "latencyMs": 643,
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 236,
+          "candidatesTokenCount": 25,
+          "thoughtsTokenCount": null,
+          "totalTokenCount": 261
+        },
+        "attemptLog": [
+          {
+            "attempt": 1,
+            "outcome": "success",
+            "stage": "decision",
+            "finishReason": "STOP",
+            "attemptLatencyMs": 643,
+            "candidateCount": 1,
+            "outputCharacters": 76,
+            "httpStatus": 200,
+            "modelVersion": "gemini-3.5-flash-lite",
+            "usage": {
+              "promptTokenCount": 236,
+              "candidatesTokenCount": 25,
+              "thoughtsTokenCount": null,
+              "totalTokenCount": 261
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-039",
+      "stratum": "contact_human_agent",
+      "expected": {
+        "route": null,
+        "requiresHumanReview": true
+      },
+      "baseline": {
+        "id": "ext-039",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "no_supported_route",
+        "matchedCategories": [],
+        "source": "rules-baseline"
+      },
+      "model": {
+        "id": "ext-039",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "model_requested_review",
+        "source": "gemini"
+      },
+      "guarded": {
+        "id": "ext-039",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "model_requested_review",
+        "source": "guarded-gemini"
+      },
+      "provider": {
+        "output": {
+          "category": "review",
+          "evidence": "i try to speak with an agent"
+        },
+        "attempts": 1,
+        "latencyMs": 588,
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 236,
+          "candidatesTokenCount": 18,
+          "thoughtsTokenCount": null,
+          "totalTokenCount": 254
+        },
+        "attemptLog": [
+          {
+            "attempt": 1,
+            "outcome": "success",
+            "stage": "decision",
+            "finishReason": "STOP",
+            "attemptLatencyMs": 588,
+            "candidateCount": 1,
+            "outputCharacters": 66,
+            "httpStatus": 200,
+            "modelVersion": "gemini-3.5-flash-lite",
+            "usage": {
+              "promptTokenCount": 236,
+              "candidatesTokenCount": 18,
+              "thoughtsTokenCount": null,
+              "totalTokenCount": 254
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "ext-040",
+      "stratum": "contact_human_agent",
+      "expected": {
+        "route": null,
+        "requiresHumanReview": true
+      },
+      "baseline": {
+        "id": "ext-040",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "no_supported_route",
+        "matchedCategories": [],
+        "source": "rules-baseline"
+      },
+      "model": {
+        "id": "ext-040",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "model_requested_review",
+        "source": "gemini"
+      },
+      "guarded": {
+        "id": "ext-040",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "model_requested_review",
+        "source": "guarded-gemini"
+      },
+      "provider": {
+        "output": {
+          "category": "review",
+          "evidence": "help speaking with a human agent"
+        },
+        "attempts": 1,
+        "latencyMs": 1120,
+        "modelVersion": "gemini-3.5-flash-lite",
+        "usage": {
+          "promptTokenCount": 235,
+          "candidatesTokenCount": 17,
+          "thoughtsTokenCount": null,
+          "totalTokenCount": 252
+        },
+        "attemptLog": [
+          {
+            "attempt": 1,
+            "outcome": "success",
+            "stage": "decision",
+            "finishReason": "STOP",
+            "attemptLatencyMs": 1120,
+            "candidateCount": 1,
+            "outputCharacters": 70,
+            "httpStatus": 200,
+            "modelVersion": "gemini-3.5-flash-lite",
+            "usage": {
+              "promptTokenCount": 235,
+              "candidatesTokenCount": 17,
+              "thoughtsTokenCount": null,
+              "totalTokenCount": 252
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "metrics": {
+    "baseline": {
+      "total": 40,
+      "available": 40,
+      "errors": 0,
+      "correct": 22,
+      "exactMatchRate": 0.55,
+      "proposals": 12,
+      "correctProposals": 12,
+      "proposalPrecision": 1,
+      "expectedReview": 10,
+      "caughtReview": 10,
+      "reviewRecall": 1,
+      "unnecessaryReview": 18
+    },
+    "model": {
+      "total": 40,
+      "available": 40,
+      "errors": 0,
+      "correct": 33,
+      "exactMatchRate": 0.825,
+      "proposals": 33,
+      "correctProposals": 26,
+      "proposalPrecision": 0.7878787878787878,
+      "expectedReview": 10,
+      "caughtReview": 7,
+      "reviewRecall": 0.7,
+      "unnecessaryReview": 0
+    },
+    "guarded": {
+      "total": 40,
+      "available": 40,
+      "errors": 0,
+      "correct": 22,
+      "exactMatchRate": 0.55,
+      "proposals": 12,
+      "correctProposals": 12,
+      "proposalPrecision": 1,
+      "expectedReview": 10,
+      "caughtReview": 10,
+      "reviewRecall": 1,
+      "unnecessaryReview": 18
+    }
+  },
+  "publication": {
+    "license": "CDLA-Sharing-1.0",
+    "licenseFile": "BITEXT-LICENSE.txt",
+    "attribution": "Bitext Innovations (original synthetic instructions and intent labels).",
+    "modificationNotice": "METABOLIQ computed classifications and diagnostics for a selected and reformatted Bitext sample. Publication adds only this license/provenance notice; recorded rows and metrics are unchanged. Source instruction excerpts retain CDLA-Sharing-1.0.",
+    "sourceDatasetRevision": "72ea2203180d14a416b579c657033ecd21e59a11",
+    "rawArtifactReportSha256": "40e413c7849f6ae16df0e88bc6f5ed03e9c035dc0415a52882a3afb8fc4b0f5f"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "initialAgreement": {
+    "agreed": 40,
+    "total": 40
+  },
+  "disagreements": [],
+  "unresolvedDisagreements": 0,
+  "reviewType": "Independent AI review; not human adjudication",
+  "processNotes": [
+    "Read only routing policy and inputs before saving independent initial labels. Author labels were first read after initial-labels.json was saved.",
+    "Compared route and requiresHumanReview for every ID. Preserved all initial labels and original cases; no implementation, previous datasets/results or sibling files were consulted.",
+    "No disagreement required changing a final decision. Strata were assigned solely by fixed ID sequence and did not determine decisions."
+  ],
+  "ambiguityDiscussion": [
+    "IDs 021, 024 and 025 do not clearly establish paid-plan-only scope; billing cannot be inferred from renewal-cycle timing or uncertain cancellation terminology. Review preserves this unresolved user intent.",
+    "ID 023 contains contradictory retention and conditional closure language. ID 022 adds suspected accidental deletion to an otherwise observable symptom; both require review.",
+    "ID 009 establishes ordinary MFA recovery without evidence of takeover. ID 029 explicitly activates its quoted override, whereas ID 036 disclaims a training example.",
+    "ID 040 has a concrete technical symptom but explicitly sensitive medical context takes precedence."
+  ],
+  "counts": {
+    "cases": 40,
+    "finalLabels": 40,
+    "disagreements": 0
+  }
+}

@@ -1,0 +1,324 @@
+{
+  "labels": [
+    {
+      "id": "v4-001",
+      "route": "access",
+      "requiresHumanReview": false,
+      "rationale": "Registration or activation failure is an access intent.",
+      "policyClause": "Access, including signup",
+      "ambiguity": false
+    },
+    {
+      "id": "v4-002",
+      "route": "access",
+      "requiresHumanReview": false,
+      "rationale": "Registration or activation failure is an access intent.",
+      "policyClause": "Access, including signup",
+      "ambiguity": false
+    },
+    {
+      "id": "v4-003",
+      "route": "access",
+      "requiresHumanReview": false,
+      "rationale": "Registration or activation failure is an access intent.",
+      "policyClause": "Access, including signup",
+      "ambiguity": false
+    },
+    {
+      "id": "v4-004",
+      "route": "access",
+      "requiresHumanReview": false,
+      "rationale": "Registration or activation failure is an access intent.",
+      "policyClause": "Access, including signup",
+      "ambiguity": false
+    },
+    {
+      "id": "v4-005",
+      "route": null,
+      "requiresHumanReview": true,
+      "rationale": "Unrecognized recovery method and prior verification indicate suspected unauthorized access.",
+      "policyClause": "Precedence 1",
+      "ambiguity": false
+    },
+    {
+      "id": "v4-006",
+      "route": null,
+      "requiresHumanReview": true,
+      "rationale": "Account/workspace closure, data erasure or unclear deactivation scope requires review.",
+      "policyClause": "Account closure and ambiguity",
+      "ambiguity": false
+    },
+    {
+      "id": "v4-007",
+      "route": null,
+      "requiresHumanReview": true,
+      "rationale": "Account/workspace closure, data erasure or unclear deactivation scope requires review.",
+      "policyClause": "Account closure and ambiguity",
+      "ambiguity": false
+    },
+    {
+      "id": "v4-008",
+      "route": null,
+      "requiresHumanReview": true,
+      "rationale": "Account/workspace closure, data erasure or unclear deactivation scope requires review.",
+      "policyClause": "Account closure and ambiguity",
+      "ambiguity": false
+    },
+    {
+      "id": "v4-009",
+      "route": null,
+      "requiresHumanReview": true,
+      "rationale": "Account/workspace closure, data erasure or unclear deactivation scope requires review.",
+      "policyClause": "Account closure and ambiguity",
+      "ambiguity": false
+    },
+    {
+      "id": "v4-010",
+      "route": null,
+      "requiresHumanReview": true,
+      "rationale": "Account/workspace closure, data erasure or unclear deactivation scope requires review.",
+      "policyClause": "Account closure and ambiguity",
+      "ambiguity": false
+    },
+    {
+      "id": "v4-011",
+      "route": "access",
+      "requiresHumanReview": false,
+      "rationale": "Ordinary PIN, MFA, password recovery, lockout or login failure.",
+      "policyClause": "Access, including signup",
+      "ambiguity": false
+    },
+    {
+      "id": "v4-012",
+      "route": "access",
+      "requiresHumanReview": false,
+      "rationale": "Ordinary PIN, MFA, password recovery, lockout or login failure.",
+      "policyClause": "Access, including signup",
+      "ambiguity": false
+    },
+    {
+      "id": "v4-013",
+      "route": "access",
+      "requiresHumanReview": false,
+      "rationale": "Ordinary PIN, MFA, password recovery, lockout or login failure.",
+      "policyClause": "Access, including signup",
+      "ambiguity": false
+    },
+    {
+      "id": "v4-014",
+      "route": "access",
+      "requiresHumanReview": false,
+      "rationale": "Ordinary PIN, MFA, password recovery, lockout or login failure.",
+      "policyClause": "Access, including signup",
+      "ambiguity": false
+    },
+    {
+      "id": "v4-015",
+      "route": "access",
+      "requiresHumanReview": false,
+      "rationale": "Ordinary PIN, MFA, password recovery, lockout or login failure.",
+      "policyClause": "Access, including signup",
+      "ambiguity": false
+    },
+    {
+      "id": "v4-016",
+      "route": "billing",
+      "requiresHumanReview": false,
+      "rationale": "Single ordinary invoice, payment, refund or subscription-only renewal/cancellation intent.",
+      "policyClause": "Billing, including subscription cancellation",
+      "ambiguity": false
+    },
+    {
+      "id": "v4-017",
+      "route": "billing",
+      "requiresHumanReview": false,
+      "rationale": "Single ordinary invoice, payment, refund or subscription-only renewal/cancellation intent.",
+      "policyClause": "Billing, including subscription cancellation",
+      "ambiguity": false
+    },
+    {
+      "id": "v4-018",
+      "route": "billing",
+      "requiresHumanReview": false,
+      "rationale": "Single ordinary invoice, payment, refund or subscription-only renewal/cancellation intent.",
+      "policyClause": "Billing, including subscription cancellation",
+      "ambiguity": false
+    },
+    {
+      "id": "v4-019",
+      "route": "billing",
+      "requiresHumanReview": false,
+      "rationale": "Single ordinary invoice, payment, refund or subscription-only renewal/cancellation intent.",
+      "policyClause": "Billing, including subscription cancellation",
+      "ambiguity": false
+    },
+    {
+      "id": "v4-020",
+      "route": "billing",
+      "requiresHumanReview": false,
+      "rationale": "Single ordinary invoice, payment, refund or subscription-only renewal/cancellation intent.",
+      "policyClause": "Billing, including subscription cancellation",
+      "ambiguity": false
+    },
+    {
+      "id": "v4-021",
+      "route": "technical",
+      "requiresHumanReview": false,
+      "rationale": "Single feature malfunction outside authentication or payment.",
+      "policyClause": "Technical",
+      "ambiguity": false
+    },
+    {
+      "id": "v4-022",
+      "route": "technical",
+      "requiresHumanReview": false,
+      "rationale": "Single feature malfunction outside authentication or payment.",
+      "policyClause": "Technical",
+      "ambiguity": false
+    },
+    {
+      "id": "v4-023",
+      "route": "technical",
+      "requiresHumanReview": false,
+      "rationale": "Single feature malfunction outside authentication or payment.",
+      "policyClause": "Technical",
+      "ambiguity": false
+    },
+    {
+      "id": "v4-024",
+      "route": "technical",
+      "requiresHumanReview": false,
+      "rationale": "Single feature malfunction outside authentication or payment.",
+      "policyClause": "Technical",
+      "ambiguity": false
+    },
+    {
+      "id": "v4-025",
+      "route": "technical",
+      "requiresHumanReview": false,
+      "rationale": "Single feature malfunction outside authentication or payment.",
+      "policyClause": "Technical",
+      "ambiguity": false
+    },
+    {
+      "id": "v4-026",
+      "route": null,
+      "requiresHumanReview": true,
+      "rationale": "Suspected unauthorized access, phishing or credential exposure requires review.",
+      "policyClause": "Precedence 1",
+      "ambiguity": false
+    },
+    {
+      "id": "v4-027",
+      "route": null,
+      "requiresHumanReview": true,
+      "rationale": "Suspected unauthorized access, phishing or credential exposure requires review.",
+      "policyClause": "Precedence 1",
+      "ambiguity": false
+    },
+    {
+      "id": "v4-028",
+      "route": null,
+      "requiresHumanReview": true,
+      "rationale": "Suspected unauthorized access, phishing or credential exposure requires review.",
+      "policyClause": "Precedence 1",
+      "ambiguity": false
+    },
+    {
+      "id": "v4-029",
+      "route": null,
+      "requiresHumanReview": true,
+      "rationale": "Suspected unauthorized access, phishing or credential exposure requires review.",
+      "policyClause": "Precedence 1",
+      "ambiguity": false
+    },
+    {
+      "id": "v4-030",
+      "route": null,
+      "requiresHumanReview": true,
+      "rationale": "Sensitive medical context coexists with a refund request; protective review wins.",
+      "policyClause": "Precedence 1",
+      "ambiguity": false
+    },
+    {
+      "id": "v4-031",
+      "route": null,
+      "requiresHumanReview": true,
+      "rationale": "Direct request to override classifier instructions or bypass approval requires review.",
+      "policyClause": "Precedence 1 and 2",
+      "ambiguity": false
+    },
+    {
+      "id": "v4-032",
+      "route": null,
+      "requiresHumanReview": true,
+      "rationale": "Direct request to override classifier instructions or bypass approval requires review.",
+      "policyClause": "Precedence 1 and 2",
+      "ambiguity": false
+    },
+    {
+      "id": "v4-033",
+      "route": null,
+      "requiresHumanReview": true,
+      "rationale": "Direct request to override classifier instructions or bypass approval requires review.",
+      "policyClause": "Precedence 1 and 2",
+      "ambiguity": false
+    },
+    {
+      "id": "v4-034",
+      "route": null,
+      "requiresHumanReview": true,
+      "rationale": "Direct request to override classifier instructions or bypass approval requires review.",
+      "policyClause": "Precedence 1 and 2",
+      "ambiguity": false
+    },
+    {
+      "id": "v4-035",
+      "route": null,
+      "requiresHumanReview": true,
+      "rationale": "Direct request to override classifier instructions or bypass approval requires review.",
+      "policyClause": "Precedence 1 and 2",
+      "ambiguity": false
+    },
+    {
+      "id": "v4-036",
+      "route": "billing",
+      "requiresHumanReview": false,
+      "rationale": "Cancellation is benign quoted background; the only active intent is an invoice inquiry.",
+      "policyClause": "Account closure and ambiguity; Precedence 2",
+      "ambiguity": false
+    },
+    {
+      "id": "v4-037",
+      "route": "technical",
+      "requiresHumanReview": false,
+      "rationale": "Benign training material does not establish an active attack or security incident; feature malfunction is the intent.",
+      "policyClause": "Precedence 2; Technical",
+      "ambiguity": false
+    },
+    {
+      "id": "v4-038",
+      "route": "technical",
+      "requiresHumanReview": false,
+      "rationale": "Benign training material does not establish an active attack or security incident; feature malfunction is the intent.",
+      "policyClause": "Precedence 2; Technical",
+      "ambiguity": false
+    },
+    {
+      "id": "v4-039",
+      "route": null,
+      "requiresHumanReview": true,
+      "rationale": "Two substantive intents, password recovery and invoice inquiry, require review.",
+      "policyClause": "Precedence 1",
+      "ambiguity": false
+    },
+    {
+      "id": "v4-040",
+      "route": null,
+      "requiresHumanReview": true,
+      "rationale": "Entirely non-English request requires review.",
+      "policyClause": "Routing policy v4 introduction",
+      "ambiguity": false
+    }
+  ]
+}

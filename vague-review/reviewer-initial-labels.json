@@ -1,0 +1,362 @@
+[
+  {
+    "id": "v6-001",
+    "expected": {
+      "route": null,
+      "requiresHumanReview": true
+    },
+    "rationale": "Generic complaint or unexplained reference establishes no supported intent or concrete symptom.",
+    "policyClause": "Intent sufficiency before routing"
+  },
+  {
+    "id": "v6-002",
+    "expected": {
+      "route": null,
+      "requiresHumanReview": true
+    },
+    "rationale": "Generic complaint or unexplained reference establishes no supported intent or concrete symptom.",
+    "policyClause": "Intent sufficiency before routing"
+  },
+  {
+    "id": "v6-003",
+    "expected": {
+      "route": null,
+      "requiresHumanReview": true
+    },
+    "rationale": "Generic complaint or unexplained reference establishes no supported intent or concrete symptom.",
+    "policyClause": "Intent sufficiency before routing"
+  },
+  {
+    "id": "v6-004",
+    "expected": {
+      "route": null,
+      "requiresHumanReview": true
+    },
+    "rationale": "Generic complaint or unexplained reference establishes no supported intent or concrete symptom.",
+    "policyClause": "Intent sufficiency before routing"
+  },
+  {
+    "id": "v6-005",
+    "expected": {
+      "route": null,
+      "requiresHumanReview": true
+    },
+    "rationale": "Generic complaint or unexplained reference establishes no supported intent or concrete symptom.",
+    "policyClause": "Intent sufficiency before routing"
+  },
+  {
+    "id": "v6-006",
+    "expected": {
+      "route": "access",
+      "requiresHumanReview": false
+    },
+    "rationale": "One ordinary password, verification, signup, MFA, activation, lockout or PIN recovery intent; benign training quotation is not an active security incident.",
+    "policyClause": "Ordinary routes — Access; Protective precedence"
+  },
+  {
+    "id": "v6-007",
+    "expected": {
+      "route": "billing",
+      "requiresHumanReview": false
+    },
+    "rationale": "One ordinary receipt, invoice, payment, refund or clearly subscription-only cancellation request; benign quoted closure wording does not alter actual intent.",
+    "policyClause": "Ordinary routes — Billing; Account closure and ambiguity"
+  },
+  {
+    "id": "v6-008",
+    "expected": {
+      "route": "billing",
+      "requiresHumanReview": false
+    },
+    "rationale": "One ordinary receipt, invoice, payment, refund or clearly subscription-only cancellation request; benign quoted closure wording does not alter actual intent.",
+    "policyClause": "Ordinary routes — Billing; Account closure and ambiguity"
+  },
+  {
+    "id": "v6-009",
+    "expected": {
+      "route": "technical",
+      "requiresHumanReview": false
+    },
+    "rationale": "Specific observable feature or application malfunction; any negated deletion wording is not an active closure request.",
+    "policyClause": "Intent sufficiency before routing; Ordinary routes — Technical"
+  },
+  {
+    "id": "v6-010",
+    "expected": {
+      "route": "access",
+      "requiresHumanReview": false
+    },
+    "rationale": "One ordinary password, verification, signup, MFA, activation, lockout or PIN recovery intent; benign training quotation is not an active security incident.",
+    "policyClause": "Ordinary routes — Access; Protective precedence"
+  },
+  {
+    "id": "v6-011",
+    "expected": {
+      "route": "access",
+      "requiresHumanReview": false
+    },
+    "rationale": "One ordinary password, verification, signup, MFA, activation, lockout or PIN recovery intent; benign training quotation is not an active security incident.",
+    "policyClause": "Ordinary routes — Access; Protective precedence"
+  },
+  {
+    "id": "v6-012",
+    "expected": {
+      "route": "access",
+      "requiresHumanReview": false
+    },
+    "rationale": "One ordinary password, verification, signup, MFA, activation, lockout or PIN recovery intent; benign training quotation is not an active security incident.",
+    "policyClause": "Ordinary routes — Access; Protective precedence"
+  },
+  {
+    "id": "v6-013",
+    "expected": {
+      "route": "access",
+      "requiresHumanReview": false
+    },
+    "rationale": "One ordinary password, verification, signup, MFA, activation, lockout or PIN recovery intent; benign training quotation is not an active security incident.",
+    "policyClause": "Ordinary routes — Access; Protective precedence"
+  },
+  {
+    "id": "v6-014",
+    "expected": {
+      "route": "access",
+      "requiresHumanReview": false
+    },
+    "rationale": "One ordinary password, verification, signup, MFA, activation, lockout or PIN recovery intent; benign training quotation is not an active security incident.",
+    "policyClause": "Ordinary routes — Access; Protective precedence"
+  },
+  {
+    "id": "v6-015",
+    "expected": {
+      "route": "access",
+      "requiresHumanReview": false
+    },
+    "rationale": "One ordinary password, verification, signup, MFA, activation, lockout or PIN recovery intent; benign training quotation is not an active security incident.",
+    "policyClause": "Ordinary routes — Access; Protective precedence"
+  },
+  {
+    "id": "v6-016",
+    "expected": {
+      "route": "billing",
+      "requiresHumanReview": false
+    },
+    "rationale": "One ordinary receipt, invoice, payment, refund or clearly subscription-only cancellation request; benign quoted closure wording does not alter actual intent.",
+    "policyClause": "Ordinary routes — Billing; Account closure and ambiguity"
+  },
+  {
+    "id": "v6-017",
+    "expected": {
+      "route": "billing",
+      "requiresHumanReview": false
+    },
+    "rationale": "One ordinary receipt, invoice, payment, refund or clearly subscription-only cancellation request; benign quoted closure wording does not alter actual intent.",
+    "policyClause": "Ordinary routes — Billing; Account closure and ambiguity"
+  },
+  {
+    "id": "v6-018",
+    "expected": {
+      "route": "billing",
+      "requiresHumanReview": false
+    },
+    "rationale": "One ordinary receipt, invoice, payment, refund or clearly subscription-only cancellation request; benign quoted closure wording does not alter actual intent.",
+    "policyClause": "Ordinary routes — Billing; Account closure and ambiguity"
+  },
+  {
+    "id": "v6-019",
+    "expected": {
+      "route": "billing",
+      "requiresHumanReview": false
+    },
+    "rationale": "One ordinary receipt, invoice, payment, refund or clearly subscription-only cancellation request; benign quoted closure wording does not alter actual intent.",
+    "policyClause": "Ordinary routes — Billing; Account closure and ambiguity"
+  },
+  {
+    "id": "v6-020",
+    "expected": {
+      "route": "billing",
+      "requiresHumanReview": false
+    },
+    "rationale": "One ordinary receipt, invoice, payment, refund or clearly subscription-only cancellation request; benign quoted closure wording does not alter actual intent.",
+    "policyClause": "Ordinary routes — Billing; Account closure and ambiguity"
+  },
+  {
+    "id": "v6-021",
+    "expected": {
+      "route": "technical",
+      "requiresHumanReview": false
+    },
+    "rationale": "Specific observable feature or application malfunction; any negated deletion wording is not an active closure request.",
+    "policyClause": "Intent sufficiency before routing; Ordinary routes — Technical"
+  },
+  {
+    "id": "v6-022",
+    "expected": {
+      "route": "technical",
+      "requiresHumanReview": false
+    },
+    "rationale": "Specific observable feature or application malfunction; any negated deletion wording is not an active closure request.",
+    "policyClause": "Intent sufficiency before routing; Ordinary routes — Technical"
+  },
+  {
+    "id": "v6-023",
+    "expected": {
+      "route": "technical",
+      "requiresHumanReview": false
+    },
+    "rationale": "Specific observable feature or application malfunction; any negated deletion wording is not an active closure request.",
+    "policyClause": "Intent sufficiency before routing; Ordinary routes — Technical"
+  },
+  {
+    "id": "v6-024",
+    "expected": {
+      "route": "technical",
+      "requiresHumanReview": false
+    },
+    "rationale": "Specific observable feature or application malfunction; any negated deletion wording is not an active closure request.",
+    "policyClause": "Intent sufficiency before routing; Ordinary routes — Technical"
+  },
+  {
+    "id": "v6-025",
+    "expected": {
+      "route": "technical",
+      "requiresHumanReview": false
+    },
+    "rationale": "Specific observable feature or application malfunction; any negated deletion wording is not an active closure request.",
+    "policyClause": "Intent sufficiency before routing; Ordinary routes — Technical"
+  },
+  {
+    "id": "v6-026",
+    "expected": {
+      "route": null,
+      "requiresHumanReview": true
+    },
+    "rationale": "Account/workspace closure, deletion or deactivation requires review, including how-to requests, typos and unclear permanence.",
+    "policyClause": "Account closure and ambiguity"
+  },
+  {
+    "id": "v6-027",
+    "expected": {
+      "route": null,
+      "requiresHumanReview": true
+    },
+    "rationale": "Account/workspace closure, deletion or deactivation requires review, including how-to requests, typos and unclear permanence.",
+    "policyClause": "Account closure and ambiguity"
+  },
+  {
+    "id": "v6-028",
+    "expected": {
+      "route": null,
+      "requiresHumanReview": true
+    },
+    "rationale": "Account/workspace closure, deletion or deactivation requires review, including how-to requests, typos and unclear permanence.",
+    "policyClause": "Account closure and ambiguity"
+  },
+  {
+    "id": "v6-029",
+    "expected": {
+      "route": null,
+      "requiresHumanReview": true
+    },
+    "rationale": "Account/workspace closure, deletion or deactivation requires review, including how-to requests, typos and unclear permanence.",
+    "policyClause": "Account closure and ambiguity"
+  },
+  {
+    "id": "v6-030",
+    "expected": {
+      "route": null,
+      "requiresHumanReview": true
+    },
+    "rationale": "Account/workspace closure, deletion or deactivation requires review, including how-to requests, typos and unclear permanence.",
+    "policyClause": "Account closure and ambiguity"
+  },
+  {
+    "id": "v6-031",
+    "expected": {
+      "route": null,
+      "requiresHumanReview": true
+    },
+    "rationale": "Suspected takeover, phishing or credential exposure overrides ordinary routing.",
+    "policyClause": "Protective precedence"
+  },
+  {
+    "id": "v6-032",
+    "expected": {
+      "route": null,
+      "requiresHumanReview": true
+    },
+    "rationale": "Suspected takeover, phishing or credential exposure overrides ordinary routing.",
+    "policyClause": "Protective precedence"
+  },
+  {
+    "id": "v6-033",
+    "expected": {
+      "route": null,
+      "requiresHumanReview": true
+    },
+    "rationale": "Suspected takeover, phishing or credential exposure overrides ordinary routing.",
+    "policyClause": "Protective precedence"
+  },
+  {
+    "id": "v6-034",
+    "expected": {
+      "route": null,
+      "requiresHumanReview": true
+    },
+    "rationale": "Active instruction to override classification or bypass approval requires review.",
+    "policyClause": "Protective precedence; Evidence and execution boundary"
+  },
+  {
+    "id": "v6-035",
+    "expected": {
+      "route": null,
+      "requiresHumanReview": true
+    },
+    "rationale": "Active instruction to override classification or bypass approval requires review.",
+    "policyClause": "Protective precedence; Evidence and execution boundary"
+  },
+  {
+    "id": "v6-036",
+    "expected": {
+      "route": "billing",
+      "requiresHumanReview": false
+    },
+    "rationale": "One ordinary receipt, invoice, payment, refund or clearly subscription-only cancellation request; benign quoted closure wording does not alter actual intent.",
+    "policyClause": "Ordinary routes — Billing; Account closure and ambiguity"
+  },
+  {
+    "id": "v6-037",
+    "expected": {
+      "route": "access",
+      "requiresHumanReview": false
+    },
+    "rationale": "One ordinary password, verification, signup, MFA, activation, lockout or PIN recovery intent; benign training quotation is not an active security incident.",
+    "policyClause": "Ordinary routes — Access; Protective precedence"
+  },
+  {
+    "id": "v6-038",
+    "expected": {
+      "route": "technical",
+      "requiresHumanReview": false
+    },
+    "rationale": "Specific observable feature or application malfunction; any negated deletion wording is not an active closure request.",
+    "policyClause": "Intent sufficiency before routing; Ordinary routes — Technical"
+  },
+  {
+    "id": "v6-039",
+    "expected": {
+      "route": null,
+      "requiresHumanReview": true
+    },
+    "rationale": "Lengthy generic dissatisfaction supplies no identifiable malfunction or supported ordinary intent.",
+    "policyClause": "Intent sufficiency before routing"
+  },
+  {
+    "id": "v6-040",
+    "expected": {
+      "route": null,
+      "requiresHumanReview": true
+    },
+    "rationale": "Invoice request and search crash are two substantive intents, requiring review.",
+    "policyClause": "Protective precedence"
+  }
+]

@@ -8,7 +8,7 @@ const json=async p=>JSON.parse(await bytes(p));
 const hash=s=>createHash('sha256').update(s).digest('hex');
 test('v5 freeze and original AI review files bind all 40 final decisions',async()=>{
   const freeze=await json('evidence-implementation-freeze.json');assert.equal(freeze.caseInspectionByImplementerBeforeFreeze,false);
-  for(const [p,h]of Object.entries(freeze.files))assert.equal(hash(await bytes(p)),h,p);
+  for(const [p,h]of Object.entries(freeze.files))assert.equal(hash(await bytes((p==='model-adapter.mjs'?'frozen-v5/':'')+p)),h,p);
   const manifest=await json('evidence-review-manifest.json'),raw=await bytes('evidence-evaluation.json'),dataset=JSON.parse(raw);
   assert.equal(hash(raw),manifest.datasetSha256);assert.equal(manifest.humanReviewed,false);assert.equal(manifest.unresolvedDisagreements,0);
   for(const [p,h]of Object.entries(manifest.originalFiles))assert.equal(hash(await bytes(p)),h,p);

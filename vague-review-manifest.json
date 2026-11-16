@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "separate-context-ai-label-review",
+  "humanReviewed": false,
+  "caseCount": 40,
+  "initialAgreement": {
+    "agreed": 40,
+    "total": 40
+  },
+  "unresolvedDisagreements": 0,
+  "resolvedDisagreements": 0,
+  "datasetSha256": "5a98ba3c9e73bf80f5ac68fa5e794a83111a1942691320307e1c70e62fdb3dd5",
+  "policySha256": "f8ccfb5eb428a24d2826c413ffb1fcb7117befb4f9ea2dcf9f04b421bcb76e48",
+  "originalFiles": {
+    "author-inputs.json": "e7b33a1962f10a82c0968a777652fbd717cf756a9ed049a36bec8c3dbec0c6db",
+    "author-labels.json": "efa6d03195375601c4179071d8e69067d37d6b9eb7a9ad1fe72a225639540b4e",
+    "reviewer-initial-labels.json": "bfc768a46129e0ebf387bf9bc77a37c877d260dbb1ca2e2f7eee8976bb8b0f3f",
+    "review-resolutions.json": "5c9a8eea5fb07a0c2abd685c2c407c020c8878cc44588c1e1d1a34c11c9b5d4c",
+    "final-labels.json": "a9df2918bd58c7a42146765eca36efdc1c2390a6cf261bb6bf1fe7a2fa4b38bb"
+  },
+  "implementationFrozenAt": "2026-11-16T16:33:29.358Z",
+  "assembledAt": "2026-11-16T16:34:10.250Z",
+  "exactBodyReuseFromFivePriorSets": 0,
+  "caseReplacements": 0,
+  "limitations": "Separate AI contexts, not human adjudication. Agreement is not truth; shared blind spots and conceptual overlap remain possible. Set is now seen."
+}

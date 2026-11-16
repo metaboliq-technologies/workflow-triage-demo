@@ -9,7 +9,7 @@ const input={id:'adapter-test',subject:'Invoice copy',body:'Please share the fic
 const output={category:'billing',evidence:'invoice'};
 const payload=(value=output,extra={})=>({candidates:[{finishReason:'STOP',content:{parts:[{text:JSON.stringify(value)}]}}],modelVersion:'gemini-3.8-flash',usageMetadata:{promptTokenCount:20,candidatesTokenCount:8,totalTokenCount:28},...extra});
 const response=value=>new Response(JSON.stringify(value),{headers:{'content-type':'application/json'}});
-const make=fetchImpl=>createGeminiAdapter({apiKey:'test-key-not-a-real-credential',fetchImpl,sleep:async()=>{}});
+const make=fetchImpl=>createGeminiAdapter({apiKey:'test-key-not-a-real-credential',policyVersion:'clarified-v4',fetchImpl,sleep:async()=>{}});
 
 test('real REST request has fixed HTTPS destination, header authentication and no labels',async()=>{
   let sent;

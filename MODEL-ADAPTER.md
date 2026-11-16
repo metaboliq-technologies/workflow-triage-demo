@@ -1,6 +1,6 @@
 # Gemini adapter and fresh evaluation
 
-Current policy/version and reviewed evaluation: [REVIEWED-EVALUATION-V4.md](REVIEWED-EVALUATION-V4.md). The reports below describe earlier prompts on their frozen revisions; existing historical comparison modes explicitly use `legacy-v3`.
+Current default: `intent-sufficiency-v6`, with quoted evidence. See [the vague-request experiment and limits](VAGUE-EVALUATION-V6.md) and [written routing policy](ROUTING-POLICY-V6.md). Explicit `clarified-v4` and `legacy-v3` policies remain unchanged. Historical comparisons and reports below use their frozen source revisions; do not rerun an old freeze against the current root adapter.
 
 For the subsequent diagnostics implementation and externally authored sample, see [DIAGNOSTICS.md](DIAGNOSTICS.md). The first live results below remain historical evidence on their recorded revision.
 

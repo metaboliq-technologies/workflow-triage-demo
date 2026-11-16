@@ -7,13 +7,13 @@ import {pairedEvaluation,verifyReviewedSet,digest} from './paired-evaluation.mjs
 const input={id:'dev-policy',subject:'Example',body:'Please send an invoice for this fictional workspace.'};
 const result={output:{category:'billing',evidence:'invoice'},attempts:1,attemptLog:[]};
 
-test('default clarified prompt and explicit legacy prompt cannot be replaced by arbitrary text',async()=>{
+test('explicit historical prompts cannot be replaced by arbitrary text',async()=>{
   for(const [policyVersion,expected] of [['clarified-v4',MODEL_POLICY],['legacy-v3',LEGACY_MODEL_POLICY]]){
     let body;const a=createGeminiAdapter({apiKey:'mock',policyVersion,fetchImpl:async(url,options)=>{
       body=JSON.parse(options.body);return new Response(JSON.stringify({candidates:[{finishReason:'STOP',content:{parts:[{text:JSON.stringify(result.output)}]}}]}));}});
     await a.classify(input);assert.equal(body.systemInstruction.parts[0].text,expected);
   }
-  assert.equal(createGeminiAdapter({apiKey:'mock'}).policyVersion,'clarified-v4');
+  assert.equal(createGeminiAdapter({apiKey:'mock'}).policyVersion,'intent-sufficiency-v6');
   assert.throws(()=>createGeminiAdapter({apiKey:'mock',policyVersion:'arbitrary instructions'}),{code:'invalid_policy_version'});
   assert.equal(createHash('sha256').update(LEGACY_MODEL_POLICY).digest('hex'),'b7aca8fbf81483f9a71d638bbfef60f8c8b2348f8a219b81f531f8d25ed919df');
 });

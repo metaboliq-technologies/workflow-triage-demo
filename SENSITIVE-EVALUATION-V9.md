@@ -56,3 +56,9 @@ classification, not per attempt; interruption may leave up to two unrecorded
 in-flight attempts. Missing usage is unknown, not zero. Do not blindly rerun.
 The existing unbilled evaluation secret is used only inside the manual workflow;
 no credentials are read, no access expanded and no billing changes are included.
+
+## Partial execution outcome
+
+The **partial** [sensitive-context and fictional medical evaluation](sensitive-context-results.md) stopped at HTTP 429 after 28/40 classifications using 28/80 permitted attempts. Twelve cases remain unattempted. One earlier quote was invalid; one valid output missed required review on an actual migraine-medication reminder. Final model exact matches 25/40; rules 22/40; guarded 21/40, retaining failures and unattempted without credit. On the 26 model-valid cases: model 25, rules 16, guard 21; this excludes 14 cases and is not full-set performance. Four observed fictional-medical cases routed correctly; the fifth was unattempted. Valid required-review decisions 14/23; unnecessary reviews 0. See [every attempt and diagnostic](sensitive-context-comparison.json). Labels were separately blind AI-reviewed, not human-adjudicated. This single updated-model versus rules experiment has no paired previous-prompt control and does not establish causal policy gain, stable reliability or production readiness.
+
+All 77 software/provenance tests passed before live calls. Every initial failure remains in the saved record. Prompt, labels and frozen implementation were not tuned after results. No extra provider run was submitted.

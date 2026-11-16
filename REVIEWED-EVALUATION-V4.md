@@ -26,4 +26,6 @@ The workflow always retains and prints the saved fictional-case report, includin
 
 ## Current status
 
-Implementation and review are frozen. No live predictions on this set have been recorded yet. Publish the first paired result and all mismatches after validating the report. The earlier 30-case, hand-authored 40-case and Bitext-derived 40-case reports remain historical evidence on their own revisions and are not directly comparable across changed case mixes.
+The first paired run is complete: [all results, failures and limitations](reviewed-policy-results.md), with [the full per-case report](reviewed-policy-comparison.json). The clarified prompt matched 36/40 reviewed decisions versus 30/40 for the old prompt; each arm had two HTTP 503 and two evidence-contract failures. The clarified prompt had no mismatching valid decisions, but errors remain uncredited. On the 34 cases with valid output from both arms, observed label matches were 34/34 versus 29/34. This subset does not replace the all-case scores or prove production readiness.
+
+The original GitHub run eventually dispatched after its queue delay without a configuration change or duplicate submission. All 80 calls completed with retries disabled; GitHub intentionally marks the job failed because output/provider errors occurred. No rerun or policy tuning was used. Review was by separate AI contexts, not humans. The earlier reports remain historical evidence on their own revisions and are not directly comparable across changed case mixes.

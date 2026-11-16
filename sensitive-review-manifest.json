@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "separate-context-ai-label-review",
+  "humanReviewed": false,
+  "caseCount": 40,
+  "initialAgreement": {
+    "agreed": 40,
+    "total": 40
+  },
+  "resolvedDisagreements": 0,
+  "unresolvedDisagreements": 0,
+  "datasetSha256": "8a251155bb011fce7fafba09a907ab299c8406ec975352922f224fd918462afd",
+  "policySha256": "079ccd8dd4b3a11ad9551ce55c8807d9331ebe797107ba02aef7e8e68fe1ce5d",
+  "originalFiles": {
+    "author-inputs.json": "832e7c0c078aa9ebce33e79757caaecf235b3a29c2ebdfa070f617462d8a9428",
+    "author-labels.json": "a093eaf93e277ff9ac4b086018776d6e08eacdfb43e6a8d79864253a8069d086",
+    "reviewer-initial-labels.json": "1b1477a9626613e44d528cf6ed7cc2d98854906ab2d6eb8ac54723c224d64b03",
+    "review-resolutions.json": "79df3fe3d470221e7a5b1217a0e35bb79d71d264d72555a68eea8533411e23bb",
+    "final-labels.json": "31054441ebb6760533ce79eb7dd484792e6509cb96596d4fd0ee17b4e575f742"
+  },
+  "implementationFrozenAt": "2026-11-16T20:28:01.208Z",
+  "assembledAt": "2026-11-16T20:30:33.534Z",
+  "exactBodyReuseFromEightPriorSets": 0,
+  "caseReplacements": 0,
+  "initialReviewerLabelsExcludeStrata": true,
+  "authorProcess": {
+    "version": "v9",
+    "createdAtUTC": "2026-11-16T20:27:56.950886+00:00",
+    "completedAtUTC": "2026-11-16T20:27:56.950886+00:00",
+    "author": "Independent AI case-author subagent",
+    "provenance": "All cases newly authored fictional evaluation material; no actual personal information used. Within-world first-person disclosures are deliberately fictional test scenarios depicting real-person scope.",
+    "policyRead": [
+      "ROUTING-POLICY-V9.md"
+    ],
+    "otherFilesConsulted": [],
+    "method": "Read only supplied policy, compose 40 cases before assigning IDs, write author labels, shuffle complete cases deterministically, then assign sequential IDs to shuffled cases. No code, prior cases, or results consulted. Parent receives readiness metadata only. Separate reviewer must label inputs before seeing author labels.",
+    "shuffle": {
+      "algorithm": "Python random.Random(seed).shuffle over zero-based composition indices",
+      "seed": 91740263,
+      "permutationZeroBased": [
+        30,
+        12,
+        1,
+        16,
+        17,
+        21,
+        13,
+        8,
+        24,
+        10,
+        28,
+        6,
+        19,
+        31,
+        14,
+        0,
+        26,
+        37,
+        34,
+        29,
+        39,
+        7,
+        9,
+        38,
+        20,
+        35,
+        2,
+        5,
+        15,
+        22,
+        11,
+        25,
+        27,
+        32,
+        33,
+        18,
+        4,
+        3,
+        36,
+        23
+      ]
+    },
+    "counts": {
+      "closure_vague_controls": 5,
+      "fictional_financial": 5,
+      "fictional_medical": 5,
+      "mixed_or_ambiguous": 5,
+      "ordinary_controls": 5,
+      "real_financial": 5,
+      "real_medical": 5,
+      "security_injection": 5
+    },
+    "limitations": [
+      "AI-authored cases and labels, not human adjudication.",
+      "No claim of training-data exclusion.",
+      "Short cases do not exhaust policy edge cases."
+    ],
+    "sealed": true
+  },
+  "limitations": "Separate AI contexts, not human adjudication. Initial reviewer labels were saved without assigned strata or author labels. Shared blind spots and conceptual overlap remain possible. Routing labels do not independently adjudicate evidence support. The set is now seen."
+}

@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "frozenAt": "2026-11-16T20:28:01.208Z",
+  "caseInspectionByImplementerBeforeFreeze": false,
+  "files": {
+    "model-adapter.mjs": "5a3db4ba79a3dee844c6c402463dd5c03ef83d46e676c4ebe14c0c16afefb6a1",
+    "reliable-adapter.mjs": "ab28c650366db3d20a6be702f432ef7e5e615a56a6ff26758d1098c81fc62a7d",
+    "sensitive-adapter.mjs": "c525e603460bc2d5c45db60fcddfa6ba83b70b81f709ad1d466865c25692319b",
+    "reliability-runner.mjs": "df0150b353990bda46b821c7450d4ba06e44e50770baf2c41d2e5d6d8151c0d4",
+    "sensitive-review.mjs": "38f0a7f57b119f8686a91e9b2ebca30b73f59473fe5405e30b99fa1c26d837d6",
+    "sensitive-evaluation.mjs": "b410f2bb24079297eb77ef0d9911474193efb44a2fe5a3a99c4d7866cef2a680",
+    "triage.mjs": "15f49d62481a71da7d2eef83b8b18fcecaab0e1893873a3a88f81c37cf6a9978",
+    "compare.mjs": "953ee7809e350e8f4a228da398fd14f54c9beb3ae33b830910edef4a556b2c49",
+    "ROUTING-POLICY-V9.md": "079ccd8dd4b3a11ad9551ce55c8807d9331ebe797107ba02aef7e8e68fe1ce5d"
+  },
+  "testsPassedBeforeFreeze": 75,
+  "limits": {
+    "cases": 40,
+    "maxAttempts": 80,
+    "maxAttemptsPerClassification": 2,
+    "attemptTimeoutMs": 30000,
+    "totalTimeoutMs": 65000
+  },
+  "design": "single updated model versus unchanged rules; first/final views dependent, no previous-prompt control"
+}

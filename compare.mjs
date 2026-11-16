@@ -3,7 +3,7 @@ import {createHash} from 'node:crypto';
 import {fileURLToPath} from 'node:url';
 import {resolve} from 'node:path';
 import {triage,validateBatch} from './triage.mjs';
-import {createGeminiAdapter,MODEL_POLICY,modelDecision,guardedModelDecision,ModelError} from './model-adapter.mjs';
+import {createGeminiAdapter,LEGACY_MODEL_POLICY,modelDecision,guardedModelDecision,ModelError} from './model-adapter.mjs';
 
 const digest=text=>createHash('sha256').update(text).digest('hex');
 export function score(rows,arm) {
@@ -65,10 +65,10 @@ async function main(){
   const bytes=await readFile(new URL(independent?'./independent-evaluation.json':'./fresh-evaluation.json',import.meta.url),'utf8');
   const live=mode.endsWith('live');
   if(live&&process.env.MBQ_ALLOW_SYNTHETIC_MODEL_RUN!=='yes')throw new Error('Live evaluation requires explicit synthetic-data run opt-in.');
-  const adapter=live?createGeminiAdapter({apiKey:process.env.GEMINI_API_KEY,model:process.env.GEMINI_MODEL||'gemini-3.8-flash'}):null;
+  const adapter=live?createGeminiAdapter({apiKey:process.env.GEMINI_API_KEY,model:process.env.GEMINI_MODEL||'gemini-3.8-flash',policyVersion:'legacy-v3'}):null;
   const startedAt=live?new Date().toISOString():null;
   const result=await compareCases(JSON.parse(bytes),{adapter});
-  const report={schemaVersion:2,diagnosticsVersion:1,dataset:JSON.parse(bytes).id,datasetSha256:digest(bytes),promptSha256:digest(MODEL_POLICY),
+  const report={schemaVersion:2,diagnosticsVersion:1,dataset:JSON.parse(bytes).id,datasetSha256:digest(bytes),promptSha256:digest(LEGACY_MODEL_POLICY),
     mode:live?'live-gemini':'baseline-only',sourceCommit:/^[a-f0-9]{40}$/.test(process.env.GITHUB_SHA||'')?process.env.GITHUB_SHA:null,
     startedAt,completedAt:live?new Date().toISOString():null,provider:live?'gemini-developer-api':null,requestedModel:adapter?.model??null,
     maximumApiCalls:live?80:0,actionsExecuted:0,...result};

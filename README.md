@@ -1,5 +1,7 @@
 # Workflow triage lab
 
+The current Node adapter uses a [clarified signup/account-closure policy and a paired, independently AI-reviewed evaluation](REVIEWED-EVALUATION-V4.md). Separate AI author/reviewer contexts reviewed the new set; this is not human adjudication. Historical comparison commands retain their legacy prompt and original reports.
+
 The adapter now includes [sanitized failure diagnostics and an independently authored input evaluation protocol](DIAGNOSTICS.md). The Bitext-derived evaluation data has its own CDLA-Sharing-1.0 license; see [BITEXT-LICENSE.txt](BITEXT-LICENSE.txt). The source-code license does not restrict that data.
 
 A small, offline engineering demo from [MetaboliQ](https://metaboliq.in): validate a support request, propose a route or abstain, and inspect the evidence before connecting anything to a business system.

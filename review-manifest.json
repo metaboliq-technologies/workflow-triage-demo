@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "datasetSha256": "9a1c15488157cce40c0f05ff13e7da63accc2fe8cf2dc74a864c560312a551da",
+  "policySha256": "e7178bf3890c41581cc7af07c0f5f7880b29f975b462f2f740683f07d39e04a9",
+  "reviewType": "independent-ai-label-review",
+  "humanReviewed": false,
+  "caseCount": 40,
+  "initialAgreement": {
+    "agreed": 40,
+    "total": 40
+  },
+  "resolvedDisagreements": 0,
+  "unresolvedDisagreements": 0,
+  "reviewerInitialLabelsSha256": "868229fd8315a2931df8d37baaa894d9f0d38ad2f6a6cab78bbaa22572953e97",
+  "authorProposedLabelsSha256": "14fa2568d5352611eb0d6047c00bc05824ce49217bfeeca8fc64fde120dbcfc6",
+  "inputsOriginalSha256": "ee3ce90d91e4bcb99b8855b433f81341dc2cbaa686cd237cc6b6d193382e13b3",
+  "limitations": [
+    "AI-reviewed synthetic evidence; not human adjudication.",
+    "Author and reviewer are separate AI contexts, not a blind benchmark of provider training exposure.",
+    "Finite 40-case policy-specific sample; no statistical population-performance claim."
+  ],
+  "artifactPaths": {
+    "dataset": "work/triage-policy-v4/sealed-review/reviewed-inputs.json",
+    "initialLabels": "work/triage-policy-v4/sealed-review/initial-labels.json",
+    "provenance": "work/triage-policy-v4/sealed-review/review-provenance.md",
+    "agreement": "work/triage-policy-v4/sealed-review/agreement-summary.json",
+    "resolution": "work/triage-policy-v4/sealed-review/resolution.md",
+    "changeLog": "work/triage-policy-v4/sealed-review/change-log.md"
+  }
+}

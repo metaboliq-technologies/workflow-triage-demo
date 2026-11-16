@@ -2,7 +2,9 @@
 
 A small, offline engineering demo from [MetaboliQ](https://metaboliq.in): validate a support request, propose a route or abstain, and inspect the evidence before connecting anything to a business system.
 
-**This is a rules baseline, not an AI model or a production support agent.** A separate contract shows how a future model suggestion can be checked without trusting it to clear a guard. All bundled requests are fictional. No external APIs, keys, dependencies, telemetry or customer integrations are used.
+**The browser lab is a rules baseline, not a production support agent.** Its offline path uses fictional requests and no external APIs, keys, dependencies, telemetry or customer integrations.
+
+An optional **server-side Gemini adapter and a new 40-case comparison** are now implemented separately from the browser lab. See [MODEL-ADAPTER.md](MODEL-ADAPTER.md) for configuration, tests and live-run status. The original offline quick start and published 30-case results below are unchanged. The adapter requires authorized provider access; mocked tests are not live model measurements.
 
 ## Run it
 
@@ -63,9 +65,9 @@ The five mismatches remain visible rather than being removed or patched away aft
 
 These results **do not support production automation**. The keyword guards are not complete security, prompt-injection or sensitive-data detectors. English vocabulary, indirect intent, Unicode obfuscation, quoting and context need further work. The test suite verifies software behavior and contracts; passing tests does not erase these policy failures.
 
-## Testing a future model boundary
+## Testing the model boundary
 
-The demo does not call or impersonate a model. `reconcileSuggestion` accepts a model-shaped object with exactly `category` and `evidence`. Evidence must be an exact quote from the input. Unknown categories, fabricated evidence, extra fields, ambiguity and model/baseline disagreement go to review. Evidence matching alone does not establish that a suggestion is semantically correct.
+The offline lab does not call or impersonate a model. `reconcileSuggestion` accepts a model-shaped object with exactly `category` and `evidence`. Evidence must be an exact quote from the input. Unknown categories, fabricated evidence, extra fields, ambiguity and model/baseline disagreement go to review. Evidence matching alone does not establish that a suggestion is semantically correct. The optional Node adapter wraps this contract in a separate guarded comparison arm.
 
 ```js
 import {reconcileSuggestion} from './triage.mjs';
@@ -81,7 +83,7 @@ console.log(reconcileSuggestion(request, {
 }));
 ```
 
-A real adapter would need an explicit data-flow decision, provider configuration, timeouts, retry limits, cost controls, representative task evaluation and a held-out dataset. Business actions would still need a separate authorization boundary. No adapter or action executor is included here.
+The optional Gemini adapter includes explicit provider configuration, timeouts, bounded retries and a new diagnostic dataset. Running it requires an authorized data-flow and quota decision; see [MODEL-ADAPTER.md](MODEL-ADAPTER.md). Business actions still require a separate authorization boundary. No action executor is included.
 
 ## Repository map
 

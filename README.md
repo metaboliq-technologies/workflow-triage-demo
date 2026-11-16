@@ -1,5 +1,8 @@
 # Workflow triage lab
 
+The completed [vague-request paired evaluation](vague-review-results.md) matched 38/40 cases with the updated v6 prompt, 35/40 with previous v4, and 28/40 with rules. All 80 planned calls were attempted once; the comparison includes one HTTP 503 and one evidence-length violation without correctness credit. V6 reviewed all five vague cases and routed all five terse-clear controls correctly. Both prompts unnecessarily reviewed a negated account-closure example. Labels were authored and separately reviewed by AI, not human-adjudicated; this small synthetic result does not establish production readiness. See [every decision and diagnostic](vague-review-comparison.json).
+
+
 The optional [bounded-source evidence mode](EVIDENCE-CONTRACT-V5.md) selects request-local excerpt references instead of generating quote text. See the [fresh paired findings and every failure](evidence-contract-results.md) and [machine-readable results](evidence-contract-comparison.json). Labels were authored and separately reviewed by AI agents, not human-adjudicated. Quoted evidence remains the compatibility default; use `createGeminiAdapter({apiKey, evidenceMode: 'indexed-v1'})` to opt in. Exact extraction does not establish semantic support.
 
 The default Node adapter now applies an [intent-sufficiency check before routing vague requests](VAGUE-EVALUATION-V6.md). The paired v6 comparison holds quoted evidence constant and uses a fresh AI-authored, separately AI-reviewed set. Software tests do not establish semantic improvement; see the experiment record for live status and limits. The earlier [signup/account-closure evaluation](REVIEWED-EVALUATION-V4.md) and historical prompts remain available at their frozen revisions.

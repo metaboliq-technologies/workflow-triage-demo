@@ -48,3 +48,9 @@ v5 adapter files are archived for byte-exact provenance checks; those folders ar
 not standalone runnable packages. Original freezes and result artifacts remain
 unchanged. The new prompt's semantic behavior is assessed live, not established
 by mocked transport or provenance tests.
+
+## Completed execution
+
+The completed [vague-request paired evaluation](vague-review-results.md) matched 38/40 cases with the updated v6 prompt, 35/40 with previous v4, and 28/40 with rules. All 80 planned calls were attempted once; the comparison includes one HTTP 503 and one evidence-length violation without correctness credit. V6 reviewed all five vague cases and routed all five terse-clear controls correctly. Both prompts unnecessarily reviewed a negated account-closure example. Labels were authored and separately reviewed by AI, not human-adjudicated; this small synthetic result does not establish production readiness. See [every decision and diagnostic](vague-review-comparison.json).
+
+The originally stuck run eventually completed. GitHub reports failure because the saved complete experiment contains two call/output failures; no software test failed. The guarded recovery made no model calls. The completed record supersedes the earlier blocked snapshot.

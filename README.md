@@ -1,5 +1,7 @@
 # Workflow triage lab
 
+The optional [bounded-source evidence mode](EVIDENCE-CONTRACT-V5.md) selects request-local excerpt references instead of generating quote text. See the [fresh paired findings and every failure](evidence-contract-results.md) and [machine-readable results](evidence-contract-comparison.json). Labels were authored and separately reviewed by AI agents, not human-adjudicated. Quoted evidence remains the compatibility default; use `createGeminiAdapter({apiKey, evidenceMode: 'indexed-v1'})` to opt in. Exact extraction does not establish semantic support.
+
 The current Node adapter uses a [clarified signup/account-closure policy and a paired, independently AI-reviewed evaluation](REVIEWED-EVALUATION-V4.md). Separate AI author/reviewer contexts reviewed the new set; this is not human adjudication. Historical comparison commands retain their legacy prompt and original reports.
 
 The adapter now includes [sanitized failure diagnostics and an independently authored input evaluation protocol](DIAGNOSTICS.md). The Bitext-derived evaluation data has its own CDLA-Sharing-1.0 license; see [BITEXT-LICENSE.txt](BITEXT-LICENSE.txt). The source-code license does not restrict that data.

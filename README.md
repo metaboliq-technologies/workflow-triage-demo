@@ -1,5 +1,7 @@
 # Workflow triage lab
 
+The adapter now includes [sanitized failure diagnostics and an independently authored input evaluation protocol](DIAGNOSTICS.md). The Bitext-derived evaluation data has its own CDLA-Sharing-1.0 license; see [BITEXT-LICENSE.txt](BITEXT-LICENSE.txt). The source-code license does not restrict that data.
+
 A small, offline engineering demo from [MetaboliQ](https://metaboliq.in): validate a support request, propose a route or abstain, and inspect the evidence before connecting anything to a business system.
 
 **The browser lab is a rules baseline, not a production support agent.** Its offline path uses fictional requests and no external APIs, keys, dependencies, telemetry or customer integrations.

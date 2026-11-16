@@ -7,7 +7,7 @@ import {compareCases,score} from './compare.mjs';
 
 const input={id:'adapter-test',subject:'Invoice copy',body:'Please share the fictional invoice.'};
 const output={category:'billing',evidence:'invoice'};
-const payload=(value=output,extra={})=>({candidates:[{finishReason:'STOP',content:{parts:[{text:JSON.stringify(value)}]}}],modelVersion:'test-fixture-model',usageMetadata:{promptTokenCount:20,candidatesTokenCount:8,totalTokenCount:28},...extra});
+const payload=(value=output,extra={})=>({candidates:[{finishReason:'STOP',content:{parts:[{text:JSON.stringify(value)}]}}],modelVersion:'gemini-3.8-flash',usageMetadata:{promptTokenCount:20,candidatesTokenCount:8,totalTokenCount:28},...extra});
 const response=value=>new Response(JSON.stringify(value),{headers:{'content-type':'application/json'}});
 const make=fetchImpl=>createGeminiAdapter({apiKey:'test-key-not-a-real-credential',fetchImpl,sleep:async()=>{}});
 
@@ -26,7 +26,7 @@ test('real REST request has fixed HTTPS destination, header authentication and n
   assert.equal(body.generationConfig.maxOutputTokens,1024);
   assert.deepEqual(result.output,output);
   assert.equal(result.attempts,1);
-  assert.equal(result.modelVersion,'test-fixture-model');
+  assert.equal(result.modelVersion,'gemini-3.8-flash');
   assert.equal(result.usage.totalTokenCount,28);
 });
 test('credentials, model paths and resource limits are validated before any call',()=>{

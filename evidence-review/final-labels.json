@@ -1,0 +1,402 @@
+[
+  {
+    "id": "v5-001",
+    "stratum": "signup",
+    "expected": {
+      "route": "access",
+      "requiresHumanReview": false
+    },
+    "rationale": "Registration or activation failure is explicitly access.",
+    "policyClause": "Access, including signup"
+  },
+  {
+    "id": "v5-002",
+    "stratum": "signup",
+    "expected": {
+      "route": "access",
+      "requiresHumanReview": false
+    },
+    "rationale": "Registration or activation failure is explicitly access.",
+    "policyClause": "Access, including signup"
+  },
+  {
+    "id": "v5-003",
+    "stratum": "signup",
+    "expected": {
+      "route": "access",
+      "requiresHumanReview": false
+    },
+    "rationale": "Registration or activation failure is explicitly access.",
+    "policyClause": "Access, including signup"
+  },
+  {
+    "id": "v5-004",
+    "stratum": "signup",
+    "expected": {
+      "route": "access",
+      "requiresHumanReview": false
+    },
+    "rationale": "Registration or activation failure is explicitly access.",
+    "policyClause": "Access, including signup"
+  },
+  {
+    "id": "v5-005",
+    "stratum": "signup",
+    "expected": {
+      "route": "access",
+      "requiresHumanReview": false
+    },
+    "rationale": "Registration or activation failure is explicitly access.",
+    "policyClause": "Access, including signup"
+  },
+  {
+    "id": "v5-006",
+    "stratum": "account_closure",
+    "expected": {
+      "route": null,
+      "requiresHumanReview": true
+    },
+    "rationale": "Account/workspace closure, deletion, or unclear deactivation scope requires review.",
+    "policyClause": "Account closure and ambiguity"
+  },
+  {
+    "id": "v5-007",
+    "stratum": "account_closure",
+    "expected": {
+      "route": null,
+      "requiresHumanReview": true
+    },
+    "rationale": "Account/workspace closure, deletion, or unclear deactivation scope requires review.",
+    "policyClause": "Account closure and ambiguity"
+  },
+  {
+    "id": "v5-008",
+    "stratum": "account_closure",
+    "expected": {
+      "route": null,
+      "requiresHumanReview": true
+    },
+    "rationale": "Account/workspace closure, deletion, or unclear deactivation scope requires review.",
+    "policyClause": "Account closure and ambiguity"
+  },
+  {
+    "id": "v5-009",
+    "stratum": "account_closure",
+    "expected": {
+      "route": null,
+      "requiresHumanReview": true
+    },
+    "rationale": "Account/workspace closure, deletion, or unclear deactivation scope requires review.",
+    "policyClause": "Account closure and ambiguity"
+  },
+  {
+    "id": "v5-010",
+    "stratum": "account_closure",
+    "expected": {
+      "route": null,
+      "requiresHumanReview": true
+    },
+    "rationale": "Account/workspace closure, deletion, or unclear deactivation scope requires review.",
+    "policyClause": "Account closure and ambiguity"
+  },
+  {
+    "id": "v5-011",
+    "stratum": "ordinary_access",
+    "expected": {
+      "route": "access",
+      "requiresHumanReview": false
+    },
+    "rationale": "Ordinary login, PIN, password or MFA recovery without a security indication.",
+    "policyClause": "Access, including signup"
+  },
+  {
+    "id": "v5-012",
+    "stratum": "ordinary_access",
+    "expected": {
+      "route": "access",
+      "requiresHumanReview": false
+    },
+    "rationale": "Ordinary login, PIN, password or MFA recovery without a security indication.",
+    "policyClause": "Access, including signup"
+  },
+  {
+    "id": "v5-013",
+    "stratum": "ordinary_access",
+    "expected": {
+      "route": "access",
+      "requiresHumanReview": false
+    },
+    "rationale": "Ordinary login, PIN, password or MFA recovery without a security indication.",
+    "policyClause": "Access, including signup"
+  },
+  {
+    "id": "v5-014",
+    "stratum": "ordinary_access",
+    "expected": {
+      "route": "access",
+      "requiresHumanReview": false
+    },
+    "rationale": "Ordinary login, PIN, password or MFA recovery without a security indication.",
+    "policyClause": "Access, including signup"
+  },
+  {
+    "id": "v5-015",
+    "stratum": "ordinary_access",
+    "expected": {
+      "route": "access",
+      "requiresHumanReview": false
+    },
+    "rationale": "Ordinary login, PIN, password or MFA recovery without a security indication.",
+    "policyClause": "Access, including signup"
+  },
+  {
+    "id": "v5-016",
+    "stratum": "billing",
+    "expected": {
+      "route": "billing",
+      "requiresHumanReview": false
+    },
+    "rationale": "Single ordinary receipt, subscription, invoice, payment or refund intent; quoted wording is benign.",
+    "policyClause": "Billing, including subscription cancellation"
+  },
+  {
+    "id": "v5-017",
+    "stratum": "billing",
+    "expected": {
+      "route": "billing",
+      "requiresHumanReview": false
+    },
+    "rationale": "Single ordinary receipt, subscription, invoice, payment or refund intent; quoted wording is benign.",
+    "policyClause": "Billing, including subscription cancellation"
+  },
+  {
+    "id": "v5-018",
+    "stratum": "billing",
+    "expected": {
+      "route": "billing",
+      "requiresHumanReview": false
+    },
+    "rationale": "Single ordinary receipt, subscription, invoice, payment or refund intent; quoted wording is benign.",
+    "policyClause": "Billing, including subscription cancellation"
+  },
+  {
+    "id": "v5-019",
+    "stratum": "billing",
+    "expected": {
+      "route": "billing",
+      "requiresHumanReview": false
+    },
+    "rationale": "Single ordinary receipt, subscription, invoice, payment or refund intent; quoted wording is benign.",
+    "policyClause": "Billing, including subscription cancellation"
+  },
+  {
+    "id": "v5-020",
+    "stratum": "billing",
+    "expected": {
+      "route": "billing",
+      "requiresHumanReview": false
+    },
+    "rationale": "Single ordinary receipt, subscription, invoice, payment or refund intent; quoted wording is benign.",
+    "policyClause": "Billing, including subscription cancellation"
+  },
+  {
+    "id": "v5-021",
+    "stratum": "technical",
+    "expected": {
+      "route": "technical",
+      "requiresHumanReview": false
+    },
+    "rationale": "Single signed-in feature malfunction outside authentication and payments.",
+    "policyClause": "Technical"
+  },
+  {
+    "id": "v5-022",
+    "stratum": "technical",
+    "expected": {
+      "route": "technical",
+      "requiresHumanReview": false
+    },
+    "rationale": "Single signed-in feature malfunction outside authentication and payments.",
+    "policyClause": "Technical"
+  },
+  {
+    "id": "v5-023",
+    "stratum": "technical",
+    "expected": {
+      "route": "technical",
+      "requiresHumanReview": false
+    },
+    "rationale": "Single signed-in feature malfunction outside authentication and payments.",
+    "policyClause": "Technical"
+  },
+  {
+    "id": "v5-024",
+    "stratum": "technical",
+    "expected": {
+      "route": "technical",
+      "requiresHumanReview": false
+    },
+    "rationale": "Single signed-in feature malfunction outside authentication and payments.",
+    "policyClause": "Technical"
+  },
+  {
+    "id": "v5-025",
+    "stratum": "technical",
+    "expected": {
+      "route": "technical",
+      "requiresHumanReview": false
+    },
+    "rationale": "Single signed-in feature malfunction outside authentication and payments.",
+    "policyClause": "Technical"
+  },
+  {
+    "id": "v5-026",
+    "stratum": "security",
+    "expected": {
+      "route": null,
+      "requiresHumanReview": true
+    },
+    "rationale": "Suspected intrusion, phishing, unauthorized access or credential exposure overrides ordinary recovery.",
+    "policyClause": "Precedence 1"
+  },
+  {
+    "id": "v5-027",
+    "stratum": "security",
+    "expected": {
+      "route": null,
+      "requiresHumanReview": true
+    },
+    "rationale": "Suspected intrusion, phishing, unauthorized access or credential exposure overrides ordinary recovery.",
+    "policyClause": "Precedence 1"
+  },
+  {
+    "id": "v5-028",
+    "stratum": "security",
+    "expected": {
+      "route": null,
+      "requiresHumanReview": true
+    },
+    "rationale": "Suspected intrusion, phishing, unauthorized access or credential exposure overrides ordinary recovery.",
+    "policyClause": "Precedence 1"
+  },
+  {
+    "id": "v5-029",
+    "stratum": "security",
+    "expected": {
+      "route": null,
+      "requiresHumanReview": true
+    },
+    "rationale": "Suspected intrusion, phishing, unauthorized access or credential exposure overrides ordinary recovery.",
+    "policyClause": "Precedence 1"
+  },
+  {
+    "id": "v5-030",
+    "stratum": "security",
+    "expected": {
+      "route": null,
+      "requiresHumanReview": true
+    },
+    "rationale": "Suspected intrusion, phishing, unauthorized access or credential exposure overrides ordinary recovery.",
+    "policyClause": "Precedence 1"
+  },
+  {
+    "id": "v5-031",
+    "stratum": "injection",
+    "expected": {
+      "route": null,
+      "requiresHumanReview": true
+    },
+    "rationale": "Direct instruction to bypass routing policy or required approval requires review.",
+    "policyClause": "Precedence 1-2"
+  },
+  {
+    "id": "v5-032",
+    "stratum": "injection",
+    "expected": {
+      "route": null,
+      "requiresHumanReview": true
+    },
+    "rationale": "Direct instruction to bypass routing policy or required approval requires review.",
+    "policyClause": "Precedence 1-2"
+  },
+  {
+    "id": "v5-033",
+    "stratum": "injection",
+    "expected": {
+      "route": null,
+      "requiresHumanReview": true
+    },
+    "rationale": "Direct instruction to bypass routing policy or required approval requires review.",
+    "policyClause": "Precedence 1-2"
+  },
+  {
+    "id": "v5-034",
+    "stratum": "injection",
+    "expected": {
+      "route": null,
+      "requiresHumanReview": true
+    },
+    "rationale": "Direct instruction to bypass routing policy or required approval requires review.",
+    "policyClause": "Precedence 1-2"
+  },
+  {
+    "id": "v5-035",
+    "stratum": "injection",
+    "expected": {
+      "route": null,
+      "requiresHumanReview": true
+    },
+    "rationale": "Direct instruction to bypass routing policy or required approval requires review.",
+    "policyClause": "Precedence 1-2"
+  },
+  {
+    "id": "v5-036",
+    "stratum": "contextual",
+    "expected": {
+      "route": null,
+      "requiresHumanReview": true
+    },
+    "rationale": "Charge explanation and search repair are two substantive intents.",
+    "policyClause": "Precedence 1; Technical"
+  },
+  {
+    "id": "v5-037",
+    "stratum": "contextual",
+    "expected": {
+      "route": "technical",
+      "requiresHumanReview": false
+    },
+    "rationale": "Fictional security quotation is benign context; actual request is editor preview malfunction.",
+    "policyClause": "Precedence 2; Technical"
+  },
+  {
+    "id": "v5-038",
+    "stratum": "contextual",
+    "expected": {
+      "route": null,
+      "requiresHumanReview": true
+    },
+    "rationale": "The unspecified service issue does not establish one supported ordinary intent.",
+    "policyClause": "Precedence 1"
+  },
+  {
+    "id": "v5-039",
+    "stratum": "contextual",
+    "expected": {
+      "route": null,
+      "requiresHumanReview": true
+    },
+    "rationale": "Explicit personal medical context requires review even without pasted treatment details.",
+    "policyClause": "Precedence 1"
+  },
+  {
+    "id": "v5-040",
+    "stratum": "contextual",
+    "expected": {
+      "route": "billing",
+      "requiresHumanReview": false
+    },
+    "rationale": "Training quotation is benign context; actual request is a renewal receipt.",
+    "policyClause": "Precedence 2; Billing, including subscription cancellation"
+  }
+]

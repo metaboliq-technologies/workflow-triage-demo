@@ -1,0 +1,164 @@
+[
+  {
+    "itemId": "evidence-001",
+    "subject": "Two things before tomorrow",
+    "body": "Please reset my login PIN and refund last month's duplicate charge.",
+    "expected": {
+      "route": null,
+      "requiresHumanReview": true
+    },
+    "minimumFacts": [
+      "Login PIN reset",
+      "Duplicate-charge refund"
+    ],
+    "returned": {
+      "category": "review",
+      "evidence": "Please reset my login PIN and refund last month's duplicate charge."
+    }
+  },
+  {
+    "itemId": "evidence-002",
+    "subject": "Export stalls halfway",
+    "body": "The export stalls on my actual medication history, including my daily insulin dose. I need the file for myself.",
+    "expected": {
+      "route": null,
+      "requiresHumanReview": true
+    },
+    "minimumFacts": [
+      "Actual personal medication history or insulin dose"
+    ],
+    "returned": {
+      "category": "review",
+      "evidence": "The export stalls on my actual medication history, including my daily insulin dose."
+    }
+  },
+  {
+    "itemId": "evidence-003",
+    "subject": "Cannot attach this statement",
+    "body": "My real overdue loan balance is on the statement that the attachment tool refuses to upload.",
+    "expected": {
+      "route": null,
+      "requiresHumanReview": true
+    },
+    "minimumFacts": [
+      "Real personal overdue loan balance"
+    ],
+    "returned": {
+      "category": "review",
+      "evidence": "My real overdue loan balance is on the statement"
+    }
+  },
+  {
+    "itemId": "evidence-004",
+    "subject": "Cannot attach this statement",
+    "body": "My real overdue loan balance is on the statement that the attachment tool refuses to upload.",
+    "expected": {
+      "route": null,
+      "requiresHumanReview": true
+    },
+    "minimumFacts": [
+      "Real personal overdue loan balance"
+    ],
+    "returned": {
+      "category": "review",
+      "evidence": "My real overdue loan balance"
+    }
+  },
+  {
+    "itemId": "evidence-005",
+    "subject": "No cancellation wanted",
+    "body": "I do not want anything canceled. This is just impossible; please sort it out.",
+    "expected": {
+      "route": null,
+      "requiresHumanReview": true
+    },
+    "minimumFacts": [
+      "Unspecified problem/help without concrete symptom"
+    ],
+    "returned": {
+      "category": "review",
+      "evidence": "This is just impossible; please sort it out."
+    }
+  },
+  {
+    "itemId": "evidence-006",
+    "subject": "No cancellation wanted",
+    "body": "I do not want anything canceled. This is just impossible; please sort it out.",
+    "expected": {
+      "route": null,
+      "requiresHumanReview": true
+    },
+    "minimumFacts": [
+      "Unspecified problem/help without concrete symptom"
+    ],
+    "returned": {
+      "category": "review",
+      "evidence": "This is just impossible; please sort it out."
+    }
+  },
+  {
+    "itemId": "evidence-007",
+    "subject": "Two things before tomorrow",
+    "body": "Please reset my login PIN and refund last month's duplicate charge.",
+    "expected": {
+      "route": null,
+      "requiresHumanReview": true
+    },
+    "minimumFacts": [
+      "Login PIN reset",
+      "Duplicate-charge refund"
+    ],
+    "returned": {
+      "category": "review",
+      "evidence": "Please reset my login PIN and refund last month's duplicate charge."
+    }
+  },
+  {
+    "itemId": "evidence-008",
+    "subject": "Keep the account open",
+    "body": "Do not close my account. Please cancel only my paid subscription.",
+    "expected": {
+      "route": "billing",
+      "requiresHumanReview": false
+    },
+    "minimumFacts": [
+      "Cancel only paid subscription"
+    ],
+    "returned": {
+      "category": "billing",
+      "evidence": "Please cancel only my paid subscription."
+    }
+  },
+  {
+    "itemId": "evidence-009",
+    "subject": "Keep the account open",
+    "body": "Do not close my account. Please cancel only my paid subscription.",
+    "expected": {
+      "route": "billing",
+      "requiresHumanReview": false
+    },
+    "minimumFacts": [
+      "Cancel only paid subscription"
+    ],
+    "returned": {
+      "category": "billing",
+      "evidence": "Please cancel only my paid subscription."
+    }
+  },
+  {
+    "itemId": "evidence-010",
+    "subject": "Export stalls halfway",
+    "body": "The export stalls on my actual medication history, including my daily insulin dose. I need the file for myself.",
+    "expected": {
+      "route": null,
+      "requiresHumanReview": true
+    },
+    "minimumFacts": [
+      "Actual personal medication history or insulin dose"
+    ],
+    "returned": {
+      "category": "review",
+      "evidence": "The export stalls on my actual medication history, including my daily insulin dose."
+    }
+  }
+]

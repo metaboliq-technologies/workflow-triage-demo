@@ -1,0 +1,16 @@
+{
+  "inputSHA256": "8F6B7E6D2254F1BB71D9A427ADECDA3187292307A336ACBE04DF3832688EE4B6",
+  "policySHA256": "76A40C6DAA6E8040777D96942AB7D8B76E4A944042D863B2570E642590711FE9",
+  "rubricSHA256": "FCFD89F8C85FEE3EC9B59EDD88B006CAC3AB0F84BDE545540001C6AE8E917471",
+  "currentUTCTime": "2026-11-17T07:31:01.1653038Z",
+  "initiallyBlind": true,
+  "filesConsulted": [
+    "work/triage-completeness-v10/ROUTING-POLICY-V10.md",
+    "work/triage-completeness-v10/OUTPUT-REVIEW-RUBRIC-V10.md",
+    "work/sealed-v10-output-review/blind-items.json"
+  ],
+  "method": "Independent AI semantic review of each supplied quote against full request, frozen policy and frozen minimum facts; support and reference coverage assessed separately. No map, labels beyond supplied references, prompts, run records or other sources consulted. All fact indices partitioned. Initial grades saved before this process seal.",
+  "limitations": "AI semantic judgment, not human adjudication or ground truth; no claim of training-data exclusion. Repeated request text was visible in blinded input; no policy arm was supplied or inferred.",
+  "sealed": true,
+  "sealedGradesSHA256": "3712B80E25B3AC02DC08A287C79992DD3C42A51FAB144C39E86A41668F155E3C"
+}

@@ -1,0 +1,114 @@
+[
+  {
+    "itemId": "evidence-001",
+    "evidenceSupportsReturnedDecision": true,
+    "referenceFactsCovered": true,
+    "coveredFacts": [
+      0,
+      1
+    ],
+    "missingFacts": [],
+    "rationale": "The quote supports review by explicitly combining a login PIN reset and duplicate-charge refund, and covers both reference facts.",
+    "referenceAmbiguity": null
+  },
+  {
+    "itemId": "evidence-002",
+    "evidenceSupportsReturnedDecision": true,
+    "referenceFactsCovered": true,
+    "coveredFacts": [
+      0
+    ],
+    "missingFacts": [],
+    "rationale": "The quote supports sensitive-context review by explicitly identifying actual personal medication history and daily insulin dose; the reference fact is fully covered.",
+    "referenceAmbiguity": null
+  },
+  {
+    "itemId": "evidence-003",
+    "evidenceSupportsReturnedDecision": true,
+    "referenceFactsCovered": true,
+    "coveredFacts": [
+      0
+    ],
+    "missingFacts": [],
+    "rationale": "The quote explicitly discloses a real personal overdue loan balance, supporting sensitive-context review and fully covering the reference fact.",
+    "referenceAmbiguity": null
+  },
+  {
+    "itemId": "evidence-004",
+    "evidenceSupportsReturnedDecision": true,
+    "referenceFactsCovered": true,
+    "coveredFacts": [
+      0
+    ],
+    "missingFacts": [],
+    "rationale": "The quote explicitly discloses a real personal overdue loan balance, supporting sensitive-context review and fully covering the reference fact.",
+    "referenceAmbiguity": null
+  },
+  {
+    "itemId": "evidence-005",
+    "evidenceSupportsReturnedDecision": true,
+    "referenceFactsCovered": true,
+    "coveredFacts": [
+      0
+    ],
+    "missingFacts": [],
+    "rationale": "The quote contains only generic dissatisfaction and an unspecified request to sort it out, supporting review for insufficient intent and covering the reference fact.",
+    "referenceAmbiguity": null
+  },
+  {
+    "itemId": "evidence-006",
+    "evidenceSupportsReturnedDecision": true,
+    "referenceFactsCovered": true,
+    "coveredFacts": [
+      0
+    ],
+    "missingFacts": [],
+    "rationale": "The quote contains only generic dissatisfaction and an unspecified request to sort it out, supporting review for insufficient intent and covering the reference fact.",
+    "referenceAmbiguity": null
+  },
+  {
+    "itemId": "evidence-007",
+    "evidenceSupportsReturnedDecision": true,
+    "referenceFactsCovered": true,
+    "coveredFacts": [
+      0,
+      1
+    ],
+    "missingFacts": [],
+    "rationale": "The quote supports review by explicitly combining a login PIN reset and duplicate-charge refund, and covers both reference facts.",
+    "referenceAmbiguity": null
+  },
+  {
+    "itemId": "evidence-008",
+    "evidenceSupportsReturnedDecision": true,
+    "referenceFactsCovered": true,
+    "coveredFacts": [
+      0
+    ],
+    "missingFacts": [],
+    "rationale": "The quote explicitly requests cancellation only of the paid subscription, supporting billing and fully covering the reference fact.",
+    "referenceAmbiguity": null
+  },
+  {
+    "itemId": "evidence-009",
+    "evidenceSupportsReturnedDecision": true,
+    "referenceFactsCovered": true,
+    "coveredFacts": [
+      0
+    ],
+    "missingFacts": [],
+    "rationale": "The quote explicitly requests cancellation only of the paid subscription, supporting billing and fully covering the reference fact.",
+    "referenceAmbiguity": null
+  },
+  {
+    "itemId": "evidence-010",
+    "evidenceSupportsReturnedDecision": true,
+    "referenceFactsCovered": true,
+    "coveredFacts": [
+      0
+    ],
+    "missingFacts": [],
+    "rationale": "The quote supports sensitive-context review by explicitly identifying actual personal medication history and daily insulin dose; the reference fact is fully covered.",
+    "referenceAmbiguity": null
+  }
+]

@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "originalRunId": 43951438030,
+  "originalSourceCommit": "297cf6e238bc303caa88e336442ae51babe03537",
+  "originalReportSha256": "469c336028008d7ab07f9beb6dbabd47ae2871eb99f1624fa22223a25609681f",
+  "datasetSha256": "8a251155bb011fce7fafba09a907ab299c8406ec975352922f224fd918462afd",
+  "promptSha256": "eb8317d62324c0cfee58a74917d1a62c5ddffb333c69eafd111a7e864f8d0d40",
+  "ids": [
+    "v9-029",
+    "v9-030",
+    "v9-031",
+    "v9-032",
+    "v9-033",
+    "v9-034",
+    "v9-035",
+    "v9-036",
+    "v9-037",
+    "v9-038",
+    "v9-039",
+    "v9-040"
+  ],
+  "spacingMs": 30000,
+  "maxClassifications": 12,
+  "maxApiAttempts": 24,
+  "maxCumulativeApiAttempts": 80,
+  "policy": "unchanged-sensitive-context-v9",
+  "singleAuthorizedContinuation": true,
+  "createdAt": "2026-11-17T05:19:22.331Z"
+}

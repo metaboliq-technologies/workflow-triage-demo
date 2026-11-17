@@ -1,0 +1,143 @@
+{
+  "method": "Pre-run mechanical witness containment, not semantic coverage or a quote whitelist; labels/cases unchanged",
+  "rows": [
+    {
+      "id": "b13-001",
+      "genericSubjectExcluded": false,
+      "candidateCount": 10,
+      "stratum": "forced_boundary",
+      "spanAssessment": {
+        "shortestObservedQuote": "Refund my renewal; for reference, the screen uses a plain gray theme with a small logo in its corner; reset my PIN",
+        "sourceField": "body",
+        "utf16Units": 114,
+        "rationale": "Independent search found this span sufficient: it retains the first positive intent or concrete symptom and the complete second intent/object. Removing the opening action/symptom subject or truncating the final object loses necessary semantic support. The intervening visual description is optional but lies inside the contiguous span. Searched the other field and shorter endpoint alternatives; found no sufficient quote below 110 UTF-16 units. This is shortest observed by AI review, not a global minimality proof."
+      },
+      "shortestObservedContainedInCandidateIds": [],
+      "bodyOver120": true,
+      "witnesses": [
+        {
+          "trigger": "multiple substantive intents",
+          "exampleQuote": "Refund my renewal; for reference, the screen uses a plain gray theme with a small logo in its corner; reset my PIN",
+          "containedInCandidateIds": []
+        }
+      ]
+    },
+    {
+      "id": "b13-005",
+      "genericSubjectExcluded": false,
+      "candidateCount": 10,
+      "stratum": "forced_boundary",
+      "spanAssessment": {
+        "shortestObservedQuote": "Send my invoice; the desktop view has a pale gray background and a blue title above a white panel; unlock my login",
+        "sourceField": "subject",
+        "utf16Units": 114,
+        "rationale": "Independent search found this span sufficient: it retains the first positive intent or concrete symptom and the complete second intent/object. Removing the opening action/symptom subject or truncating the final object loses necessary semantic support. The intervening visual description is optional but lies inside the contiguous span. Searched the other field and shorter endpoint alternatives; found no sufficient quote below 110 UTF-16 units. This is shortest observed by AI review, not a global minimality proof."
+      },
+      "shortestObservedContainedInCandidateIds": [
+        "s9"
+      ],
+      "bodyOver120": false,
+      "witnesses": [
+        {
+          "trigger": "multiple substantive intents",
+          "exampleQuote": "Send my invoice; the desktop view has a pale gray background and a blue title above a white panel; unlock my login",
+          "containedInCandidateIds": [
+            "s9"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b13-003",
+      "genericSubjectExcluded": false,
+      "candidateCount": 9,
+      "stratum": "forced_boundary",
+      "spanAssessment": {
+        "shortestObservedQuote": "Chart is blank here; the panel is on a wide screen with a gray border and a narrow blue top bar; send my receipt",
+        "sourceField": "body",
+        "utf16Units": 112,
+        "rationale": "Independent search found this span sufficient: it retains the first positive intent or concrete symptom and the complete second intent/object. Removing the opening action/symptom subject or truncating the final object loses necessary semantic support. The intervening visual description is optional but lies inside the contiguous span. Searched the other field and shorter endpoint alternatives; found no sufficient quote below 110 UTF-16 units. This is shortest observed by AI review, not a global minimality proof."
+      },
+      "shortestObservedContainedInCandidateIds": [
+        "s4"
+      ],
+      "bodyOver120": true,
+      "witnesses": [
+        {
+          "trigger": "multiple substantive intents",
+          "exampleQuote": "Chart is blank here; the panel is on a wide screen with a gray border and a narrow blue top bar; send my receipt",
+          "containedInCandidateIds": [
+            "s4"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b13-004",
+      "genericSubjectExcluded": false,
+      "candidateCount": 10,
+      "stratum": "forced_boundary",
+      "spanAssessment": {
+        "shortestObservedQuote": "Recover my PIN; the header has a small white logo beside a simple plain title in the upper left corner; refund my charge",
+        "sourceField": "body",
+        "utf16Units": 120,
+        "rationale": "Independent search found this span sufficient: it retains the first positive intent or concrete symptom and the complete second intent/object. Removing the opening action/symptom subject or truncating the final object loses necessary semantic support. The intervening visual description is optional but lies inside the contiguous span. Searched the other field and shorter endpoint alternatives; found no sufficient quote below 110 UTF-16 units. This is shortest observed by AI review, not a global minimality proof."
+      },
+      "shortestObservedContainedInCandidateIds": [
+        "s8"
+      ],
+      "bodyOver120": true,
+      "witnesses": [
+        {
+          "trigger": "multiple substantive intents",
+          "exampleQuote": "Recover my PIN; the header has a small white logo beside a simple plain title in the upper left corner; refund my charge",
+          "containedInCandidateIds": [
+            "s8"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b13-006",
+      "genericSubjectExcluded": false,
+      "candidateCount": 11,
+      "stratum": "forced_boundary",
+      "spanAssessment": {
+        "shortestObservedQuote": "Search keeps freezing; the window has a thin blue frame and a small white logo next to its title; reset my PIN",
+        "sourceField": "body",
+        "utf16Units": 110,
+        "rationale": "Independent search found this span sufficient: it retains the first positive intent or concrete symptom and the complete second intent/object. Removing the opening action/symptom subject or truncating the final object loses necessary semantic support. The intervening visual description is optional but lies inside the contiguous span. Searched the other field and shorter endpoint alternatives; found no sufficient quote below 110 UTF-16 units. This is shortest observed by AI review, not a global minimality proof."
+      },
+      "shortestObservedContainedInCandidateIds": [],
+      "bodyOver120": true,
+      "witnesses": [
+        {
+          "trigger": "multiple substantive intents",
+          "exampleQuote": "Search keeps freezing; the window has a thin blue frame and a small white logo next to its title; reset my PIN",
+          "containedInCandidateIds": []
+        }
+      ]
+    },
+    {
+      "id": "b13-002",
+      "genericSubjectExcluded": false,
+      "candidateCount": 10,
+      "stratum": "forced_boundary",
+      "spanAssessment": {
+        "shortestObservedQuote": "Recover my login; the page has a pale blue banner and a small square icon beside its heading; fix the frozen export",
+        "sourceField": "body",
+        "utf16Units": 115,
+        "rationale": "Independent search found this span sufficient: it retains the first positive intent or concrete symptom and the complete second intent/object. Removing the opening action/symptom subject or truncating the final object loses necessary semantic support. The intervening visual description is optional but lies inside the contiguous span. Searched the other field and shorter endpoint alternatives; found no sufficient quote below 110 UTF-16 units. This is shortest observed by AI review, not a global minimality proof."
+      },
+      "shortestObservedContainedInCandidateIds": [],
+      "bodyOver120": true,
+      "witnesses": [
+        {
+          "trigger": "multiple substantive intents",
+          "exampleQuote": "Recover my login; the page has a pale blue banner and a small square icon beside its heading; fix the frozen export",
+          "containedInCandidateIds": []
+        }
+      ]
+    }
+  ]
+}

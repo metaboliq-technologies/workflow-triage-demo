@@ -1,0 +1,188 @@
+[
+  {
+    "id": "b13-001",
+    "stratum": "forced_boundary",
+    "expected": {
+      "route": null,
+      "requiresHumanReview": true
+    },
+    "rationale": "Two distinct supported substantive requests or problems require review. Neither ordinary intent alone establishes this protective condition.",
+    "policyClause": "Protective precedence: multiple substantive intents. Evidence uses at least one full sufficient alternative bundle; both positive substantive intents must be conveyed.",
+    "evidenceCriteria": {
+      "sufficientBundles": [
+        {
+          "trigger": "multiple substantive intents",
+          "facts": [
+            "Request to refund a renewal",
+            "Request to reset a PIN"
+          ],
+          "exampleQuote": "Refund my renewal; for reference, the screen uses a plain gray theme with a small logo in its corner; reset my PIN"
+        }
+      ],
+      "optionalContext": [
+        "Greeting, closing, theme, logo and screen description"
+      ]
+    },
+    "spanAssessment": {
+      "shortestObservedQuote": "Refund my renewal; for reference, the screen uses a plain gray theme with a small logo in its corner; reset my PIN",
+      "sourceField": "body",
+      "utf16Units": 114,
+      "rationale": "Independent search found this span sufficient: it retains the first positive intent or concrete symptom and the complete second intent/object. Removing the opening action/symptom subject or truncating the final object loses necessary semantic support. The intervening visual description is optional but lies inside the contiguous span. Searched the other field and shorter endpoint alternatives; found no sufficient quote below 110 UTF-16 units. This is shortest observed by AI review, not a global minimality proof."
+    }
+  },
+  {
+    "id": "b13-002",
+    "stratum": "forced_boundary",
+    "expected": {
+      "route": null,
+      "requiresHumanReview": true
+    },
+    "rationale": "Two distinct supported substantive requests or problems require review. Neither ordinary intent alone establishes this protective condition.",
+    "policyClause": "Protective precedence: multiple substantive intents. Evidence uses at least one full sufficient alternative bundle; both positive substantive intents must be conveyed.",
+    "evidenceCriteria": {
+      "sufficientBundles": [
+        {
+          "trigger": "multiple substantive intents",
+          "facts": [
+            "Request to recover login access",
+            "Request to fix a frozen export"
+          ],
+          "exampleQuote": "Recover my login; the page has a pale blue banner and a small square icon beside its heading; fix the frozen export"
+        }
+      ],
+      "optionalContext": [
+        "Web app/browser framing, page banner, icon and heading"
+      ]
+    },
+    "spanAssessment": {
+      "shortestObservedQuote": "Recover my login; the page has a pale blue banner and a small square icon beside its heading; fix the frozen export",
+      "sourceField": "body",
+      "utf16Units": 115,
+      "rationale": "Independent search found this span sufficient: it retains the first positive intent or concrete symptom and the complete second intent/object. Removing the opening action/symptom subject or truncating the final object loses necessary semantic support. The intervening visual description is optional but lies inside the contiguous span. Searched the other field and shorter endpoint alternatives; found no sufficient quote below 110 UTF-16 units. This is shortest observed by AI review, not a global minimality proof."
+    }
+  },
+  {
+    "id": "b13-003",
+    "stratum": "forced_boundary",
+    "expected": {
+      "route": null,
+      "requiresHumanReview": true
+    },
+    "rationale": "Two distinct supported substantive requests or problems require review. Neither ordinary intent alone establishes this protective condition.",
+    "policyClause": "Protective precedence: multiple substantive intents. Evidence uses at least one full sufficient alternative bundle; both positive substantive intents must be conveyed.",
+    "evidenceCriteria": {
+      "sufficientBundles": [
+        {
+          "trigger": "multiple substantive intents",
+          "facts": [
+            "A chart is blank",
+            "Request to send a receipt"
+          ],
+          "exampleQuote": "Chart is blank here; the panel is on a wide screen with a gray border and a narrow blue top bar; send my receipt"
+        }
+      ],
+      "optionalContext": [
+        "Desktop framing, screen width, panel border, top bar, here and closing"
+      ]
+    },
+    "spanAssessment": {
+      "shortestObservedQuote": "Chart is blank here; the panel is on a wide screen with a gray border and a narrow blue top bar; send my receipt",
+      "sourceField": "body",
+      "utf16Units": 112,
+      "rationale": "Independent search found this span sufficient: it retains the first positive intent or concrete symptom and the complete second intent/object. Removing the opening action/symptom subject or truncating the final object loses necessary semantic support. The intervening visual description is optional but lies inside the contiguous span. Searched the other field and shorter endpoint alternatives; found no sufficient quote below 110 UTF-16 units. This is shortest observed by AI review, not a global minimality proof."
+    }
+  },
+  {
+    "id": "b13-004",
+    "stratum": "forced_boundary",
+    "expected": {
+      "route": null,
+      "requiresHumanReview": true
+    },
+    "rationale": "Two distinct supported substantive requests or problems require review. Neither ordinary intent alone establishes this protective condition.",
+    "policyClause": "Protective precedence: multiple substantive intents. Evidence uses at least one full sufficient alternative bundle; both positive substantive intents must be conveyed.",
+    "evidenceCriteria": {
+      "sufficientBundles": [
+        {
+          "trigger": "multiple substantive intents",
+          "facts": [
+            "Request to recover a PIN",
+            "Request to refund a charge"
+          ],
+          "exampleQuote": "Recover my PIN; the header has a small white logo beside a simple plain title in the upper left corner; refund my charge"
+        }
+      ],
+      "optionalContext": [
+        "Desktop framing, header logo, title placement and styling"
+      ]
+    },
+    "spanAssessment": {
+      "shortestObservedQuote": "Recover my PIN; the header has a small white logo beside a simple plain title in the upper left corner; refund my charge",
+      "sourceField": "body",
+      "utf16Units": 120,
+      "rationale": "Independent search found this span sufficient: it retains the first positive intent or concrete symptom and the complete second intent/object. Removing the opening action/symptom subject or truncating the final object loses necessary semantic support. The intervening visual description is optional but lies inside the contiguous span. Searched the other field and shorter endpoint alternatives; found no sufficient quote below 110 UTF-16 units. This is shortest observed by AI review, not a global minimality proof."
+    }
+  },
+  {
+    "id": "b13-005",
+    "stratum": "forced_boundary",
+    "expected": {
+      "route": null,
+      "requiresHumanReview": true
+    },
+    "rationale": "Two distinct supported substantive requests or problems require review. Neither ordinary intent alone establishes this protective condition.",
+    "policyClause": "Protective precedence: multiple substantive intents. Evidence uses at least one full sufficient alternative bundle; both positive substantive intents must be conveyed.",
+    "evidenceCriteria": {
+      "sufficientBundles": [
+        {
+          "trigger": "multiple substantive intents",
+          "facts": [
+            "Request to send an invoice",
+            "Request to unlock login access"
+          ],
+          "exampleQuote": "Send my invoice; the desktop view has a pale gray background and a blue title above a white panel; unlock my login"
+        }
+      ],
+      "optionalContext": [
+        "Web app/desktop framing, background, title, panel and greetings"
+      ]
+    },
+    "spanAssessment": {
+      "shortestObservedQuote": "Send my invoice; the desktop view has a pale gray background and a blue title above a white panel; unlock my login",
+      "sourceField": "subject",
+      "utf16Units": 114,
+      "rationale": "Independent search found this span sufficient: it retains the first positive intent or concrete symptom and the complete second intent/object. Removing the opening action/symptom subject or truncating the final object loses necessary semantic support. The intervening visual description is optional but lies inside the contiguous span. Searched the other field and shorter endpoint alternatives; found no sufficient quote below 110 UTF-16 units. This is shortest observed by AI review, not a global minimality proof."
+    }
+  },
+  {
+    "id": "b13-006",
+    "stratum": "forced_boundary",
+    "expected": {
+      "route": null,
+      "requiresHumanReview": true
+    },
+    "rationale": "Two distinct supported substantive requests or problems require review. Neither ordinary intent alone establishes this protective condition.",
+    "policyClause": "Protective precedence: multiple substantive intents. Evidence uses at least one full sufficient alternative bundle; both positive substantive intents must be conveyed.",
+    "evidenceCriteria": {
+      "sufficientBundles": [
+        {
+          "trigger": "multiple substantive intents",
+          "facts": [
+            "Search keeps freezing",
+            "Request to reset a PIN"
+          ],
+          "exampleQuote": "Search keeps freezing; the window has a thin blue frame and a small white logo next to its title; reset my PIN"
+        }
+      ],
+      "optionalContext": [
+        "Greeting, window frame, logo, title and theme assessment"
+      ]
+    },
+    "spanAssessment": {
+      "shortestObservedQuote": "Search keeps freezing; the window has a thin blue frame and a small white logo next to its title; reset my PIN",
+      "sourceField": "body",
+      "utf16Units": 110,
+      "rationale": "Independent search found this span sufficient: it retains the first positive intent or concrete symptom and the complete second intent/object. Removing the opening action/symptom subject or truncating the final object loses necessary semantic support. The intervening visual description is optional but lies inside the contiguous span. Searched the other field and shorter endpoint alternatives; found no sufficient quote below 110 UTF-16 units. This is shortest observed by AI review, not a global minimality proof."
+    }
+  }
+]

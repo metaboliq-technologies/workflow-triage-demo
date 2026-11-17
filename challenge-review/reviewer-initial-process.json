@@ -1,0 +1,13 @@
+{
+  "initialLabelsSha256": "6db955573a172070d2fb68b79f70cd6e0dab7e634ccb2da6d5ba675da9a04f9c",
+  "timestamp": "2026-11-17T11:52:24.5643150Z",
+  "authorLabelExposure": false,
+  "humanReviewed": false,
+  "caseCount": 20,
+  "readScope": [
+    "ROUTING-POLICY-V13.md",
+    "OUTPUT-REVIEW-RUBRIC-V13.md",
+    "challenge-review/author-inputs.json"
+  ],
+  "method": "Independent AI judgments before author-label exposure. No other inputs inspected. Observed shortest sufficient spans are search judgments, not global minima."
+}

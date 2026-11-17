@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "version": "sufficient-evidence-v11",
+  "frozenAt": "2026-11-17T09:50:03.762Z",
+  "caseInspectionByImplementerBeforeFreeze": false,
+  "humanReviewed": false,
+  "primaryImplementerExposure": "Historical v10 cases, results and exposed AI criteria review; no v11 cases authored or inspected",
+  "files": {
+    "model-adapter.mjs": "5a3db4ba79a3dee844c6c402463dd5c03ef83d46e676c4ebe14c0c16afefb6a1",
+    "reliable-adapter.mjs": "ab28c650366db3d20a6be702f432ef7e5e615a56a6ff26758d1098c81fc62a7d",
+    "sensitive-adapter.mjs": "c525e603460bc2d5c45db60fcddfa6ba83b70b81f709ad1d466865c25692319b",
+    "completeness-adapter.mjs": "02eca8dd6f4685a45fba0fdb78a110c0c0fe1e083fd9dc6d9b7d54b7ae6a0528",
+    "sufficient-adapter.mjs": "fdca1d3c3a7b1adb0a82d8bd3e9c2658d5c73e584d9dd8c686fc53836163b734",
+    "sufficient-runner.mjs": "939ce4fd490906904570fa2cc4c17f883ff16cdb8215245a1444374988cda40b",
+    "sufficient-evaluation.mjs": "53f99ed77d6afff30144576ce8abd9634f4e4f6111e77f3da8ca643694c3f960",
+    "triage.mjs": "15f49d62481a71da7d2eef83b8b18fcecaab0e1893873a3a88f81c37cf6a9978",
+    "compare.mjs": "953ee7809e350e8f4a228da398fd14f54c9beb3ae33b830910edef4a556b2c49",
+    "ROUTING-POLICY-V11.md": "b9995f0b34c52d242d6bb670e6366fa39a942dfc95b0342124f8833b6dc45af4",
+    "OUTPUT-REVIEW-RUBRIC-V11.md": "2fda47df976c343e55f12004e97992b42d4f130ad720772b1c32569fc27574f7"
+  }
+}

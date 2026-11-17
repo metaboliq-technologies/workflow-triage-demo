@@ -30,3 +30,8 @@ sealed-v9-author/
 sealed-v9-review/
 
 sensitive-continuation.local.json
+
+completeness-comparison.local.json
+sealed-v10-author/
+sealed-v10-review/
+sealed-v10-output-review/

@@ -1,5 +1,8 @@
 # Gemini adapter and fresh evaluation
 
+An optional [decisive-evidence selection adapter](COMPLETENESS-EVALUATION-V10.md) preserves the v9 routing policy and one exact-quote contract while asking for the context that actually supports a decision. The paired v10 study holds routing/validation/transport fixed and separately reviews semantic evidence quality with blinded AI output review. Live results are pending; software tests do not establish semantic improvement.
+
+
 The separate [twelve-case continuation](sensitive-continuation-results.md) is **complete**: 12/12 classifications, 12/24 continuation attempts, 40/80 cumulative attempts including the original 28. Continuation model matches 12/12 versus rules 5/12 and guard 7/12. The [combined cross-window view](sensitive-combined-comparison.json) retains all original attempted rows and failures: model 37/40, rules 22/40, guard 28/40. Original invalid quote, HTTP 429 and migraine review miss are preserved. Different time windows and 30s versus 6.5s spacing prevent a single-run or causal policy-gain interpretation. Cases and labels are unchanged AI-authored/AI-reviewed, not newly unseen or human-adjudicated. See [all continuation attempts](sensitive-continuation-comparison.json); the original partial report and raw record remain unchanged.
 
 

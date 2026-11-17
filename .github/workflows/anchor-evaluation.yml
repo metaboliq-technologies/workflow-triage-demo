@@ -1,0 +1,43 @@
+name: Anchored evidence evaluation v14
+on:
+  push:
+    branches: ['eval/anchor-v14-2026-11-17']
+    paths: ['anchor-execution-plan.json']
+permissions:
+  contents: read
+concurrency:
+  group: synthetic-model-comparison
+  cancel-in-progress: false
+jobs:
+  compare:
+    runs-on: ubuntu-latest
+    timeout-minutes: 50
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v6
+        with:
+          node-version: '22'
+      - name: Test contracts and frozen implementation
+        run: npm test
+      - name: Compare frozen adapters on newly AI-reviewed fictional requests
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          MBQ_ALLOW_SYNTHETIC_MODEL_RUN: 'yes'
+        run: node anchor-evaluation.mjs
+      - name: Retain checkpoint even on failure
+        if: always()
+        uses: actions/upload-artifact@v7
+        with:
+          name: anchor-evaluation-${{ github.run_id }}
+          path: anchor-comparison.local.json
+          retention-days: 14
+      - name: Print frozen checkpoint without further model calls
+        if: always()
+        run: |
+          if test -f anchor-comparison.local.json; then
+            echo ANCHOR_CHECKPOINT_BEGIN
+            cat anchor-comparison.local.json
+            echo ANCHOR_CHECKPOINT_END
+          fi

@@ -1,0 +1,153 @@
+{
+  "schemaVersion": 1,
+  "preparedAt": "2026-11-17T08:17:03.148Z",
+  "beforeContinuationCalls": true,
+  "originalRunId": 44038024039,
+  "originalReportSha256": "86d9a6556a5604018502b208fe043edb71d14a02a2b8942836f733b44680def6",
+  "originalSourceCommit": "7e8ce73a4bf3d4e2da9af8283bb187b900f42213",
+  "datasetSha256": "61ef09d01060c07e088b367b689393214433d8c08e10c2568ef436cf2b817a8a",
+  "singleAuthorizedContinuation": true,
+  "maxClassifications": 29,
+  "maxApiAttempts": 58,
+  "maxCumulativeApiAttempts": 80,
+  "originalApiAttempts": 11,
+  "spacingMs": 30000,
+  "classifications": [
+    {
+      "id": "v10-006",
+      "arm": "previous"
+    },
+    {
+      "id": "v10-007",
+      "arm": "previous"
+    },
+    {
+      "id": "v10-007",
+      "arm": "updated"
+    },
+    {
+      "id": "v10-008",
+      "arm": "updated"
+    },
+    {
+      "id": "v10-008",
+      "arm": "previous"
+    },
+    {
+      "id": "v10-009",
+      "arm": "previous"
+    },
+    {
+      "id": "v10-009",
+      "arm": "updated"
+    },
+    {
+      "id": "v10-010",
+      "arm": "updated"
+    },
+    {
+      "id": "v10-010",
+      "arm": "previous"
+    },
+    {
+      "id": "v10-011",
+      "arm": "previous"
+    },
+    {
+      "id": "v10-011",
+      "arm": "updated"
+    },
+    {
+      "id": "v10-012",
+      "arm": "updated"
+    },
+    {
+      "id": "v10-012",
+      "arm": "previous"
+    },
+    {
+      "id": "v10-013",
+      "arm": "previous"
+    },
+    {
+      "id": "v10-013",
+      "arm": "updated"
+    },
+    {
+      "id": "v10-014",
+      "arm": "updated"
+    },
+    {
+      "id": "v10-014",
+      "arm": "previous"
+    },
+    {
+      "id": "v10-015",
+      "arm": "previous"
+    },
+    {
+      "id": "v10-015",
+      "arm": "updated"
+    },
+    {
+      "id": "v10-016",
+      "arm": "updated"
+    },
+    {
+      "id": "v10-016",
+      "arm": "previous"
+    },
+    {
+      "id": "v10-017",
+      "arm": "previous"
+    },
+    {
+      "id": "v10-017",
+      "arm": "updated"
+    },
+    {
+      "id": "v10-018",
+      "arm": "updated"
+    },
+    {
+      "id": "v10-018",
+      "arm": "previous"
+    },
+    {
+      "id": "v10-019",
+      "arm": "previous"
+    },
+    {
+      "id": "v10-019",
+      "arm": "updated"
+    },
+    {
+      "id": "v10-020",
+      "arm": "updated"
+    },
+    {
+      "id": "v10-020",
+      "arm": "previous"
+    }
+  ],
+  "frozenSupportFiles": {
+    "continuation-runner.mjs": "0c3faf1ad6abf2ea7d0d728509ee3ff5037d13e0d7c87788f75a9022a5783e61",
+    "OUTPUT-REVIEW-RUBRIC-V10.md": "fcfd89f8c85fee3ec9b59edd88b006cac3ab0f84bde545540001c6ae8e917471",
+    "completeness-grades.mjs": "3405207f4d4689783c0a22a6867875a5cd908ddcd72ca0a76c5378ceed0bceb0",
+    "completeness-grading-plan.json": "bf4f77834243a3a8cf6b6893a8d25a423fab80400acbded0a16afa931bfebabb",
+    "completeness-output-items.json": "8f6b7e6d2254f1bb71d9a427adecda3187292307a336acbe04df3832688ee4b6",
+    "completeness-output-grades.json": "3712b80e25b3ac02dc08a287c79992dd3c42a51fab144c39e86a41668f155e3c",
+    "completeness-output-review-process.json": "a692562de5f748d7e66c188227cef06848989ea05ef9a3f4a6bef6aa77389d1f",
+    "completeness-output-map.json": "b17bade4e2764a28650408f00f546012d45f8b124ccb703e09c6aec4731e50a8",
+    "completeness-output-assembly.json": "83049ec8768845fa2fdaf141ea01607346ab558d1179bdb45d53659c7f07e79f"
+  },
+  "outputReview": {
+    "rubric": "OUTPUT-REVIEW-RUBRIC-V10.md",
+    "newIndependentBlindAIReviewer": true,
+    "preserveOriginalGrades": true,
+    "blindShuffleSeed": 22571493,
+    "method": "LCG Fisher-Yates over new valid final outputs only; pseudonym IDs after shuffle; seal map until grades saved. No example quotes/arms/call-order/scores supplied.",
+    "unavailable": "zero semantic credit in full denominators; no invented grades"
+  },
+  "design": "Same frozen prompts, model, routing, evidence contract and labels. Later provider window, 30s rather than 15s spacing. First selected classification checks access without an extra probe. Stop on 429/auth/config; no quota bypass. Preserve original failed updated v10-006 and all valid results."
+}

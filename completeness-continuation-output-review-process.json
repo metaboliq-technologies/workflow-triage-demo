@@ -1,0 +1,17 @@
+{
+  "inputSha256": "b82d86b204f98701e467f75f5e5714ffb18c32bf7dc1b1996ae245305497639f",
+  "policySha256": "76a40c6daa6e8040777d96942ab7d8b76e4a944042d863b2570e642590711fe9",
+  "rubricSha256": "fcfd89f8c85fee3ec9b59edd88b006cac3ab0f84bde545540001c6ae8e917471",
+  "utcTime": "2026-11-17T09:09:10.6375907Z",
+  "initiallyBlind": true,
+  "filesConsulted": [
+    "work/triage-completeness-continuation/ROUTING-POLICY-V10.md",
+    "work/triage-completeness-continuation/OUTPUT-REVIEW-RUBRIC-V10.md",
+    "work/sealed-v10-continuation-output-review/blind-items.json"
+  ],
+  "method": "Independent AI semantic review of every supplied shuffled item under the frozen policy and rubric. Returned-decision support judged separately from frozen-reference-fact coverage. Fact indices partitioned once each. Fuller frozen criteria retained and ambiguities flagged. No arm inference or unblinding. Grades SHA256 sealed after writing.",
+  "aiLimitations": "AI semantic judgment is not human adjudication or ground truth. Repetition can reveal pairing but no arm information was inspected. No claim of training-data exclusion.",
+  "gradesSha256": "982a3eaa7879ad10f054d9d2b6797cf12fbb5415380aff91c48de22e6ed0a312",
+  "sealed": true,
+  "itemCount": 29
+}

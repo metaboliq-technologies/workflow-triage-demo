@@ -1,0 +1,147 @@
+[
+  {
+    "itemId": "continuation-evidence-001",
+    "caseId": "v10-007",
+    "arm": "updated"
+  },
+  {
+    "itemId": "continuation-evidence-002",
+    "caseId": "v10-015",
+    "arm": "updated"
+  },
+  {
+    "itemId": "continuation-evidence-003",
+    "caseId": "v10-017",
+    "arm": "updated"
+  },
+  {
+    "itemId": "continuation-evidence-004",
+    "caseId": "v10-020",
+    "arm": "updated"
+  },
+  {
+    "itemId": "continuation-evidence-005",
+    "caseId": "v10-008",
+    "arm": "previous"
+  },
+  {
+    "itemId": "continuation-evidence-006",
+    "caseId": "v10-010",
+    "arm": "updated"
+  },
+  {
+    "itemId": "continuation-evidence-007",
+    "caseId": "v10-011",
+    "arm": "updated"
+  },
+  {
+    "itemId": "continuation-evidence-008",
+    "caseId": "v10-013",
+    "arm": "previous"
+  },
+  {
+    "itemId": "continuation-evidence-009",
+    "caseId": "v10-018",
+    "arm": "updated"
+  },
+  {
+    "itemId": "continuation-evidence-010",
+    "caseId": "v10-009",
+    "arm": "updated"
+  },
+  {
+    "itemId": "continuation-evidence-011",
+    "caseId": "v10-011",
+    "arm": "previous"
+  },
+  {
+    "itemId": "continuation-evidence-012",
+    "caseId": "v10-013",
+    "arm": "updated"
+  },
+  {
+    "itemId": "continuation-evidence-013",
+    "caseId": "v10-016",
+    "arm": "previous"
+  },
+  {
+    "itemId": "continuation-evidence-014",
+    "caseId": "v10-020",
+    "arm": "previous"
+  },
+  {
+    "itemId": "continuation-evidence-015",
+    "caseId": "v10-006",
+    "arm": "previous"
+  },
+  {
+    "itemId": "continuation-evidence-016",
+    "caseId": "v10-012",
+    "arm": "updated"
+  },
+  {
+    "itemId": "continuation-evidence-017",
+    "caseId": "v10-008",
+    "arm": "updated"
+  },
+  {
+    "itemId": "continuation-evidence-018",
+    "caseId": "v10-014",
+    "arm": "updated"
+  },
+  {
+    "itemId": "continuation-evidence-019",
+    "caseId": "v10-007",
+    "arm": "previous"
+  },
+  {
+    "itemId": "continuation-evidence-020",
+    "caseId": "v10-018",
+    "arm": "previous"
+  },
+  {
+    "itemId": "continuation-evidence-021",
+    "caseId": "v10-012",
+    "arm": "previous"
+  },
+  {
+    "itemId": "continuation-evidence-022",
+    "caseId": "v10-015",
+    "arm": "previous"
+  },
+  {
+    "itemId": "continuation-evidence-023",
+    "caseId": "v10-014",
+    "arm": "previous"
+  },
+  {
+    "itemId": "continuation-evidence-024",
+    "caseId": "v10-009",
+    "arm": "previous"
+  },
+  {
+    "itemId": "continuation-evidence-025",
+    "caseId": "v10-019",
+    "arm": "updated"
+  },
+  {
+    "itemId": "continuation-evidence-026",
+    "caseId": "v10-010",
+    "arm": "previous"
+  },
+  {
+    "itemId": "continuation-evidence-027",
+    "caseId": "v10-017",
+    "arm": "previous"
+  },
+  {
+    "itemId": "continuation-evidence-028",
+    "caseId": "v10-016",
+    "arm": "updated"
+  },
+  {
+    "itemId": "continuation-evidence-029",
+    "caseId": "v10-019",
+    "arm": "previous"
+  }
+]

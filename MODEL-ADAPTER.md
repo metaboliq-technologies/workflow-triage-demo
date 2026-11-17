@@ -96,3 +96,13 @@ The live comparison should report all cases and failures, not just examples that
 ## Focused challenge findings; adapters unchanged
 
 [Challenge v13](challenge-results.md) and [separate v13b follow-up](boundary-results.md) compare the same explicit v11/v12 adapters without tuning. The main set favors v12, but the stronger six-case follow-up regresses joint routing/support/coverage from4/6 to2/6. Missing candidate spans, a truncated selected object and a generic heading can yield valid bounded evidence that is semantically incomplete. Format bounds alone are not sufficient. Historical records/defaults stay intact; this remains experimental and AI-reviewed.
+
+## Fact-anchor v14 candidate
+
+`createAnchoredAdapter` in `anchor-adapter.mjs` is an explicit experimental adapter using the unchanged v10/v11 routing policy. Its default model is Gemini 3.5 Flash Lite; the v14 study fixes this model in both arms. Public output remains category/evidence with one unchanged 4–120 UTF16-unit source quote. Internally it selects token endpoints for one sufficient fact or exactly two nonoverlapping facts for multiple intents; deterministic extraction returns the smallest enclosing span. All original word/punctuation tokens are available, without the old sampled-window/64-option cap. Generic subjects remain visible and require semantic judgment.
+
+Reason/category agreement, fact count, token identity/order, same-field selection, nonoverlap, per-fact/envelope length and a narrow trailing-determiner check fail closed. Self-reported unavailable is an error, with no correctness credit. Fixed-enum anchor diagnostics preserve failure categories without raw invalid model text or credentials. These structural checks do not prove facts are distinct, complete or semantically sufficient. The English cut heuristic can reject legitimate wording; intra-token, cross-field and discontiguous-only evidence are not repaired.
+
+The explicit adapter uses inherited bounded-v8 retries: 30-second attempt limit, 65-second total deadline, at most two attempts for timeout/503/504 only, bounded jitter/Retry-After and no quota or semantic/format retry. The full source-token schema can grow with input length; the live study bodies are at most 500 units, not a full 2,000-unit provider/schema stress test. Defaults and historical adapters stay unchanged.
+
+[Fresh v14 results, every failure and limitations](anchor-results.md). Audit saved outcomes offline with `node verify-anchor-evaluation.mjs`; do not rerun the saved live workflow or regenerate its plan.

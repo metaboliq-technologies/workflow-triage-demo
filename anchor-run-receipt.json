@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "sourceCommit": "def1a310b6bf079a02990b7dd21c524c33015285",
+  "runId": 44088433663,
+  "jobId": 134056953983,
+  "runUrl": "https://github.com/metaboliq-technologies/workflow-triage-demo/actions/runs/44088433663",
+  "conclusion": "failure",
+  "checkpointSha256": "e878cd7883549ebfc1df71af70e3af20d57f5ab21d2619aab1106f943a4d509e",
+  "extractedAt": "2026-11-17T13:26:38.937Z",
+  "providerReplay": false,
+  "preflightTests": {
+    "passed": 137,
+    "failed": 0,
+    "skipped": 0
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "createdAt": "2026-11-17T13:26:40.909Z",
+  "sourceSha256": "e878cd7883549ebfc1df71af70e3af20d57f5ab21d2619aab1106f943a4d509e",
+  "datasetSha256": "d7db4471f3b5cef85dfe4d6f3551f2cef3b7becaab6ab0565ed3f4a1e74cc18c",
+  "rubricSha256": "9f96df247de1d40af5e96395f6b77aad2d15ba8a2f8bfe63d9002c42d249d4a2",
+  "itemsSha256": "a18679f92cfe10e91762aa057ad6ded26f86c220fefc6e688be765c75c3355f7",
+  "mapSha256": "33a20a121fd35b2bac546ad85bebb37a00a28f3e4a62f4edb68510d0c63e04f3",
+  "items": 39,
+  "blinding": "Shuffled, no arm/order/provider/run metadata, original IDs or exemplar quotes. Repeated requests remain recognizable; arm identity is hidden.",
+  "humanReviewed": false
+}

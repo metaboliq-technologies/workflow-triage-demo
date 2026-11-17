@@ -1,0 +1,11 @@
+{
+  "reviewType": "independent AI label review",
+  "humanAdjudication": false,
+  "authorLabelExposure": false,
+  "judgmentsSavedBeforeComparison": true,
+  "caseCount": 20,
+  "initialLabelsPath": "C:/Users/tusha/OneDrive/Documents/ChatGPT/METABOLIQ/work/triage-sufficient-evidence/sufficient-review/reviewer-initial-labels.json",
+  "initialLabelsSha256": "85D29A76FB421F2F4F70A964ECB3FBD1EE5E5CE1ECD082EDEE6741D90F27CA73",
+  "savedAtUtc": "2026-11-17T09:55:10.3535408Z",
+  "readScope": "Only designated policy, rubric, and inputs-only file. No author labels, strata, implementation or results inspected."
+}

@@ -1,0 +1,241 @@
+{
+  "method": "Exact bodies/subjects and unstemmed lowercase word-set Jaccard; not proof of semantic novelty or training exclusion",
+  "exactBodyDuplicates": 0,
+  "findings": [
+    {
+      "id": "v11-001",
+      "closestBodyTokenJaccard": {
+        "id": "v10-020",
+        "file": "completeness-evaluation.json",
+        "score": 0.2222222222222222,
+        "sameSubject": false,
+        "exactBody": false
+      },
+      "identicalPriorSubjects": []
+    },
+    {
+      "id": "v11-002",
+      "closestBodyTokenJaccard": {
+        "id": "v5-028",
+        "file": "evidence-evaluation.json",
+        "score": 0.22857142857142856,
+        "sameSubject": false,
+        "exactBody": false
+      },
+      "identicalPriorSubjects": [
+        {
+          "id": "v10-014",
+          "file": "completeness-evaluation.json"
+        }
+      ]
+    },
+    {
+      "id": "v11-003",
+      "closestBodyTokenJaccard": {
+        "id": "v10-016",
+        "file": "completeness-evaluation.json",
+        "score": 0.16666666666666666,
+        "sameSubject": false,
+        "exactBody": false
+      },
+      "identicalPriorSubjects": []
+    },
+    {
+      "id": "v11-004",
+      "closestBodyTokenJaccard": {
+        "id": "v8-040",
+        "file": "reliability-evaluation.json",
+        "score": 0.38095238095238093,
+        "sameSubject": false,
+        "exactBody": false
+      },
+      "identicalPriorSubjects": []
+    },
+    {
+      "id": "v11-005",
+      "closestBodyTokenJaccard": {
+        "id": "v10-004",
+        "file": "completeness-evaluation.json",
+        "score": 0.5,
+        "sameSubject": true,
+        "exactBody": false
+      },
+      "identicalPriorSubjects": [
+        {
+          "id": "v10-004",
+          "file": "completeness-evaluation.json"
+        }
+      ]
+    },
+    {
+      "id": "v11-006",
+      "closestBodyTokenJaccard": {
+        "id": "eval-19",
+        "file": "fixtures.json",
+        "score": 0.17857142857142858,
+        "sameSubject": false,
+        "exactBody": false
+      },
+      "identicalPriorSubjects": []
+    },
+    {
+      "id": "v11-007",
+      "closestBodyTokenJaccard": {
+        "id": "v6-017",
+        "file": "vague-evaluation.json",
+        "score": 0.22727272727272727,
+        "sameSubject": false,
+        "exactBody": false
+      },
+      "identicalPriorSubjects": []
+    },
+    {
+      "id": "v11-008",
+      "closestBodyTokenJaccard": {
+        "id": "v4-015",
+        "file": "reviewed-evaluation.json",
+        "score": 0.2608695652173913,
+        "sameSubject": false,
+        "exactBody": false
+      },
+      "identicalPriorSubjects": []
+    },
+    {
+      "id": "v11-009",
+      "closestBodyTokenJaccard": {
+        "id": "v6-033",
+        "file": "vague-evaluation.json",
+        "score": 0.24242424242424243,
+        "sameSubject": false,
+        "exactBody": false
+      },
+      "identicalPriorSubjects": []
+    },
+    {
+      "id": "v11-010",
+      "closestBodyTokenJaccard": {
+        "id": "v9-001",
+        "file": "sensitive-evaluation.json",
+        "score": 0.28,
+        "sameSubject": false,
+        "exactBody": false
+      },
+      "identicalPriorSubjects": []
+    },
+    {
+      "id": "v11-011",
+      "closestBodyTokenJaccard": {
+        "id": "v6-036",
+        "file": "vague-evaluation.json",
+        "score": 0.16279069767441862,
+        "sameSubject": false,
+        "exactBody": false
+      },
+      "identicalPriorSubjects": []
+    },
+    {
+      "id": "v11-012",
+      "closestBodyTokenJaccard": {
+        "id": "v8-009",
+        "file": "reliability-evaluation.json",
+        "score": 0.6111111111111112,
+        "sameSubject": false,
+        "exactBody": false
+      },
+      "identicalPriorSubjects": []
+    },
+    {
+      "id": "v11-013",
+      "closestBodyTokenJaccard": {
+        "id": "v10-009",
+        "file": "completeness-evaluation.json",
+        "score": 0.34782608695652173,
+        "sameSubject": false,
+        "exactBody": false
+      },
+      "identicalPriorSubjects": []
+    },
+    {
+      "id": "v11-014",
+      "closestBodyTokenJaccard": {
+        "id": "v10-007",
+        "file": "completeness-evaluation.json",
+        "score": 0.2631578947368421,
+        "sameSubject": false,
+        "exactBody": false
+      },
+      "identicalPriorSubjects": []
+    },
+    {
+      "id": "v11-015",
+      "closestBodyTokenJaccard": {
+        "id": "v10-016",
+        "file": "completeness-evaluation.json",
+        "score": 0.20689655172413793,
+        "sameSubject": false,
+        "exactBody": false
+      },
+      "identicalPriorSubjects": []
+    },
+    {
+      "id": "v11-016",
+      "closestBodyTokenJaccard": {
+        "id": "v7-012",
+        "file": "negation-evaluation.json",
+        "score": 0.2916666666666667,
+        "sameSubject": false,
+        "exactBody": false
+      },
+      "identicalPriorSubjects": [
+        {
+          "id": "dev-01",
+          "file": "fixtures.json"
+        }
+      ]
+    },
+    {
+      "id": "v11-017",
+      "closestBodyTokenJaccard": {
+        "id": "v9-026",
+        "file": "sensitive-evaluation.json",
+        "score": 0.28,
+        "sameSubject": false,
+        "exactBody": false
+      },
+      "identicalPriorSubjects": []
+    },
+    {
+      "id": "v11-018",
+      "closestBodyTokenJaccard": {
+        "id": "v9-040",
+        "file": "sensitive-evaluation.json",
+        "score": 0.17647058823529413,
+        "sameSubject": false,
+        "exactBody": false
+      },
+      "identicalPriorSubjects": []
+    },
+    {
+      "id": "v11-019",
+      "closestBodyTokenJaccard": {
+        "id": "v6-032",
+        "file": "vague-evaluation.json",
+        "score": 0.2571428571428571,
+        "sameSubject": false,
+        "exactBody": false
+      },
+      "identicalPriorSubjects": []
+    },
+    {
+      "id": "v11-020",
+      "closestBodyTokenJaccard": {
+        "id": "v9-024",
+        "file": "sensitive-evaluation.json",
+        "score": 0.5,
+        "sameSubject": false,
+        "exactBody": false
+      },
+      "identicalPriorSubjects": []
+    }
+  ]
+}

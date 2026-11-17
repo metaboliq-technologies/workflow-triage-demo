@@ -1,0 +1,887 @@
+{
+  "schemaVersion": 1,
+  "sourceCommit": "def1a310b6bf079a02990b7dd21c524c33015285",
+  "startedAt": "2026-11-17T13:00:32.089Z",
+  "completedAt": "2026-11-17T13:25:16.337Z",
+  "status": "complete",
+  "inFlight": null,
+  "stopReason": null,
+  "invocations": 40,
+  "attempts": 46,
+  "validFinal": 39,
+  "unattempted": [],
+  "commonValidIds": [
+    "v14-005",
+    "v14-019",
+    "v14-015",
+    "v14-007",
+    "v14-020",
+    "v14-018",
+    "v14-004",
+    "v14-017",
+    "v14-010",
+    "v14-006",
+    "v14-009",
+    "v14-011",
+    "v14-001",
+    "v14-014",
+    "v14-013",
+    "v14-003",
+    "v14-008",
+    "v14-012",
+    "v14-002"
+  ],
+  "firstFailures": [
+    {
+      "id": "v14-016",
+      "arm": "updated",
+      "firstError": "provider_http_503",
+      "recovered": false,
+      "finalError": "provider_http_503",
+      "finalOutput": null
+    },
+    {
+      "id": "v14-004",
+      "arm": "previous",
+      "firstError": "provider_http_503",
+      "recovered": true,
+      "finalError": null,
+      "finalOutput": {
+        "category": "review",
+        "evidence": "Login loops. The screen has a blue border, a gray footer, and a small logo beside the heading. Also, charts freeze."
+      }
+    },
+    {
+      "id": "v14-006",
+      "arm": "updated",
+      "firstError": "provider_timeout",
+      "recovered": true,
+      "finalError": null,
+      "finalOutput": {
+        "category": "billing",
+        "evidence": "Cancel only my paid subscription"
+      }
+    },
+    {
+      "id": "v14-011",
+      "arm": "previous",
+      "firstError": "provider_timeout",
+      "recovered": true,
+      "finalError": null,
+      "finalOutput": {
+        "category": "access",
+        "evidence": "MFA rejects every fresh code"
+      }
+    },
+    {
+      "id": "v14-002",
+      "arm": "previous",
+      "firstError": "provider_http_503",
+      "recovered": true,
+      "finalError": null,
+      "finalOutput": {
+        "category": "review",
+        "evidence": "An unknown person changed my recovery email"
+      }
+    },
+    {
+      "id": "v14-002",
+      "arm": "updated",
+      "firstError": "provider_timeout",
+      "recovered": true,
+      "finalError": null,
+      "finalOutput": {
+        "category": "review",
+        "evidence": "An unknown person changed my recovery email"
+      }
+    }
+  ],
+  "failedAttempts": [
+    {
+      "id": "v14-016",
+      "arm": "updated",
+      "attempt": 1,
+      "outcome": "retry",
+      "error": "provider_http_503",
+      "stage": "http",
+      "latencyMs": 971,
+      "attemptLatencyMs": 971,
+      "httpStatus": 503,
+      "timeoutMs": 30000,
+      "retryDeferred": null,
+      "retryDelayMs": 4442,
+      "retryAfterKind": "absent"
+    },
+    {
+      "id": "v14-016",
+      "arm": "updated",
+      "attempt": 2,
+      "outcome": "failure",
+      "error": "provider_http_503",
+      "stage": "http",
+      "latencyMs": 802,
+      "attemptLatencyMs": 802,
+      "httpStatus": 503,
+      "timeoutMs": 30000,
+      "retryDeferred": "retry_limit",
+      "retryDelayMs": 0,
+      "retryAfterKind": "absent"
+    },
+    {
+      "id": "v14-004",
+      "arm": "previous",
+      "attempt": 1,
+      "outcome": "retry",
+      "error": "provider_http_503",
+      "stage": "http",
+      "latencyMs": 1054,
+      "attemptLatencyMs": 1054,
+      "httpStatus": 503,
+      "timeoutMs": 30000,
+      "retryDeferred": null,
+      "retryDelayMs": 4424,
+      "retryAfterKind": "absent"
+    },
+    {
+      "id": "v14-006",
+      "arm": "updated",
+      "attempt": 1,
+      "outcome": "retry",
+      "error": "provider_timeout",
+      "stage": "transport",
+      "latencyMs": 30000,
+      "attemptLatencyMs": 30000,
+      "timeoutMs": 30000,
+      "retryDeferred": null,
+      "retryDelayMs": 4534,
+      "retryAfterKind": "absent"
+    },
+    {
+      "id": "v14-011",
+      "arm": "previous",
+      "attempt": 1,
+      "outcome": "retry",
+      "error": "provider_timeout",
+      "stage": "transport",
+      "latencyMs": 30001,
+      "attemptLatencyMs": 30001,
+      "timeoutMs": 30000,
+      "retryDeferred": null,
+      "retryDelayMs": 4160,
+      "retryAfterKind": "absent"
+    },
+    {
+      "id": "v14-002",
+      "arm": "previous",
+      "attempt": 1,
+      "outcome": "retry",
+      "error": "provider_http_503",
+      "stage": "http",
+      "latencyMs": 1468,
+      "attemptLatencyMs": 1468,
+      "httpStatus": 503,
+      "timeoutMs": 30000,
+      "retryDeferred": null,
+      "retryDelayMs": 4561,
+      "retryAfterKind": "absent"
+    },
+    {
+      "id": "v14-002",
+      "arm": "updated",
+      "attempt": 1,
+      "outcome": "retry",
+      "error": "provider_timeout",
+      "stage": "transport",
+      "latencyMs": 30000,
+      "attemptLatencyMs": 30000,
+      "timeoutMs": 30000,
+      "retryDeferred": null,
+      "retryDelayMs": 4270,
+      "retryAfterKind": "absent"
+    }
+  ],
+  "knownUsage": {
+    "attemptsWithUsage": 39,
+    "totalTokenCount": 96746,
+    "attemptsWithoutUsage": 7,
+    "unknownUsageIsNotZero": true
+  },
+  "baselineMisses": [
+    {
+      "id": "v14-005",
+      "expected": {
+        "route": "access",
+        "requiresHumanReview": false
+      },
+      "result": {
+        "id": "v14-005",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "no_supported_route",
+        "matchedCategories": [],
+        "source": "rules-baseline"
+      }
+    },
+    {
+      "id": "v14-015",
+      "expected": {
+        "route": "technical",
+        "requiresHumanReview": false
+      },
+      "result": {
+        "id": "v14-015",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "no_supported_route",
+        "matchedCategories": [],
+        "source": "rules-baseline"
+      }
+    },
+    {
+      "id": "v14-020",
+      "expected": {
+        "route": "technical",
+        "requiresHumanReview": false
+      },
+      "result": {
+        "id": "v14-020",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "no_supported_route",
+        "matchedCategories": [],
+        "source": "rules-baseline"
+      }
+    },
+    {
+      "id": "v14-004",
+      "expected": {
+        "route": null,
+        "requiresHumanReview": true
+      },
+      "result": {
+        "id": "v14-004",
+        "route": "access",
+        "requiresHumanReview": false,
+        "reason": "single_route_match",
+        "matchedCategories": [
+          "access"
+        ],
+        "source": "rules-baseline"
+      }
+    },
+    {
+      "id": "v14-017",
+      "expected": {
+        "route": "technical",
+        "requiresHumanReview": false
+      },
+      "result": {
+        "id": "v14-017",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "sensitive_context",
+        "matchedCategories": [],
+        "source": "rules-baseline"
+      }
+    },
+    {
+      "id": "v14-010",
+      "expected": {
+        "route": null,
+        "requiresHumanReview": true
+      },
+      "result": {
+        "id": "v14-010",
+        "route": "access",
+        "requiresHumanReview": false,
+        "reason": "single_route_match",
+        "matchedCategories": [
+          "access"
+        ],
+        "source": "rules-baseline"
+      }
+    },
+    {
+      "id": "v14-001",
+      "expected": {
+        "route": null,
+        "requiresHumanReview": true
+      },
+      "result": {
+        "id": "v14-001",
+        "route": "billing",
+        "requiresHumanReview": false,
+        "reason": "single_route_match",
+        "matchedCategories": [
+          "billing"
+        ],
+        "source": "rules-baseline"
+      }
+    },
+    {
+      "id": "v14-014",
+      "expected": {
+        "route": null,
+        "requiresHumanReview": true
+      },
+      "result": {
+        "id": "v14-014",
+        "route": "billing",
+        "requiresHumanReview": false,
+        "reason": "single_route_match",
+        "matchedCategories": [
+          "billing"
+        ],
+        "source": "rules-baseline"
+      }
+    },
+    {
+      "id": "v14-013",
+      "expected": {
+        "route": null,
+        "requiresHumanReview": true
+      },
+      "result": {
+        "id": "v14-013",
+        "route": "access",
+        "requiresHumanReview": false,
+        "reason": "single_route_match",
+        "matchedCategories": [
+          "access"
+        ],
+        "source": "rules-baseline"
+      }
+    },
+    {
+      "id": "v14-003",
+      "expected": {
+        "route": null,
+        "requiresHumanReview": true
+      },
+      "result": {
+        "id": "v14-003",
+        "route": "technical",
+        "requiresHumanReview": false,
+        "reason": "single_route_match",
+        "matchedCategories": [
+          "technical"
+        ],
+        "source": "rules-baseline"
+      }
+    },
+    {
+      "id": "v14-008",
+      "expected": {
+        "route": null,
+        "requiresHumanReview": true
+      },
+      "result": {
+        "id": "v14-008",
+        "route": "billing",
+        "requiresHumanReview": false,
+        "reason": "single_route_match",
+        "matchedCategories": [
+          "billing"
+        ],
+        "source": "rules-baseline"
+      }
+    }
+  ],
+  "guardUnnecessary": {
+    "previous": [
+      "v14-005",
+      "v14-015",
+      "v14-020",
+      "v14-017"
+    ],
+    "updated": [
+      "v14-005",
+      "v14-015",
+      "v14-020",
+      "v14-017"
+    ]
+  },
+  "anchorReferences": [
+    {
+      "id": "v14-005",
+      "reference": {
+        "version": "fact-envelope-v14",
+        "reason": "ordinary",
+        "field": "body",
+        "start": 25,
+        "end": 60,
+        "facts": [
+          {
+            "firstTokenId": "t8",
+            "lastTokenId": "t12",
+            "field": "body",
+            "start": 25,
+            "end": 60
+          }
+        ]
+      },
+      "sourceExact": true,
+      "quoteUnits": 35,
+      "totalSourceTokens": 14
+    },
+    {
+      "id": "v14-019",
+      "reference": {
+        "version": "fact-envelope-v14",
+        "reason": "multiple_intents",
+        "field": "body",
+        "start": 144,
+        "end": 260,
+        "facts": [
+          {
+            "firstTokenId": "t31",
+            "lastTokenId": "t32",
+            "field": "body",
+            "start": 144,
+            "end": 159
+          },
+          {
+            "firstTokenId": "t52",
+            "lastTokenId": "t53",
+            "field": "body",
+            "start": 248,
+            "end": 260
+          }
+        ]
+      },
+      "sourceExact": true,
+      "quoteUnits": 116,
+      "totalSourceTokens": 55
+    },
+    {
+      "id": "v14-015",
+      "reference": {
+        "version": "fact-envelope-v14",
+        "reason": "ordinary",
+        "field": "body",
+        "start": 54,
+        "end": 87,
+        "facts": [
+          {
+            "firstTokenId": "t15",
+            "lastTokenId": "t20",
+            "field": "body",
+            "start": 54,
+            "end": 87
+          }
+        ]
+      },
+      "sourceExact": true,
+      "quoteUnits": 33,
+      "totalSourceTokens": 22
+    },
+    {
+      "id": "v14-007",
+      "reference": {
+        "version": "fact-envelope-v14",
+        "reason": "multiple_intents",
+        "field": "body",
+        "start": 0,
+        "end": 115,
+        "facts": [
+          {
+            "firstTokenId": "t3",
+            "lastTokenId": "t4",
+            "field": "body",
+            "start": 0,
+            "end": 13
+          },
+          {
+            "firstTokenId": "t25",
+            "lastTokenId": "t26",
+            "field": "body",
+            "start": 103,
+            "end": 115
+          }
+        ]
+      },
+      "sourceExact": true,
+      "quoteUnits": 115,
+      "totalSourceTokens": 36
+    },
+    {
+      "id": "v14-020",
+      "reference": {
+        "version": "fact-envelope-v14",
+        "reason": "ordinary",
+        "field": "body",
+        "start": 63,
+        "end": 98,
+        "facts": [
+          {
+            "firstTokenId": "t13",
+            "lastTokenId": "t19",
+            "field": "body",
+            "start": 63,
+            "end": 98
+          }
+        ]
+      },
+      "sourceExact": true,
+      "quoteUnits": 35,
+      "totalSourceTokens": 21
+    },
+    {
+      "id": "v14-018",
+      "reference": {
+        "version": "fact-envelope-v14",
+        "reason": "multiple_intents",
+        "field": "body",
+        "start": 0,
+        "end": 57,
+        "facts": [
+          {
+            "firstTokenId": "t2",
+            "lastTokenId": "t5",
+            "field": "body",
+            "start": 0,
+            "end": 26
+          },
+          {
+            "firstTokenId": "t7",
+            "lastTokenId": "t10",
+            "field": "body",
+            "start": 31,
+            "end": 57
+          }
+        ]
+      },
+      "sourceExact": true,
+      "quoteUnits": 57,
+      "totalSourceTokens": 12
+    },
+    {
+      "id": "v14-004",
+      "reference": {
+        "version": "fact-envelope-v14",
+        "reason": "multiple_intents",
+        "field": "body",
+        "start": 0,
+        "end": 114,
+        "facts": [
+          {
+            "firstTokenId": "t2",
+            "lastTokenId": "t3",
+            "field": "body",
+            "start": 0,
+            "end": 11
+          },
+          {
+            "firstTokenId": "t26",
+            "lastTokenId": "t27",
+            "field": "body",
+            "start": 101,
+            "end": 114
+          }
+        ]
+      },
+      "sourceExact": true,
+      "quoteUnits": 114,
+      "totalSourceTokens": 29
+    },
+    {
+      "id": "v14-017",
+      "reference": {
+        "version": "fact-envelope-v14",
+        "reason": "ordinary",
+        "field": "subject",
+        "start": 0,
+        "end": 45,
+        "facts": [
+          {
+            "firstTokenId": "t0",
+            "lastTokenId": "t7",
+            "field": "subject",
+            "start": 0,
+            "end": 45
+          }
+        ]
+      },
+      "sourceExact": true,
+      "quoteUnits": 45,
+      "totalSourceTokens": 16
+    },
+    {
+      "id": "v14-010",
+      "reference": {
+        "version": "fact-envelope-v14",
+        "reason": "multiple_intents",
+        "field": "body",
+        "start": 46,
+        "end": 161,
+        "facts": [
+          {
+            "firstTokenId": "t12",
+            "lastTokenId": "t13",
+            "field": "body",
+            "start": 46,
+            "end": 55
+          },
+          {
+            "firstTokenId": "t36",
+            "lastTokenId": "t37",
+            "field": "body",
+            "start": 149,
+            "end": 161
+          }
+        ]
+      },
+      "sourceExact": true,
+      "quoteUnits": 115,
+      "totalSourceTokens": 39
+    },
+    {
+      "id": "v14-006",
+      "reference": {
+        "version": "fact-envelope-v14",
+        "reason": "ordinary",
+        "field": "subject",
+        "start": 0,
+        "end": 32,
+        "facts": [
+          {
+            "firstTokenId": "t0",
+            "lastTokenId": "t4",
+            "field": "subject",
+            "start": 0,
+            "end": 32
+          }
+        ]
+      },
+      "sourceExact": true,
+      "quoteUnits": 32,
+      "totalSourceTokens": 15
+    },
+    {
+      "id": "v14-009",
+      "reference": {
+        "version": "fact-envelope-v14",
+        "reason": "destructive",
+        "field": "body",
+        "start": 29,
+        "end": 67,
+        "facts": [
+          {
+            "firstTokenId": "t8",
+            "lastTokenId": "t12",
+            "field": "body",
+            "start": 29,
+            "end": 67
+          }
+        ]
+      },
+      "sourceExact": true,
+      "quoteUnits": 38,
+      "totalSourceTokens": 14
+    },
+    {
+      "id": "v14-011",
+      "reference": {
+        "version": "fact-envelope-v14",
+        "reason": "ordinary",
+        "field": "subject",
+        "start": 0,
+        "end": 28,
+        "facts": [
+          {
+            "firstTokenId": "t0",
+            "lastTokenId": "t4",
+            "field": "subject",
+            "start": 0,
+            "end": 28
+          }
+        ]
+      },
+      "sourceExact": true,
+      "quoteUnits": 28,
+      "totalSourceTokens": 12
+    },
+    {
+      "id": "v14-001",
+      "reference": {
+        "version": "fact-envelope-v14",
+        "reason": "multiple_intents",
+        "field": "body",
+        "start": 0,
+        "end": 51,
+        "facts": [
+          {
+            "firstTokenId": "t4",
+            "lastTokenId": "t7",
+            "field": "body",
+            "start": 0,
+            "end": 19
+          },
+          {
+            "firstTokenId": "t9",
+            "lastTokenId": "t12",
+            "field": "body",
+            "start": 24,
+            "end": 51
+          }
+        ]
+      },
+      "sourceExact": true,
+      "quoteUnits": 51,
+      "totalSourceTokens": 14
+    },
+    {
+      "id": "v14-014",
+      "reference": {
+        "version": "fact-envelope-v14",
+        "reason": "injection",
+        "field": "body",
+        "start": 0,
+        "end": 53,
+        "facts": [
+          {
+            "firstTokenId": "t2",
+            "lastTokenId": "t11",
+            "field": "body",
+            "start": 0,
+            "end": 53
+          }
+        ]
+      },
+      "sourceExact": true,
+      "quoteUnits": 53,
+      "totalSourceTokens": 17
+    },
+    {
+      "id": "v14-013",
+      "reference": {
+        "version": "fact-envelope-v14",
+        "reason": "multiple_intents",
+        "field": "body",
+        "start": 57,
+        "end": 173,
+        "facts": [
+          {
+            "firstTokenId": "t16",
+            "lastTokenId": "t17",
+            "field": "body",
+            "start": 57,
+            "end": 75
+          },
+          {
+            "firstTokenId": "t39",
+            "lastTokenId": "t40",
+            "field": "body",
+            "start": 162,
+            "end": 173
+          }
+        ]
+      },
+      "sourceExact": true,
+      "quoteUnits": 116,
+      "totalSourceTokens": 49
+    },
+    {
+      "id": "v14-003",
+      "reference": {
+        "version": "fact-envelope-v14",
+        "reason": "sensitive",
+        "field": "body",
+        "start": 0,
+        "end": 34,
+        "facts": [
+          {
+            "firstTokenId": "t2",
+            "lastTokenId": "t6",
+            "field": "body",
+            "start": 0,
+            "end": 34
+          }
+        ]
+      },
+      "sourceExact": true,
+      "quoteUnits": 34,
+      "totalSourceTokens": 17
+    },
+    {
+      "id": "v14-008",
+      "reference": {
+        "version": "fact-envelope-v14",
+        "reason": "multiple_intents",
+        "field": "body",
+        "start": 0,
+        "end": 43,
+        "facts": [
+          {
+            "firstTokenId": "t3",
+            "lastTokenId": "t5",
+            "field": "body",
+            "start": 0,
+            "end": 14
+          },
+          {
+            "firstTokenId": "t7",
+            "lastTokenId": "t10",
+            "field": "body",
+            "start": 19,
+            "end": 43
+          }
+        ]
+      },
+      "sourceExact": true,
+      "quoteUnits": 43,
+      "totalSourceTokens": 12
+    },
+    {
+      "id": "v14-012",
+      "reference": {
+        "version": "fact-envelope-v14",
+        "reason": "multiple_intents",
+        "field": "body",
+        "start": 0,
+        "end": 44,
+        "facts": [
+          {
+            "firstTokenId": "t4",
+            "lastTokenId": "t7",
+            "field": "body",
+            "start": 0,
+            "end": 24
+          },
+          {
+            "firstTokenId": "t9",
+            "lastTokenId": "t11",
+            "field": "body",
+            "start": 29,
+            "end": 44
+          }
+        ]
+      },
+      "sourceExact": true,
+      "quoteUnits": 44,
+      "totalSourceTokens": 13
+    },
+    {
+      "id": "v14-002",
+      "reference": {
+        "version": "fact-envelope-v14",
+        "reason": "security",
+        "field": "subject",
+        "start": 0,
+        "end": 43,
+        "facts": [
+          {
+            "firstTokenId": "t0",
+            "lastTokenId": "t6",
+            "field": "subject",
+            "start": 0,
+            "end": 43
+          }
+        ]
+      },
+      "sourceExact": true,
+      "quoteUnits": 43,
+      "totalSourceTokens": 16
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "gradesSha256": "59e677d2ed94d09b1b272c44aa2828818e02ccf46623c3e8c2b8a48174a41df5",
+  "itemsSha256": "a18679f92cfe10e91762aa057ad6ded26f86c220fefc6e688be765c75c3355f7",
+  "gradeCount": 39,
+  "armExposure": false,
+  "originalCaseIdExposure": false,
+  "readScope": [
+    "ROUTING-POLICY-V14.md",
+    "OUTPUT-REVIEW-RUBRIC-V14.md",
+    "anchor-output-items.json"
+  ],
+  "conceptualAlgorithmExposure": true,
+  "humanReviewed": false,
+  "sealedBeforeUnblinding": true,
+  "coveredBundleIndexBase": 0,
+  "reviewer": "fresh-context AI evidence reviewer",
+  "limitations": "Repeated requests reveal pairing and style could suggest arms. No arm identity or original case ID inspected. Exactness and UTF16 length mechanically checked; semantics independently assessed.",
+  "criteriaReview": "No material ambiguity or missing independently sufficient alternative identified. Ordinary-route qualifiers assessed in full-request context; optional context graded separately. A nonessential trailing fragment does not invalidate complete sufficient facts.",
+  "executionNote": "Initial Python attempt failed before reading items or writing files due to unavailable runtime encodings; completed using PowerShell."
+}

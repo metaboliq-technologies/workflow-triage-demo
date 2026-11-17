@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "caseCount": 20,
+  "humanReviewed": false,
+  "initialReviewerBlinded": true,
+  "initialAgreement": {
+    "agreed": 20,
+    "total": 20
+  },
+  "unresolvedDisagreements": 0,
+  "initialLabelsSha256": "f5e11ec362723204ccca5835d9b5651b5f50fd39d85df0c9388c76276293421e",
+  "datasetSha256": "d7db4471f3b5cef85dfe4d6f3551f2cef3b7becaab6ab0565ed3f4a1e74cc18c",
+  "policySha256": "98111da4b00cb6e33e474d045945e22b09caa88f88d226b667c8413ea77f9012",
+  "originalFiles": {
+    "author-inputs.json": "4ca33ddd6817df21973477e7732e46c441afe0999f984bd0f6c9b7ec269fc3d1",
+    "author-labels.json": "44a5d5474761131f9e51d188a9c6a997b17b4fe80d2527480033374bb4c07991",
+    "author-process.json": "b2de55ddba76471dcb55bac736e4fb1d94a494a4668045b9cd4b0ed39fa7752e",
+    "reviewer-initial-labels.json": "f5e11ec362723204ccca5835d9b5651b5f50fd39d85df0c9388c76276293421e",
+    "reviewer-initial-process.json": "5117b216e8f47fc21d3bb8dfc880f122971b3ff117f34aa0b434960cc909bd4f",
+    "final-labels.json": "346c7fcd24e6c98030e6411481e3a793858e7fdc3a167ae0397d3dbe36f656cd",
+    "review-resolutions.json": "e56b0d9c627706f8791f5d3893e68d8995c795c4914c9932f6b9a86d9eaa7c2b",
+    "round-one-inputs.json": "ac85621c3e22545e648082c8500fe4a3f482b4f1ac36d8688bcfbc65a5ae832c",
+    "round-one-labels.json": "44a5d5474761131f9e51d188a9c6a997b17b4fe80d2527480033374bb4c07991",
+    "round-one-process.json": "49a0b546004599e3266bc069c6c0f88a1ec55ba27ba0d0d7f6616c2c515d9de9",
+    "author-round-two-changes.json": "68773c3017992b36f745fdcec6977f55de5a5f0e1c861cd8931583350885a202"
+  },
+  "implementationFreezeCommit": "dae5e02ffa19c72c9d68b0f8d806c409940c586f",
+  "initialJudgmentsSealCommit": "8048cb2311e5d299e4aa54c5679d0f16f27edfae",
+  "primaryReviewerExposure": "Historical outcomes; fresh cases only after implementation freeze; pre-run reconciliation exposed to author labels. Author and reviewers saw conceptual algorithm descriptions in written protocol, not actual code/options/history. Round2 framing-only eligibility revision before provider calls.",
+  "noveltyAuditSha256": "22ecce0c436bf9dfbd3194cc8b1d659414cea64478eb03e3e95c5619afbcd90e",
+  "frozenAt": "2026-11-17T12:59:22.293Z"
+}

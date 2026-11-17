@@ -1,0 +1,217 @@
+{
+  "method": "Exact bodies/subjects and lowercase ASCII word-set Jaccard, not semantic novelty or training exclusion",
+  "priorRequests": 442,
+  "exactBodyDuplicateCases": 0,
+  "reusedSubjectCases": 1,
+  "rows": [
+    {
+      "id": "v14-001",
+      "exactBodyDuplicates": [],
+      "identicalPriorSubjects": [
+        {
+          "id": "v12-003",
+          "file": "selection-evaluation.json"
+        },
+        {
+          "id": "v13-001",
+          "file": "challenge-evaluation.json"
+        }
+      ],
+      "closestBody": {
+        "id": "v11-005",
+        "file": "sufficient-evaluation.json",
+        "jaccard": 0.75
+      }
+    },
+    {
+      "id": "v14-002",
+      "exactBodyDuplicates": [],
+      "identicalPriorSubjects": [],
+      "closestBody": {
+        "id": "dev-02",
+        "file": "fixtures.json",
+        "jaccard": 0.16666666666666666
+      }
+    },
+    {
+      "id": "v14-003",
+      "exactBodyDuplicates": [],
+      "identicalPriorSubjects": [],
+      "closestBody": {
+        "id": "v9-038",
+        "file": "sensitive-evaluation.json",
+        "jaccard": 0.2
+      }
+    },
+    {
+      "id": "v14-004",
+      "exactBodyDuplicates": [],
+      "identicalPriorSubjects": [],
+      "closestBody": {
+        "id": "b13-002",
+        "file": "boundary-evaluation.json",
+        "jaccard": 0.25
+      }
+    },
+    {
+      "id": "v14-005",
+      "exactBodyDuplicates": [],
+      "identicalPriorSubjects": [],
+      "closestBody": {
+        "id": "v9-026",
+        "file": "sensitive-evaluation.json",
+        "jaccard": 0.5714285714285714
+      }
+    },
+    {
+      "id": "v14-006",
+      "exactBodyDuplicates": [],
+      "identicalPriorSubjects": [],
+      "closestBody": {
+        "id": "v7-025",
+        "file": "negation-evaluation.json",
+        "jaccard": 0.28
+      }
+    },
+    {
+      "id": "v14-007",
+      "exactBodyDuplicates": [],
+      "identicalPriorSubjects": [],
+      "closestBody": {
+        "id": "v7-019",
+        "file": "negation-evaluation.json",
+        "jaccard": 0.16216216216216217
+      }
+    },
+    {
+      "id": "v14-008",
+      "exactBodyDuplicates": [],
+      "identicalPriorSubjects": [],
+      "closestBody": {
+        "id": "v13-003",
+        "file": "challenge-evaluation.json",
+        "jaccard": 0.23809523809523808
+      }
+    },
+    {
+      "id": "v14-009",
+      "exactBodyDuplicates": [],
+      "identicalPriorSubjects": [],
+      "closestBody": {
+        "id": "v9-018",
+        "file": "sensitive-evaluation.json",
+        "jaccard": 0.47058823529411764
+      }
+    },
+    {
+      "id": "v14-010",
+      "exactBodyDuplicates": [],
+      "identicalPriorSubjects": [],
+      "closestBody": {
+        "id": "b13-006",
+        "file": "boundary-evaluation.json",
+        "jaccard": 0.20454545454545456
+      }
+    },
+    {
+      "id": "v14-011",
+      "exactBodyDuplicates": [],
+      "identicalPriorSubjects": [],
+      "closestBody": {
+        "id": "dev-04",
+        "file": "fixtures.json",
+        "jaccard": 0.18181818181818182
+      }
+    },
+    {
+      "id": "v14-012",
+      "exactBodyDuplicates": [],
+      "identicalPriorSubjects": [],
+      "closestBody": {
+        "id": "v11-014",
+        "file": "sufficient-evaluation.json",
+        "jaccard": 0.2222222222222222
+      }
+    },
+    {
+      "id": "v14-013",
+      "exactBodyDuplicates": [],
+      "identicalPriorSubjects": [],
+      "closestBody": {
+        "id": "v4-020",
+        "file": "reviewed-evaluation.json",
+        "jaccard": 0.14285714285714285
+      }
+    },
+    {
+      "id": "v14-014",
+      "exactBodyDuplicates": [],
+      "identicalPriorSubjects": [],
+      "closestBody": {
+        "id": "v9-001",
+        "file": "sensitive-evaluation.json",
+        "jaccard": 0.4444444444444444
+      }
+    },
+    {
+      "id": "v14-015",
+      "exactBodyDuplicates": [],
+      "identicalPriorSubjects": [],
+      "closestBody": {
+        "id": "v6-036",
+        "file": "vague-evaluation.json",
+        "jaccard": 0.22580645161290322
+      }
+    },
+    {
+      "id": "v14-016",
+      "exactBodyDuplicates": [],
+      "identicalPriorSubjects": [],
+      "closestBody": {
+        "id": "v6-022",
+        "file": "vague-evaluation.json",
+        "jaccard": 0.15555555555555556
+      }
+    },
+    {
+      "id": "v14-017",
+      "exactBodyDuplicates": [],
+      "identicalPriorSubjects": [],
+      "closestBody": {
+        "id": "v13-012",
+        "file": "challenge-evaluation.json",
+        "jaccard": 0.23529411764705882
+      }
+    },
+    {
+      "id": "v14-018",
+      "exactBodyDuplicates": [],
+      "identicalPriorSubjects": [],
+      "closestBody": {
+        "id": "eval-13",
+        "file": "fixtures.json",
+        "jaccard": 0.23076923076923078
+      }
+    },
+    {
+      "id": "v14-019",
+      "exactBodyDuplicates": [],
+      "identicalPriorSubjects": [],
+      "closestBody": {
+        "id": "v6-022",
+        "file": "vague-evaluation.json",
+        "jaccard": 0.12244897959183673
+      }
+    },
+    {
+      "id": "v14-020",
+      "exactBodyDuplicates": [],
+      "identicalPriorSubjects": [],
+      "closestBody": {
+        "id": "v9-029",
+        "file": "sensitive-evaluation.json",
+        "jaccard": 0.2
+      }
+    }
+  ]
+}

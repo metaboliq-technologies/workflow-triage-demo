@@ -1,0 +1,35 @@
+{
+  "authorship": "AI-only fictional synthetic English requests",
+  "round": 1,
+  "implementationFrozenCommitReportedByParent": "dae5e02ffa19c72c9d68b0f8d806c409940c586f",
+  "readSources": [
+    "ROUTING-POLICY-V14.md",
+    "OUTPUT-REVIEW-RUBRIC-V14.md"
+  ],
+  "excludedSources": "No implementation, historical cases, outputs, candidate options or model calls inspected or run.",
+  "schemaClarification": "Parent supplied final expected/evidence schema before save.",
+  "executionNote": "First creation attempt failed because local Python could not initialize; no files written by that attempt. Node used for authoring and exact substring/length verification.",
+  "boundaryDrafts": "Original drafts and intermediate whitespace-padded drafts preserved separately. Final same-round boundary wording adds the neutral transition Also, before the second symptom. Changes were solely for prospective span eligibility before independent review/provider calls.",
+  "limits": "Boundary spans require independent confirmation; author judgment is not global minimum proof. AI-only review is not human adjudication or training exclusion evidence.",
+  "policyExposure": "The supplied policy/rubric includes a conceptual description of the v14 token/fact representation. Author saw that text, but no actual implementation source, candidate options, historical cases/results, or provider outputs. Cases were tailored only to predeclared coverage and span criteria.",
+  "sealedForIndependentReview": true,
+  "authorChecks": {
+    "count": 20,
+    "groups": {
+      "multi_intent": 6,
+      "boundary_span": 6,
+      "subject_context": 4,
+      "protective_controls": 4
+    },
+    "exactQuotesAndLengths": "passed",
+    "boundaryUtf16Units": [
+      114,
+      115,
+      115,
+      116,
+      114,
+      116
+    ],
+    "independentBoundaryConfirmation": "pending separate reviewer"
+  }
+}

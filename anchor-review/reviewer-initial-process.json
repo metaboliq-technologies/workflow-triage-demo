@@ -1,0 +1,43 @@
+{
+  "reviewer": "fresh-context AI label reviewer",
+  "authorLabelExposure": false,
+  "authorGroupExposure": false,
+  "providerCalls": 0,
+  "initialLabelsSha256": "f5e11ec362723204ccca5835d9b5651b5f50fd39d85df0c9388c76276293421e",
+  "inputFile": "anchor-review/author-inputs.json",
+  "authorizedReads": [
+    "ROUTING-POLICY-V14.md",
+    "OUTPUT-REVIEW-RUBRIC-V14.md",
+    "anchor-review/author-inputs.json"
+  ],
+  "provenanceCaveat": "Policy/rubric include a conceptual algorithm description. No implementation source, candidate options, historical cases/results, author labels, group assignments, or author examples inspected.",
+  "method": "Independently assessed full subject/body routing, sufficient facts, optional facts and exact single-field shortest-observed complete-fact spans. Preserved essential negation, scope and actor relationships. Quotes are search judgments, not mathematical minima. Read inputs once and checked lengths/exactness locally; no provider calls.",
+  "boundaryObserved": [
+    {
+      "id": "v14-004",
+      "utf16Units": 114
+    },
+    {
+      "id": "v14-007",
+      "utf16Units": 115
+    },
+    {
+      "id": "v14-010",
+      "utf16Units": 115
+    },
+    {
+      "id": "v14-013",
+      "utf16Units": 116
+    },
+    {
+      "id": "v14-016",
+      "utf16Units": 114
+    },
+    {
+      "id": "v14-019",
+      "utf16Units": 116
+    }
+  ],
+  "sealedBeforeAuthorComparison": true,
+  "createdUtc": "2026-11-17T12:56:16.8332251Z"
+}

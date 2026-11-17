@@ -1,0 +1,38 @@
+[
+  {
+    "id": "v14-004",
+    "intermediateQuote": "Login loops. The screen has a blue border, a gray footer, and a small logo beside the heading.   charts freeze",
+    "utf16Units": 110,
+    "rejectionReason": "Prefer natural neutral transition over whitespace padding; original same-round draft preserved."
+  },
+  {
+    "id": "v14-007",
+    "intermediateQuote": "Signup stalls. I am writing from the desk by the window, using the usual browser this afternoon.  uploads fail",
+    "utf16Units": 110,
+    "rejectionReason": "Prefer natural neutral transition over whitespace padding; original same-round draft preserved."
+  },
+  {
+    "id": "v14-010",
+    "intermediateQuote": "MFA fails. The page has its usual white background, small sidebar, and a plain title at the top.  search hangs",
+    "utf16Units": 110,
+    "rejectionReason": "Prefer natural neutral transition over whitespace padding; original same-round draft preserved."
+  },
+  {
+    "id": "v14-013",
+    "intermediateQuote": "Invoices duplicate. My note is on plain paper beside a green pen and a mug near the office window. login fails",
+    "utf16Units": 110,
+    "rejectionReason": "Prefer natural neutral transition over whitespace padding; original same-round draft preserved."
+  },
+  {
+    "id": "v14-016",
+    "intermediateQuote": "Payments fail. The desktop has the standard wallpaper, and the room has a shelf near the window.   maps freeze",
+    "utf16Units": 110,
+    "rejectionReason": "Prefer natural neutral transition over whitespace padding; original same-round draft preserved."
+  },
+  {
+    "id": "v14-019",
+    "intermediateQuote": "Receipts vanish. I have placed this note beside the keyboard, under the ordinary desk lamp today. signup loops",
+    "utf16Units": 110,
+    "rejectionReason": "Prefer natural neutral transition over whitespace padding; original same-round draft preserved."
+  }
+]

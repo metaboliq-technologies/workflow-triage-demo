@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "experiment": "paired-sufficient-evidence-v11",
+  "datasetSha256": "59390dfb44cf7baf28e7c9cbbf338f3ec14d76cb0dd2b3d6970052e497563a72",
+  "freezeSha256": "1de7f05537f0359fe0e5b20aed40297b776ea8dbdaa6a59e9013cf16f2e26625",
+  "reviewManifestSha256": "25ce62b93c1bef9aa9d3edbb9b3c5b8df45b48c7db42a2d89f3e79f3865c968b",
+  "classifications": 40,
+  "maximumApiAttempts": 80,
+  "model": "gemini-3.5-flash-lite",
+  "spacingMs": 30000,
+  "providerReplayAllowed": false,
+  "quotaWorkaroundAllowed": false,
+  "humanReviewed": false,
+  "frozenAt": "2026-11-17T09:59:07.391Z"
+}

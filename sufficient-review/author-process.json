@@ -1,0 +1,25 @@
+{
+  "authorship": "AI-authored fictional English software-support requests",
+  "readFilesDuringAuthoring": [
+    "C:/Users/tusha/OneDrive/Documents/ChatGPT/METABOLIQ/work/triage-sufficient-evidence/ROUTING-POLICY-V11.md",
+    "C:/Users/tusha/OneDrive/Documents/ChatGPT/METABOLIQ/work/triage-sufficient-evidence/OUTPUT-REVIEW-RUBRIC-V11.md"
+  ],
+  "historicalCaseResultsOrPromptExposureDuringAuthoring": false,
+  "exposureStatement": "The author read only the two supplied policy/rubric files for task content. No historical cases, results, prompts, reviewer output, or other agents files were inspected during authoring.",
+  "sha256": {
+    "author-inputs.json": "44f525f6c1c1df0105b13e6a0332c69af730275e673011f1e7e39fdb8648cf86",
+    "author-labels.json": "65616b439d9c6d8a236a1a81583a2edf157285ec869c93ddc849c086529bb094"
+  },
+  "authoredCaseCount": 20,
+  "implementationFreeze": {
+    "precededAuthorTask": true,
+    "commit": "3aaacbdeb8c16e1704a4d8e9ed1b9470e4f49ef5",
+    "basis": "Parent task instruction reported that implementation and rubric were frozen remotely before this task; author did not inspect implementation."
+  },
+  "noveltyStatement": "These are newly authored texts for this experiment. Semantic novelty and training-data exclusion are not proven.",
+  "validation": "All exemplar quotes were mechanically validated as unchanged contiguous substrings of one subject or body, with JavaScript UTF-16 length 4–120. Twenty IDs and four cases in each of five strata were validated.",
+  "preservation": "No authored cases or labels were revised in producing this process record.",
+  "processRecordReads": [
+    "author-inputs.json and author-labels.json read as raw bytes solely to compute SHA256."
+  ]
+}

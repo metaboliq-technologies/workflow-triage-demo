@@ -138,3 +138,7 @@ Suggest a failure case with fictional input, the expected decision and a reason.
 This repository is separate from MetaboliQ's proprietary website and applications. No private application source or customer data is included. It has no Firebase or production deployment configuration. Publishing source here does not grant an open-source license; see `LICENSE`.
 
 [How we work](https://metaboliq.in/how-we-work.html) · [Engineering journal](https://metaboliq.in/blog.html) · [Discuss a project](https://metaboliq.in/contact.html)
+
+## Sufficient evidence comparison v11
+
+[Full v11 results and limitations](sufficient-results.md): 40 classifications, 46 attempts, 37 valid final outputs. On 17 common-valid pairs, no routing or AI-rated support gain; frozen bundle coverage 15/17 to 16/17 includes a criteria ambiguity. All-case joint success 17/20 for both. Three final failures and every retry remain recorded. Separate AI author/label/evidence reviewers; no human validation. Do not rerun the saved live evaluation. Reproduce the audit offline with `node verify-sufficient-evaluation.mjs`.

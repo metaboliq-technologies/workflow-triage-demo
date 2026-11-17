@@ -1,0 +1,11 @@
+{
+  "runId": 44060731223,
+  "jobId": 133961649490,
+  "workflowConclusion": "failure",
+  "experimentStatus": "complete",
+  "sourceCommit": "3886de178e1cdc8c65fdc634222469ac86f5ebd7",
+  "startedAt": "2026-11-17T10:00:20.951Z",
+  "completedAt": "2026-11-17T10:24:07.318Z",
+  "checkpointPreserved": true,
+  "reason": "Workflow intentionally fails on first/final provider or contract errors, even when all planned classifications were attempted."
+}

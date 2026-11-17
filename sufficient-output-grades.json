@@ -1,0 +1,443 @@
+[
+  {
+    "id": "evidence-001",
+    "sourceExact": true,
+    "supportsReturnedDecision": true,
+    "coversSufficientReferenceBundle": true,
+    "coveredBundleIndexes": [
+      0
+    ],
+    "criteriaAmbiguous": false,
+    "optionalContextCoverage": "full",
+    "rationale": "Quote conveys all facts of selected sufficient bundle(s) in full request context; scope and polarity preserved. Optional coverage graded solely from quoted facts and separately from sufficiency."
+  },
+  {
+    "id": "evidence-002",
+    "sourceExact": true,
+    "supportsReturnedDecision": false,
+    "coversSufficientReferenceBundle": false,
+    "coveredBundleIndexes": [],
+    "criteriaAmbiguous": false,
+    "optionalContextCoverage": "not-applicable",
+    "rationale": "Generic subject conveys neither substantive intent; it does not support review despite correct full-request category."
+  },
+  {
+    "id": "evidence-003",
+    "sourceExact": true,
+    "supportsReturnedDecision": true,
+    "coversSufficientReferenceBundle": true,
+    "coveredBundleIndexes": [
+      0
+    ],
+    "criteriaAmbiguous": false,
+    "optionalContextCoverage": "none",
+    "rationale": "Quote conveys all facts of selected sufficient bundle(s) in full request context; scope and polarity preserved. Optional coverage graded solely from quoted facts and separately from sufficiency."
+  },
+  {
+    "id": "evidence-004",
+    "sourceExact": true,
+    "supportsReturnedDecision": true,
+    "coversSufficientReferenceBundle": true,
+    "coveredBundleIndexes": [
+      0,
+      1
+    ],
+    "criteriaAmbiguous": false,
+    "optionalContextCoverage": "none",
+    "rationale": "Quote conveys all facts of selected sufficient bundle(s) in full request context; scope and polarity preserved. Optional coverage graded solely from quoted facts and separately from sufficiency."
+  },
+  {
+    "id": "evidence-005",
+    "sourceExact": true,
+    "supportsReturnedDecision": true,
+    "coversSufficientReferenceBundle": true,
+    "coveredBundleIndexes": [
+      0
+    ],
+    "criteriaAmbiguous": false,
+    "optionalContextCoverage": "none",
+    "rationale": "Quote conveys all facts of selected sufficient bundle(s) in full request context; scope and polarity preserved. Optional coverage graded solely from quoted facts and separately from sufficiency."
+  },
+  {
+    "id": "evidence-006",
+    "sourceExact": true,
+    "supportsReturnedDecision": true,
+    "coversSufficientReferenceBundle": false,
+    "coveredBundleIndexes": [],
+    "criteriaAmbiguous": true,
+    "optionalContextCoverage": "partial",
+    "rationale": "Diagnosis fragment supports sensitive review in actual personal report context, but does not convey specified actual-personal-biopsy-report bundle. Criteria potentially overdemanding: concrete actual diagnosis disclosure independently justifies review under rubric, while sole reference requires report provenance and treats diagnosis as optional. Diagnosis covered; viewer symptom absent."
+  },
+  {
+    "id": "evidence-007",
+    "sourceExact": true,
+    "supportsReturnedDecision": true,
+    "coversSufficientReferenceBundle": true,
+    "coveredBundleIndexes": [
+      0
+    ],
+    "criteriaAmbiguous": false,
+    "optionalContextCoverage": "partial",
+    "rationale": "Concrete duplication symptom supports technical route. Fictional medication scope supplies some optional context; astronaut and explicit no-real-patient statement absent."
+  },
+  {
+    "id": "evidence-008",
+    "sourceExact": true,
+    "supportsReturnedDecision": true,
+    "coversSufficientReferenceBundle": true,
+    "coveredBundleIndexes": [
+      0
+    ],
+    "criteriaAmbiguous": false,
+    "optionalContextCoverage": "partial",
+    "rationale": "Quote conveys all facts of selected sufficient bundle(s) in full request context; scope and polarity preserved. Optional coverage graded solely from quoted facts and separately from sufficiency."
+  },
+  {
+    "id": "evidence-009",
+    "sourceExact": true,
+    "supportsReturnedDecision": true,
+    "coversSufficientReferenceBundle": true,
+    "coveredBundleIndexes": [
+      0,
+      1
+    ],
+    "criteriaAmbiguous": false,
+    "optionalContextCoverage": "none",
+    "rationale": "Quote conveys all facts of selected sufficient bundle(s) in full request context; scope and polarity preserved. Optional coverage graded solely from quoted facts and separately from sufficiency."
+  },
+  {
+    "id": "evidence-010",
+    "sourceExact": true,
+    "supportsReturnedDecision": true,
+    "coversSufficientReferenceBundle": true,
+    "coveredBundleIndexes": [
+      0
+    ],
+    "criteriaAmbiguous": false,
+    "optionalContextCoverage": "full",
+    "rationale": "Concrete chart symptom supports technical route. Fictional debtor dataset semantically conveys optional records-not-real scope."
+  },
+  {
+    "id": "evidence-011",
+    "sourceExact": true,
+    "supportsReturnedDecision": true,
+    "coversSufficientReferenceBundle": true,
+    "coveredBundleIndexes": [
+      0
+    ],
+    "criteriaAmbiguous": false,
+    "optionalContextCoverage": "full",
+    "rationale": "Concrete chart symptom supports technical route. Fictional debtor dataset semantically conveys optional records-not-real scope."
+  },
+  {
+    "id": "evidence-012",
+    "sourceExact": true,
+    "supportsReturnedDecision": true,
+    "coversSufficientReferenceBundle": true,
+    "coveredBundleIndexes": [
+      0
+    ],
+    "criteriaAmbiguous": false,
+    "optionalContextCoverage": "partial",
+    "rationale": "Quote conveys all facts of selected sufficient bundle(s) in full request context; scope and polarity preserved. Optional coverage graded solely from quoted facts and separately from sufficiency."
+  },
+  {
+    "id": "evidence-013",
+    "sourceExact": true,
+    "supportsReturnedDecision": true,
+    "coversSufficientReferenceBundle": true,
+    "coveredBundleIndexes": [
+      0
+    ],
+    "criteriaAmbiguous": false,
+    "optionalContextCoverage": "full",
+    "rationale": "Quote conveys all facts of selected sufficient bundle(s) in full request context; scope and polarity preserved. Optional coverage graded solely from quoted facts and separately from sufficiency."
+  },
+  {
+    "id": "evidence-014",
+    "sourceExact": true,
+    "supportsReturnedDecision": true,
+    "coversSufficientReferenceBundle": true,
+    "coveredBundleIndexes": [
+      0
+    ],
+    "criteriaAmbiguous": false,
+    "optionalContextCoverage": "not-applicable",
+    "rationale": "Quote conveys all facts of selected sufficient bundle(s) in full request context; scope and polarity preserved. Optional coverage graded solely from quoted facts and separately from sufficiency."
+  },
+  {
+    "id": "evidence-015",
+    "sourceExact": true,
+    "supportsReturnedDecision": true,
+    "coversSufficientReferenceBundle": true,
+    "coveredBundleIndexes": [
+      0
+    ],
+    "criteriaAmbiguous": false,
+    "optionalContextCoverage": "partial",
+    "rationale": "Real personal prescription completes sensitive disclosure. Insulin and tab-switch symptom covered; conflicting sample label absent."
+  },
+  {
+    "id": "evidence-016",
+    "sourceExact": true,
+    "supportsReturnedDecision": true,
+    "coversSufficientReferenceBundle": true,
+    "coveredBundleIndexes": [
+      0
+    ],
+    "criteriaAmbiguous": false,
+    "optionalContextCoverage": "partial",
+    "rationale": "Quote conveys all facts of selected sufficient bundle(s) in full request context; scope and polarity preserved. Optional coverage graded solely from quoted facts and separately from sufficiency."
+  },
+  {
+    "id": "evidence-017",
+    "sourceExact": true,
+    "supportsReturnedDecision": true,
+    "coversSufficientReferenceBundle": true,
+    "coveredBundleIndexes": [
+      0,
+      1
+    ],
+    "criteriaAmbiguous": false,
+    "optionalContextCoverage": "not-applicable",
+    "rationale": "Quote conveys all facts of selected sufficient bundle(s) in full request context; scope and polarity preserved. Optional coverage graded solely from quoted facts and separately from sufficiency."
+  },
+  {
+    "id": "evidence-018",
+    "sourceExact": true,
+    "supportsReturnedDecision": true,
+    "coversSufficientReferenceBundle": true,
+    "coveredBundleIndexes": [
+      0
+    ],
+    "criteriaAmbiguous": false,
+    "optionalContextCoverage": "none",
+    "rationale": "Quote conveys all facts of selected sufficient bundle(s) in full request context; scope and polarity preserved. Optional coverage graded solely from quoted facts and separately from sufficiency."
+  },
+  {
+    "id": "evidence-019",
+    "sourceExact": true,
+    "supportsReturnedDecision": true,
+    "coversSufficientReferenceBundle": true,
+    "coveredBundleIndexes": [
+      0
+    ],
+    "criteriaAmbiguous": false,
+    "optionalContextCoverage": "none",
+    "rationale": "Generic dissatisfaction and unspecified fix are quoted; complete request confirms no concrete positive workflow, completing insufficiency in context. Absence need not be literally quoted. Denied closure absent."
+  },
+  {
+    "id": "evidence-020",
+    "sourceExact": true,
+    "supportsReturnedDecision": true,
+    "coversSufficientReferenceBundle": true,
+    "coveredBundleIndexes": [
+      0
+    ],
+    "criteriaAmbiguous": false,
+    "optionalContextCoverage": "none",
+    "rationale": "Quote conveys all facts of selected sufficient bundle(s) in full request context; scope and polarity preserved. Optional coverage graded solely from quoted facts and separately from sufficiency."
+  },
+  {
+    "id": "evidence-021",
+    "sourceExact": true,
+    "supportsReturnedDecision": true,
+    "coversSufficientReferenceBundle": true,
+    "coveredBundleIndexes": [
+      1
+    ],
+    "criteriaAmbiguous": false,
+    "optionalContextCoverage": "not-applicable",
+    "rationale": "Quote conveys all facts of selected sufficient bundle(s) in full request context; scope and polarity preserved. Optional coverage graded solely from quoted facts and separately from sufficiency."
+  },
+  {
+    "id": "evidence-022",
+    "sourceExact": true,
+    "supportsReturnedDecision": true,
+    "coversSufficientReferenceBundle": true,
+    "coveredBundleIndexes": [
+      1
+    ],
+    "criteriaAmbiguous": false,
+    "optionalContextCoverage": "not-applicable",
+    "rationale": "Quote conveys all facts of selected sufficient bundle(s) in full request context; scope and polarity preserved. Optional coverage graded solely from quoted facts and separately from sufficiency."
+  },
+  {
+    "id": "evidence-023",
+    "sourceExact": true,
+    "supportsReturnedDecision": true,
+    "coversSufficientReferenceBundle": true,
+    "coveredBundleIndexes": [
+      0
+    ],
+    "criteriaAmbiguous": false,
+    "optionalContextCoverage": "not-applicable",
+    "rationale": "Quote conveys all facts of selected sufficient bundle(s) in full request context; scope and polarity preserved. Optional coverage graded solely from quoted facts and separately from sufficiency."
+  },
+  {
+    "id": "evidence-024",
+    "sourceExact": true,
+    "supportsReturnedDecision": true,
+    "coversSufficientReferenceBundle": true,
+    "coveredBundleIndexes": [
+      0
+    ],
+    "criteriaAmbiguous": false,
+    "optionalContextCoverage": "full",
+    "rationale": "Quote conveys all facts of selected sufficient bundle(s) in full request context; scope and polarity preserved. Optional coverage graded solely from quoted facts and separately from sufficiency."
+  },
+  {
+    "id": "evidence-025",
+    "sourceExact": true,
+    "supportsReturnedDecision": true,
+    "coversSufficientReferenceBundle": true,
+    "coveredBundleIndexes": [
+      0
+    ],
+    "criteriaAmbiguous": false,
+    "optionalContextCoverage": "none",
+    "rationale": "Generic dissatisfaction and unspecified fix plus complete-request absence of concrete workflow complete insufficiency in context. Absence need not be literally quoted. Denied closure absent."
+  },
+  {
+    "id": "evidence-026",
+    "sourceExact": true,
+    "supportsReturnedDecision": true,
+    "coversSufficientReferenceBundle": true,
+    "coveredBundleIndexes": [
+      0
+    ],
+    "criteriaAmbiguous": false,
+    "optionalContextCoverage": "full",
+    "rationale": "Quote conveys all facts of selected sufficient bundle(s) in full request context; scope and polarity preserved. Optional coverage graded solely from quoted facts and separately from sufficiency."
+  },
+  {
+    "id": "evidence-027",
+    "sourceExact": true,
+    "supportsReturnedDecision": true,
+    "coversSufficientReferenceBundle": true,
+    "coveredBundleIndexes": [
+      0
+    ],
+    "criteriaAmbiguous": false,
+    "optionalContextCoverage": "partial",
+    "rationale": "Quote conveys all facts of selected sufficient bundle(s) in full request context; scope and polarity preserved. Optional coverage graded solely from quoted facts and separately from sufficiency."
+  },
+  {
+    "id": "evidence-028",
+    "sourceExact": true,
+    "supportsReturnedDecision": true,
+    "coversSufficientReferenceBundle": true,
+    "coveredBundleIndexes": [
+      0
+    ],
+    "criteriaAmbiguous": false,
+    "optionalContextCoverage": "none",
+    "rationale": "Quote conveys all facts of selected sufficient bundle(s) in full request context; scope and polarity preserved. Optional coverage graded solely from quoted facts and separately from sufficiency."
+  },
+  {
+    "id": "evidence-029",
+    "sourceExact": true,
+    "supportsReturnedDecision": true,
+    "coversSufficientReferenceBundle": true,
+    "coveredBundleIndexes": [
+      0
+    ],
+    "criteriaAmbiguous": false,
+    "optionalContextCoverage": "none",
+    "rationale": "Quote conveys all facts of selected sufficient bundle(s) in full request context; scope and polarity preserved. Optional coverage graded solely from quoted facts and separately from sufficiency."
+  },
+  {
+    "id": "evidence-030",
+    "sourceExact": true,
+    "supportsReturnedDecision": true,
+    "coversSufficientReferenceBundle": true,
+    "coveredBundleIndexes": [
+      0
+    ],
+    "criteriaAmbiguous": false,
+    "optionalContextCoverage": "partial",
+    "rationale": "Concrete duplication symptom supports technical route. Fictional medication wording partly covers optional context; astronaut and explicit no-patient statement absent."
+  },
+  {
+    "id": "evidence-031",
+    "sourceExact": true,
+    "supportsReturnedDecision": true,
+    "coversSufficientReferenceBundle": true,
+    "coveredBundleIndexes": [
+      0
+    ],
+    "criteriaAmbiguous": false,
+    "optionalContextCoverage": "none",
+    "rationale": "Quote conveys all facts of selected sufficient bundle(s) in full request context; scope and polarity preserved. Optional coverage graded solely from quoted facts and separately from sufficiency."
+  },
+  {
+    "id": "evidence-032",
+    "sourceExact": true,
+    "supportsReturnedDecision": true,
+    "coversSufficientReferenceBundle": true,
+    "coveredBundleIndexes": [
+      0
+    ],
+    "criteriaAmbiguous": false,
+    "optionalContextCoverage": "none",
+    "rationale": "Quote conveys all facts of selected sufficient bundle(s) in full request context; scope and polarity preserved. Optional coverage graded solely from quoted facts and separately from sufficiency."
+  },
+  {
+    "id": "evidence-033",
+    "sourceExact": true,
+    "supportsReturnedDecision": false,
+    "coversSufficientReferenceBundle": false,
+    "coveredBundleIndexes": [],
+    "criteriaAmbiguous": false,
+    "optionalContextCoverage": "not-applicable",
+    "rationale": "Generic subject conveys neither substantive intent and does not support review."
+  },
+  {
+    "id": "evidence-034",
+    "sourceExact": true,
+    "supportsReturnedDecision": true,
+    "coversSufficientReferenceBundle": true,
+    "coveredBundleIndexes": [
+      0
+    ],
+    "criteriaAmbiguous": false,
+    "optionalContextCoverage": "none",
+    "rationale": "Quote conveys all facts of selected sufficient bundle(s) in full request context; scope and polarity preserved. Optional coverage graded solely from quoted facts and separately from sufficiency."
+  },
+  {
+    "id": "evidence-035",
+    "sourceExact": true,
+    "supportsReturnedDecision": true,
+    "coversSufficientReferenceBundle": true,
+    "coveredBundleIndexes": [
+      0
+    ],
+    "criteriaAmbiguous": false,
+    "optionalContextCoverage": "partial",
+    "rationale": "Quote conveys all facts of selected sufficient bundle(s) in full request context; scope and polarity preserved. Optional coverage graded solely from quoted facts and separately from sufficiency."
+  },
+  {
+    "id": "evidence-036",
+    "sourceExact": true,
+    "supportsReturnedDecision": true,
+    "coversSufficientReferenceBundle": true,
+    "coveredBundleIndexes": [
+      0
+    ],
+    "criteriaAmbiguous": false,
+    "optionalContextCoverage": "full",
+    "rationale": "Quote conveys all facts of selected sufficient bundle(s) in full request context; scope and polarity preserved. Optional coverage graded solely from quoted facts and separately from sufficiency."
+  },
+  {
+    "id": "evidence-037",
+    "sourceExact": true,
+    "supportsReturnedDecision": true,
+    "coversSufficientReferenceBundle": true,
+    "coveredBundleIndexes": [
+      0
+    ],
+    "criteriaAmbiguous": false,
+    "optionalContextCoverage": "not-applicable",
+    "rationale": "Quote conveys all facts of selected sufficient bundle(s) in full request context; scope and polarity preserved. Optional coverage graded solely from quoted facts and separately from sufficiency."
+  }
+]

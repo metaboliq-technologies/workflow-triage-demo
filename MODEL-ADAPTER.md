@@ -84,3 +84,7 @@ Returned model version, token counts when available, attempts, latency, prompt h
 - [Rate limits](https://aistudio.google.com/docs/rate-limits)
 
 The live comparison should report all cases and failures, not just examples that improve on the baseline. A small synthetic result is evidence for the next experiment, not production readiness.
+
+## Sufficient-evidence v11 candidate
+
+`createSufficientAdapter` in `sufficient-adapter.mjs` adds a single-sufficient-trigger clarification to the explicit v10 adapter. Routing policy, one exact 4–120 UTF-16 quote, Gemini model and bounded-v8 retries stay fixed. It remains an experimental explicit adapter, not an established improvement. The [v11 results](sufficient-results.md) preserve all 40 attempted classifications, three final failures, unsupported generic-subject evidence and the reference-criteria miss. No historical results were replaced.

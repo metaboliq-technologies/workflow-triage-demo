@@ -1,0 +1,386 @@
+{
+  "startedAt": "2026-11-17T10:00:20.951Z",
+  "completedAt": "2026-11-17T10:24:07.318Z",
+  "status": "complete",
+  "invocations": 40,
+  "attempts": 46,
+  "validFinal": 37,
+  "commonValidIds": [
+    "v11-003",
+    "v11-019",
+    "v11-008",
+    "v11-020",
+    "v11-007",
+    "v11-014",
+    "v11-009",
+    "v11-013",
+    "v11-006",
+    "v11-001",
+    "v11-004",
+    "v11-005",
+    "v11-011",
+    "v11-018",
+    "v11-002",
+    "v11-012",
+    "v11-017"
+  ],
+  "firstFailures": [
+    {
+      "id": "v11-008",
+      "arm": "updated",
+      "firstError": "provider_http_503",
+      "recovered": true,
+      "finalError": null,
+      "finalOutput": {
+        "category": "access",
+        "evidence": "The email verification link sends me back to the verification screen without activating my login."
+      }
+    },
+    {
+      "id": "v11-016",
+      "arm": "updated",
+      "firstError": "provider_timeout",
+      "recovered": false,
+      "finalError": "provider_http_503",
+      "finalOutput": null
+    },
+    {
+      "id": "v11-001",
+      "arm": "updated",
+      "firstError": "provider_http_503",
+      "recovered": true,
+      "finalError": null,
+      "finalOutput": {
+        "category": "technical",
+        "evidence": "The calendar export produces a zero-byte ICS file every time."
+      }
+    },
+    {
+      "id": "v11-004",
+      "arm": "updated",
+      "firstError": "provider_timeout",
+      "recovered": true,
+      "finalError": null,
+      "finalOutput": {
+        "category": "review",
+        "evidence": "permanently delete my workspace when this project ends."
+      }
+    },
+    {
+      "id": "v11-010",
+      "arm": "updated",
+      "firstError": "invalid_model_decision",
+      "recovered": false,
+      "finalError": "invalid_model_decision",
+      "finalOutput": null
+    },
+    {
+      "id": "v11-017",
+      "arm": "previous",
+      "firstError": "provider_http_503",
+      "recovered": true,
+      "finalError": null,
+      "finalOutput": {
+        "category": "review",
+        "evidence": "I do not want anything deleted. Please resend my activation email and fix the missing totals in the report export."
+      }
+    },
+    {
+      "id": "v11-015",
+      "arm": "previous",
+      "firstError": "provider_timeout",
+      "recovered": false,
+      "finalError": "provider_http_503",
+      "finalOutput": null
+    }
+  ],
+  "failedAttempts": [
+    {
+      "id": "v11-008",
+      "arm": "updated",
+      "attempt": 1,
+      "outcome": "retry",
+      "error": "provider_http_503",
+      "stage": "http",
+      "latencyMs": 14859,
+      "attemptLatencyMs": 14859,
+      "httpStatus": 503,
+      "timeoutMs": 30000,
+      "retryDeferred": null,
+      "retryDelayMs": 4077,
+      "retryAfterKind": "absent"
+    },
+    {
+      "id": "v11-016",
+      "arm": "updated",
+      "attempt": 1,
+      "outcome": "retry",
+      "error": "provider_timeout",
+      "stage": "transport",
+      "latencyMs": 30001,
+      "attemptLatencyMs": 30001,
+      "timeoutMs": 30000,
+      "retryDeferred": null,
+      "retryDelayMs": 4406,
+      "retryAfterKind": "absent"
+    },
+    {
+      "id": "v11-016",
+      "arm": "updated",
+      "attempt": 2,
+      "outcome": "failure",
+      "error": "provider_http_503",
+      "stage": "http",
+      "latencyMs": 1511,
+      "attemptLatencyMs": 1511,
+      "httpStatus": 503,
+      "timeoutMs": 30000,
+      "retryDeferred": "retry_limit",
+      "retryDelayMs": 0,
+      "retryAfterKind": "absent"
+    },
+    {
+      "id": "v11-001",
+      "arm": "updated",
+      "attempt": 1,
+      "outcome": "retry",
+      "error": "provider_http_503",
+      "stage": "http",
+      "latencyMs": 1018,
+      "attemptLatencyMs": 1018,
+      "httpStatus": 503,
+      "timeoutMs": 30000,
+      "retryDeferred": null,
+      "retryDelayMs": 4609,
+      "retryAfterKind": "absent"
+    },
+    {
+      "id": "v11-004",
+      "arm": "updated",
+      "attempt": 1,
+      "outcome": "retry",
+      "error": "provider_timeout",
+      "stage": "transport",
+      "latencyMs": 30001,
+      "attemptLatencyMs": 30001,
+      "timeoutMs": 30000,
+      "retryDeferred": null,
+      "retryDelayMs": 4475,
+      "retryAfterKind": "absent"
+    },
+    {
+      "id": "v11-010",
+      "arm": "updated",
+      "attempt": 1,
+      "outcome": "failure",
+      "error": "invalid_model_decision",
+      "stage": "decision",
+      "validationReason": "evidence_too_long",
+      "finishReason": "STOP",
+      "latencyMs": 6661,
+      "attemptLatencyMs": 6661,
+      "candidateCount": 1,
+      "outputCharacters": 159,
+      "evidenceCharacters": 124,
+      "httpStatus": 200,
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 1892,
+        "candidatesTokenCount": 32,
+        "thoughtsTokenCount": null,
+        "totalTokenCount": 1924
+      },
+      "timeoutMs": 30000,
+      "retryDeferred": "non_retryable",
+      "retryDelayMs": 0,
+      "retryAfterKind": "absent"
+    },
+    {
+      "id": "v11-017",
+      "arm": "previous",
+      "attempt": 1,
+      "outcome": "retry",
+      "error": "provider_http_503",
+      "stage": "http",
+      "latencyMs": 9109,
+      "attemptLatencyMs": 9109,
+      "httpStatus": 503,
+      "timeoutMs": 30000,
+      "retryDeferred": null,
+      "retryDelayMs": 4601,
+      "retryAfterKind": "absent"
+    },
+    {
+      "id": "v11-015",
+      "arm": "previous",
+      "attempt": 1,
+      "outcome": "retry",
+      "error": "provider_timeout",
+      "stage": "transport",
+      "latencyMs": 30000,
+      "attemptLatencyMs": 30000,
+      "timeoutMs": 30000,
+      "retryDeferred": null,
+      "retryDelayMs": 4010,
+      "retryAfterKind": "absent"
+    },
+    {
+      "id": "v11-015",
+      "arm": "previous",
+      "attempt": 2,
+      "outcome": "failure",
+      "error": "provider_http_503",
+      "stage": "http",
+      "latencyMs": 10637,
+      "attemptLatencyMs": 10637,
+      "httpStatus": 503,
+      "timeoutMs": 30000,
+      "retryDeferred": "retry_limit",
+      "retryDelayMs": 0,
+      "retryAfterKind": "absent"
+    }
+  ],
+  "knownUsage": {
+    "attemptsWithUsage": 38,
+    "totalTokenCount": 67593,
+    "attemptsWithoutUsage": 8,
+    "unknownUsageIsNotZero": true
+  },
+  "baselineMisses": [
+    {
+      "id": "v11-009",
+      "expected": {
+        "route": null,
+        "requiresHumanReview": true
+      },
+      "result": {
+        "id": "v11-009",
+        "route": "technical",
+        "requiresHumanReview": false,
+        "reason": "single_route_match",
+        "matchedCategories": [
+          "technical"
+        ],
+        "source": "rules-baseline"
+      }
+    },
+    {
+      "id": "v11-013",
+      "expected": {
+        "route": null,
+        "requiresHumanReview": true
+      },
+      "result": {
+        "id": "v11-013",
+        "route": "billing",
+        "requiresHumanReview": false,
+        "reason": "single_route_match",
+        "matchedCategories": [
+          "billing"
+        ],
+        "source": "rules-baseline"
+      }
+    },
+    {
+      "id": "v11-006",
+      "expected": {
+        "route": "technical",
+        "requiresHumanReview": false
+      },
+      "result": {
+        "id": "v11-006",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "no_supported_route",
+        "matchedCategories": [],
+        "source": "rules-baseline"
+      }
+    },
+    {
+      "id": "v11-005",
+      "expected": {
+        "route": null,
+        "requiresHumanReview": true
+      },
+      "result": {
+        "id": "v11-005",
+        "route": "billing",
+        "requiresHumanReview": false,
+        "reason": "single_route_match",
+        "matchedCategories": [
+          "billing"
+        ],
+        "source": "rules-baseline"
+      }
+    },
+    {
+      "id": "v11-011",
+      "expected": {
+        "route": "technical",
+        "requiresHumanReview": false
+      },
+      "result": {
+        "id": "v11-011",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "security_signal",
+        "matchedCategories": [],
+        "source": "rules-baseline"
+      }
+    },
+    {
+      "id": "v11-010",
+      "expected": {
+        "route": null,
+        "requiresHumanReview": true
+      },
+      "result": {
+        "id": "v11-010",
+        "route": "billing",
+        "requiresHumanReview": false,
+        "reason": "single_route_match",
+        "matchedCategories": [
+          "billing"
+        ],
+        "source": "rules-baseline"
+      }
+    },
+    {
+      "id": "v11-018",
+      "expected": {
+        "route": "technical",
+        "requiresHumanReview": false
+      },
+      "result": {
+        "id": "v11-018",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "sensitive_context",
+        "matchedCategories": [],
+        "source": "rules-baseline"
+      }
+    },
+    {
+      "id": "v11-017",
+      "expected": {
+        "route": null,
+        "requiresHumanReview": true
+      },
+      "result": {
+        "id": "v11-017",
+        "route": "technical",
+        "requiresHumanReview": false,
+        "reason": "single_route_match",
+        "matchedCategories": [
+          "technical"
+        ],
+        "source": "rules-baseline"
+      }
+    }
+  ],
+  "guardUnnecessary": [
+    "v11-006",
+    "v11-011",
+    "v11-018"
+  ]
+}

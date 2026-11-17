@@ -1,0 +1,187 @@
+[
+  {
+    "id": "evidence-001",
+    "caseId": "v11-019",
+    "arm": "previous"
+  },
+  {
+    "id": "evidence-002",
+    "caseId": "v11-005",
+    "arm": "previous"
+  },
+  {
+    "id": "evidence-003",
+    "caseId": "v11-013",
+    "arm": "previous"
+  },
+  {
+    "id": "evidence-004",
+    "caseId": "v11-009",
+    "arm": "previous"
+  },
+  {
+    "id": "evidence-005",
+    "caseId": "v11-013",
+    "arm": "updated"
+  },
+  {
+    "id": "evidence-006",
+    "caseId": "v11-003",
+    "arm": "previous"
+  },
+  {
+    "id": "evidence-007",
+    "caseId": "v11-018",
+    "arm": "previous"
+  },
+  {
+    "id": "evidence-008",
+    "caseId": "v11-002",
+    "arm": "previous"
+  },
+  {
+    "id": "evidence-009",
+    "caseId": "v11-009",
+    "arm": "updated"
+  },
+  {
+    "id": "evidence-010",
+    "caseId": "v11-006",
+    "arm": "previous"
+  },
+  {
+    "id": "evidence-011",
+    "caseId": "v11-006",
+    "arm": "updated"
+  },
+  {
+    "id": "evidence-012",
+    "caseId": "v11-004",
+    "arm": "previous"
+  },
+  {
+    "id": "evidence-013",
+    "caseId": "v11-017",
+    "arm": "previous"
+  },
+  {
+    "id": "evidence-014",
+    "caseId": "v11-005",
+    "arm": "updated"
+  },
+  {
+    "id": "evidence-015",
+    "caseId": "v11-015",
+    "arm": "updated"
+  },
+  {
+    "id": "evidence-016",
+    "caseId": "v11-002",
+    "arm": "updated"
+  },
+  {
+    "id": "evidence-017",
+    "caseId": "v11-014",
+    "arm": "previous"
+  },
+  {
+    "id": "evidence-018",
+    "caseId": "v11-011",
+    "arm": "updated"
+  },
+  {
+    "id": "evidence-019",
+    "caseId": "v11-020",
+    "arm": "updated"
+  },
+  {
+    "id": "evidence-020",
+    "caseId": "v11-011",
+    "arm": "previous"
+  },
+  {
+    "id": "evidence-021",
+    "caseId": "v11-010",
+    "arm": "previous"
+  },
+  {
+    "id": "evidence-022",
+    "caseId": "v11-014",
+    "arm": "updated"
+  },
+  {
+    "id": "evidence-023",
+    "caseId": "v11-007",
+    "arm": "previous"
+  },
+  {
+    "id": "evidence-024",
+    "caseId": "v11-008",
+    "arm": "previous"
+  },
+  {
+    "id": "evidence-025",
+    "caseId": "v11-020",
+    "arm": "previous"
+  },
+  {
+    "id": "evidence-026",
+    "caseId": "v11-012",
+    "arm": "previous"
+  },
+  {
+    "id": "evidence-027",
+    "caseId": "v11-004",
+    "arm": "updated"
+  },
+  {
+    "id": "evidence-028",
+    "caseId": "v11-001",
+    "arm": "updated"
+  },
+  {
+    "id": "evidence-029",
+    "caseId": "v11-012",
+    "arm": "updated"
+  },
+  {
+    "id": "evidence-030",
+    "caseId": "v11-018",
+    "arm": "updated"
+  },
+  {
+    "id": "evidence-031",
+    "caseId": "v11-001",
+    "arm": "previous"
+  },
+  {
+    "id": "evidence-032",
+    "caseId": "v11-019",
+    "arm": "updated"
+  },
+  {
+    "id": "evidence-033",
+    "caseId": "v11-007",
+    "arm": "updated"
+  },
+  {
+    "id": "evidence-034",
+    "caseId": "v11-017",
+    "arm": "updated"
+  },
+  {
+    "id": "evidence-035",
+    "caseId": "v11-003",
+    "arm": "updated"
+  },
+  {
+    "id": "evidence-036",
+    "caseId": "v11-008",
+    "arm": "updated"
+  },
+  {
+    "id": "evidence-037",
+    "caseId": "v11-016",
+    "arm": "previous"
+  }
+]

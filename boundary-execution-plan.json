@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "experiment": "paired-boundary-followup-v13b",
+  "datasetSha256": "f8cb42444008707b07054dbda4ae79cbeccbd5780465ca77b94a0ec25d70e522",
+  "freezeSha256": "4264556eacdbaa183cac71ed5dabfeb46ced7504bc70e17aaa8742d8e2901050",
+  "reviewManifestSha256": "dcf4f02cc73bfb01060e060f8291e9f34eda1018079a6e35c79b29a7a764bb4b",
+  "originalSha256": "6ce791c127fe9533e21d073bcd70a13b05d8f8e8e4323be54b84a733af40c02f",
+  "combinedMaximumApiAttempts": 80,
+  "classifications": 12,
+  "maximumApiAttempts": 24,
+  "model": "gemini-3.5-flash-lite",
+  "spacingMs": 30000,
+  "providerReplayAllowed": false,
+  "quotaWorkaroundAllowed": false,
+  "humanReviewed": false,
+  "frozenAt": "2026-11-17T12:18:01.466Z"
+}

@@ -1,0 +1,466 @@
+[
+  {
+    "id": "evidence-001",
+    "sourceExact": true,
+    "supportsReturnedDecision": true,
+    "coversSufficientReferenceBundle": true,
+    "coveredBundleIndexes": [
+      0
+    ],
+    "criteriaAmbiguous": false,
+    "optionalContextCoverage": "full",
+    "rationale": "Both account recovery and calendar-crash repair, including event movement."
+  },
+  {
+    "id": "evidence-002",
+    "sourceExact": true,
+    "supportsReturnedDecision": false,
+    "coversSufficientReferenceBundle": false,
+    "coveredBundleIndexes": [],
+    "criteriaAmbiguous": false,
+    "optionalContextCoverage": "none",
+    "rationale": "FAIL: Generic count heading conveys neither export-label restoration nor receipt delivery; full context requires review but quote supplies neither substantive intent."
+  },
+  {
+    "id": "evidence-003",
+    "sourceExact": true,
+    "supportsReturnedDecision": true,
+    "coversSufficientReferenceBundle": true,
+    "coveredBundleIndexes": [
+      0
+    ],
+    "criteriaAmbiguous": false,
+    "optionalContextCoverage": "full",
+    "rationale": "Subscription payment-method change and old-card-to-new-card detail support billing."
+  },
+  {
+    "id": "evidence-004",
+    "sourceExact": true,
+    "supportsReturnedDecision": true,
+    "coversSufficientReferenceBundle": true,
+    "coveredBundleIndexes": [
+      0
+    ],
+    "criteriaAmbiguous": false,
+    "optionalContextCoverage": "full",
+    "rationale": "Both export-label restoration and receipt delivery, including annual cartography subscription."
+  },
+  {
+    "id": "evidence-005",
+    "sourceExact": true,
+    "supportsReturnedDecision": true,
+    "coversSufficientReferenceBundle": true,
+    "coveredBundleIndexes": [
+      0
+    ],
+    "criteriaAmbiguous": false,
+    "optionalContextCoverage": "full",
+    "rationale": "Both payment-card change and chart-opening failure, including browser."
+  },
+  {
+    "id": "evidence-006",
+    "sourceExact": true,
+    "supportsReturnedDecision": true,
+    "coversSufficientReferenceBundle": true,
+    "coveredBundleIndexes": [
+      0
+    ],
+    "criteriaAmbiguous": false,
+    "optionalContextCoverage": "full",
+    "rationale": "Both payment-card change and chart-opening failure, including browser."
+  },
+  {
+    "id": "evidence-007",
+    "sourceExact": true,
+    "supportsReturnedDecision": true,
+    "coversSufficientReferenceBundle": true,
+    "coveredBundleIndexes": [
+      0
+    ],
+    "criteriaAmbiguous": false,
+    "optionalContextCoverage": "full",
+    "rationale": "Expired verification code and newest-code rejection support access in full signup context; quoting signup lead-in is unnecessary."
+  },
+  {
+    "id": "evidence-008",
+    "sourceExact": true,
+    "supportsReturnedDecision": true,
+    "coversSufficientReferenceBundle": true,
+    "coveredBundleIndexes": [
+      0
+    ],
+    "criteriaAmbiguous": false,
+    "optionalContextCoverage": "none",
+    "rationale": "Rejected MFA authenticator code supports access; observatory and version availability absent."
+  },
+  {
+    "id": "evidence-009",
+    "sourceExact": true,
+    "supportsReturnedDecision": true,
+    "coversSufficientReferenceBundle": true,
+    "coveredBundleIndexes": [
+      0
+    ],
+    "criteriaAmbiguous": false,
+    "optionalContextCoverage": "full",
+    "rationale": "Both PIN-reset failure and invoice request, including ensemble renewal."
+  },
+  {
+    "id": "evidence-010",
+    "sourceExact": true,
+    "supportsReturnedDecision": true,
+    "coversSufficientReferenceBundle": true,
+    "coveredBundleIndexes": [
+      0
+    ],
+    "criteriaAmbiguous": false,
+    "optionalContextCoverage": "partial",
+    "rationale": "Actual personal migraine prescription independently supports review; public-preview visibility included, home journal tool absent."
+  },
+  {
+    "id": "evidence-011",
+    "sourceExact": true,
+    "supportsReturnedDecision": true,
+    "coversSufficientReferenceBundle": true,
+    "coveredBundleIndexes": [
+      0
+    ],
+    "criteriaAmbiguous": false,
+    "optionalContextCoverage": "not-applicable",
+    "rationale": "Both invoice resend and password-reset assistance support multiple-intent review."
+  },
+  {
+    "id": "evidence-012",
+    "sourceExact": true,
+    "supportsReturnedDecision": true,
+    "coversSufficientReferenceBundle": true,
+    "coveredBundleIndexes": [
+      0
+    ],
+    "criteriaAmbiguous": false,
+    "optionalContextCoverage": "full",
+    "rationale": "Blank timeline thumbnails support technical; normal clip playback included."
+  },
+  {
+    "id": "evidence-013",
+    "sourceExact": true,
+    "supportsReturnedDecision": true,
+    "coversSufficientReferenceBundle": true,
+    "coveredBundleIndexes": [
+      0
+    ],
+    "criteriaAmbiguous": false,
+    "optionalContextCoverage": "full",
+    "rationale": "Refund and planner freezing both conveyed, with ferry trigger."
+  },
+  {
+    "id": "evidence-014",
+    "sourceExact": true,
+    "supportsReturnedDecision": true,
+    "coversSufficientReferenceBundle": true,
+    "coveredBundleIndexes": [
+      0
+    ],
+    "criteriaAmbiguous": false,
+    "optionalContextCoverage": "full",
+    "rationale": "Subtitle synchronization malfunction supports technical; playback-speed change included."
+  },
+  {
+    "id": "evidence-015",
+    "sourceExact": true,
+    "supportsReturnedDecision": true,
+    "coversSufficientReferenceBundle": true,
+    "coveredBundleIndexes": [
+      0
+    ],
+    "criteriaAmbiguous": false,
+    "optionalContextCoverage": "none",
+    "rationale": "Another person changing requester recovery email without permission preserves essential unauthorized-change relationship; community archive absent."
+  },
+  {
+    "id": "evidence-016",
+    "sourceExact": true,
+    "supportsReturnedDecision": false,
+    "coversSufficientReferenceBundle": false,
+    "coveredBundleIndexes": [],
+    "criteriaAmbiguous": false,
+    "optionalContextCoverage": "none",
+    "rationale": "FAIL: Generic item count conveys neither sign-in assistance nor receipt delivery; full context requires review but quote supplies neither substantive intent."
+  },
+  {
+    "id": "evidence-017",
+    "sourceExact": true,
+    "supportsReturnedDecision": true,
+    "coversSufficientReferenceBundle": true,
+    "coveredBundleIndexes": [
+      0
+    ],
+    "criteriaAmbiguous": false,
+    "optionalContextCoverage": "partial",
+    "rationale": "Editor crash supports technical; crop rotation included, desktop edition and photography club absent."
+  },
+  {
+    "id": "evidence-018",
+    "sourceExact": true,
+    "supportsReturnedDecision": true,
+    "coversSufficientReferenceBundle": true,
+    "coveredBundleIndexes": [
+      0
+    ],
+    "criteriaAmbiguous": false,
+    "optionalContextCoverage": "full",
+    "rationale": "Verification-email nonarrival and refund both conveyed, including duplicate fee."
+  },
+  {
+    "id": "evidence-019",
+    "sourceExact": true,
+    "supportsReturnedDecision": true,
+    "coversSufficientReferenceBundle": true,
+    "coveredBundleIndexes": [
+      0
+    ],
+    "criteriaAmbiguous": false,
+    "optionalContextCoverage": "none",
+    "rationale": "Rejected MFA authenticator code supports access; observatory and version availability absent."
+  },
+  {
+    "id": "evidence-020",
+    "sourceExact": true,
+    "supportsReturnedDecision": true,
+    "coversSufficientReferenceBundle": true,
+    "coveredBundleIndexes": [
+      0
+    ],
+    "criteriaAmbiguous": false,
+    "optionalContextCoverage": "full",
+    "rationale": "Both PIN-reset failure and invoice request, including ensemble renewal."
+  },
+  {
+    "id": "evidence-021",
+    "sourceExact": true,
+    "supportsReturnedDecision": true,
+    "coversSufficientReferenceBundle": true,
+    "coveredBundleIndexes": [
+      0
+    ],
+    "criteriaAmbiguous": false,
+    "optionalContextCoverage": "not-applicable",
+    "rationale": "Both invoice resend and password-reset assistance support multiple-intent review."
+  },
+  {
+    "id": "evidence-022",
+    "sourceExact": true,
+    "supportsReturnedDecision": true,
+    "coversSufficientReferenceBundle": true,
+    "coveredBundleIndexes": [
+      0
+    ],
+    "criteriaAmbiguous": false,
+    "optionalContextCoverage": "partial",
+    "rationale": "Notes losing indentation supports technical in full explicitly fictional context; export and fictional dragon included, game prototype absent."
+  },
+  {
+    "id": "evidence-023",
+    "sourceExact": true,
+    "supportsReturnedDecision": true,
+    "coversSufficientReferenceBundle": true,
+    "coveredBundleIndexes": [
+      0
+    ],
+    "criteriaAmbiguous": false,
+    "optionalContextCoverage": "partial",
+    "rationale": "Notes losing indentation supports technical in full explicitly fictional context; export and fictional dragon included, game prototype absent."
+  },
+  {
+    "id": "evidence-024",
+    "sourceExact": true,
+    "supportsReturnedDecision": true,
+    "coversSufficientReferenceBundle": true,
+    "coveredBundleIndexes": [
+      0
+    ],
+    "criteriaAmbiguous": false,
+    "optionalContextCoverage": "full",
+    "rationale": "Subtitle synchronization malfunction supports technical; playback-speed change included."
+  },
+  {
+    "id": "evidence-025",
+    "sourceExact": true,
+    "supportsReturnedDecision": true,
+    "coversSufficientReferenceBundle": true,
+    "coveredBundleIndexes": [
+      0
+    ],
+    "criteriaAmbiguous": false,
+    "optionalContextCoverage": "full",
+    "rationale": "Verification-email nonarrival and refund both conveyed, including duplicate fee."
+  },
+  {
+    "id": "evidence-026",
+    "sourceExact": true,
+    "supportsReturnedDecision": true,
+    "coversSufficientReferenceBundle": true,
+    "coveredBundleIndexes": [
+      0
+    ],
+    "criteriaAmbiguous": false,
+    "optionalContextCoverage": "none",
+    "rationale": "Receipt delivery request supports billing; web purchase and yesterday absent."
+  },
+  {
+    "id": "evidence-027",
+    "sourceExact": true,
+    "supportsReturnedDecision": true,
+    "coversSufficientReferenceBundle": true,
+    "coveredBundleIndexes": [
+      0
+    ],
+    "criteriaAmbiguous": false,
+    "optionalContextCoverage": "partial",
+    "rationale": "Editor crash supports technical; crop rotation included, desktop edition and photography club absent."
+  },
+  {
+    "id": "evidence-028",
+    "sourceExact": true,
+    "supportsReturnedDecision": true,
+    "coversSufficientReferenceBundle": true,
+    "coveredBundleIndexes": [
+      0
+    ],
+    "criteriaAmbiguous": false,
+    "optionalContextCoverage": "partial",
+    "rationale": "Actual personal migraine prescription independently supports review; public-preview visibility included, home journal tool absent."
+  },
+  {
+    "id": "evidence-029",
+    "sourceExact": true,
+    "supportsReturnedDecision": true,
+    "coversSufficientReferenceBundle": true,
+    "coveredBundleIndexes": [
+      0
+    ],
+    "criteriaAmbiguous": false,
+    "optionalContextCoverage": "not-applicable",
+    "rationale": "Expired verification link and overlapping printed diagram rows both conveyed, supporting multiple-intent review."
+  },
+  {
+    "id": "evidence-030",
+    "sourceExact": true,
+    "supportsReturnedDecision": true,
+    "coversSufficientReferenceBundle": true,
+    "coveredBundleIndexes": [
+      0
+    ],
+    "criteriaAmbiguous": false,
+    "optionalContextCoverage": "full",
+    "rationale": "Both account recovery and calendar-crash repair, including event movement."
+  },
+  {
+    "id": "evidence-031",
+    "sourceExact": true,
+    "supportsReturnedDecision": true,
+    "coversSufficientReferenceBundle": true,
+    "coveredBundleIndexes": [
+      0
+    ],
+    "criteriaAmbiguous": false,
+    "optionalContextCoverage": "none",
+    "rationale": "Another person changing requester recovery email without permission preserves essential unauthorized-change relationship; community archive absent."
+  },
+  {
+    "id": "evidence-032",
+    "sourceExact": true,
+    "supportsReturnedDecision": true,
+    "coversSufficientReferenceBundle": true,
+    "coveredBundleIndexes": [
+      0
+    ],
+    "criteriaAmbiguous": false,
+    "optionalContextCoverage": "none",
+    "rationale": "Receipt delivery request supports billing; web purchase and yesterday absent."
+  },
+  {
+    "id": "evidence-033",
+    "sourceExact": true,
+    "supportsReturnedDecision": true,
+    "coversSufficientReferenceBundle": true,
+    "coveredBundleIndexes": [
+      0
+    ],
+    "criteriaAmbiguous": false,
+    "optionalContextCoverage": "full",
+    "rationale": "Subscription payment-method change and old-card-to-new-card detail support billing."
+  },
+  {
+    "id": "evidence-034",
+    "sourceExact": true,
+    "supportsReturnedDecision": true,
+    "coversSufficientReferenceBundle": true,
+    "coveredBundleIndexes": [
+      0
+    ],
+    "criteriaAmbiguous": false,
+    "optionalContextCoverage": "full",
+    "rationale": "Refund and planner freezing both conveyed, with ferry trigger."
+  },
+  {
+    "id": "evidence-035",
+    "sourceExact": true,
+    "supportsReturnedDecision": true,
+    "coversSufficientReferenceBundle": true,
+    "coveredBundleIndexes": [
+      0
+    ],
+    "criteriaAmbiguous": false,
+    "optionalContextCoverage": "full",
+    "rationale": "Timer stoppage and payment-card update both conveyed, including screen lock and own cooking subscription."
+  },
+  {
+    "id": "evidence-036",
+    "sourceExact": true,
+    "supportsReturnedDecision": true,
+    "coversSufficientReferenceBundle": true,
+    "coveredBundleIndexes": [
+      0
+    ],
+    "criteriaAmbiguous": false,
+    "optionalContextCoverage": "full",
+    "rationale": "Blank timeline thumbnails support technical; normal clip playback included."
+  },
+  {
+    "id": "evidence-037",
+    "sourceExact": true,
+    "supportsReturnedDecision": true,
+    "coversSufficientReferenceBundle": true,
+    "coveredBundleIndexes": [
+      0
+    ],
+    "criteriaAmbiguous": false,
+    "optionalContextCoverage": "full",
+    "rationale": "Signup verification-code expiry supports access; newest-code rejection included."
+  },
+  {
+    "id": "evidence-038",
+    "sourceExact": true,
+    "supportsReturnedDecision": true,
+    "coversSufficientReferenceBundle": true,
+    "coveredBundleIndexes": [
+      0
+    ],
+    "criteriaAmbiguous": false,
+    "optionalContextCoverage": "not-applicable",
+    "rationale": "Expired verification link and overlapping printed diagram rows both conveyed, supporting multiple-intent review."
+  },
+  {
+    "id": "evidence-039",
+    "sourceExact": true,
+    "supportsReturnedDecision": true,
+    "coversSufficientReferenceBundle": true,
+    "coveredBundleIndexes": [
+      0
+    ],
+    "criteriaAmbiguous": false,
+    "optionalContextCoverage": "full",
+    "rationale": "Sign-in assistance and receipt delivery both conveyed, including choir portal and subscription."
+  }
+]

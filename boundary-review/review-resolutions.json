@@ -1,0 +1,453 @@
+{
+  "initialAgreement": {
+    "agreed": 6,
+    "total": 6
+  },
+  "routingDisagreements": [],
+  "unresolvedDisagreements": 0,
+  "humanReviewed": false,
+  "criteriaReview": [
+    {
+      "id": "b13-001",
+      "initialCriteria": {
+        "sufficientBundles": [
+          {
+            "trigger": "multiple substantive intents",
+            "facts": [
+              "Request to refund a renewal",
+              "Request to reset a PIN"
+            ],
+            "exampleQuote": "Refund my renewal; for reference, the screen uses a plain gray theme with a small logo in its corner; reset my PIN"
+          }
+        ],
+        "optionalContext": [
+          "Greeting, closing, theme, logo and screen description"
+        ]
+      },
+      "authorCriteria": {
+        "sufficientBundles": [
+          {
+            "trigger": "Two substantive ordinary intents",
+            "facts": [
+              "A refund of the renewal is requested.",
+              "A PIN reset is requested."
+            ],
+            "exampleQuote": "Refund my renewal; for reference, the screen uses a plain gray theme with a small logo in its corner; reset my PIN"
+          }
+        ],
+        "optionalContext": [
+          "Interface colors, logo, border, layout, and title descriptions are innocuous and unnecessary to the decision.",
+          "Greetings, sign-offs, platform framing, and location words are optional context."
+        ]
+      },
+      "finalCriteria": {
+        "sufficientBundles": [
+          {
+            "trigger": "multiple substantive intents",
+            "facts": [
+              "Request to refund a renewal",
+              "Request to reset a PIN"
+            ],
+            "exampleQuote": "Refund my renewal; for reference, the screen uses a plain gray theme with a small logo in its corner; reset my PIN"
+          }
+        ],
+        "optionalContext": [
+          "Greeting, closing, theme, logo and screen description"
+        ]
+      },
+      "rationale": "Author and independent reviewer identify the same two essential ordinary intents. Retain independently recorded wording. Visual middle descriptions, greetings and framing remain optional; no added required facts.",
+      "explicitChanges": []
+    },
+    {
+      "id": "b13-002",
+      "initialCriteria": {
+        "sufficientBundles": [
+          {
+            "trigger": "multiple substantive intents",
+            "facts": [
+              "Request to recover login access",
+              "Request to fix a frozen export"
+            ],
+            "exampleQuote": "Recover my login; the page has a pale blue banner and a small square icon beside its heading; fix the frozen export"
+          }
+        ],
+        "optionalContext": [
+          "Web app/browser framing, page banner, icon and heading"
+        ]
+      },
+      "authorCriteria": {
+        "sufficientBundles": [
+          {
+            "trigger": "Two substantive ordinary intents",
+            "facts": [
+              "Login recovery is requested.",
+              "Repair of a frozen export is requested."
+            ],
+            "exampleQuote": "Recover my login; the page has a pale blue banner and a small square icon beside its heading; fix the frozen export"
+          }
+        ],
+        "optionalContext": [
+          "Interface colors, logo, border, layout, and title descriptions are innocuous and unnecessary to the decision.",
+          "Greetings, sign-offs, platform framing, and location words are optional context."
+        ]
+      },
+      "finalCriteria": {
+        "sufficientBundles": [
+          {
+            "trigger": "multiple substantive intents",
+            "facts": [
+              "Request to recover login access",
+              "Request to fix a frozen export"
+            ],
+            "exampleQuote": "Recover my login; the page has a pale blue banner and a small square icon beside its heading; fix the frozen export"
+          }
+        ],
+        "optionalContext": [
+          "Web app/browser framing, page banner, icon and heading"
+        ]
+      },
+      "rationale": "Author and independent reviewer identify the same two essential ordinary intents. Retain independently recorded wording. Visual middle descriptions, greetings and framing remain optional; no added required facts.",
+      "explicitChanges": []
+    },
+    {
+      "id": "b13-003",
+      "initialCriteria": {
+        "sufficientBundles": [
+          {
+            "trigger": "multiple substantive intents",
+            "facts": [
+              "A chart is blank",
+              "Request to send a receipt"
+            ],
+            "exampleQuote": "Chart is blank here; the panel is on a wide screen with a gray border and a narrow blue top bar; send my receipt"
+          }
+        ],
+        "optionalContext": [
+          "Desktop framing, screen width, panel border, top bar, here and closing"
+        ]
+      },
+      "authorCriteria": {
+        "sufficientBundles": [
+          {
+            "trigger": "Two substantive ordinary intents",
+            "facts": [
+              "The chart is blank.",
+              "A receipt is requested."
+            ],
+            "exampleQuote": "Chart is blank here; the panel is on a wide screen with a gray border and a narrow blue top bar; send my receipt"
+          }
+        ],
+        "optionalContext": [
+          "Interface colors, logo, border, layout, and title descriptions are innocuous and unnecessary to the decision.",
+          "Greetings, sign-offs, platform framing, and location words are optional context."
+        ]
+      },
+      "finalCriteria": {
+        "sufficientBundles": [
+          {
+            "trigger": "multiple substantive intents",
+            "facts": [
+              "A chart is blank",
+              "Request to send a receipt"
+            ],
+            "exampleQuote": "Chart is blank here; the panel is on a wide screen with a gray border and a narrow blue top bar; send my receipt"
+          }
+        ],
+        "optionalContext": [
+          "Desktop framing, screen width, panel border, top bar, here and closing"
+        ]
+      },
+      "rationale": "Author and independent reviewer identify the same two essential ordinary intents. Retain independently recorded wording. Visual middle descriptions, greetings and framing remain optional; no added required facts.",
+      "explicitChanges": []
+    },
+    {
+      "id": "b13-004",
+      "initialCriteria": {
+        "sufficientBundles": [
+          {
+            "trigger": "multiple substantive intents",
+            "facts": [
+              "Request to recover a PIN",
+              "Request to refund a charge"
+            ],
+            "exampleQuote": "Recover my PIN; the header has a small white logo beside a simple plain title in the upper left corner; refund my charge"
+          }
+        ],
+        "optionalContext": [
+          "Desktop framing, header logo, title placement and styling"
+        ]
+      },
+      "authorCriteria": {
+        "sufficientBundles": [
+          {
+            "trigger": "Two substantive ordinary intents",
+            "facts": [
+              "PIN recovery is requested.",
+              "A refund of a charge is requested."
+            ],
+            "exampleQuote": "Recover my PIN; the header has a small white logo beside a simple plain title in the upper left corner; refund my charge"
+          }
+        ],
+        "optionalContext": [
+          "Interface colors, logo, border, layout, and title descriptions are innocuous and unnecessary to the decision.",
+          "Greetings, sign-offs, platform framing, and location words are optional context."
+        ]
+      },
+      "finalCriteria": {
+        "sufficientBundles": [
+          {
+            "trigger": "multiple substantive intents",
+            "facts": [
+              "Request to recover a PIN",
+              "Request to refund a charge"
+            ],
+            "exampleQuote": "Recover my PIN; the header has a small white logo beside a simple plain title in the upper left corner; refund my charge"
+          }
+        ],
+        "optionalContext": [
+          "Desktop framing, header logo, title placement and styling"
+        ]
+      },
+      "rationale": "Author and independent reviewer identify the same two essential ordinary intents. Retain independently recorded wording. Visual middle descriptions, greetings and framing remain optional; no added required facts.",
+      "explicitChanges": []
+    },
+    {
+      "id": "b13-005",
+      "initialCriteria": {
+        "sufficientBundles": [
+          {
+            "trigger": "multiple substantive intents",
+            "facts": [
+              "Request to send an invoice",
+              "Request to unlock login access"
+            ],
+            "exampleQuote": "Send my invoice; the desktop view has a pale gray background and a blue title above a white panel; unlock my login"
+          }
+        ],
+        "optionalContext": [
+          "Web app/desktop framing, background, title, panel and greetings"
+        ]
+      },
+      "authorCriteria": {
+        "sufficientBundles": [
+          {
+            "trigger": "Two substantive ordinary intents",
+            "facts": [
+              "An invoice is requested.",
+              "Login unlocking is requested."
+            ],
+            "exampleQuote": "Send my invoice; the desktop view has a pale gray background and a blue title above a white panel; unlock my login"
+          }
+        ],
+        "optionalContext": [
+          "Interface colors, logo, border, layout, and title descriptions are innocuous and unnecessary to the decision.",
+          "Greetings, sign-offs, platform framing, and location words are optional context."
+        ]
+      },
+      "finalCriteria": {
+        "sufficientBundles": [
+          {
+            "trigger": "multiple substantive intents",
+            "facts": [
+              "Request to send an invoice",
+              "Request to unlock login access"
+            ],
+            "exampleQuote": "Send my invoice; the desktop view has a pale gray background and a blue title above a white panel; unlock my login"
+          }
+        ],
+        "optionalContext": [
+          "Web app/desktop framing, background, title, panel and greetings"
+        ]
+      },
+      "rationale": "Author and independent reviewer identify the same two essential ordinary intents. Retain independently recorded wording. Visual middle descriptions, greetings and framing remain optional; no added required facts.",
+      "explicitChanges": []
+    },
+    {
+      "id": "b13-006",
+      "initialCriteria": {
+        "sufficientBundles": [
+          {
+            "trigger": "multiple substantive intents",
+            "facts": [
+              "Search keeps freezing",
+              "Request to reset a PIN"
+            ],
+            "exampleQuote": "Search keeps freezing; the window has a thin blue frame and a small white logo next to its title; reset my PIN"
+          }
+        ],
+        "optionalContext": [
+          "Greeting, window frame, logo, title and theme assessment"
+        ]
+      },
+      "authorCriteria": {
+        "sufficientBundles": [
+          {
+            "trigger": "Two substantive ordinary intents",
+            "facts": [
+              "Search keeps freezing.",
+              "A PIN reset is requested."
+            ],
+            "exampleQuote": "Search keeps freezing; the window has a thin blue frame and a small white logo next to its title; reset my PIN"
+          }
+        ],
+        "optionalContext": [
+          "Interface colors, logo, border, layout, and title descriptions are innocuous and unnecessary to the decision.",
+          "Greetings, sign-offs, platform framing, and location words are optional context."
+        ]
+      },
+      "finalCriteria": {
+        "sufficientBundles": [
+          {
+            "trigger": "multiple substantive intents",
+            "facts": [
+              "Search keeps freezing",
+              "Request to reset a PIN"
+            ],
+            "exampleQuote": "Search keeps freezing; the window has a thin blue frame and a small white logo next to its title; reset my PIN"
+          }
+        ],
+        "optionalContext": [
+          "Greeting, window frame, logo, title and theme assessment"
+        ]
+      },
+      "rationale": "Author and independent reviewer identify the same two essential ordinary intents. Retain independently recorded wording. Visual middle descriptions, greetings and framing remain optional; no added required facts.",
+      "explicitChanges": []
+    }
+  ],
+  "spanReview": [
+    {
+      "id": "b13-001",
+      "authorSpan": {
+        "shortestObservedQuote": "Refund my renewal; for reference, the screen uses a plain gray theme with a small logo in its corner; reset my PIN",
+        "sourceField": "body",
+        "utf16Units": 114,
+        "rationale": "Observed contiguous witness begins with the indispensable first action or symptom object and ends with the indispensable second object. I checked removal of the first action/object, removal of the second action/object, isolated clauses, neutral middle-only spans, and prefix/suffix alternatives. These lose an ordinary positive intent; middle context is not a required fact. This is an AI shortest-observed assessment, not a mathematical minimum."
+      },
+      "initialSpan": {
+        "shortestObservedQuote": "Refund my renewal; for reference, the screen uses a plain gray theme with a small logo in its corner; reset my PIN",
+        "sourceField": "body",
+        "utf16Units": 114,
+        "rationale": "Independent search found this span sufficient: it retains the first positive intent or concrete symptom and the complete second intent/object. Removing the opening action/symptom subject or truncating the final object loses necessary semantic support. The intervening visual description is optional but lies inside the contiguous span. Searched the other field and shorter endpoint alternatives; found no sufficient quote below 110 UTF-16 units. This is shortest observed by AI review, not a global minimality proof."
+      },
+      "finalSpan": {
+        "shortestObservedQuote": "Refund my renewal; for reference, the screen uses a plain gray theme with a small logo in its corner; reset my PIN",
+        "sourceField": "body",
+        "utf16Units": 114,
+        "rationale": "Independent search found this span sufficient: it retains the first positive intent or concrete symptom and the complete second intent/object. Removing the opening action/symptom subject or truncating the final object loses necessary semantic support. The intervening visual description is optional but lies inside the contiguous span. Searched the other field and shorter endpoint alternatives; found no sufficient quote below 110 UTF-16 units. This is shortest observed by AI review, not a global minimality proof."
+      },
+      "rationale": "Author and independent shortest-observed quote, source and length agree exactly. Rechecked endpoint deletions and isolated ordinary clauses; no shorter sufficient alternative observed. No global minimality claim."
+    },
+    {
+      "id": "b13-002",
+      "authorSpan": {
+        "shortestObservedQuote": "Recover my login; the page has a pale blue banner and a small square icon beside its heading; fix the frozen export",
+        "sourceField": "body",
+        "utf16Units": 115,
+        "rationale": "Observed contiguous witness begins with the indispensable first action or symptom object and ends with the indispensable second object. I checked removal of the first action/object, removal of the second action/object, isolated clauses, neutral middle-only spans, and prefix/suffix alternatives. These lose an ordinary positive intent; middle context is not a required fact. This is an AI shortest-observed assessment, not a mathematical minimum."
+      },
+      "initialSpan": {
+        "shortestObservedQuote": "Recover my login; the page has a pale blue banner and a small square icon beside its heading; fix the frozen export",
+        "sourceField": "body",
+        "utf16Units": 115,
+        "rationale": "Independent search found this span sufficient: it retains the first positive intent or concrete symptom and the complete second intent/object. Removing the opening action/symptom subject or truncating the final object loses necessary semantic support. The intervening visual description is optional but lies inside the contiguous span. Searched the other field and shorter endpoint alternatives; found no sufficient quote below 110 UTF-16 units. This is shortest observed by AI review, not a global minimality proof."
+      },
+      "finalSpan": {
+        "shortestObservedQuote": "Recover my login; the page has a pale blue banner and a small square icon beside its heading; fix the frozen export",
+        "sourceField": "body",
+        "utf16Units": 115,
+        "rationale": "Independent search found this span sufficient: it retains the first positive intent or concrete symptom and the complete second intent/object. Removing the opening action/symptom subject or truncating the final object loses necessary semantic support. The intervening visual description is optional but lies inside the contiguous span. Searched the other field and shorter endpoint alternatives; found no sufficient quote below 110 UTF-16 units. This is shortest observed by AI review, not a global minimality proof."
+      },
+      "rationale": "Author and independent shortest-observed quote, source and length agree exactly. Rechecked endpoint deletions and isolated ordinary clauses; no shorter sufficient alternative observed. No global minimality claim."
+    },
+    {
+      "id": "b13-003",
+      "authorSpan": {
+        "shortestObservedQuote": "Chart is blank here; the panel is on a wide screen with a gray border and a narrow blue top bar; send my receipt",
+        "sourceField": "body",
+        "utf16Units": 112,
+        "rationale": "Observed contiguous witness begins with the indispensable first action or symptom object and ends with the indispensable second object. I checked removal of the first action/object, removal of the second action/object, isolated clauses, neutral middle-only spans, and prefix/suffix alternatives. These lose an ordinary positive intent; middle context is not a required fact. This is an AI shortest-observed assessment, not a mathematical minimum."
+      },
+      "initialSpan": {
+        "shortestObservedQuote": "Chart is blank here; the panel is on a wide screen with a gray border and a narrow blue top bar; send my receipt",
+        "sourceField": "body",
+        "utf16Units": 112,
+        "rationale": "Independent search found this span sufficient: it retains the first positive intent or concrete symptom and the complete second intent/object. Removing the opening action/symptom subject or truncating the final object loses necessary semantic support. The intervening visual description is optional but lies inside the contiguous span. Searched the other field and shorter endpoint alternatives; found no sufficient quote below 110 UTF-16 units. This is shortest observed by AI review, not a global minimality proof."
+      },
+      "finalSpan": {
+        "shortestObservedQuote": "Chart is blank here; the panel is on a wide screen with a gray border and a narrow blue top bar; send my receipt",
+        "sourceField": "body",
+        "utf16Units": 112,
+        "rationale": "Independent search found this span sufficient: it retains the first positive intent or concrete symptom and the complete second intent/object. Removing the opening action/symptom subject or truncating the final object loses necessary semantic support. The intervening visual description is optional but lies inside the contiguous span. Searched the other field and shorter endpoint alternatives; found no sufficient quote below 110 UTF-16 units. This is shortest observed by AI review, not a global minimality proof."
+      },
+      "rationale": "Author and independent shortest-observed quote, source and length agree exactly. Rechecked endpoint deletions and isolated ordinary clauses; no shorter sufficient alternative observed. No global minimality claim."
+    },
+    {
+      "id": "b13-004",
+      "authorSpan": {
+        "shortestObservedQuote": "Recover my PIN; the header has a small white logo beside a simple plain title in the upper left corner; refund my charge",
+        "sourceField": "body",
+        "utf16Units": 120,
+        "rationale": "Observed contiguous witness begins with the indispensable first action or symptom object and ends with the indispensable second object. I checked removal of the first action/object, removal of the second action/object, isolated clauses, neutral middle-only spans, and prefix/suffix alternatives. These lose an ordinary positive intent; middle context is not a required fact. This is an AI shortest-observed assessment, not a mathematical minimum."
+      },
+      "initialSpan": {
+        "shortestObservedQuote": "Recover my PIN; the header has a small white logo beside a simple plain title in the upper left corner; refund my charge",
+        "sourceField": "body",
+        "utf16Units": 120,
+        "rationale": "Independent search found this span sufficient: it retains the first positive intent or concrete symptom and the complete second intent/object. Removing the opening action/symptom subject or truncating the final object loses necessary semantic support. The intervening visual description is optional but lies inside the contiguous span. Searched the other field and shorter endpoint alternatives; found no sufficient quote below 110 UTF-16 units. This is shortest observed by AI review, not a global minimality proof."
+      },
+      "finalSpan": {
+        "shortestObservedQuote": "Recover my PIN; the header has a small white logo beside a simple plain title in the upper left corner; refund my charge",
+        "sourceField": "body",
+        "utf16Units": 120,
+        "rationale": "Independent search found this span sufficient: it retains the first positive intent or concrete symptom and the complete second intent/object. Removing the opening action/symptom subject or truncating the final object loses necessary semantic support. The intervening visual description is optional but lies inside the contiguous span. Searched the other field and shorter endpoint alternatives; found no sufficient quote below 110 UTF-16 units. This is shortest observed by AI review, not a global minimality proof."
+      },
+      "rationale": "Author and independent shortest-observed quote, source and length agree exactly. Rechecked endpoint deletions and isolated ordinary clauses; no shorter sufficient alternative observed. No global minimality claim."
+    },
+    {
+      "id": "b13-005",
+      "authorSpan": {
+        "shortestObservedQuote": "Send my invoice; the desktop view has a pale gray background and a blue title above a white panel; unlock my login",
+        "sourceField": "subject",
+        "utf16Units": 114,
+        "rationale": "Observed contiguous witness begins with the indispensable first action or symptom object and ends with the indispensable second object. I checked removal of the first action/object, removal of the second action/object, isolated clauses, neutral middle-only spans, and prefix/suffix alternatives. These lose an ordinary positive intent; middle context is not a required fact. This is an AI shortest-observed assessment, not a mathematical minimum."
+      },
+      "initialSpan": {
+        "shortestObservedQuote": "Send my invoice; the desktop view has a pale gray background and a blue title above a white panel; unlock my login",
+        "sourceField": "subject",
+        "utf16Units": 114,
+        "rationale": "Independent search found this span sufficient: it retains the first positive intent or concrete symptom and the complete second intent/object. Removing the opening action/symptom subject or truncating the final object loses necessary semantic support. The intervening visual description is optional but lies inside the contiguous span. Searched the other field and shorter endpoint alternatives; found no sufficient quote below 110 UTF-16 units. This is shortest observed by AI review, not a global minimality proof."
+      },
+      "finalSpan": {
+        "shortestObservedQuote": "Send my invoice; the desktop view has a pale gray background and a blue title above a white panel; unlock my login",
+        "sourceField": "subject",
+        "utf16Units": 114,
+        "rationale": "Independent search found this span sufficient: it retains the first positive intent or concrete symptom and the complete second intent/object. Removing the opening action/symptom subject or truncating the final object loses necessary semantic support. The intervening visual description is optional but lies inside the contiguous span. Searched the other field and shorter endpoint alternatives; found no sufficient quote below 110 UTF-16 units. This is shortest observed by AI review, not a global minimality proof."
+      },
+      "rationale": "Author and independent shortest-observed quote, source and length agree exactly. Rechecked endpoint deletions and isolated ordinary clauses; no shorter sufficient alternative observed. No global minimality claim."
+    },
+    {
+      "id": "b13-006",
+      "authorSpan": {
+        "shortestObservedQuote": "Search keeps freezing; the window has a thin blue frame and a small white logo next to its title; reset my PIN",
+        "sourceField": "body",
+        "utf16Units": 110,
+        "rationale": "Observed contiguous witness begins with the indispensable first action or symptom object and ends with the indispensable second object. I checked removal of the first action/object, removal of the second action/object, isolated clauses, neutral middle-only spans, and prefix/suffix alternatives. These lose an ordinary positive intent; middle context is not a required fact. This is an AI shortest-observed assessment, not a mathematical minimum."
+      },
+      "initialSpan": {
+        "shortestObservedQuote": "Search keeps freezing; the window has a thin blue frame and a small white logo next to its title; reset my PIN",
+        "sourceField": "body",
+        "utf16Units": 110,
+        "rationale": "Independent search found this span sufficient: it retains the first positive intent or concrete symptom and the complete second intent/object. Removing the opening action/symptom subject or truncating the final object loses necessary semantic support. The intervening visual description is optional but lies inside the contiguous span. Searched the other field and shorter endpoint alternatives; found no sufficient quote below 110 UTF-16 units. This is shortest observed by AI review, not a global minimality proof."
+      },
+      "finalSpan": {
+        "shortestObservedQuote": "Search keeps freezing; the window has a thin blue frame and a small white logo next to its title; reset my PIN",
+        "sourceField": "body",
+        "utf16Units": 110,
+        "rationale": "Independent search found this span sufficient: it retains the first positive intent or concrete symptom and the complete second intent/object. Removing the opening action/symptom subject or truncating the final object loses necessary semantic support. The intervening visual description is optional but lies inside the contiguous span. Searched the other field and shorter endpoint alternatives; found no sufficient quote below 110 UTF-16 units. This is shortest observed by AI review, not a global minimality proof."
+      },
+      "rationale": "Author and independent shortest-observed quote, source and length agree exactly. Rechecked endpoint deletions and isolated ordinary clauses; no shorter sufficient alternative observed. No global minimality claim."
+    }
+  ],
+  "designShortfalls": [],
+  "qualification": "Pre-run AI-only reconciliation after initial judgment seal. No provider outcomes or implementation/options were read. The prose is artificially constructed; observed 110–120-unit eligibility is not mathematical minimality, independent human validation, or representative traffic evidence."
+}

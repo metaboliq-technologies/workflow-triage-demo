@@ -1,0 +1,299 @@
+[
+  {
+    "id": "evidence-001",
+    "input": {
+      "subject": "Browser support",
+      "body": "Hello support. Search keeps freezing; the window has a thin blue frame and a small white logo next to its title; reset my PIN. The theme is otherwise fine."
+    },
+    "expected": {
+      "route": null,
+      "requiresHumanReview": true
+    },
+    "sufficientReferenceBundles": [
+      {
+        "trigger": "multiple substantive intents",
+        "facts": [
+          "Search keeps freezing",
+          "Request to reset a PIN"
+        ]
+      }
+    ],
+    "optionalContext": [
+      "Greeting, window frame, logo, title and theme assessment"
+    ],
+    "returned": {
+      "category": "review",
+      "evidence": "reset my PIN."
+    }
+  },
+  {
+    "id": "evidence-002",
+    "input": {
+      "subject": "Support request",
+      "body": "Hello. Refund my renewal; for reference, the screen uses a plain gray theme with a small logo in its corner; reset my PIN. Thank you."
+    },
+    "expected": {
+      "route": null,
+      "requiresHumanReview": true
+    },
+    "sufficientReferenceBundles": [
+      {
+        "trigger": "multiple substantive intents",
+        "facts": [
+          "Request to refund a renewal",
+          "Request to reset a PIN"
+        ]
+      }
+    ],
+    "optionalContext": [
+      "Greeting, closing, theme, logo and screen description"
+    ],
+    "returned": {
+      "category": "review",
+      "evidence": "Refund my renewal; for reference, the screen uses a plain gray theme with a small logo in its corner; reset my PIN."
+    }
+  },
+  {
+    "id": "evidence-003",
+    "input": {
+      "subject": "Browser support",
+      "body": "Hello support. Search keeps freezing; the window has a thin blue frame and a small white logo next to its title; reset my PIN. The theme is otherwise fine."
+    },
+    "expected": {
+      "route": null,
+      "requiresHumanReview": true
+    },
+    "sufficientReferenceBundles": [
+      {
+        "trigger": "multiple substantive intents",
+        "facts": [
+          "Search keeps freezing",
+          "Request to reset a PIN"
+        ]
+      }
+    ],
+    "optionalContext": [
+      "Greeting, window frame, logo, title and theme assessment"
+    ],
+    "returned": {
+      "category": "review",
+      "evidence": "Search keeps freezing; the window has a thin blue frame and a small white logo next to its title; reset my PIN."
+    }
+  },
+  {
+    "id": "evidence-004",
+    "input": {
+      "subject": "Desktop panel",
+      "body": "Chart is blank here; the panel is on a wide screen with a gray border and a narrow blue top bar; send my receipt. Regards."
+    },
+    "expected": {
+      "route": null,
+      "requiresHumanReview": true
+    },
+    "sufficientReferenceBundles": [
+      {
+        "trigger": "multiple substantive intents",
+        "facts": [
+          "A chart is blank",
+          "Request to send a receipt"
+        ]
+      }
+    ],
+    "optionalContext": [
+      "Desktop framing, screen width, panel border, top bar, here and closing"
+    ],
+    "returned": {
+      "category": "review",
+      "evidence": "Chart is blank here; the panel is on a wide screen with a gray border and a narrow blue top bar; send my receipt."
+    }
+  },
+  {
+    "id": "evidence-005",
+    "input": {
+      "subject": "Two app issues",
+      "body": "For the web app: Recover my login; the page has a pale blue banner and a small square icon beside its heading; fix the frozen export. This is the browser view."
+    },
+    "expected": {
+      "route": null,
+      "requiresHumanReview": true
+    },
+    "sufficientReferenceBundles": [
+      {
+        "trigger": "multiple substantive intents",
+        "facts": [
+          "Request to recover login access",
+          "Request to fix a frozen export"
+        ]
+      }
+    ],
+    "optionalContext": [
+      "Web app/browser framing, page banner, icon and heading"
+    ],
+    "returned": {
+      "category": "review",
+      "evidence": "Two app issues"
+    }
+  },
+  {
+    "id": "evidence-006",
+    "input": {
+      "subject": "Account assistance",
+      "body": "A note from the desktop view. Recover my PIN; the header has a small white logo beside a simple plain title in the upper left corner; refund my charge"
+    },
+    "expected": {
+      "route": null,
+      "requiresHumanReview": true
+    },
+    "sufficientReferenceBundles": [
+      {
+        "trigger": "multiple substantive intents",
+        "facts": [
+          "Request to recover a PIN",
+          "Request to refund a charge"
+        ]
+      }
+    ],
+    "optionalContext": [
+      "Desktop framing, header logo, title placement and styling"
+    ],
+    "returned": {
+      "category": "review",
+      "evidence": "Recover my PIN; the header has a small white logo beside a simple plain title in the upper left corner; refund my charge"
+    }
+  },
+  {
+    "id": "evidence-007",
+    "input": {
+      "subject": "Support request",
+      "body": "Hello. Refund my renewal; for reference, the screen uses a plain gray theme with a small logo in its corner; reset my PIN. Thank you."
+    },
+    "expected": {
+      "route": null,
+      "requiresHumanReview": true
+    },
+    "sufficientReferenceBundles": [
+      {
+        "trigger": "multiple substantive intents",
+        "facts": [
+          "Request to refund a renewal",
+          "Request to reset a PIN"
+        ]
+      }
+    ],
+    "optionalContext": [
+      "Greeting, closing, theme, logo and screen description"
+    ],
+    "returned": {
+      "category": "review",
+      "evidence": "my renewal; for reference, the screen uses a plain gray theme with a small logo in its corner; reset my PIN. Thank you."
+    }
+  },
+  {
+    "id": "evidence-008",
+    "input": {
+      "subject": "Web app: Send my invoice; the desktop view has a pale gray background and a blue title above a white panel; unlock my login",
+      "body": "Hello support. Thank you."
+    },
+    "expected": {
+      "route": null,
+      "requiresHumanReview": true
+    },
+    "sufficientReferenceBundles": [
+      {
+        "trigger": "multiple substantive intents",
+        "facts": [
+          "Request to send an invoice",
+          "Request to unlock login access"
+        ]
+      }
+    ],
+    "optionalContext": [
+      "Web app/desktop framing, background, title, panel and greetings"
+    ],
+    "returned": {
+      "category": "review",
+      "evidence": "Web app: Send my invoice; the desktop view has a pale gray background and a blue title above a white panel; unlock my"
+    }
+  },
+  {
+    "id": "evidence-009",
+    "input": {
+      "subject": "Desktop panel",
+      "body": "Chart is blank here; the panel is on a wide screen with a gray border and a narrow blue top bar; send my receipt. Regards."
+    },
+    "expected": {
+      "route": null,
+      "requiresHumanReview": true
+    },
+    "sufficientReferenceBundles": [
+      {
+        "trigger": "multiple substantive intents",
+        "facts": [
+          "A chart is blank",
+          "Request to send a receipt"
+        ]
+      }
+    ],
+    "optionalContext": [
+      "Desktop framing, screen width, panel border, top bar, here and closing"
+    ],
+    "returned": {
+      "category": "review",
+      "evidence": "Chart is blank here; the panel is on a wide screen with a gray border and a narrow blue top bar; send my receipt."
+    }
+  },
+  {
+    "id": "evidence-010",
+    "input": {
+      "subject": "Two app issues",
+      "body": "For the web app: Recover my login; the page has a pale blue banner and a small square icon beside its heading; fix the frozen export. This is the browser view."
+    },
+    "expected": {
+      "route": null,
+      "requiresHumanReview": true
+    },
+    "sufficientReferenceBundles": [
+      {
+        "trigger": "multiple substantive intents",
+        "facts": [
+          "Request to recover login access",
+          "Request to fix a frozen export"
+        ]
+      }
+    ],
+    "optionalContext": [
+      "Web app/browser framing, page banner, icon and heading"
+    ],
+    "returned": {
+      "category": "review",
+      "evidence": "Two app issues"
+    }
+  },
+  {
+    "id": "evidence-011",
+    "input": {
+      "subject": "Account assistance",
+      "body": "A note from the desktop view. Recover my PIN; the header has a small white logo beside a simple plain title in the upper left corner; refund my charge"
+    },
+    "expected": {
+      "route": null,
+      "requiresHumanReview": true
+    },
+    "sufficientReferenceBundles": [
+      {
+        "trigger": "multiple substantive intents",
+        "facts": [
+          "Request to recover a PIN",
+          "Request to refund a charge"
+        ]
+      }
+    ],
+    "optionalContext": [
+      "Desktop framing, header logo, title placement and styling"
+    ],
+    "returned": {
+      "category": "review",
+      "evidence": "Recover my PIN; the header has a small white logo beside a simple plain title in the upper left corner; refund my charge"
+    }
+  }
+]

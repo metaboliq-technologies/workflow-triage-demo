@@ -1,0 +1,619 @@
+[
+  {
+    "id": "v13-001",
+    "expected": {
+      "route": null,
+      "requiresHumanReview": true
+    },
+    "rationale": "Billing invoice and access recovery requests",
+    "policyClause": "multiple substantive intents",
+    "evidenceCriteria": {
+      "sufficientBundles": [
+        {
+          "trigger": "multiple substantive intents",
+          "facts": [
+            "Invoice resend request",
+            "Password reset assistance request"
+          ],
+          "exampleQuote": "resend my invoice and help me reset my password"
+        }
+      ],
+      "optionalContext": []
+    },
+    "spanAssessment": {
+      "shortestObservedQuote": "resend my invoice and help me reset my password",
+      "sourceField": "body",
+      "utf16Units": 47,
+      "rationale": "Shortest sufficient quote observed after comparing independent judgments and searching for removable optional endpoint details. Assessed in full-request context; not a proof of global minimality."
+    },
+    "stratum": "generic_heading"
+  },
+  {
+    "id": "v13-002",
+    "expected": {
+      "route": "technical",
+      "requiresHumanReview": false
+    },
+    "rationale": "Concrete application feature crash",
+    "policyClause": "one specific ordinary application feature malfunction; fictional records do not alone require review",
+    "evidenceCriteria": {
+      "sufficientBundles": [
+        {
+          "trigger": "one specific ordinary application feature malfunction; fictional records do not alone require review",
+          "facts": [
+            "Editor crashes"
+          ],
+          "exampleQuote": "editor crashes whenever I rotate a crop"
+        }
+      ],
+      "optionalContext": [
+        "Crop rotation triggers crash",
+        "Desktop edition",
+        "Photography club"
+      ]
+    },
+    "spanAssessment": {
+      "shortestObservedQuote": "editor crashes",
+      "sourceField": "subject",
+      "utf16Units": 14,
+      "rationale": "Shortest sufficient quote observed after comparing independent judgments and searching for removable optional endpoint details. Assessed in full-request context; not a proof of global minimality. Body checked: no independently sufficient ordinary intent, concrete symptom or protective disclosure is present. For the fictional-notes case the body clarifies benign scope but does not independently establish a software malfunction."
+    },
+    "stratum": "subject_decisive"
+  },
+  {
+    "id": "v13-003",
+    "expected": {
+      "route": null,
+      "requiresHumanReview": true
+    },
+    "rationale": "Technical export and billing receipt requests",
+    "policyClause": "multiple substantive intents",
+    "evidenceCriteria": {
+      "sufficientBundles": [
+        {
+          "trigger": "multiple substantive intents",
+          "facts": [
+            "Map-export labels need restoration",
+            "Receipt request"
+          ],
+          "exampleQuote": "Please restore the missing labels on my map exports, and send me a receipt for the annual cartography subscription."
+        }
+      ],
+      "optionalContext": [
+        "Annual subscription",
+        "Cartography domain"
+      ]
+    },
+    "spanAssessment": {
+      "shortestObservedQuote": "missing labels on my map exports, and send me a receipt",
+      "sourceField": "body",
+      "utf16Units": 55,
+      "rationale": "Shortest sufficient quote observed after comparing independent judgments and searching for removable optional endpoint details. Assessed in full-request context; not a proof of global minimality."
+    },
+    "stratum": "length_boundary"
+  },
+  {
+    "id": "v13-004",
+    "expected": {
+      "route": "technical",
+      "requiresHumanReview": false
+    },
+    "rationale": "Concrete subtitle timing symptom",
+    "policyClause": "one specific ordinary application feature malfunction; fictional records do not alone require review",
+    "evidenceCriteria": {
+      "sufficientBundles": [
+        {
+          "trigger": "one specific ordinary application feature malfunction; fictional records do not alone require review",
+          "facts": [
+            "Subtitle synchronization malfunction"
+          ],
+          "exampleQuote": "subtitles drift behind the video"
+        }
+      ],
+      "optionalContext": [
+        "Playback speed change"
+      ]
+    },
+    "spanAssessment": {
+      "shortestObservedQuote": "subtitles drift behind the video",
+      "sourceField": "body",
+      "utf16Units": 32,
+      "rationale": "Shortest sufficient quote observed after comparing independent judgments and searching for removable optional endpoint details. Assessed in full-request context; not a proof of global minimality."
+    },
+    "stratum": "generic_heading"
+  },
+  {
+    "id": "v13-005",
+    "expected": {
+      "route": "billing",
+      "requiresHumanReview": false
+    },
+    "rationale": "One ordinary receipt request",
+    "policyClause": "one ordinary invoice, receipt, charge, payment method/failure, refund, renewal",
+    "evidenceCriteria": {
+      "sufficientBundles": [
+        {
+          "trigger": "one ordinary invoice, receipt, charge, payment method/failure, refund, renewal",
+          "facts": [
+            "Receipt delivery request"
+          ],
+          "exampleQuote": "email me a receipt"
+        }
+      ],
+      "optionalContext": [
+        "Web purchase",
+        "Yesterday"
+      ]
+    },
+    "spanAssessment": {
+      "shortestObservedQuote": "email me a receipt",
+      "sourceField": "subject",
+      "utf16Units": 18,
+      "rationale": "Shortest sufficient quote observed after comparing independent judgments and searching for removable optional endpoint details. Assessed in full-request context; not a proof of global minimality. Body checked: no independently sufficient ordinary intent, concrete symptom or protective disclosure is present. For the fictional-notes case the body clarifies benign scope but does not independently establish a software malfunction."
+    },
+    "stratum": "subject_decisive"
+  },
+  {
+    "id": "v13-006",
+    "expected": {
+      "route": null,
+      "requiresHumanReview": true
+    },
+    "rationale": "Access verification and technical printing symptoms",
+    "policyClause": "multiple substantive intents",
+    "evidenceCriteria": {
+      "sufficientBundles": [
+        {
+          "trigger": "multiple substantive intents",
+          "facts": [
+            "Expired verification link",
+            "Diagram rows overlap when printed"
+          ],
+          "exampleQuote": "verification link has expired, and the seating diagram prints with every row on top of the next"
+        }
+      ],
+      "optionalContext": []
+    },
+    "spanAssessment": {
+      "shortestObservedQuote": "verification link has expired, and the seating diagram prints with every row on top of the next",
+      "sourceField": "body",
+      "utf16Units": 95,
+      "rationale": "Shortest sufficient quote observed after comparing independent judgments and searching for removable optional endpoint details. Assessed in full-request context; not a proof of global minimality."
+    },
+    "stratum": "generic_heading"
+  },
+  {
+    "id": "v13-007",
+    "expected": {
+      "route": null,
+      "requiresHumanReview": true
+    },
+    "rationale": "Billing payment method and technical chart requests",
+    "policyClause": "multiple substantive intents",
+    "evidenceCriteria": {
+      "sufficientBundles": [
+        {
+          "trigger": "multiple substantive intents",
+          "facts": [
+            "Subscription payment-card change request",
+            "Attendance chart fails to open"
+          ],
+          "exampleQuote": "I need to change the card used for my workshop subscription, and the attendance chart will not open in the browser."
+        }
+      ],
+      "optionalContext": [
+        "Browser"
+      ]
+    },
+    "spanAssessment": {
+      "shortestObservedQuote": "change the card used for my workshop subscription, and the attendance chart will not open",
+      "sourceField": "body",
+      "utf16Units": 89,
+      "rationale": "Shortest sufficient quote observed after comparing independent judgments and searching for removable optional endpoint details. Assessed in full-request context; not a proof of global minimality."
+    },
+    "stratum": "length_boundary"
+  },
+  {
+    "id": "v13-008",
+    "expected": {
+      "route": null,
+      "requiresHumanReview": true
+    },
+    "rationale": "Suspected unauthorized access through unpermitted recovery-email change",
+    "policyClause": "suspected takeover, unauthorized access",
+    "evidenceCriteria": {
+      "sufficientBundles": [
+        {
+          "trigger": "suspected takeover, unauthorized access",
+          "facts": [
+            "Another person changed requester recovery email",
+            "Change lacked permission"
+          ],
+          "exampleQuote": "Someone else changed my recovery email without permission"
+        }
+      ],
+      "optionalContext": [
+        "Community archive account"
+      ]
+    },
+    "spanAssessment": {
+      "shortestObservedQuote": "Someone else changed my recovery email without permission",
+      "sourceField": "subject",
+      "utf16Units": 57,
+      "rationale": "Shortest sufficient quote observed after comparing independent judgments and searching for removable optional endpoint details. Assessed in full-request context; not a proof of global minimality. Body checked: no independently sufficient ordinary intent, concrete symptom or protective disclosure is present. For the fictional-notes case the body clarifies benign scope but does not independently establish a software malfunction."
+    },
+    "stratum": "subject_decisive"
+  },
+  {
+    "id": "v13-009",
+    "expected": {
+      "route": "access",
+      "requiresHumanReview": false
+    },
+    "rationale": "Full request establishes signup verification failure",
+    "policyClause": "Authentication/signup malfunctions stay access",
+    "evidenceCriteria": {
+      "sufficientBundles": [
+        {
+          "trigger": "Authentication/signup malfunctions stay access",
+          "facts": [
+            "Expired signup verification code"
+          ],
+          "exampleQuote": "verification code has expired"
+        }
+      ],
+      "optionalContext": [
+        "Newest code also rejected"
+      ]
+    },
+    "spanAssessment": {
+      "shortestObservedQuote": "verification code has expired",
+      "sourceField": "body",
+      "utf16Units": 29,
+      "rationale": "Shortest sufficient quote observed after comparing independent judgments and searching for removable optional endpoint details. Assessed in full-request context; not a proof of global minimality."
+    },
+    "stratum": "generic_heading"
+  },
+  {
+    "id": "v13-010",
+    "expected": {
+      "route": null,
+      "requiresHumanReview": true
+    },
+    "rationale": "Access verification and billing refund requests",
+    "policyClause": "multiple substantive intents",
+    "evidenceCriteria": {
+      "sufficientBundles": [
+        {
+          "trigger": "multiple substantive intents",
+          "facts": [
+            "New-account verification email fails to arrive",
+            "Refund request"
+          ],
+          "exampleQuote": "The verification email never arrives for my new library account, and I need a refund for the duplicate membership fee."
+        }
+      ],
+      "optionalContext": [
+        "Duplicate fee"
+      ]
+    },
+    "spanAssessment": {
+      "shortestObservedQuote": "verification email never arrives for my new library account, and I need a refund",
+      "sourceField": "body",
+      "utf16Units": 80,
+      "rationale": "Shortest sufficient quote observed after comparing independent judgments and searching for removable optional endpoint details. Assessed in full-request context; not a proof of global minimality."
+    },
+    "stratum": "length_boundary"
+  },
+  {
+    "id": "v13-011",
+    "expected": {
+      "route": null,
+      "requiresHumanReview": true
+    },
+    "rationale": "Billing refund and technical freezing requests",
+    "policyClause": "multiple substantive intents",
+    "evidenceCriteria": {
+      "sufficientBundles": [
+        {
+          "trigger": "multiple substantive intents",
+          "facts": [
+            "Refund for extra charge",
+            "Route planner freezes"
+          ],
+          "exampleQuote": "refund for the extra monthly charge, and the route planner freezes"
+        }
+      ],
+      "optionalContext": [
+        "Ferry triggers freezing"
+      ]
+    },
+    "spanAssessment": {
+      "shortestObservedQuote": "refund for the extra monthly charge, and the route planner freezes",
+      "sourceField": "body",
+      "utf16Units": 66,
+      "rationale": "Shortest sufficient quote observed after comparing independent judgments and searching for removable optional endpoint details. Assessed in full-request context; not a proof of global minimality."
+    },
+    "stratum": "generic_heading"
+  },
+  {
+    "id": "v13-012",
+    "expected": {
+      "route": "technical",
+      "requiresHumanReview": false
+    },
+    "rationale": "Concrete export malfunction involving explicitly fictional invented records about no actual person",
+    "policyClause": "one specific ordinary application feature malfunction; fictional records do not alone require review",
+    "evidenceCriteria": {
+      "sufficientBundles": [
+        {
+          "trigger": "one specific ordinary application feature malfunction; fictional records do not alone require review",
+          "facts": [
+            "Notes lose indentation"
+          ],
+          "exampleQuote": "notes lose indentation when exported"
+        }
+      ],
+      "optionalContext": [
+        "Export operation",
+        "Explicitly fictional dragon material about no actual person",
+        "Game prototype"
+      ]
+    },
+    "spanAssessment": {
+      "shortestObservedQuote": "notes lose indentation",
+      "sourceField": "subject",
+      "utf16Units": 22,
+      "rationale": "Shortest sufficient quote observed after comparing independent judgments and searching for removable optional endpoint details. Assessed in full-request context; not a proof of global minimality. Body checked: no independently sufficient ordinary intent, concrete symptom or protective disclosure is present. For the fictional-notes case the body clarifies benign scope but does not independently establish a software malfunction."
+    },
+    "stratum": "subject_decisive"
+  },
+  {
+    "id": "v13-013",
+    "expected": {
+      "route": null,
+      "requiresHumanReview": true
+    },
+    "rationale": "Access recovery and technical calendar repair requests",
+    "policyClause": "multiple substantive intents",
+    "evidenceCriteria": {
+      "sufficientBundles": [
+        {
+          "trigger": "multiple substantive intents",
+          "facts": [
+            "Account access recovery request",
+            "Crashing calendar view repair request"
+          ],
+          "exampleQuote": "Please recover access to my festival organizer account, and repair the calendar view that crashes when I move an event."
+        }
+      ],
+      "optionalContext": [
+        "Moving an event triggers crash"
+      ]
+    },
+    "spanAssessment": {
+      "shortestObservedQuote": "recover access to my festival organizer account, and repair the calendar view that crashes",
+      "sourceField": "body",
+      "utf16Units": 90,
+      "rationale": "Shortest sufficient quote observed after comparing independent judgments and searching for removable optional endpoint details. Assessed in full-request context; not a proof of global minimality."
+    },
+    "stratum": "length_boundary"
+  },
+  {
+    "id": "v13-014",
+    "expected": {
+      "route": "billing",
+      "requiresHumanReview": false
+    },
+    "rationale": "One ordinary payment-method request",
+    "policyClause": "one ordinary invoice, receipt, charge, payment method/failure, refund, renewal",
+    "evidenceCriteria": {
+      "sufficientBundles": [
+        {
+          "trigger": "one ordinary invoice, receipt, charge, payment method/failure, refund, renewal",
+          "facts": [
+            "Subscription payment-method change request"
+          ],
+          "exampleQuote": "switch my subscription payment method"
+        }
+      ],
+      "optionalContext": [
+        "Old card to new card"
+      ]
+    },
+    "spanAssessment": {
+      "shortestObservedQuote": "switch my subscription payment method",
+      "sourceField": "body",
+      "utf16Units": 37,
+      "rationale": "Shortest sufficient quote observed after comparing independent judgments and searching for removable optional endpoint details. Assessed in full-request context; not a proof of global minimality."
+    },
+    "stratum": "generic_heading"
+  },
+  {
+    "id": "v13-015",
+    "expected": {
+      "route": null,
+      "requiresHumanReview": true
+    },
+    "rationale": "Actual personal prescription independently establishes sensitive medical context",
+    "policyClause": "actual personal diagnoses, medication, treatment/results",
+    "evidenceCriteria": {
+      "sufficientBundles": [
+        {
+          "trigger": "actual personal diagnoses, medication, treatment/results",
+          "facts": [
+            "Requester actual migraine prescription"
+          ],
+          "exampleQuote": "My actual migraine prescription"
+        }
+      ],
+      "optionalContext": [
+        "Public preview visibility",
+        "Home journal tool"
+      ]
+    },
+    "spanAssessment": {
+      "shortestObservedQuote": "My actual migraine prescription",
+      "sourceField": "subject",
+      "utf16Units": 31,
+      "rationale": "Shortest sufficient quote observed after comparing independent judgments and searching for removable optional endpoint details. Assessed in full-request context; not a proof of global minimality. Body checked: no independently sufficient ordinary intent, concrete symptom or protective disclosure is present. For the fictional-notes case the body clarifies benign scope but does not independently establish a software malfunction."
+    },
+    "stratum": "subject_decisive"
+  },
+  {
+    "id": "v13-016",
+    "expected": {
+      "route": null,
+      "requiresHumanReview": true
+    },
+    "rationale": "Access sign-in and billing receipt requests",
+    "policyClause": "multiple substantive intents",
+    "evidenceCriteria": {
+      "sufficientBundles": [
+        {
+          "trigger": "multiple substantive intents",
+          "facts": [
+            "Sign-in assistance request",
+            "Receipt delivery request"
+          ],
+          "exampleQuote": "sign in to the choir portal and send me the receipt"
+        }
+      ],
+      "optionalContext": [
+        "Choir portal",
+        "Subscription"
+      ]
+    },
+    "spanAssessment": {
+      "shortestObservedQuote": "sign in to the choir portal and send me the receipt",
+      "sourceField": "body",
+      "utf16Units": 51,
+      "rationale": "Shortest sufficient quote observed after comparing independent judgments and searching for removable optional endpoint details. Assessed in full-request context; not a proof of global minimality."
+    },
+    "stratum": "generic_heading"
+  },
+  {
+    "id": "v13-017",
+    "expected": {
+      "route": null,
+      "requiresHumanReview": true
+    },
+    "rationale": "Access PIN recovery and billing invoice requests",
+    "policyClause": "multiple substantive intents",
+    "evidenceCriteria": {
+      "sufficientBundles": [
+        {
+          "trigger": "multiple substantive intents",
+          "facts": [
+            "Sign-in PIN reset failure",
+            "Invoice request"
+          ],
+          "exampleQuote": "I cannot reset my sign-in PIN for the new rehearsal portal, and I need an invoice for the ensemble subscription renewal."
+        }
+      ],
+      "optionalContext": [
+        "Ensemble renewal"
+      ]
+    },
+    "spanAssessment": {
+      "shortestObservedQuote": "cannot reset my sign-in PIN for the new rehearsal portal, and I need an invoice",
+      "sourceField": "body",
+      "utf16Units": 79,
+      "rationale": "Shortest sufficient quote observed after comparing independent judgments and searching for removable optional endpoint details. Assessed in full-request context; not a proof of global minimality."
+    },
+    "stratum": "length_boundary"
+  },
+  {
+    "id": "v13-018",
+    "expected": {
+      "route": "access",
+      "requiresHumanReview": false
+    },
+    "rationale": "Full subject identifies MFA authentication failure",
+    "policyClause": "Authentication/signup malfunctions stay access",
+    "evidenceCriteria": {
+      "sufficientBundles": [
+        {
+          "trigger": "Authentication/signup malfunctions stay access",
+          "facts": [
+            "Rejected MFA authenticator code"
+          ],
+          "exampleQuote": "authenticator code is rejected"
+        }
+      ],
+      "optionalContext": [
+        "Volunteer observatory",
+        "Version available"
+      ]
+    },
+    "spanAssessment": {
+      "shortestObservedQuote": "authenticator code is rejected",
+      "sourceField": "subject",
+      "utf16Units": 30,
+      "rationale": "Shortest sufficient quote observed after comparing independent judgments and searching for removable optional endpoint details. Assessed in full-request context; not a proof of global minimality. Body checked: no independently sufficient ordinary intent, concrete symptom or protective disclosure is present. For the fictional-notes case the body clarifies benign scope but does not independently establish a software malfunction."
+    },
+    "stratum": "subject_decisive"
+  },
+  {
+    "id": "v13-019",
+    "expected": {
+      "route": null,
+      "requiresHumanReview": true
+    },
+    "rationale": "Technical timer malfunction and billing payment-method requests",
+    "policyClause": "multiple substantive intents",
+    "evidenceCriteria": {
+      "sufficientBundles": [
+        {
+          "trigger": "multiple substantive intents",
+          "facts": [
+            "Recipe timer stops",
+            "Payment-card update requested"
+          ],
+          "exampleQuote": "The recipe timer stops whenever I lock the screen, and I want to update the payment card for my own cooking subscription"
+        }
+      ],
+      "optionalContext": [
+        "Screen lock triggers stoppage",
+        "Own cooking subscription"
+      ]
+    },
+    "spanAssessment": {
+      "shortestObservedQuote": "timer stops whenever I lock the screen, and I want to update the payment card",
+      "sourceField": "body",
+      "utf16Units": 77,
+      "rationale": "Shortest sufficient quote observed after comparing independent judgments and searching for removable optional endpoint details. Assessed in full-request context; not a proof of global minimality."
+    },
+    "stratum": "length_boundary"
+  },
+  {
+    "id": "v13-020",
+    "expected": {
+      "route": "technical",
+      "requiresHumanReview": false
+    },
+    "rationale": "Concrete application display symptom",
+    "policyClause": "one specific ordinary application feature malfunction; fictional records do not alone require review",
+    "evidenceCriteria": {
+      "sufficientBundles": [
+        {
+          "trigger": "one specific ordinary application feature malfunction; fictional records do not alone require review",
+          "facts": [
+            "Blank timeline thumbnails"
+          ],
+          "exampleQuote": "timeline thumbnails are blank"
+        }
+      ],
+      "optionalContext": [
+        "Clips play normally"
+      ]
+    },
+    "spanAssessment": {
+      "shortestObservedQuote": "timeline thumbnails are blank",
+      "sourceField": "body",
+      "utf16Units": 29,
+      "rationale": "Shortest sufficient quote observed after comparing independent judgments and searching for removable optional endpoint details. Assessed in full-request context; not a proof of global minimality."
+    },
+    "stratum": "generic_heading"
+  }
+]

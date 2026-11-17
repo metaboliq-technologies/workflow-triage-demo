@@ -1,0 +1,32 @@
+[
+  {
+    "id": "b13-001",
+    "subject": "Support request",
+    "body": "Hello. Refund my renewal; for reference, the screen uses a plain gray theme with a small logo in its corner; reset my PIN. Thank you."
+  },
+  {
+    "id": "b13-002",
+    "subject": "Two app issues",
+    "body": "For the web app: Recover my login; the page has a pale blue banner and a small square icon beside its heading; fix the frozen export. This is the browser view."
+  },
+  {
+    "id": "b13-003",
+    "subject": "Desktop panel",
+    "body": "Chart is blank here; the panel is on a wide screen with a gray border and a narrow blue top bar; send my receipt. Regards."
+  },
+  {
+    "id": "b13-004",
+    "subject": "Account assistance",
+    "body": "A note from the desktop view. Recover my PIN; the header has a small white logo beside a simple plain title in the upper left corner; refund my charge"
+  },
+  {
+    "id": "b13-005",
+    "subject": "Web app: Send my invoice; the desktop view has a pale gray background and a blue title above a white panel; unlock my login",
+    "body": "Hello support. Thank you."
+  },
+  {
+    "id": "b13-006",
+    "subject": "Browser support",
+    "body": "Hello support. Search keeps freezing; the window has a thin blue frame and a small white logo next to its title; reset my PIN. The theme is otherwise fine."
+  }
+]

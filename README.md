@@ -146,3 +146,9 @@ This repository is separate from MetaboliQ's proprietary website and application
 ## Bounded evidence selection v12
 
 [Full v12 evaluation and limitations](selection-results.md): 40 classifications and 45 attempts, all final outputs valid. Updated routing and blind AI-rated evidence support are 20/20, current v11 19/20, and rules routing 9/20; the observed difference is one classifier-injection review miss. Neither arm reproduces the original generic-heading or length failure in this set, so target-failure reduction is unmeasured. Five HTTP 503 attempts recover. Candidate IDs bound quotes and exclude recognized generic headings, but change the extraction pipeline and increase measured tokens; no human validation or production-readiness claim. Audit offline with `node verify-selection-evaluation.mjs`; do not rerun the saved live workflow.
+
+## Focused evidence challenge v13 and separate boundary follow-up
+
+[Main20-case report](challenge-results.md): joint routing/support/coverage is17/20 for v11 and20/20 for v12, including two unsupported direct-quote headings and one121-unit rejection. Its six intended length cases have shorter sufficient witnesses; that design shortfall is preserved.
+
+[Separate six-case follow-up](boundary-results.md), frozen before new authoring and original outcomes: joint success is4/6 for v11 versus2/6 for v12. Bounded formatting does not ensure complete evidence: three reviewed witnesses are absent from candidate choices and another available witness is not selected. Both phases use56/80 combined attempts, with four recovered503 attempts and two direct-quote length rejections (121/123 units). Do not pool the phases or promote v12 as a general improvement. AI review is not human validation. Audit offline with `node verify-challenge-evaluation.mjs` and `node verify-boundary-evaluation.mjs`; do not rerun either live workflow.

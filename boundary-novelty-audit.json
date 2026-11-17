@@ -1,0 +1,229 @@
+{
+  "method": "Exact bodies/subjects and lowercase ASCII word-set Jaccard, not semantic novelty or training exclusion",
+  "priorRequests": 436,
+  "exactBodyDuplicateCases": 0,
+  "reusedSubjectCases": 1,
+  "rows": [
+    {
+      "id": "b13-001",
+      "exactBodyDuplicates": [],
+      "identicalPriorSubjects": [
+        {
+          "id": "ext-001",
+          "file": "independent-evaluation.json"
+        },
+        {
+          "id": "ext-002",
+          "file": "independent-evaluation.json"
+        },
+        {
+          "id": "ext-003",
+          "file": "independent-evaluation.json"
+        },
+        {
+          "id": "ext-004",
+          "file": "independent-evaluation.json"
+        },
+        {
+          "id": "ext-005",
+          "file": "independent-evaluation.json"
+        },
+        {
+          "id": "ext-006",
+          "file": "independent-evaluation.json"
+        },
+        {
+          "id": "ext-007",
+          "file": "independent-evaluation.json"
+        },
+        {
+          "id": "ext-008",
+          "file": "independent-evaluation.json"
+        },
+        {
+          "id": "ext-009",
+          "file": "independent-evaluation.json"
+        },
+        {
+          "id": "ext-010",
+          "file": "independent-evaluation.json"
+        },
+        {
+          "id": "ext-011",
+          "file": "independent-evaluation.json"
+        },
+        {
+          "id": "ext-012",
+          "file": "independent-evaluation.json"
+        },
+        {
+          "id": "ext-013",
+          "file": "independent-evaluation.json"
+        },
+        {
+          "id": "ext-014",
+          "file": "independent-evaluation.json"
+        },
+        {
+          "id": "ext-015",
+          "file": "independent-evaluation.json"
+        },
+        {
+          "id": "ext-016",
+          "file": "independent-evaluation.json"
+        },
+        {
+          "id": "ext-017",
+          "file": "independent-evaluation.json"
+        },
+        {
+          "id": "ext-018",
+          "file": "independent-evaluation.json"
+        },
+        {
+          "id": "ext-019",
+          "file": "independent-evaluation.json"
+        },
+        {
+          "id": "ext-020",
+          "file": "independent-evaluation.json"
+        },
+        {
+          "id": "ext-021",
+          "file": "independent-evaluation.json"
+        },
+        {
+          "id": "ext-022",
+          "file": "independent-evaluation.json"
+        },
+        {
+          "id": "ext-023",
+          "file": "independent-evaluation.json"
+        },
+        {
+          "id": "ext-024",
+          "file": "independent-evaluation.json"
+        },
+        {
+          "id": "ext-025",
+          "file": "independent-evaluation.json"
+        },
+        {
+          "id": "ext-026",
+          "file": "independent-evaluation.json"
+        },
+        {
+          "id": "ext-027",
+          "file": "independent-evaluation.json"
+        },
+        {
+          "id": "ext-028",
+          "file": "independent-evaluation.json"
+        },
+        {
+          "id": "ext-029",
+          "file": "independent-evaluation.json"
+        },
+        {
+          "id": "ext-030",
+          "file": "independent-evaluation.json"
+        },
+        {
+          "id": "ext-031",
+          "file": "independent-evaluation.json"
+        },
+        {
+          "id": "ext-032",
+          "file": "independent-evaluation.json"
+        },
+        {
+          "id": "ext-033",
+          "file": "independent-evaluation.json"
+        },
+        {
+          "id": "ext-034",
+          "file": "independent-evaluation.json"
+        },
+        {
+          "id": "ext-035",
+          "file": "independent-evaluation.json"
+        },
+        {
+          "id": "ext-036",
+          "file": "independent-evaluation.json"
+        },
+        {
+          "id": "ext-037",
+          "file": "independent-evaluation.json"
+        },
+        {
+          "id": "ext-038",
+          "file": "independent-evaluation.json"
+        },
+        {
+          "id": "ext-039",
+          "file": "independent-evaluation.json"
+        },
+        {
+          "id": "ext-040",
+          "file": "independent-evaluation.json"
+        }
+      ],
+      "closestBody": {
+        "id": "v11-005",
+        "file": "sufficient-evaluation.json",
+        "jaccard": 0.25
+      }
+    },
+    {
+      "id": "b13-002",
+      "exactBodyDuplicates": [],
+      "identicalPriorSubjects": [],
+      "closestBody": {
+        "id": "v4-036",
+        "file": "reviewed-evaluation.json",
+        "jaccard": 0.15217391304347827
+      }
+    },
+    {
+      "id": "b13-003",
+      "exactBodyDuplicates": [],
+      "identicalPriorSubjects": [],
+      "closestBody": {
+        "id": "v13-003",
+        "file": "challenge-evaluation.json",
+        "jaccard": 0.21212121212121213
+      }
+    },
+    {
+      "id": "b13-004",
+      "exactBodyDuplicates": [],
+      "identicalPriorSubjects": [],
+      "closestBody": {
+        "id": "v11-005",
+        "file": "sufficient-evaluation.json",
+        "jaccard": 0.2
+      }
+    },
+    {
+      "id": "b13-005",
+      "exactBodyDuplicates": [],
+      "identicalPriorSubjects": [],
+      "closestBody": {
+        "id": "v2-024",
+        "file": "fresh-evaluation.json",
+        "jaccard": 0.11764705882352941
+      }
+    },
+    {
+      "id": "b13-006",
+      "exactBodyDuplicates": [],
+      "identicalPriorSubjects": [],
+      "closestBody": {
+        "id": "v7-027",
+        "file": "negation-evaluation.json",
+        "jaccard": 0.14893617021276595
+      }
+    }
+  ]
+}

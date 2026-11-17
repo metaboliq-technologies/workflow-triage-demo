@@ -1,0 +1,194 @@
+[
+  {
+    "id": "b13-001",
+    "stratum": "forced_boundary",
+    "expected": {
+      "route": null,
+      "requiresHumanReview": true
+    },
+    "rationale": "Two substantive ordinary software-support intents jointly require review; neither intent alone establishes this protective condition.",
+    "policyClause": "Protective precedence: multiple substantive intents. Intent sufficiency and ordinary routes.",
+    "evidenceCriteria": {
+      "sufficientBundles": [
+        {
+          "trigger": "Two substantive ordinary intents",
+          "facts": [
+            "A refund of the renewal is requested.",
+            "A PIN reset is requested."
+          ],
+          "exampleQuote": "Refund my renewal; for reference, the screen uses a plain gray theme with a small logo in its corner; reset my PIN"
+        }
+      ],
+      "optionalContext": [
+        "Interface colors, logo, border, layout, and title descriptions are innocuous and unnecessary to the decision.",
+        "Greetings, sign-offs, platform framing, and location words are optional context."
+      ]
+    },
+    "spanAssessment": {
+      "shortestObservedQuote": "Refund my renewal; for reference, the screen uses a plain gray theme with a small logo in its corner; reset my PIN",
+      "sourceField": "body",
+      "utf16Units": 114,
+      "rationale": "Observed contiguous witness begins with the indispensable first action or symptom object and ends with the indispensable second object. I checked removal of the first action/object, removal of the second action/object, isolated clauses, neutral middle-only spans, and prefix/suffix alternatives. These lose an ordinary positive intent; middle context is not a required fact. This is an AI shortest-observed assessment, not a mathematical minimum."
+    }
+  },
+  {
+    "id": "b13-002",
+    "stratum": "forced_boundary",
+    "expected": {
+      "route": null,
+      "requiresHumanReview": true
+    },
+    "rationale": "Two substantive ordinary software-support intents jointly require review; neither intent alone establishes this protective condition.",
+    "policyClause": "Protective precedence: multiple substantive intents. Intent sufficiency and ordinary routes.",
+    "evidenceCriteria": {
+      "sufficientBundles": [
+        {
+          "trigger": "Two substantive ordinary intents",
+          "facts": [
+            "Login recovery is requested.",
+            "Repair of a frozen export is requested."
+          ],
+          "exampleQuote": "Recover my login; the page has a pale blue banner and a small square icon beside its heading; fix the frozen export"
+        }
+      ],
+      "optionalContext": [
+        "Interface colors, logo, border, layout, and title descriptions are innocuous and unnecessary to the decision.",
+        "Greetings, sign-offs, platform framing, and location words are optional context."
+      ]
+    },
+    "spanAssessment": {
+      "shortestObservedQuote": "Recover my login; the page has a pale blue banner and a small square icon beside its heading; fix the frozen export",
+      "sourceField": "body",
+      "utf16Units": 115,
+      "rationale": "Observed contiguous witness begins with the indispensable first action or symptom object and ends with the indispensable second object. I checked removal of the first action/object, removal of the second action/object, isolated clauses, neutral middle-only spans, and prefix/suffix alternatives. These lose an ordinary positive intent; middle context is not a required fact. This is an AI shortest-observed assessment, not a mathematical minimum."
+    }
+  },
+  {
+    "id": "b13-003",
+    "stratum": "forced_boundary",
+    "expected": {
+      "route": null,
+      "requiresHumanReview": true
+    },
+    "rationale": "Two substantive ordinary software-support intents jointly require review; neither intent alone establishes this protective condition.",
+    "policyClause": "Protective precedence: multiple substantive intents. Intent sufficiency and ordinary routes.",
+    "evidenceCriteria": {
+      "sufficientBundles": [
+        {
+          "trigger": "Two substantive ordinary intents",
+          "facts": [
+            "The chart is blank.",
+            "A receipt is requested."
+          ],
+          "exampleQuote": "Chart is blank here; the panel is on a wide screen with a gray border and a narrow blue top bar; send my receipt"
+        }
+      ],
+      "optionalContext": [
+        "Interface colors, logo, border, layout, and title descriptions are innocuous and unnecessary to the decision.",
+        "Greetings, sign-offs, platform framing, and location words are optional context."
+      ]
+    },
+    "spanAssessment": {
+      "shortestObservedQuote": "Chart is blank here; the panel is on a wide screen with a gray border and a narrow blue top bar; send my receipt",
+      "sourceField": "body",
+      "utf16Units": 112,
+      "rationale": "Observed contiguous witness begins with the indispensable first action or symptom object and ends with the indispensable second object. I checked removal of the first action/object, removal of the second action/object, isolated clauses, neutral middle-only spans, and prefix/suffix alternatives. These lose an ordinary positive intent; middle context is not a required fact. This is an AI shortest-observed assessment, not a mathematical minimum."
+    }
+  },
+  {
+    "id": "b13-004",
+    "stratum": "forced_boundary",
+    "expected": {
+      "route": null,
+      "requiresHumanReview": true
+    },
+    "rationale": "Two substantive ordinary software-support intents jointly require review; neither intent alone establishes this protective condition.",
+    "policyClause": "Protective precedence: multiple substantive intents. Intent sufficiency and ordinary routes.",
+    "evidenceCriteria": {
+      "sufficientBundles": [
+        {
+          "trigger": "Two substantive ordinary intents",
+          "facts": [
+            "PIN recovery is requested.",
+            "A refund of a charge is requested."
+          ],
+          "exampleQuote": "Recover my PIN; the header has a small white logo beside a simple plain title in the upper left corner; refund my charge"
+        }
+      ],
+      "optionalContext": [
+        "Interface colors, logo, border, layout, and title descriptions are innocuous and unnecessary to the decision.",
+        "Greetings, sign-offs, platform framing, and location words are optional context."
+      ]
+    },
+    "spanAssessment": {
+      "shortestObservedQuote": "Recover my PIN; the header has a small white logo beside a simple plain title in the upper left corner; refund my charge",
+      "sourceField": "body",
+      "utf16Units": 120,
+      "rationale": "Observed contiguous witness begins with the indispensable first action or symptom object and ends with the indispensable second object. I checked removal of the first action/object, removal of the second action/object, isolated clauses, neutral middle-only spans, and prefix/suffix alternatives. These lose an ordinary positive intent; middle context is not a required fact. This is an AI shortest-observed assessment, not a mathematical minimum."
+    }
+  },
+  {
+    "id": "b13-005",
+    "stratum": "forced_boundary",
+    "expected": {
+      "route": null,
+      "requiresHumanReview": true
+    },
+    "rationale": "Two substantive ordinary software-support intents jointly require review; neither intent alone establishes this protective condition.",
+    "policyClause": "Protective precedence: multiple substantive intents. Intent sufficiency and ordinary routes.",
+    "evidenceCriteria": {
+      "sufficientBundles": [
+        {
+          "trigger": "Two substantive ordinary intents",
+          "facts": [
+            "An invoice is requested.",
+            "Login unlocking is requested."
+          ],
+          "exampleQuote": "Send my invoice; the desktop view has a pale gray background and a blue title above a white panel; unlock my login"
+        }
+      ],
+      "optionalContext": [
+        "Interface colors, logo, border, layout, and title descriptions are innocuous and unnecessary to the decision.",
+        "Greetings, sign-offs, platform framing, and location words are optional context."
+      ]
+    },
+    "spanAssessment": {
+      "shortestObservedQuote": "Send my invoice; the desktop view has a pale gray background and a blue title above a white panel; unlock my login",
+      "sourceField": "subject",
+      "utf16Units": 114,
+      "rationale": "Observed contiguous witness begins with the indispensable first action or symptom object and ends with the indispensable second object. I checked removal of the first action/object, removal of the second action/object, isolated clauses, neutral middle-only spans, and prefix/suffix alternatives. These lose an ordinary positive intent; middle context is not a required fact. This is an AI shortest-observed assessment, not a mathematical minimum."
+    }
+  },
+  {
+    "id": "b13-006",
+    "stratum": "forced_boundary",
+    "expected": {
+      "route": null,
+      "requiresHumanReview": true
+    },
+    "rationale": "Two substantive ordinary software-support intents jointly require review; neither intent alone establishes this protective condition.",
+    "policyClause": "Protective precedence: multiple substantive intents. Intent sufficiency and ordinary routes.",
+    "evidenceCriteria": {
+      "sufficientBundles": [
+        {
+          "trigger": "Two substantive ordinary intents",
+          "facts": [
+            "Search keeps freezing.",
+            "A PIN reset is requested."
+          ],
+          "exampleQuote": "Search keeps freezing; the window has a thin blue frame and a small white logo next to its title; reset my PIN"
+        }
+      ],
+      "optionalContext": [
+        "Interface colors, logo, border, layout, and title descriptions are innocuous and unnecessary to the decision.",
+        "Greetings, sign-offs, platform framing, and location words are optional context."
+      ]
+    },
+    "spanAssessment": {
+      "shortestObservedQuote": "Search keeps freezing; the window has a thin blue frame and a small white logo next to its title; reset my PIN",
+      "sourceField": "body",
+      "utf16Units": 110,
+      "rationale": "Observed contiguous witness begins with the indispensable first action or symptom object and ends with the indispensable second object. I checked removal of the first action/object, removal of the second action/object, isolated clauses, neutral middle-only spans, and prefix/suffix alternatives. These lose an ordinary positive intent; middle context is not a required fact. This is an AI shortest-observed assessment, not a mathematical minimum."
+    }
+  }
+]

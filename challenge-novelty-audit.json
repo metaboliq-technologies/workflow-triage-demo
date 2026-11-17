@@ -1,0 +1,213 @@
+{
+  "method": "Exact bodies/subjects and lowercase ASCII word-set Jaccard, not semantic novelty or training exclusion",
+  "priorRequests": 416,
+  "exactBodyDuplicateCases": 0,
+  "reusedSubjectCases": 1,
+  "rows": [
+    {
+      "id": "v13-001",
+      "exactBodyDuplicates": [],
+      "identicalPriorSubjects": [
+        {
+          "id": "v12-003",
+          "file": "selection-evaluation.json"
+        }
+      ],
+      "closestBody": {
+        "id": "eval-13",
+        "file": "fixtures.json",
+        "jaccard": 0.5454545454545454
+      }
+    },
+    {
+      "id": "v13-002",
+      "exactBodyDuplicates": [],
+      "identicalPriorSubjects": [],
+      "closestBody": {
+        "id": "eval-12",
+        "file": "fixtures.json",
+        "jaccard": 0.17647058823529413
+      }
+    },
+    {
+      "id": "v13-003",
+      "exactBodyDuplicates": [],
+      "identicalPriorSubjects": [],
+      "closestBody": {
+        "id": "v9-004",
+        "file": "sensitive-evaluation.json",
+        "jaccard": 0.24242424242424243
+      }
+    },
+    {
+      "id": "v13-004",
+      "exactBodyDuplicates": [],
+      "identicalPriorSubjects": [],
+      "closestBody": {
+        "id": "v9-020",
+        "file": "sensitive-evaluation.json",
+        "jaccard": 0.15
+      }
+    },
+    {
+      "id": "v13-005",
+      "exactBodyDuplicates": [],
+      "identicalPriorSubjects": [],
+      "closestBody": {
+        "id": "eval-02",
+        "file": "fixtures.json",
+        "jaccard": 0.18181818181818182
+      }
+    },
+    {
+      "id": "v13-006",
+      "exactBodyDuplicates": [],
+      "identicalPriorSubjects": [],
+      "closestBody": {
+        "id": "v8-015",
+        "file": "reliability-evaluation.json",
+        "jaccard": 0.2
+      }
+    },
+    {
+      "id": "v13-007",
+      "exactBodyDuplicates": [],
+      "identicalPriorSubjects": [],
+      "closestBody": {
+        "id": "v7-014",
+        "file": "negation-evaluation.json",
+        "jaccard": 0.3448275862068966
+      }
+    },
+    {
+      "id": "v13-008",
+      "exactBodyDuplicates": [],
+      "identicalPriorSubjects": [],
+      "closestBody": {
+        "id": "eval-08",
+        "file": "fixtures.json",
+        "jaccard": 0.23076923076923078
+      }
+    },
+    {
+      "id": "v13-009",
+      "exactBodyDuplicates": [],
+      "identicalPriorSubjects": [],
+      "closestBody": {
+        "id": "v8-015",
+        "file": "reliability-evaluation.json",
+        "jaccard": 0.2727272727272727
+      }
+    },
+    {
+      "id": "v13-010",
+      "exactBodyDuplicates": [],
+      "identicalPriorSubjects": [],
+      "closestBody": {
+        "id": "v9-003",
+        "file": "sensitive-evaluation.json",
+        "jaccard": 0.34615384615384615
+      }
+    },
+    {
+      "id": "v13-011",
+      "exactBodyDuplicates": [],
+      "identicalPriorSubjects": [],
+      "closestBody": {
+        "id": "v6-019",
+        "file": "vague-evaluation.json",
+        "jaccard": 0.2916666666666667
+      }
+    },
+    {
+      "id": "v13-012",
+      "exactBodyDuplicates": [],
+      "identicalPriorSubjects": [],
+      "closestBody": {
+        "id": "v9-002",
+        "file": "sensitive-evaluation.json",
+        "jaccard": 0.2222222222222222
+      }
+    },
+    {
+      "id": "v13-013",
+      "exactBodyDuplicates": [],
+      "identicalPriorSubjects": [],
+      "closestBody": {
+        "id": "v9-026",
+        "file": "sensitive-evaluation.json",
+        "jaccard": 0.2222222222222222
+      }
+    },
+    {
+      "id": "v13-014",
+      "exactBodyDuplicates": [],
+      "identicalPriorSubjects": [],
+      "closestBody": {
+        "id": "v9-011",
+        "file": "sensitive-evaluation.json",
+        "jaccard": 0.2631578947368421
+      }
+    },
+    {
+      "id": "v13-015",
+      "exactBodyDuplicates": [],
+      "identicalPriorSubjects": [],
+      "closestBody": {
+        "id": "ext-025",
+        "file": "independent-evaluation.json",
+        "jaccard": 0.14285714285714285
+      }
+    },
+    {
+      "id": "v13-016",
+      "exactBodyDuplicates": [],
+      "identicalPriorSubjects": [],
+      "closestBody": {
+        "id": "v9-004",
+        "file": "sensitive-evaluation.json",
+        "jaccard": 0.35714285714285715
+      }
+    },
+    {
+      "id": "v13-017",
+      "exactBodyDuplicates": [],
+      "identicalPriorSubjects": [],
+      "closestBody": {
+        "id": "v11-005",
+        "file": "sufficient-evaluation.json",
+        "jaccard": 0.34782608695652173
+      }
+    },
+    {
+      "id": "v13-018",
+      "exactBodyDuplicates": [],
+      "identicalPriorSubjects": [],
+      "closestBody": {
+        "id": "v6-005",
+        "file": "vague-evaluation.json",
+        "jaccard": 0.25
+      }
+    },
+    {
+      "id": "v13-019",
+      "exactBodyDuplicates": [],
+      "identicalPriorSubjects": [],
+      "closestBody": {
+        "id": "v6-017",
+        "file": "vague-evaluation.json",
+        "jaccard": 0.24
+      }
+    },
+    {
+      "id": "v13-020",
+      "exactBodyDuplicates": [],
+      "identicalPriorSubjects": [],
+      "closestBody": {
+        "id": "v10-018",
+        "file": "completeness-evaluation.json",
+        "jaccard": 0.13636363636363635
+      }
+    }
+  ]
+}

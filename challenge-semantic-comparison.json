@@ -1,0 +1,5598 @@
+{
+  "schemaVersion": 1,
+  "experiment": "paired-evidence-challenge-v13",
+  "humanReviewed": false,
+  "rawSha256": "97ff5127e5d316750ff96abafbf7630b4ea9e16c2a4570e401cdcaf63e206fcc",
+  "allCases": {
+    "previous": {
+      "total": 20,
+      "available": 19,
+      "routingCorrect": 19,
+      "sourceExact": 19,
+      "supportsReturnedDecision": 17,
+      "coversSufficientReferenceBundle": 17,
+      "jointRoutingSupportAndCoverage": 17,
+      "criteriaAmbiguous": 0,
+      "optionalContext": {
+        "not-applicable": 2,
+        "full": 9,
+        "partial": 3,
+        "none": 5
+      }
+    },
+    "updated": {
+      "total": 20,
+      "available": 20,
+      "routingCorrect": 20,
+      "sourceExact": 20,
+      "supportsReturnedDecision": 20,
+      "coversSufficientReferenceBundle": 20,
+      "jointRoutingSupportAndCoverage": 20,
+      "criteriaAmbiguous": 0,
+      "optionalContext": {
+        "not-applicable": 2,
+        "full": 12,
+        "partial": 3,
+        "none": 3
+      }
+    }
+  },
+  "byGroup": {
+    "generic_heading": {
+      "caseIds": [
+        "v13-001",
+        "v13-020",
+        "v13-006",
+        "v13-009",
+        "v13-004",
+        "v13-011",
+        "v13-016",
+        "v13-014"
+      ],
+      "allCases": {
+        "previous": {
+          "total": 8,
+          "available": 8,
+          "routingCorrect": 8,
+          "sourceExact": 8,
+          "supportsReturnedDecision": 7,
+          "coversSufficientReferenceBundle": 7,
+          "jointRoutingSupportAndCoverage": 7,
+          "criteriaAmbiguous": 0,
+          "optionalContext": {
+            "not-applicable": 2,
+            "full": 5,
+            "partial": 0,
+            "none": 1
+          }
+        },
+        "updated": {
+          "total": 8,
+          "available": 8,
+          "routingCorrect": 8,
+          "sourceExact": 8,
+          "supportsReturnedDecision": 8,
+          "coversSufficientReferenceBundle": 8,
+          "jointRoutingSupportAndCoverage": 8,
+          "criteriaAmbiguous": 0,
+          "optionalContext": {
+            "not-applicable": 2,
+            "full": 6,
+            "partial": 0,
+            "none": 0
+          }
+        }
+      },
+      "commonValid": {
+        "previous": {
+          "total": 8,
+          "available": 8,
+          "routingCorrect": 8,
+          "sourceExact": 8,
+          "supportsReturnedDecision": 7,
+          "coversSufficientReferenceBundle": 7,
+          "jointRoutingSupportAndCoverage": 7,
+          "criteriaAmbiguous": 0,
+          "optionalContext": {
+            "not-applicable": 2,
+            "full": 5,
+            "partial": 0,
+            "none": 1
+          }
+        },
+        "updated": {
+          "total": 8,
+          "available": 8,
+          "routingCorrect": 8,
+          "sourceExact": 8,
+          "supportsReturnedDecision": 8,
+          "coversSufficientReferenceBundle": 8,
+          "jointRoutingSupportAndCoverage": 8,
+          "criteriaAmbiguous": 0,
+          "optionalContext": {
+            "not-applicable": 2,
+            "full": 6,
+            "partial": 0,
+            "none": 0
+          }
+        }
+      }
+    },
+    "subject_decisive": {
+      "caseIds": [
+        "v13-008",
+        "v13-012",
+        "v13-005",
+        "v13-015",
+        "v13-002",
+        "v13-018"
+      ],
+      "allCases": {
+        "previous": {
+          "total": 6,
+          "available": 6,
+          "routingCorrect": 6,
+          "sourceExact": 6,
+          "supportsReturnedDecision": 6,
+          "coversSufficientReferenceBundle": 6,
+          "jointRoutingSupportAndCoverage": 6,
+          "criteriaAmbiguous": 0,
+          "optionalContext": {
+            "not-applicable": 0,
+            "full": 0,
+            "partial": 3,
+            "none": 3
+          }
+        },
+        "updated": {
+          "total": 6,
+          "available": 6,
+          "routingCorrect": 6,
+          "sourceExact": 6,
+          "supportsReturnedDecision": 6,
+          "coversSufficientReferenceBundle": 6,
+          "jointRoutingSupportAndCoverage": 6,
+          "criteriaAmbiguous": 0,
+          "optionalContext": {
+            "not-applicable": 0,
+            "full": 0,
+            "partial": 3,
+            "none": 3
+          }
+        }
+      },
+      "commonValid": {
+        "previous": {
+          "total": 6,
+          "available": 6,
+          "routingCorrect": 6,
+          "sourceExact": 6,
+          "supportsReturnedDecision": 6,
+          "coversSufficientReferenceBundle": 6,
+          "jointRoutingSupportAndCoverage": 6,
+          "criteriaAmbiguous": 0,
+          "optionalContext": {
+            "not-applicable": 0,
+            "full": 0,
+            "partial": 3,
+            "none": 3
+          }
+        },
+        "updated": {
+          "total": 6,
+          "available": 6,
+          "routingCorrect": 6,
+          "sourceExact": 6,
+          "supportsReturnedDecision": 6,
+          "coversSufficientReferenceBundle": 6,
+          "jointRoutingSupportAndCoverage": 6,
+          "criteriaAmbiguous": 0,
+          "optionalContext": {
+            "not-applicable": 0,
+            "full": 0,
+            "partial": 3,
+            "none": 3
+          }
+        }
+      }
+    },
+    "length_boundary": {
+      "caseIds": [
+        "v13-017",
+        "v13-013",
+        "v13-010",
+        "v13-003",
+        "v13-007",
+        "v13-019"
+      ],
+      "allCases": {
+        "previous": {
+          "total": 6,
+          "available": 5,
+          "routingCorrect": 5,
+          "sourceExact": 5,
+          "supportsReturnedDecision": 4,
+          "coversSufficientReferenceBundle": 4,
+          "jointRoutingSupportAndCoverage": 4,
+          "criteriaAmbiguous": 0,
+          "optionalContext": {
+            "not-applicable": 0,
+            "full": 4,
+            "partial": 0,
+            "none": 1
+          }
+        },
+        "updated": {
+          "total": 6,
+          "available": 6,
+          "routingCorrect": 6,
+          "sourceExact": 6,
+          "supportsReturnedDecision": 6,
+          "coversSufficientReferenceBundle": 6,
+          "jointRoutingSupportAndCoverage": 6,
+          "criteriaAmbiguous": 0,
+          "optionalContext": {
+            "not-applicable": 0,
+            "full": 6,
+            "partial": 0,
+            "none": 0
+          }
+        }
+      },
+      "commonValid": {
+        "previous": {
+          "total": 5,
+          "available": 5,
+          "routingCorrect": 5,
+          "sourceExact": 5,
+          "supportsReturnedDecision": 4,
+          "coversSufficientReferenceBundle": 4,
+          "jointRoutingSupportAndCoverage": 4,
+          "criteriaAmbiguous": 0,
+          "optionalContext": {
+            "not-applicable": 0,
+            "full": 4,
+            "partial": 0,
+            "none": 1
+          }
+        },
+        "updated": {
+          "total": 5,
+          "available": 5,
+          "routingCorrect": 5,
+          "sourceExact": 5,
+          "supportsReturnedDecision": 5,
+          "coversSufficientReferenceBundle": 5,
+          "jointRoutingSupportAndCoverage": 5,
+          "criteriaAmbiguous": 0,
+          "optionalContext": {
+            "not-applicable": 0,
+            "full": 5,
+            "partial": 0,
+            "none": 0
+          }
+        }
+      }
+    }
+  },
+  "commonValid": {
+    "caseIds": [
+      "v13-001",
+      "v13-008",
+      "v13-020",
+      "v13-006",
+      "v13-009",
+      "v13-012",
+      "v13-017",
+      "v13-004",
+      "v13-013",
+      "v13-010",
+      "v13-005",
+      "v13-003",
+      "v13-007",
+      "v13-011",
+      "v13-016",
+      "v13-015",
+      "v13-014",
+      "v13-002",
+      "v13-018"
+    ],
+    "metrics": {
+      "previous": {
+        "total": 19,
+        "available": 19,
+        "routingCorrect": 19,
+        "sourceExact": 19,
+        "supportsReturnedDecision": 17,
+        "coversSufficientReferenceBundle": 17,
+        "jointRoutingSupportAndCoverage": 17,
+        "criteriaAmbiguous": 0,
+        "optionalContext": {
+          "not-applicable": 2,
+          "full": 9,
+          "partial": 3,
+          "none": 5
+        }
+      },
+      "updated": {
+        "total": 19,
+        "available": 19,
+        "routingCorrect": 19,
+        "sourceExact": 19,
+        "supportsReturnedDecision": 19,
+        "coversSufficientReferenceBundle": 19,
+        "jointRoutingSupportAndCoverage": 19,
+        "criteriaAmbiguous": 0,
+        "optionalContext": {
+          "not-applicable": 2,
+          "full": 11,
+          "partial": 3,
+          "none": 3
+        }
+      }
+    }
+  },
+  "failures": [
+    {
+      "id": "v13-003",
+      "arm": "previous",
+      "result": {
+        "id": "v13-003",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "model_requested_review",
+        "source": "gemini"
+      },
+      "grade": {
+        "id": "evidence-002",
+        "sourceExact": true,
+        "supportsReturnedDecision": false,
+        "coversSufficientReferenceBundle": false,
+        "coveredBundleIndexes": [],
+        "criteriaAmbiguous": false,
+        "optionalContextCoverage": "none",
+        "rationale": "FAIL: Generic count heading conveys neither export-label restoration nor receipt delivery; full context requires review but quote supplies neither substantive intent.",
+        "reviewerSourceExact": true,
+        "routingCorrect": true
+      }
+    },
+    {
+      "id": "v13-016",
+      "arm": "previous",
+      "result": {
+        "id": "v13-016",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "model_requested_review",
+        "source": "gemini"
+      },
+      "grade": {
+        "id": "evidence-016",
+        "sourceExact": true,
+        "supportsReturnedDecision": false,
+        "coversSufficientReferenceBundle": false,
+        "coveredBundleIndexes": [],
+        "criteriaAmbiguous": false,
+        "optionalContextCoverage": "none",
+        "rationale": "FAIL: Generic item count conveys neither sign-in assistance nor receipt delivery; full context requires review but quote supplies neither substantive intent.",
+        "reviewerSourceExact": true,
+        "routingCorrect": true
+      }
+    },
+    {
+      "id": "v13-019",
+      "arm": "previous",
+      "result": {
+        "error": "invalid_model_decision",
+        "route": null,
+        "requiresHumanReview": true
+      },
+      "grade": null
+    }
+  ],
+  "rows": [
+    {
+      "id": "v13-001",
+      "stratum": "generic_heading",
+      "expected": {
+        "route": null,
+        "requiresHumanReview": true
+      },
+      "baseline": {
+        "id": "v13-001",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "multiple_routes",
+        "matchedCategories": [
+          "access",
+          "billing"
+        ],
+        "source": "rules-baseline"
+      },
+      "previousFirst": {
+        "id": "v13-001",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "model_requested_review",
+        "source": "gemini"
+      },
+      "previous": {
+        "id": "v13-001",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "model_requested_review",
+        "source": "gemini"
+      },
+      "updatedFirst": {
+        "id": "v13-001",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "model_requested_review",
+        "source": "gemini"
+      },
+      "updated": {
+        "id": "v13-001",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "model_requested_review",
+        "source": "gemini"
+      },
+      "guardedPrevious": {
+        "id": "v13-001",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "model_requested_review",
+        "source": "guarded-gemini"
+      },
+      "guardedUpdated": {
+        "id": "v13-001",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "model_requested_review",
+        "source": "guarded-gemini"
+      },
+      "providers": {
+        "previous": {
+          "output": {
+            "category": "review",
+            "evidence": "Please resend my invoice and help me reset my password."
+          },
+          "attempts": 1,
+          "latencyMs": 7373,
+          "modelVersion": "gemini-3.5-flash-lite",
+          "usage": {
+            "promptTokenCount": 1879,
+            "candidatesTokenCount": 29,
+            "thoughtsTokenCount": null,
+            "totalTokenCount": 1908
+          },
+          "attemptLog": [
+            {
+              "attempt": 1,
+              "outcome": "success",
+              "stage": "decision",
+              "finishReason": "STOP",
+              "attemptLatencyMs": 7373,
+              "candidateCount": 1,
+              "outputCharacters": 99,
+              "httpStatus": 200,
+              "modelVersion": "gemini-3.5-flash-lite",
+              "usage": {
+                "promptTokenCount": 1879,
+                "candidatesTokenCount": 29,
+                "thoughtsTokenCount": null,
+                "totalTokenCount": 1908
+              },
+              "timeoutMs": 30000
+            }
+          ],
+          "firstAttempt": {
+            "output": {
+              "category": "review",
+              "evidence": "Please resend my invoice and help me reset my password."
+            },
+            "attempts": 1,
+            "latencyMs": 7373,
+            "modelVersion": "gemini-3.5-flash-lite",
+            "usage": {
+              "promptTokenCount": 1879,
+              "candidatesTokenCount": 29,
+              "thoughtsTokenCount": null,
+              "totalTokenCount": 1908
+            },
+            "attemptLog": [
+              {
+                "attempt": 1,
+                "outcome": "success",
+                "stage": "decision",
+                "finishReason": "STOP",
+                "attemptLatencyMs": 7373,
+                "candidateCount": 1,
+                "outputCharacters": 99,
+                "httpStatus": 200,
+                "modelVersion": "gemini-3.5-flash-lite",
+                "usage": {
+                  "promptTokenCount": 1879,
+                  "candidatesTokenCount": 29,
+                  "thoughtsTokenCount": null,
+                  "totalTokenCount": 1908
+                },
+                "timeoutMs": 30000
+              }
+            ]
+          },
+          "reliability": {
+            "version": "bounded-v8",
+            "timeoutMs": 30000,
+            "totalTimeoutMs": 65000,
+            "maxAttempts": 2,
+            "recovered": false,
+            "retryDeferred": null
+          }
+        },
+        "updated": {
+          "output": {
+            "category": "review",
+            "evidence": "Please resend my invoice and help me reset my password."
+          },
+          "attempts": 1,
+          "latencyMs": 1897,
+          "modelVersion": "gemini-3.5-flash-lite",
+          "usage": {
+            "promptTokenCount": 2128,
+            "candidatesTokenCount": 21,
+            "thoughtsTokenCount": null,
+            "totalTokenCount": 2149
+          },
+          "attemptLog": [
+            {
+              "attempt": 1,
+              "outcome": "success",
+              "stage": "decision",
+              "finishReason": "STOP",
+              "attemptLatencyMs": 1897,
+              "candidateCount": 1,
+              "outputCharacters": 48,
+              "httpStatus": 200,
+              "modelVersion": "gemini-3.5-flash-lite",
+              "usage": {
+                "promptTokenCount": 2128,
+                "candidatesTokenCount": 21,
+                "thoughtsTokenCount": null,
+                "totalTokenCount": 2149
+              },
+              "timeoutMs": 30000
+            }
+          ],
+          "evidenceReference": {
+            "id": "s0",
+            "field": "body",
+            "start": 0,
+            "end": 55
+          },
+          "firstAttempt": {
+            "output": {
+              "category": "review",
+              "evidence": "Please resend my invoice and help me reset my password."
+            },
+            "attempts": 1,
+            "latencyMs": 1897,
+            "modelVersion": "gemini-3.5-flash-lite",
+            "usage": {
+              "promptTokenCount": 2128,
+              "candidatesTokenCount": 21,
+              "thoughtsTokenCount": null,
+              "totalTokenCount": 2149
+            },
+            "attemptLog": [
+              {
+                "attempt": 1,
+                "outcome": "success",
+                "stage": "decision",
+                "finishReason": "STOP",
+                "attemptLatencyMs": 1897,
+                "candidateCount": 1,
+                "outputCharacters": 48,
+                "httpStatus": 200,
+                "modelVersion": "gemini-3.5-flash-lite",
+                "usage": {
+                  "promptTokenCount": 2128,
+                  "candidatesTokenCount": 21,
+                  "thoughtsTokenCount": null,
+                  "totalTokenCount": 2149
+                },
+                "timeoutMs": 30000
+              }
+            ],
+            "evidenceReference": {
+              "id": "s0",
+              "field": "body",
+              "start": 0,
+              "end": 55
+            }
+          },
+          "reliability": {
+            "version": "bounded-v8",
+            "timeoutMs": 30000,
+            "totalTimeoutMs": 65000,
+            "maxAttempts": 2,
+            "recovered": false,
+            "retryDeferred": null
+          }
+        }
+      },
+      "semantic": {
+        "previous": {
+          "id": "evidence-011",
+          "sourceExact": true,
+          "supportsReturnedDecision": true,
+          "coversSufficientReferenceBundle": true,
+          "coveredBundleIndexes": [
+            0
+          ],
+          "criteriaAmbiguous": false,
+          "optionalContextCoverage": "not-applicable",
+          "rationale": "Both invoice resend and password-reset assistance support multiple-intent review.",
+          "reviewerSourceExact": true,
+          "routingCorrect": true
+        },
+        "updated": {
+          "id": "evidence-021",
+          "sourceExact": true,
+          "supportsReturnedDecision": true,
+          "coversSufficientReferenceBundle": true,
+          "coveredBundleIndexes": [
+            0
+          ],
+          "criteriaAmbiguous": false,
+          "optionalContextCoverage": "not-applicable",
+          "rationale": "Both invoice resend and password-reset assistance support multiple-intent review.",
+          "reviewerSourceExact": true,
+          "routingCorrect": true
+        }
+      }
+    },
+    {
+      "id": "v13-008",
+      "stratum": "subject_decisive",
+      "expected": {
+        "route": null,
+        "requiresHumanReview": true
+      },
+      "baseline": {
+        "id": "v13-008",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "no_supported_route",
+        "matchedCategories": [],
+        "source": "rules-baseline"
+      },
+      "previousFirst": {
+        "id": "v13-008",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "model_requested_review",
+        "source": "gemini"
+      },
+      "previous": {
+        "id": "v13-008",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "model_requested_review",
+        "source": "gemini"
+      },
+      "updatedFirst": {
+        "id": "v13-008",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "model_requested_review",
+        "source": "gemini"
+      },
+      "updated": {
+        "id": "v13-008",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "model_requested_review",
+        "source": "gemini"
+      },
+      "guardedPrevious": {
+        "id": "v13-008",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "model_requested_review",
+        "source": "guarded-gemini"
+      },
+      "guardedUpdated": {
+        "id": "v13-008",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "model_requested_review",
+        "source": "guarded-gemini"
+      },
+      "providers": {
+        "previous": {
+          "output": {
+            "category": "review",
+            "evidence": "Someone else changed my recovery email without permission"
+          },
+          "attempts": 1,
+          "latencyMs": 755,
+          "modelVersion": "gemini-3.5-flash-lite",
+          "usage": {
+            "promptTokenCount": 1881,
+            "candidatesTokenCount": 26,
+            "thoughtsTokenCount": null,
+            "totalTokenCount": 1907
+          },
+          "attemptLog": [
+            {
+              "attempt": 1,
+              "outcome": "success",
+              "stage": "decision",
+              "finishReason": "STOP",
+              "attemptLatencyMs": 755,
+              "candidateCount": 1,
+              "outputCharacters": 101,
+              "httpStatus": 200,
+              "modelVersion": "gemini-3.5-flash-lite",
+              "usage": {
+                "promptTokenCount": 1881,
+                "candidatesTokenCount": 26,
+                "thoughtsTokenCount": null,
+                "totalTokenCount": 1907
+              },
+              "timeoutMs": 30000
+            }
+          ],
+          "firstAttempt": {
+            "output": {
+              "category": "review",
+              "evidence": "Someone else changed my recovery email without permission"
+            },
+            "attempts": 1,
+            "latencyMs": 755,
+            "modelVersion": "gemini-3.5-flash-lite",
+            "usage": {
+              "promptTokenCount": 1881,
+              "candidatesTokenCount": 26,
+              "thoughtsTokenCount": null,
+              "totalTokenCount": 1907
+            },
+            "attemptLog": [
+              {
+                "attempt": 1,
+                "outcome": "success",
+                "stage": "decision",
+                "finishReason": "STOP",
+                "attemptLatencyMs": 755,
+                "candidateCount": 1,
+                "outputCharacters": 101,
+                "httpStatus": 200,
+                "modelVersion": "gemini-3.5-flash-lite",
+                "usage": {
+                  "promptTokenCount": 1881,
+                  "candidatesTokenCount": 26,
+                  "thoughtsTokenCount": null,
+                  "totalTokenCount": 1907
+                },
+                "timeoutMs": 30000
+              }
+            ]
+          },
+          "reliability": {
+            "version": "bounded-v8",
+            "timeoutMs": 30000,
+            "totalTimeoutMs": 65000,
+            "maxAttempts": 2,
+            "recovered": false,
+            "retryDeferred": null
+          }
+        },
+        "updated": {
+          "output": {
+            "category": "review",
+            "evidence": "Someone else changed my recovery email without permission"
+          },
+          "attempts": 1,
+          "latencyMs": 826,
+          "modelVersion": "gemini-3.5-flash-lite",
+          "usage": {
+            "promptTokenCount": 2145,
+            "candidatesTokenCount": 21,
+            "thoughtsTokenCount": null,
+            "totalTokenCount": 2166
+          },
+          "attemptLog": [
+            {
+              "attempt": 1,
+              "outcome": "success",
+              "stage": "decision",
+              "finishReason": "STOP",
+              "attemptLatencyMs": 826,
+              "candidateCount": 1,
+              "outputCharacters": 48,
+              "httpStatus": 200,
+              "modelVersion": "gemini-3.5-flash-lite",
+              "usage": {
+                "promptTokenCount": 2145,
+                "candidatesTokenCount": 21,
+                "thoughtsTokenCount": null,
+                "totalTokenCount": 2166
+              },
+              "timeoutMs": 30000
+            }
+          ],
+          "evidenceReference": {
+            "id": "s2",
+            "field": "subject",
+            "start": 0,
+            "end": 57
+          },
+          "firstAttempt": {
+            "output": {
+              "category": "review",
+              "evidence": "Someone else changed my recovery email without permission"
+            },
+            "attempts": 1,
+            "latencyMs": 826,
+            "modelVersion": "gemini-3.5-flash-lite",
+            "usage": {
+              "promptTokenCount": 2145,
+              "candidatesTokenCount": 21,
+              "thoughtsTokenCount": null,
+              "totalTokenCount": 2166
+            },
+            "attemptLog": [
+              {
+                "attempt": 1,
+                "outcome": "success",
+                "stage": "decision",
+                "finishReason": "STOP",
+                "attemptLatencyMs": 826,
+                "candidateCount": 1,
+                "outputCharacters": 48,
+                "httpStatus": 200,
+                "modelVersion": "gemini-3.5-flash-lite",
+                "usage": {
+                  "promptTokenCount": 2145,
+                  "candidatesTokenCount": 21,
+                  "thoughtsTokenCount": null,
+                  "totalTokenCount": 2166
+                },
+                "timeoutMs": 30000
+              }
+            ],
+            "evidenceReference": {
+              "id": "s2",
+              "field": "subject",
+              "start": 0,
+              "end": 57
+            }
+          },
+          "reliability": {
+            "version": "bounded-v8",
+            "timeoutMs": 30000,
+            "totalTimeoutMs": 65000,
+            "maxAttempts": 2,
+            "recovered": false,
+            "retryDeferred": null
+          }
+        }
+      },
+      "semantic": {
+        "previous": {
+          "id": "evidence-015",
+          "sourceExact": true,
+          "supportsReturnedDecision": true,
+          "coversSufficientReferenceBundle": true,
+          "coveredBundleIndexes": [
+            0
+          ],
+          "criteriaAmbiguous": false,
+          "optionalContextCoverage": "none",
+          "rationale": "Another person changing requester recovery email without permission preserves essential unauthorized-change relationship; community archive absent.",
+          "reviewerSourceExact": true,
+          "routingCorrect": true
+        },
+        "updated": {
+          "id": "evidence-031",
+          "sourceExact": true,
+          "supportsReturnedDecision": true,
+          "coversSufficientReferenceBundle": true,
+          "coveredBundleIndexes": [
+            0
+          ],
+          "criteriaAmbiguous": false,
+          "optionalContextCoverage": "none",
+          "rationale": "Another person changing requester recovery email without permission preserves essential unauthorized-change relationship; community archive absent.",
+          "reviewerSourceExact": true,
+          "routingCorrect": true
+        }
+      }
+    },
+    {
+      "id": "v13-020",
+      "stratum": "generic_heading",
+      "expected": {
+        "route": "technical",
+        "requiresHumanReview": false
+      },
+      "baseline": {
+        "id": "v13-020",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "no_supported_route",
+        "matchedCategories": [],
+        "source": "rules-baseline"
+      },
+      "previousFirst": {
+        "id": "v13-020",
+        "route": "technical",
+        "requiresHumanReview": false,
+        "reason": "model_route_proposal",
+        "source": "gemini"
+      },
+      "previous": {
+        "id": "v13-020",
+        "route": "technical",
+        "requiresHumanReview": false,
+        "reason": "model_route_proposal",
+        "source": "gemini"
+      },
+      "updatedFirst": {
+        "id": "v13-020",
+        "route": "technical",
+        "requiresHumanReview": false,
+        "reason": "model_route_proposal",
+        "source": "gemini"
+      },
+      "updated": {
+        "id": "v13-020",
+        "route": "technical",
+        "requiresHumanReview": false,
+        "reason": "model_route_proposal",
+        "source": "gemini"
+      },
+      "guardedPrevious": {
+        "id": "v13-020",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "no_supported_route",
+        "matchedCategories": [],
+        "source": "guarded-gemini"
+      },
+      "guardedUpdated": {
+        "id": "v13-020",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "no_supported_route",
+        "matchedCategories": [],
+        "source": "guarded-gemini"
+      },
+      "providers": {
+        "previous": {
+          "output": {
+            "category": "technical",
+            "evidence": "The timeline thumbnails are blank although the clips themselves play normally."
+          },
+          "attempts": 1,
+          "latencyMs": 741,
+          "modelVersion": "gemini-3.5-flash-lite",
+          "usage": {
+            "promptTokenCount": 1878,
+            "candidatesTokenCount": 29,
+            "thoughtsTokenCount": null,
+            "totalTokenCount": 1907
+          },
+          "attemptLog": [
+            {
+              "attempt": 1,
+              "outcome": "success",
+              "stage": "decision",
+              "finishReason": "STOP",
+              "attemptLatencyMs": 740,
+              "candidateCount": 1,
+              "outputCharacters": 125,
+              "httpStatus": 200,
+              "modelVersion": "gemini-3.5-flash-lite",
+              "usage": {
+                "promptTokenCount": 1878,
+                "candidatesTokenCount": 29,
+                "thoughtsTokenCount": null,
+                "totalTokenCount": 1907
+              },
+              "timeoutMs": 30000
+            }
+          ],
+          "firstAttempt": {
+            "output": {
+              "category": "technical",
+              "evidence": "The timeline thumbnails are blank although the clips themselves play normally."
+            },
+            "attempts": 1,
+            "latencyMs": 740,
+            "modelVersion": "gemini-3.5-flash-lite",
+            "usage": {
+              "promptTokenCount": 1878,
+              "candidatesTokenCount": 29,
+              "thoughtsTokenCount": null,
+              "totalTokenCount": 1907
+            },
+            "attemptLog": [
+              {
+                "attempt": 1,
+                "outcome": "success",
+                "stage": "decision",
+                "finishReason": "STOP",
+                "attemptLatencyMs": 740,
+                "candidateCount": 1,
+                "outputCharacters": 125,
+                "httpStatus": 200,
+                "modelVersion": "gemini-3.5-flash-lite",
+                "usage": {
+                  "promptTokenCount": 1878,
+                  "candidatesTokenCount": 29,
+                  "thoughtsTokenCount": null,
+                  "totalTokenCount": 1907
+                },
+                "timeoutMs": 30000
+              }
+            ]
+          },
+          "reliability": {
+            "version": "bounded-v8",
+            "timeoutMs": 30000,
+            "totalTimeoutMs": 65000,
+            "maxAttempts": 2,
+            "recovered": false,
+            "retryDeferred": null
+          }
+        },
+        "updated": {
+          "output": {
+            "category": "technical",
+            "evidence": "The timeline thumbnails are blank although the clips themselves play normally."
+          },
+          "attempts": 1,
+          "latencyMs": 734,
+          "modelVersion": "gemini-3.5-flash-lite",
+          "usage": {
+            "promptTokenCount": 2129,
+            "candidatesTokenCount": 21,
+            "thoughtsTokenCount": null,
+            "totalTokenCount": 2150
+          },
+          "attemptLog": [
+            {
+              "attempt": 1,
+              "outcome": "success",
+              "stage": "decision",
+              "finishReason": "STOP",
+              "attemptLatencyMs": 734,
+              "candidateCount": 1,
+              "outputCharacters": 51,
+              "httpStatus": 200,
+              "modelVersion": "gemini-3.5-flash-lite",
+              "usage": {
+                "promptTokenCount": 2129,
+                "candidatesTokenCount": 21,
+                "thoughtsTokenCount": null,
+                "totalTokenCount": 2150
+              },
+              "timeoutMs": 30000
+            }
+          ],
+          "evidenceReference": {
+            "id": "s0",
+            "field": "body",
+            "start": 0,
+            "end": 78
+          },
+          "firstAttempt": {
+            "output": {
+              "category": "technical",
+              "evidence": "The timeline thumbnails are blank although the clips themselves play normally."
+            },
+            "attempts": 1,
+            "latencyMs": 734,
+            "modelVersion": "gemini-3.5-flash-lite",
+            "usage": {
+              "promptTokenCount": 2129,
+              "candidatesTokenCount": 21,
+              "thoughtsTokenCount": null,
+              "totalTokenCount": 2150
+            },
+            "attemptLog": [
+              {
+                "attempt": 1,
+                "outcome": "success",
+                "stage": "decision",
+                "finishReason": "STOP",
+                "attemptLatencyMs": 734,
+                "candidateCount": 1,
+                "outputCharacters": 51,
+                "httpStatus": 200,
+                "modelVersion": "gemini-3.5-flash-lite",
+                "usage": {
+                  "promptTokenCount": 2129,
+                  "candidatesTokenCount": 21,
+                  "thoughtsTokenCount": null,
+                  "totalTokenCount": 2150
+                },
+                "timeoutMs": 30000
+              }
+            ],
+            "evidenceReference": {
+              "id": "s0",
+              "field": "body",
+              "start": 0,
+              "end": 78
+            }
+          },
+          "reliability": {
+            "version": "bounded-v8",
+            "timeoutMs": 30000,
+            "totalTimeoutMs": 65000,
+            "maxAttempts": 2,
+            "recovered": false,
+            "retryDeferred": null
+          }
+        }
+      },
+      "semantic": {
+        "updated": {
+          "id": "evidence-012",
+          "sourceExact": true,
+          "supportsReturnedDecision": true,
+          "coversSufficientReferenceBundle": true,
+          "coveredBundleIndexes": [
+            0
+          ],
+          "criteriaAmbiguous": false,
+          "optionalContextCoverage": "full",
+          "rationale": "Blank timeline thumbnails support technical; normal clip playback included.",
+          "reviewerSourceExact": true,
+          "routingCorrect": true
+        },
+        "previous": {
+          "id": "evidence-036",
+          "sourceExact": true,
+          "supportsReturnedDecision": true,
+          "coversSufficientReferenceBundle": true,
+          "coveredBundleIndexes": [
+            0
+          ],
+          "criteriaAmbiguous": false,
+          "optionalContextCoverage": "full",
+          "rationale": "Blank timeline thumbnails support technical; normal clip playback included.",
+          "reviewerSourceExact": true,
+          "routingCorrect": true
+        }
+      }
+    },
+    {
+      "id": "v13-006",
+      "stratum": "generic_heading",
+      "expected": {
+        "route": null,
+        "requiresHumanReview": true
+      },
+      "baseline": {
+        "id": "v13-006",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "no_supported_route",
+        "matchedCategories": [],
+        "source": "rules-baseline"
+      },
+      "previousFirst": {
+        "id": "v13-006",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "model_requested_review",
+        "source": "gemini"
+      },
+      "previous": {
+        "id": "v13-006",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "model_requested_review",
+        "source": "gemini"
+      },
+      "updatedFirst": {
+        "id": "v13-006",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "model_requested_review",
+        "source": "gemini"
+      },
+      "updated": {
+        "id": "v13-006",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "model_requested_review",
+        "source": "gemini"
+      },
+      "guardedPrevious": {
+        "id": "v13-006",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "model_requested_review",
+        "source": "guarded-gemini"
+      },
+      "guardedUpdated": {
+        "id": "v13-006",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "model_requested_review",
+        "source": "guarded-gemini"
+      },
+      "providers": {
+        "previous": {
+          "output": {
+            "category": "review",
+            "evidence": "My verification link has expired, and the seating diagram prints with every row on top of the next."
+          },
+          "attempts": 1,
+          "latencyMs": 805,
+          "modelVersion": "gemini-3.5-flash-lite",
+          "usage": {
+            "promptTokenCount": 1887,
+            "candidatesTokenCount": 37,
+            "thoughtsTokenCount": null,
+            "totalTokenCount": 1924
+          },
+          "attemptLog": [
+            {
+              "attempt": 1,
+              "outcome": "success",
+              "stage": "decision",
+              "finishReason": "STOP",
+              "attemptLatencyMs": 805,
+              "candidateCount": 1,
+              "outputCharacters": 143,
+              "httpStatus": 200,
+              "modelVersion": "gemini-3.5-flash-lite",
+              "usage": {
+                "promptTokenCount": 1887,
+                "candidatesTokenCount": 37,
+                "thoughtsTokenCount": null,
+                "totalTokenCount": 1924
+              },
+              "timeoutMs": 30000
+            }
+          ],
+          "firstAttempt": {
+            "output": {
+              "category": "review",
+              "evidence": "My verification link has expired, and the seating diagram prints with every row on top of the next."
+            },
+            "attempts": 1,
+            "latencyMs": 805,
+            "modelVersion": "gemini-3.5-flash-lite",
+            "usage": {
+              "promptTokenCount": 1887,
+              "candidatesTokenCount": 37,
+              "thoughtsTokenCount": null,
+              "totalTokenCount": 1924
+            },
+            "attemptLog": [
+              {
+                "attempt": 1,
+                "outcome": "success",
+                "stage": "decision",
+                "finishReason": "STOP",
+                "attemptLatencyMs": 805,
+                "candidateCount": 1,
+                "outputCharacters": 143,
+                "httpStatus": 200,
+                "modelVersion": "gemini-3.5-flash-lite",
+                "usage": {
+                  "promptTokenCount": 1887,
+                  "candidatesTokenCount": 37,
+                  "thoughtsTokenCount": null,
+                  "totalTokenCount": 1924
+                },
+                "timeoutMs": 30000
+              }
+            ]
+          },
+          "reliability": {
+            "version": "bounded-v8",
+            "timeoutMs": 30000,
+            "totalTimeoutMs": 65000,
+            "maxAttempts": 2,
+            "recovered": false,
+            "retryDeferred": null
+          }
+        },
+        "updated": {
+          "output": {
+            "category": "review",
+            "evidence": "My verification link has expired, and the seating diagram prints with every row on top of the next."
+          },
+          "attempts": 1,
+          "latencyMs": 1467,
+          "modelVersion": "gemini-3.5-flash-lite",
+          "usage": {
+            "promptTokenCount": 2169,
+            "candidatesTokenCount": 21,
+            "thoughtsTokenCount": null,
+            "totalTokenCount": 2190
+          },
+          "attemptLog": [
+            {
+              "attempt": 1,
+              "outcome": "success",
+              "stage": "decision",
+              "finishReason": "STOP",
+              "attemptLatencyMs": 1467,
+              "candidateCount": 1,
+              "outputCharacters": 48,
+              "httpStatus": 200,
+              "modelVersion": "gemini-3.5-flash-lite",
+              "usage": {
+                "promptTokenCount": 2169,
+                "candidatesTokenCount": 21,
+                "thoughtsTokenCount": null,
+                "totalTokenCount": 2190
+              },
+              "timeoutMs": 30000
+            }
+          ],
+          "evidenceReference": {
+            "id": "s0",
+            "field": "body",
+            "start": 0,
+            "end": 99
+          },
+          "firstAttempt": {
+            "output": {
+              "category": "review",
+              "evidence": "My verification link has expired, and the seating diagram prints with every row on top of the next."
+            },
+            "attempts": 1,
+            "latencyMs": 1467,
+            "modelVersion": "gemini-3.5-flash-lite",
+            "usage": {
+              "promptTokenCount": 2169,
+              "candidatesTokenCount": 21,
+              "thoughtsTokenCount": null,
+              "totalTokenCount": 2190
+            },
+            "attemptLog": [
+              {
+                "attempt": 1,
+                "outcome": "success",
+                "stage": "decision",
+                "finishReason": "STOP",
+                "attemptLatencyMs": 1467,
+                "candidateCount": 1,
+                "outputCharacters": 48,
+                "httpStatus": 200,
+                "modelVersion": "gemini-3.5-flash-lite",
+                "usage": {
+                  "promptTokenCount": 2169,
+                  "candidatesTokenCount": 21,
+                  "thoughtsTokenCount": null,
+                  "totalTokenCount": 2190
+                },
+                "timeoutMs": 30000
+              }
+            ],
+            "evidenceReference": {
+              "id": "s0",
+              "field": "body",
+              "start": 0,
+              "end": 99
+            }
+          },
+          "reliability": {
+            "version": "bounded-v8",
+            "timeoutMs": 30000,
+            "totalTimeoutMs": 65000,
+            "maxAttempts": 2,
+            "recovered": false,
+            "retryDeferred": null
+          }
+        }
+      },
+      "semantic": {
+        "previous": {
+          "id": "evidence-029",
+          "sourceExact": true,
+          "supportsReturnedDecision": true,
+          "coversSufficientReferenceBundle": true,
+          "coveredBundleIndexes": [
+            0
+          ],
+          "criteriaAmbiguous": false,
+          "optionalContextCoverage": "not-applicable",
+          "rationale": "Expired verification link and overlapping printed diagram rows both conveyed, supporting multiple-intent review.",
+          "reviewerSourceExact": true,
+          "routingCorrect": true
+        },
+        "updated": {
+          "id": "evidence-038",
+          "sourceExact": true,
+          "supportsReturnedDecision": true,
+          "coversSufficientReferenceBundle": true,
+          "coveredBundleIndexes": [
+            0
+          ],
+          "criteriaAmbiguous": false,
+          "optionalContextCoverage": "not-applicable",
+          "rationale": "Expired verification link and overlapping printed diagram rows both conveyed, supporting multiple-intent review.",
+          "reviewerSourceExact": true,
+          "routingCorrect": true
+        }
+      }
+    },
+    {
+      "id": "v13-009",
+      "stratum": "generic_heading",
+      "expected": {
+        "route": "access",
+        "requiresHumanReview": false
+      },
+      "baseline": {
+        "id": "v13-009",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "no_supported_route",
+        "matchedCategories": [],
+        "source": "rules-baseline"
+      },
+      "previousFirst": {
+        "id": "v13-009",
+        "route": "access",
+        "requiresHumanReview": false,
+        "reason": "model_route_proposal",
+        "source": "gemini"
+      },
+      "previous": {
+        "id": "v13-009",
+        "route": "access",
+        "requiresHumanReview": false,
+        "reason": "model_route_proposal",
+        "source": "gemini"
+      },
+      "updatedFirst": {
+        "id": "v13-009",
+        "route": "access",
+        "requiresHumanReview": false,
+        "reason": "model_route_proposal",
+        "source": "gemini"
+      },
+      "updated": {
+        "id": "v13-009",
+        "route": "access",
+        "requiresHumanReview": false,
+        "reason": "model_route_proposal",
+        "source": "gemini"
+      },
+      "guardedPrevious": {
+        "id": "v13-009",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "no_supported_route",
+        "matchedCategories": [],
+        "source": "guarded-gemini"
+      },
+      "guardedUpdated": {
+        "id": "v13-009",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "no_supported_route",
+        "matchedCategories": [],
+        "source": "guarded-gemini"
+      },
+      "providers": {
+        "previous": {
+          "output": {
+            "category": "access",
+            "evidence": "verification code has expired even when I paste the newest one"
+          },
+          "attempts": 1,
+          "latencyMs": 8722,
+          "modelVersion": "gemini-3.5-flash-lite",
+          "usage": {
+            "promptTokenCount": 1884,
+            "candidatesTokenCount": 29,
+            "thoughtsTokenCount": null,
+            "totalTokenCount": 1913
+          },
+          "attemptLog": [
+            {
+              "attempt": 1,
+              "outcome": "success",
+              "stage": "decision",
+              "finishReason": "STOP",
+              "attemptLatencyMs": 8722,
+              "candidateCount": 1,
+              "outputCharacters": 106,
+              "httpStatus": 200,
+              "modelVersion": "gemini-3.5-flash-lite",
+              "usage": {
+                "promptTokenCount": 1884,
+                "candidatesTokenCount": 29,
+                "thoughtsTokenCount": null,
+                "totalTokenCount": 1913
+              },
+              "timeoutMs": 30000
+            }
+          ],
+          "firstAttempt": {
+            "output": {
+              "category": "access",
+              "evidence": "verification code has expired even when I paste the newest one"
+            },
+            "attempts": 1,
+            "latencyMs": 8722,
+            "modelVersion": "gemini-3.5-flash-lite",
+            "usage": {
+              "promptTokenCount": 1884,
+              "candidatesTokenCount": 29,
+              "thoughtsTokenCount": null,
+              "totalTokenCount": 1913
+            },
+            "attemptLog": [
+              {
+                "attempt": 1,
+                "outcome": "success",
+                "stage": "decision",
+                "finishReason": "STOP",
+                "attemptLatencyMs": 8722,
+                "candidateCount": 1,
+                "outputCharacters": 106,
+                "httpStatus": 200,
+                "modelVersion": "gemini-3.5-flash-lite",
+                "usage": {
+                  "promptTokenCount": 1884,
+                  "candidatesTokenCount": 29,
+                  "thoughtsTokenCount": null,
+                  "totalTokenCount": 1913
+                },
+                "timeoutMs": 30000
+              }
+            ]
+          },
+          "reliability": {
+            "version": "bounded-v8",
+            "timeoutMs": 30000,
+            "totalTimeoutMs": 65000,
+            "maxAttempts": 2,
+            "recovered": false,
+            "retryDeferred": null
+          }
+        },
+        "updated": {
+          "output": {
+            "category": "access",
+            "evidence": "The signup page says my verification code has expired even when I paste the newest one."
+          },
+          "attempts": 1,
+          "latencyMs": 665,
+          "modelVersion": "gemini-3.5-flash-lite",
+          "usage": {
+            "promptTokenCount": 2145,
+            "candidatesTokenCount": 21,
+            "thoughtsTokenCount": null,
+            "totalTokenCount": 2166
+          },
+          "attemptLog": [
+            {
+              "attempt": 1,
+              "outcome": "success",
+              "stage": "decision",
+              "finishReason": "STOP",
+              "attemptLatencyMs": 664,
+              "candidateCount": 1,
+              "outputCharacters": 48,
+              "httpStatus": 200,
+              "modelVersion": "gemini-3.5-flash-lite",
+              "usage": {
+                "promptTokenCount": 2145,
+                "candidatesTokenCount": 21,
+                "thoughtsTokenCount": null,
+                "totalTokenCount": 2166
+              },
+              "timeoutMs": 30000
+            }
+          ],
+          "evidenceReference": {
+            "id": "s0",
+            "field": "body",
+            "start": 0,
+            "end": 87
+          },
+          "firstAttempt": {
+            "output": {
+              "category": "access",
+              "evidence": "The signup page says my verification code has expired even when I paste the newest one."
+            },
+            "attempts": 1,
+            "latencyMs": 664,
+            "modelVersion": "gemini-3.5-flash-lite",
+            "usage": {
+              "promptTokenCount": 2145,
+              "candidatesTokenCount": 21,
+              "thoughtsTokenCount": null,
+              "totalTokenCount": 2166
+            },
+            "attemptLog": [
+              {
+                "attempt": 1,
+                "outcome": "success",
+                "stage": "decision",
+                "finishReason": "STOP",
+                "attemptLatencyMs": 664,
+                "candidateCount": 1,
+                "outputCharacters": 48,
+                "httpStatus": 200,
+                "modelVersion": "gemini-3.5-flash-lite",
+                "usage": {
+                  "promptTokenCount": 2145,
+                  "candidatesTokenCount": 21,
+                  "thoughtsTokenCount": null,
+                  "totalTokenCount": 2166
+                },
+                "timeoutMs": 30000
+              }
+            ],
+            "evidenceReference": {
+              "id": "s0",
+              "field": "body",
+              "start": 0,
+              "end": 87
+            }
+          },
+          "reliability": {
+            "version": "bounded-v8",
+            "timeoutMs": 30000,
+            "totalTimeoutMs": 65000,
+            "maxAttempts": 2,
+            "recovered": false,
+            "retryDeferred": null
+          }
+        }
+      },
+      "semantic": {
+        "previous": {
+          "id": "evidence-007",
+          "sourceExact": true,
+          "supportsReturnedDecision": true,
+          "coversSufficientReferenceBundle": true,
+          "coveredBundleIndexes": [
+            0
+          ],
+          "criteriaAmbiguous": false,
+          "optionalContextCoverage": "full",
+          "rationale": "Expired verification code and newest-code rejection support access in full signup context; quoting signup lead-in is unnecessary.",
+          "reviewerSourceExact": true,
+          "routingCorrect": true
+        },
+        "updated": {
+          "id": "evidence-037",
+          "sourceExact": true,
+          "supportsReturnedDecision": true,
+          "coversSufficientReferenceBundle": true,
+          "coveredBundleIndexes": [
+            0
+          ],
+          "criteriaAmbiguous": false,
+          "optionalContextCoverage": "full",
+          "rationale": "Signup verification-code expiry supports access; newest-code rejection included.",
+          "reviewerSourceExact": true,
+          "routingCorrect": true
+        }
+      }
+    },
+    {
+      "id": "v13-012",
+      "stratum": "subject_decisive",
+      "expected": {
+        "route": "technical",
+        "requiresHumanReview": false
+      },
+      "baseline": {
+        "id": "v13-012",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "sensitive_context",
+        "matchedCategories": [],
+        "source": "rules-baseline"
+      },
+      "previousFirst": {
+        "id": "v13-012",
+        "route": "technical",
+        "requiresHumanReview": false,
+        "reason": "model_route_proposal",
+        "source": "gemini"
+      },
+      "previous": {
+        "id": "v13-012",
+        "route": "technical",
+        "requiresHumanReview": false,
+        "reason": "model_route_proposal",
+        "source": "gemini"
+      },
+      "updatedFirst": {
+        "id": "v13-012",
+        "route": "technical",
+        "requiresHumanReview": false,
+        "reason": "model_route_proposal",
+        "source": "gemini"
+      },
+      "updated": {
+        "id": "v13-012",
+        "route": "technical",
+        "requiresHumanReview": false,
+        "reason": "model_route_proposal",
+        "source": "gemini"
+      },
+      "guardedPrevious": {
+        "id": "v13-012",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "sensitive_context",
+        "matchedCategories": [],
+        "source": "guarded-gemini"
+      },
+      "guardedUpdated": {
+        "id": "v13-012",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "sensitive_context",
+        "matchedCategories": [],
+        "source": "guarded-gemini"
+      },
+      "providers": {
+        "previous": {
+          "output": {
+            "category": "technical",
+            "evidence": "My fictional dragon patient notes lose indentation when exported"
+          },
+          "attempts": 1,
+          "latencyMs": 727,
+          "modelVersion": "gemini-3.5-flash-lite",
+          "usage": {
+            "promptTokenCount": 1888,
+            "candidatesTokenCount": 27,
+            "thoughtsTokenCount": null,
+            "totalTokenCount": 1915
+          },
+          "attemptLog": [
+            {
+              "attempt": 1,
+              "outcome": "success",
+              "stage": "decision",
+              "finishReason": "STOP",
+              "attemptLatencyMs": 727,
+              "candidateCount": 1,
+              "outputCharacters": 111,
+              "httpStatus": 200,
+              "modelVersion": "gemini-3.5-flash-lite",
+              "usage": {
+                "promptTokenCount": 1888,
+                "candidatesTokenCount": 27,
+                "thoughtsTokenCount": null,
+                "totalTokenCount": 1915
+              },
+              "timeoutMs": 30000
+            }
+          ],
+          "firstAttempt": {
+            "output": {
+              "category": "technical",
+              "evidence": "My fictional dragon patient notes lose indentation when exported"
+            },
+            "attempts": 1,
+            "latencyMs": 727,
+            "modelVersion": "gemini-3.5-flash-lite",
+            "usage": {
+              "promptTokenCount": 1888,
+              "candidatesTokenCount": 27,
+              "thoughtsTokenCount": null,
+              "totalTokenCount": 1915
+            },
+            "attemptLog": [
+              {
+                "attempt": 1,
+                "outcome": "success",
+                "stage": "decision",
+                "finishReason": "STOP",
+                "attemptLatencyMs": 727,
+                "candidateCount": 1,
+                "outputCharacters": 111,
+                "httpStatus": 200,
+                "modelVersion": "gemini-3.5-flash-lite",
+                "usage": {
+                  "promptTokenCount": 1888,
+                  "candidatesTokenCount": 27,
+                  "thoughtsTokenCount": null,
+                  "totalTokenCount": 1915
+                },
+                "timeoutMs": 30000
+              }
+            ]
+          },
+          "reliability": {
+            "version": "bounded-v8",
+            "timeoutMs": 30000,
+            "totalTimeoutMs": 65000,
+            "maxAttempts": 2,
+            "recovered": false,
+            "retryDeferred": null
+          }
+        },
+        "updated": {
+          "output": {
+            "category": "technical",
+            "evidence": "My fictional dragon patient notes lose indentation when exported"
+          },
+          "attempts": 1,
+          "latencyMs": 751,
+          "modelVersion": "gemini-3.5-flash-lite",
+          "usage": {
+            "promptTokenCount": 2169,
+            "candidatesTokenCount": 21,
+            "thoughtsTokenCount": null,
+            "totalTokenCount": 2190
+          },
+          "attemptLog": [
+            {
+              "attempt": 1,
+              "outcome": "success",
+              "stage": "decision",
+              "finishReason": "STOP",
+              "attemptLatencyMs": 751,
+              "candidateCount": 1,
+              "outputCharacters": 51,
+              "httpStatus": 200,
+              "modelVersion": "gemini-3.5-flash-lite",
+              "usage": {
+                "promptTokenCount": 2169,
+                "candidatesTokenCount": 21,
+                "thoughtsTokenCount": null,
+                "totalTokenCount": 2190
+              },
+              "timeoutMs": 30000
+            }
+          ],
+          "evidenceReference": {
+            "id": "s2",
+            "field": "subject",
+            "start": 0,
+            "end": 64
+          },
+          "firstAttempt": {
+            "output": {
+              "category": "technical",
+              "evidence": "My fictional dragon patient notes lose indentation when exported"
+            },
+            "attempts": 1,
+            "latencyMs": 751,
+            "modelVersion": "gemini-3.5-flash-lite",
+            "usage": {
+              "promptTokenCount": 2169,
+              "candidatesTokenCount": 21,
+              "thoughtsTokenCount": null,
+              "totalTokenCount": 2190
+            },
+            "attemptLog": [
+              {
+                "attempt": 1,
+                "outcome": "success",
+                "stage": "decision",
+                "finishReason": "STOP",
+                "attemptLatencyMs": 751,
+                "candidateCount": 1,
+                "outputCharacters": 51,
+                "httpStatus": 200,
+                "modelVersion": "gemini-3.5-flash-lite",
+                "usage": {
+                  "promptTokenCount": 2169,
+                  "candidatesTokenCount": 21,
+                  "thoughtsTokenCount": null,
+                  "totalTokenCount": 2190
+                },
+                "timeoutMs": 30000
+              }
+            ],
+            "evidenceReference": {
+              "id": "s2",
+              "field": "subject",
+              "start": 0,
+              "end": 64
+            }
+          },
+          "reliability": {
+            "version": "bounded-v8",
+            "timeoutMs": 30000,
+            "totalTimeoutMs": 65000,
+            "maxAttempts": 2,
+            "recovered": false,
+            "retryDeferred": null
+          }
+        }
+      },
+      "semantic": {
+        "updated": {
+          "id": "evidence-022",
+          "sourceExact": true,
+          "supportsReturnedDecision": true,
+          "coversSufficientReferenceBundle": true,
+          "coveredBundleIndexes": [
+            0
+          ],
+          "criteriaAmbiguous": false,
+          "optionalContextCoverage": "partial",
+          "rationale": "Notes losing indentation supports technical in full explicitly fictional context; export and fictional dragon included, game prototype absent.",
+          "reviewerSourceExact": true,
+          "routingCorrect": true
+        },
+        "previous": {
+          "id": "evidence-023",
+          "sourceExact": true,
+          "supportsReturnedDecision": true,
+          "coversSufficientReferenceBundle": true,
+          "coveredBundleIndexes": [
+            0
+          ],
+          "criteriaAmbiguous": false,
+          "optionalContextCoverage": "partial",
+          "rationale": "Notes losing indentation supports technical in full explicitly fictional context; export and fictional dragon included, game prototype absent.",
+          "reviewerSourceExact": true,
+          "routingCorrect": true
+        }
+      }
+    },
+    {
+      "id": "v13-017",
+      "stratum": "length_boundary",
+      "expected": {
+        "route": null,
+        "requiresHumanReview": true
+      },
+      "baseline": {
+        "id": "v13-017",
+        "route": "billing",
+        "requiresHumanReview": false,
+        "reason": "single_route_match",
+        "matchedCategories": [
+          "billing"
+        ],
+        "source": "rules-baseline"
+      },
+      "previousFirst": {
+        "error": "provider_http_503",
+        "route": null,
+        "requiresHumanReview": true
+      },
+      "previous": {
+        "id": "v13-017",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "model_requested_review",
+        "source": "gemini"
+      },
+      "updatedFirst": {
+        "id": "v13-017",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "model_requested_review",
+        "source": "gemini"
+      },
+      "updated": {
+        "id": "v13-017",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "model_requested_review",
+        "source": "gemini"
+      },
+      "guardedPrevious": {
+        "id": "v13-017",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "model_requested_review",
+        "source": "guarded-gemini"
+      },
+      "guardedUpdated": {
+        "id": "v13-017",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "model_requested_review",
+        "source": "guarded-gemini"
+      },
+      "providers": {
+        "previous": {
+          "output": {
+            "category": "review",
+            "evidence": "I cannot reset my sign-in PIN for the new rehearsal portal, and I need an invoice for the ensemble subscription renewal."
+          },
+          "attempts": 2,
+          "latencyMs": 8349,
+          "modelVersion": "gemini-3.5-flash-lite",
+          "usage": {
+            "promptTokenCount": 1893,
+            "candidatesTokenCount": 42,
+            "thoughtsTokenCount": null,
+            "totalTokenCount": 1935
+          },
+          "attemptLog": [
+            {
+              "attempt": 1,
+              "outcome": "retry",
+              "error": "provider_http_503",
+              "stage": "http",
+              "latencyMs": 1445,
+              "attemptLatencyMs": 1445,
+              "httpStatus": 503,
+              "timeoutMs": 30000,
+              "retryDeferred": null,
+              "retryDelayMs": 4213,
+              "retryAfterKind": "absent"
+            },
+            {
+              "attempt": 2,
+              "outcome": "success",
+              "stage": "decision",
+              "finishReason": "STOP",
+              "attemptLatencyMs": 2690,
+              "candidateCount": 1,
+              "outputCharacters": 164,
+              "httpStatus": 200,
+              "modelVersion": "gemini-3.5-flash-lite",
+              "usage": {
+                "promptTokenCount": 1893,
+                "candidatesTokenCount": 42,
+                "thoughtsTokenCount": null,
+                "totalTokenCount": 1935
+              },
+              "timeoutMs": 30000
+            }
+          ],
+          "firstAttempt": {
+            "error": "provider_http_503",
+            "attempts": 1,
+            "diagnostics": {
+              "stage": "http",
+              "latencyMs": 1445,
+              "attemptLatencyMs": 1445,
+              "httpStatus": 503
+            },
+            "attemptLog": [
+              {
+                "attempt": 1,
+                "outcome": "failure",
+                "error": "provider_http_503",
+                "stage": "http",
+                "latencyMs": 1445,
+                "attemptLatencyMs": 1445,
+                "httpStatus": 503,
+                "timeoutMs": 30000
+              }
+            ]
+          },
+          "reliability": {
+            "version": "bounded-v8",
+            "timeoutMs": 30000,
+            "totalTimeoutMs": 65000,
+            "maxAttempts": 2,
+            "recovered": true,
+            "retryDeferred": null
+          }
+        },
+        "updated": {
+          "output": {
+            "category": "review",
+            "evidence": "I cannot reset my sign-in PIN for the new rehearsal portal, and I need an invoice for the ensemble subscription renewal."
+          },
+          "attempts": 1,
+          "latencyMs": 7875,
+          "modelVersion": "gemini-3.5-flash-lite",
+          "usage": {
+            "promptTokenCount": 2186,
+            "candidatesTokenCount": 21,
+            "thoughtsTokenCount": null,
+            "totalTokenCount": 2207
+          },
+          "attemptLog": [
+            {
+              "attempt": 1,
+              "outcome": "success",
+              "stage": "decision",
+              "finishReason": "STOP",
+              "attemptLatencyMs": 7875,
+              "candidateCount": 1,
+              "outputCharacters": 48,
+              "httpStatus": 200,
+              "modelVersion": "gemini-3.5-flash-lite",
+              "usage": {
+                "promptTokenCount": 2186,
+                "candidatesTokenCount": 21,
+                "thoughtsTokenCount": null,
+                "totalTokenCount": 2207
+              },
+              "timeoutMs": 30000
+            }
+          ],
+          "evidenceReference": {
+            "id": "s0",
+            "field": "body",
+            "start": 0,
+            "end": 120
+          },
+          "firstAttempt": {
+            "output": {
+              "category": "review",
+              "evidence": "I cannot reset my sign-in PIN for the new rehearsal portal, and I need an invoice for the ensemble subscription renewal."
+            },
+            "attempts": 1,
+            "latencyMs": 7875,
+            "modelVersion": "gemini-3.5-flash-lite",
+            "usage": {
+              "promptTokenCount": 2186,
+              "candidatesTokenCount": 21,
+              "thoughtsTokenCount": null,
+              "totalTokenCount": 2207
+            },
+            "attemptLog": [
+              {
+                "attempt": 1,
+                "outcome": "success",
+                "stage": "decision",
+                "finishReason": "STOP",
+                "attemptLatencyMs": 7875,
+                "candidateCount": 1,
+                "outputCharacters": 48,
+                "httpStatus": 200,
+                "modelVersion": "gemini-3.5-flash-lite",
+                "usage": {
+                  "promptTokenCount": 2186,
+                  "candidatesTokenCount": 21,
+                  "thoughtsTokenCount": null,
+                  "totalTokenCount": 2207
+                },
+                "timeoutMs": 30000
+              }
+            ],
+            "evidenceReference": {
+              "id": "s0",
+              "field": "body",
+              "start": 0,
+              "end": 120
+            }
+          },
+          "reliability": {
+            "version": "bounded-v8",
+            "timeoutMs": 30000,
+            "totalTimeoutMs": 65000,
+            "maxAttempts": 2,
+            "recovered": false,
+            "retryDeferred": null
+          }
+        }
+      },
+      "semantic": {
+        "previous": {
+          "id": "evidence-009",
+          "sourceExact": true,
+          "supportsReturnedDecision": true,
+          "coversSufficientReferenceBundle": true,
+          "coveredBundleIndexes": [
+            0
+          ],
+          "criteriaAmbiguous": false,
+          "optionalContextCoverage": "full",
+          "rationale": "Both PIN-reset failure and invoice request, including ensemble renewal.",
+          "reviewerSourceExact": true,
+          "routingCorrect": true
+        },
+        "updated": {
+          "id": "evidence-020",
+          "sourceExact": true,
+          "supportsReturnedDecision": true,
+          "coversSufficientReferenceBundle": true,
+          "coveredBundleIndexes": [
+            0
+          ],
+          "criteriaAmbiguous": false,
+          "optionalContextCoverage": "full",
+          "rationale": "Both PIN-reset failure and invoice request, including ensemble renewal.",
+          "reviewerSourceExact": true,
+          "routingCorrect": true
+        }
+      }
+    },
+    {
+      "id": "v13-004",
+      "stratum": "generic_heading",
+      "expected": {
+        "route": "technical",
+        "requiresHumanReview": false
+      },
+      "baseline": {
+        "id": "v13-004",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "no_supported_route",
+        "matchedCategories": [],
+        "source": "rules-baseline"
+      },
+      "previousFirst": {
+        "id": "v13-004",
+        "route": "technical",
+        "requiresHumanReview": false,
+        "reason": "model_route_proposal",
+        "source": "gemini"
+      },
+      "previous": {
+        "id": "v13-004",
+        "route": "technical",
+        "requiresHumanReview": false,
+        "reason": "model_route_proposal",
+        "source": "gemini"
+      },
+      "updatedFirst": {
+        "id": "v13-004",
+        "route": "technical",
+        "requiresHumanReview": false,
+        "reason": "model_route_proposal",
+        "source": "gemini"
+      },
+      "updated": {
+        "id": "v13-004",
+        "route": "technical",
+        "requiresHumanReview": false,
+        "reason": "model_route_proposal",
+        "source": "gemini"
+      },
+      "guardedPrevious": {
+        "id": "v13-004",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "no_supported_route",
+        "matchedCategories": [],
+        "source": "guarded-gemini"
+      },
+      "guardedUpdated": {
+        "id": "v13-004",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "no_supported_route",
+        "matchedCategories": [],
+        "source": "guarded-gemini"
+      },
+      "providers": {
+        "previous": {
+          "output": {
+            "category": "technical",
+            "evidence": "The subtitles drift behind the video after I change playback speed."
+          },
+          "attempts": 1,
+          "latencyMs": 979,
+          "modelVersion": "gemini-3.5-flash-lite",
+          "usage": {
+            "promptTokenCount": 1879,
+            "candidatesTokenCount": 29,
+            "thoughtsTokenCount": null,
+            "totalTokenCount": 1908
+          },
+          "attemptLog": [
+            {
+              "attempt": 1,
+              "outcome": "success",
+              "stage": "decision",
+              "finishReason": "STOP",
+              "attemptLatencyMs": 979,
+              "candidateCount": 1,
+              "outputCharacters": 114,
+              "httpStatus": 200,
+              "modelVersion": "gemini-3.5-flash-lite",
+              "usage": {
+                "promptTokenCount": 1879,
+                "candidatesTokenCount": 29,
+                "thoughtsTokenCount": null,
+                "totalTokenCount": 1908
+              },
+              "timeoutMs": 30000
+            }
+          ],
+          "firstAttempt": {
+            "output": {
+              "category": "technical",
+              "evidence": "The subtitles drift behind the video after I change playback speed."
+            },
+            "attempts": 1,
+            "latencyMs": 979,
+            "modelVersion": "gemini-3.5-flash-lite",
+            "usage": {
+              "promptTokenCount": 1879,
+              "candidatesTokenCount": 29,
+              "thoughtsTokenCount": null,
+              "totalTokenCount": 1908
+            },
+            "attemptLog": [
+              {
+                "attempt": 1,
+                "outcome": "success",
+                "stage": "decision",
+                "finishReason": "STOP",
+                "attemptLatencyMs": 979,
+                "candidateCount": 1,
+                "outputCharacters": 114,
+                "httpStatus": 200,
+                "modelVersion": "gemini-3.5-flash-lite",
+                "usage": {
+                  "promptTokenCount": 1879,
+                  "candidatesTokenCount": 29,
+                  "thoughtsTokenCount": null,
+                  "totalTokenCount": 1908
+                },
+                "timeoutMs": 30000
+              }
+            ]
+          },
+          "reliability": {
+            "version": "bounded-v8",
+            "timeoutMs": 30000,
+            "totalTimeoutMs": 65000,
+            "maxAttempts": 2,
+            "recovered": false,
+            "retryDeferred": null
+          }
+        },
+        "updated": {
+          "output": {
+            "category": "technical",
+            "evidence": "The subtitles drift behind the video after I change playback speed."
+          },
+          "attempts": 1,
+          "latencyMs": 3971,
+          "modelVersion": "gemini-3.5-flash-lite",
+          "usage": {
+            "promptTokenCount": 2129,
+            "candidatesTokenCount": 21,
+            "thoughtsTokenCount": null,
+            "totalTokenCount": 2150
+          },
+          "attemptLog": [
+            {
+              "attempt": 1,
+              "outcome": "success",
+              "stage": "decision",
+              "finishReason": "STOP",
+              "attemptLatencyMs": 3971,
+              "candidateCount": 1,
+              "outputCharacters": 51,
+              "httpStatus": 200,
+              "modelVersion": "gemini-3.5-flash-lite",
+              "usage": {
+                "promptTokenCount": 2129,
+                "candidatesTokenCount": 21,
+                "thoughtsTokenCount": null,
+                "totalTokenCount": 2150
+              },
+              "timeoutMs": 30000
+            }
+          ],
+          "evidenceReference": {
+            "id": "s0",
+            "field": "body",
+            "start": 0,
+            "end": 67
+          },
+          "firstAttempt": {
+            "output": {
+              "category": "technical",
+              "evidence": "The subtitles drift behind the video after I change playback speed."
+            },
+            "attempts": 1,
+            "latencyMs": 3971,
+            "modelVersion": "gemini-3.5-flash-lite",
+            "usage": {
+              "promptTokenCount": 2129,
+              "candidatesTokenCount": 21,
+              "thoughtsTokenCount": null,
+              "totalTokenCount": 2150
+            },
+            "attemptLog": [
+              {
+                "attempt": 1,
+                "outcome": "success",
+                "stage": "decision",
+                "finishReason": "STOP",
+                "attemptLatencyMs": 3971,
+                "candidateCount": 1,
+                "outputCharacters": 51,
+                "httpStatus": 200,
+                "modelVersion": "gemini-3.5-flash-lite",
+                "usage": {
+                  "promptTokenCount": 2129,
+                  "candidatesTokenCount": 21,
+                  "thoughtsTokenCount": null,
+                  "totalTokenCount": 2150
+                },
+                "timeoutMs": 30000
+              }
+            ],
+            "evidenceReference": {
+              "id": "s0",
+              "field": "body",
+              "start": 0,
+              "end": 67
+            }
+          },
+          "reliability": {
+            "version": "bounded-v8",
+            "timeoutMs": 30000,
+            "totalTimeoutMs": 65000,
+            "maxAttempts": 2,
+            "recovered": false,
+            "retryDeferred": null
+          }
+        }
+      },
+      "semantic": {
+        "updated": {
+          "id": "evidence-014",
+          "sourceExact": true,
+          "supportsReturnedDecision": true,
+          "coversSufficientReferenceBundle": true,
+          "coveredBundleIndexes": [
+            0
+          ],
+          "criteriaAmbiguous": false,
+          "optionalContextCoverage": "full",
+          "rationale": "Subtitle synchronization malfunction supports technical; playback-speed change included.",
+          "reviewerSourceExact": true,
+          "routingCorrect": true
+        },
+        "previous": {
+          "id": "evidence-024",
+          "sourceExact": true,
+          "supportsReturnedDecision": true,
+          "coversSufficientReferenceBundle": true,
+          "coveredBundleIndexes": [
+            0
+          ],
+          "criteriaAmbiguous": false,
+          "optionalContextCoverage": "full",
+          "rationale": "Subtitle synchronization malfunction supports technical; playback-speed change included.",
+          "reviewerSourceExact": true,
+          "routingCorrect": true
+        }
+      }
+    },
+    {
+      "id": "v13-013",
+      "stratum": "length_boundary",
+      "expected": {
+        "route": null,
+        "requiresHumanReview": true
+      },
+      "baseline": {
+        "id": "v13-013",
+        "route": "technical",
+        "requiresHumanReview": false,
+        "reason": "single_route_match",
+        "matchedCategories": [
+          "technical"
+        ],
+        "source": "rules-baseline"
+      },
+      "previousFirst": {
+        "id": "v13-013",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "model_requested_review",
+        "source": "gemini"
+      },
+      "previous": {
+        "id": "v13-013",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "model_requested_review",
+        "source": "gemini"
+      },
+      "updatedFirst": {
+        "error": "provider_http_503",
+        "route": null,
+        "requiresHumanReview": true
+      },
+      "updated": {
+        "id": "v13-013",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "model_requested_review",
+        "source": "gemini"
+      },
+      "guardedPrevious": {
+        "id": "v13-013",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "model_requested_review",
+        "source": "guarded-gemini"
+      },
+      "guardedUpdated": {
+        "id": "v13-013",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "model_requested_review",
+        "source": "guarded-gemini"
+      },
+      "providers": {
+        "previous": {
+          "output": {
+            "category": "review",
+            "evidence": "Please recover access to my festival organizer account, and repair the calendar view that crashes when I move an event."
+          },
+          "attempts": 1,
+          "latencyMs": 919,
+          "modelVersion": "gemini-3.5-flash-lite",
+          "usage": {
+            "promptTokenCount": 1888,
+            "candidatesTokenCount": 39,
+            "thoughtsTokenCount": null,
+            "totalTokenCount": 1927
+          },
+          "attemptLog": [
+            {
+              "attempt": 1,
+              "outcome": "success",
+              "stage": "decision",
+              "finishReason": "STOP",
+              "attemptLatencyMs": 919,
+              "candidateCount": 1,
+              "outputCharacters": 163,
+              "httpStatus": 200,
+              "modelVersion": "gemini-3.5-flash-lite",
+              "usage": {
+                "promptTokenCount": 1888,
+                "candidatesTokenCount": 39,
+                "thoughtsTokenCount": null,
+                "totalTokenCount": 1927
+              },
+              "timeoutMs": 30000
+            }
+          ],
+          "firstAttempt": {
+            "output": {
+              "category": "review",
+              "evidence": "Please recover access to my festival organizer account, and repair the calendar view that crashes when I move an event."
+            },
+            "attempts": 1,
+            "latencyMs": 919,
+            "modelVersion": "gemini-3.5-flash-lite",
+            "usage": {
+              "promptTokenCount": 1888,
+              "candidatesTokenCount": 39,
+              "thoughtsTokenCount": null,
+              "totalTokenCount": 1927
+            },
+            "attemptLog": [
+              {
+                "attempt": 1,
+                "outcome": "success",
+                "stage": "decision",
+                "finishReason": "STOP",
+                "attemptLatencyMs": 919,
+                "candidateCount": 1,
+                "outputCharacters": 163,
+                "httpStatus": 200,
+                "modelVersion": "gemini-3.5-flash-lite",
+                "usage": {
+                  "promptTokenCount": 1888,
+                  "candidatesTokenCount": 39,
+                  "thoughtsTokenCount": null,
+                  "totalTokenCount": 1927
+                },
+                "timeoutMs": 30000
+              }
+            ]
+          },
+          "reliability": {
+            "version": "bounded-v8",
+            "timeoutMs": 30000,
+            "totalTimeoutMs": 65000,
+            "maxAttempts": 2,
+            "recovered": false,
+            "retryDeferred": null
+          }
+        },
+        "updated": {
+          "output": {
+            "category": "review",
+            "evidence": "Please recover access to my festival organizer account, and repair the calendar view that crashes when I move an event."
+          },
+          "attempts": 2,
+          "latencyMs": 11197,
+          "modelVersion": "gemini-3.5-flash-lite",
+          "usage": {
+            "promptTokenCount": 2180,
+            "candidatesTokenCount": 21,
+            "thoughtsTokenCount": null,
+            "totalTokenCount": 2201
+          },
+          "attemptLog": [
+            {
+              "attempt": 1,
+              "outcome": "retry",
+              "error": "provider_http_503",
+              "stage": "http",
+              "latencyMs": 1025,
+              "attemptLatencyMs": 1025,
+              "httpStatus": 503,
+              "timeoutMs": 30000,
+              "retryDeferred": null,
+              "retryDelayMs": 4250,
+              "retryAfterKind": "absent"
+            },
+            {
+              "attempt": 2,
+              "outcome": "success",
+              "stage": "decision",
+              "finishReason": "STOP",
+              "attemptLatencyMs": 5921,
+              "candidateCount": 1,
+              "outputCharacters": 48,
+              "httpStatus": 200,
+              "modelVersion": "gemini-3.5-flash-lite",
+              "usage": {
+                "promptTokenCount": 2180,
+                "candidatesTokenCount": 21,
+                "thoughtsTokenCount": null,
+                "totalTokenCount": 2201
+              },
+              "timeoutMs": 30000
+            }
+          ],
+          "evidenceReference": {
+            "id": "s0",
+            "field": "body",
+            "start": 0,
+            "end": 119
+          },
+          "firstAttempt": {
+            "error": "provider_http_503",
+            "attempts": 1,
+            "diagnostics": {
+              "stage": "http",
+              "latencyMs": 1025,
+              "attemptLatencyMs": 1025,
+              "httpStatus": 503
+            },
+            "attemptLog": [
+              {
+                "attempt": 1,
+                "outcome": "failure",
+                "error": "provider_http_503",
+                "stage": "http",
+                "latencyMs": 1025,
+                "attemptLatencyMs": 1025,
+                "httpStatus": 503,
+                "timeoutMs": 30000
+              }
+            ]
+          },
+          "reliability": {
+            "version": "bounded-v8",
+            "timeoutMs": 30000,
+            "totalTimeoutMs": 65000,
+            "maxAttempts": 2,
+            "recovered": true,
+            "retryDeferred": null
+          }
+        }
+      },
+      "semantic": {
+        "previous": {
+          "id": "evidence-001",
+          "sourceExact": true,
+          "supportsReturnedDecision": true,
+          "coversSufficientReferenceBundle": true,
+          "coveredBundleIndexes": [
+            0
+          ],
+          "criteriaAmbiguous": false,
+          "optionalContextCoverage": "full",
+          "rationale": "Both account recovery and calendar-crash repair, including event movement.",
+          "reviewerSourceExact": true,
+          "routingCorrect": true
+        },
+        "updated": {
+          "id": "evidence-030",
+          "sourceExact": true,
+          "supportsReturnedDecision": true,
+          "coversSufficientReferenceBundle": true,
+          "coveredBundleIndexes": [
+            0
+          ],
+          "criteriaAmbiguous": false,
+          "optionalContextCoverage": "full",
+          "rationale": "Both account recovery and calendar-crash repair, including event movement.",
+          "reviewerSourceExact": true,
+          "routingCorrect": true
+        }
+      }
+    },
+    {
+      "id": "v13-010",
+      "stratum": "length_boundary",
+      "expected": {
+        "route": null,
+        "requiresHumanReview": true
+      },
+      "baseline": {
+        "id": "v13-010",
+        "route": "billing",
+        "requiresHumanReview": false,
+        "reason": "single_route_match",
+        "matchedCategories": [
+          "billing"
+        ],
+        "source": "rules-baseline"
+      },
+      "previousFirst": {
+        "id": "v13-010",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "model_requested_review",
+        "source": "gemini"
+      },
+      "previous": {
+        "id": "v13-010",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "model_requested_review",
+        "source": "gemini"
+      },
+      "updatedFirst": {
+        "id": "v13-010",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "model_requested_review",
+        "source": "gemini"
+      },
+      "updated": {
+        "id": "v13-010",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "model_requested_review",
+        "source": "gemini"
+      },
+      "guardedPrevious": {
+        "id": "v13-010",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "model_requested_review",
+        "source": "guarded-gemini"
+      },
+      "guardedUpdated": {
+        "id": "v13-010",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "model_requested_review",
+        "source": "guarded-gemini"
+      },
+      "providers": {
+        "previous": {
+          "output": {
+            "category": "review",
+            "evidence": "The verification email never arrives for my new library account, and I need a refund for the duplicate membership fee."
+          },
+          "attempts": 1,
+          "latencyMs": 6015,
+          "modelVersion": "gemini-3.5-flash-lite",
+          "usage": {
+            "promptTokenCount": 1888,
+            "candidatesTokenCount": 39,
+            "thoughtsTokenCount": null,
+            "totalTokenCount": 1927
+          },
+          "attemptLog": [
+            {
+              "attempt": 1,
+              "outcome": "success",
+              "stage": "decision",
+              "finishReason": "STOP",
+              "attemptLatencyMs": 6015,
+              "candidateCount": 1,
+              "outputCharacters": 162,
+              "httpStatus": 200,
+              "modelVersion": "gemini-3.5-flash-lite",
+              "usage": {
+                "promptTokenCount": 1888,
+                "candidatesTokenCount": 39,
+                "thoughtsTokenCount": null,
+                "totalTokenCount": 1927
+              },
+              "timeoutMs": 30000
+            }
+          ],
+          "firstAttempt": {
+            "output": {
+              "category": "review",
+              "evidence": "The verification email never arrives for my new library account, and I need a refund for the duplicate membership fee."
+            },
+            "attempts": 1,
+            "latencyMs": 6015,
+            "modelVersion": "gemini-3.5-flash-lite",
+            "usage": {
+              "promptTokenCount": 1888,
+              "candidatesTokenCount": 39,
+              "thoughtsTokenCount": null,
+              "totalTokenCount": 1927
+            },
+            "attemptLog": [
+              {
+                "attempt": 1,
+                "outcome": "success",
+                "stage": "decision",
+                "finishReason": "STOP",
+                "attemptLatencyMs": 6015,
+                "candidateCount": 1,
+                "outputCharacters": 162,
+                "httpStatus": 200,
+                "modelVersion": "gemini-3.5-flash-lite",
+                "usage": {
+                  "promptTokenCount": 1888,
+                  "candidatesTokenCount": 39,
+                  "thoughtsTokenCount": null,
+                  "totalTokenCount": 1927
+                },
+                "timeoutMs": 30000
+              }
+            ]
+          },
+          "reliability": {
+            "version": "bounded-v8",
+            "timeoutMs": 30000,
+            "totalTimeoutMs": 65000,
+            "maxAttempts": 2,
+            "recovered": false,
+            "retryDeferred": null
+          }
+        },
+        "updated": {
+          "output": {
+            "category": "review",
+            "evidence": "The verification email never arrives for my new library account, and I need a refund for the duplicate membership fee."
+          },
+          "attempts": 1,
+          "latencyMs": 2911,
+          "modelVersion": "gemini-3.5-flash-lite",
+          "usage": {
+            "promptTokenCount": 2174,
+            "candidatesTokenCount": 21,
+            "thoughtsTokenCount": null,
+            "totalTokenCount": 2195
+          },
+          "attemptLog": [
+            {
+              "attempt": 1,
+              "outcome": "success",
+              "stage": "decision",
+              "finishReason": "STOP",
+              "attemptLatencyMs": 2911,
+              "candidateCount": 1,
+              "outputCharacters": 48,
+              "httpStatus": 200,
+              "modelVersion": "gemini-3.5-flash-lite",
+              "usage": {
+                "promptTokenCount": 2174,
+                "candidatesTokenCount": 21,
+                "thoughtsTokenCount": null,
+                "totalTokenCount": 2195
+              },
+              "timeoutMs": 30000
+            }
+          ],
+          "evidenceReference": {
+            "id": "s0",
+            "field": "body",
+            "start": 0,
+            "end": 118
+          },
+          "firstAttempt": {
+            "output": {
+              "category": "review",
+              "evidence": "The verification email never arrives for my new library account, and I need a refund for the duplicate membership fee."
+            },
+            "attempts": 1,
+            "latencyMs": 2911,
+            "modelVersion": "gemini-3.5-flash-lite",
+            "usage": {
+              "promptTokenCount": 2174,
+              "candidatesTokenCount": 21,
+              "thoughtsTokenCount": null,
+              "totalTokenCount": 2195
+            },
+            "attemptLog": [
+              {
+                "attempt": 1,
+                "outcome": "success",
+                "stage": "decision",
+                "finishReason": "STOP",
+                "attemptLatencyMs": 2911,
+                "candidateCount": 1,
+                "outputCharacters": 48,
+                "httpStatus": 200,
+                "modelVersion": "gemini-3.5-flash-lite",
+                "usage": {
+                  "promptTokenCount": 2174,
+                  "candidatesTokenCount": 21,
+                  "thoughtsTokenCount": null,
+                  "totalTokenCount": 2195
+                },
+                "timeoutMs": 30000
+              }
+            ],
+            "evidenceReference": {
+              "id": "s0",
+              "field": "body",
+              "start": 0,
+              "end": 118
+            }
+          },
+          "reliability": {
+            "version": "bounded-v8",
+            "timeoutMs": 30000,
+            "totalTimeoutMs": 65000,
+            "maxAttempts": 2,
+            "recovered": false,
+            "retryDeferred": null
+          }
+        }
+      },
+      "semantic": {
+        "previous": {
+          "id": "evidence-018",
+          "sourceExact": true,
+          "supportsReturnedDecision": true,
+          "coversSufficientReferenceBundle": true,
+          "coveredBundleIndexes": [
+            0
+          ],
+          "criteriaAmbiguous": false,
+          "optionalContextCoverage": "full",
+          "rationale": "Verification-email nonarrival and refund both conveyed, including duplicate fee.",
+          "reviewerSourceExact": true,
+          "routingCorrect": true
+        },
+        "updated": {
+          "id": "evidence-025",
+          "sourceExact": true,
+          "supportsReturnedDecision": true,
+          "coversSufficientReferenceBundle": true,
+          "coveredBundleIndexes": [
+            0
+          ],
+          "criteriaAmbiguous": false,
+          "optionalContextCoverage": "full",
+          "rationale": "Verification-email nonarrival and refund both conveyed, including duplicate fee.",
+          "reviewerSourceExact": true,
+          "routingCorrect": true
+        }
+      }
+    },
+    {
+      "id": "v13-005",
+      "stratum": "subject_decisive",
+      "expected": {
+        "route": "billing",
+        "requiresHumanReview": false
+      },
+      "baseline": {
+        "id": "v13-005",
+        "route": "billing",
+        "requiresHumanReview": false,
+        "reason": "single_route_match",
+        "matchedCategories": [
+          "billing"
+        ],
+        "source": "rules-baseline"
+      },
+      "previousFirst": {
+        "id": "v13-005",
+        "route": "billing",
+        "requiresHumanReview": false,
+        "reason": "model_route_proposal",
+        "source": "gemini"
+      },
+      "previous": {
+        "id": "v13-005",
+        "route": "billing",
+        "requiresHumanReview": false,
+        "reason": "model_route_proposal",
+        "source": "gemini"
+      },
+      "updatedFirst": {
+        "id": "v13-005",
+        "route": "billing",
+        "requiresHumanReview": false,
+        "reason": "model_route_proposal",
+        "source": "gemini"
+      },
+      "updated": {
+        "id": "v13-005",
+        "route": "billing",
+        "requiresHumanReview": false,
+        "reason": "model_route_proposal",
+        "source": "gemini"
+      },
+      "guardedPrevious": {
+        "id": "v13-005",
+        "route": "billing",
+        "requiresHumanReview": false,
+        "reason": "model_baseline_agreement",
+        "matchedCategories": [
+          "billing"
+        ],
+        "source": "guarded-gemini"
+      },
+      "guardedUpdated": {
+        "id": "v13-005",
+        "route": "billing",
+        "requiresHumanReview": false,
+        "reason": "model_baseline_agreement",
+        "matchedCategories": [
+          "billing"
+        ],
+        "source": "guarded-gemini"
+      },
+      "providers": {
+        "previous": {
+          "output": {
+            "category": "billing",
+            "evidence": "Please email me a receipt for my telescope subscription"
+          },
+          "attempts": 1,
+          "latencyMs": 769,
+          "modelVersion": "gemini-3.5-flash-lite",
+          "usage": {
+            "promptTokenCount": 1881,
+            "candidatesTokenCount": 27,
+            "thoughtsTokenCount": null,
+            "totalTokenCount": 1908
+          },
+          "attemptLog": [
+            {
+              "attempt": 1,
+              "outcome": "success",
+              "stage": "decision",
+              "finishReason": "STOP",
+              "attemptLatencyMs": 769,
+              "candidateCount": 1,
+              "outputCharacters": 100,
+              "httpStatus": 200,
+              "modelVersion": "gemini-3.5-flash-lite",
+              "usage": {
+                "promptTokenCount": 1881,
+                "candidatesTokenCount": 27,
+                "thoughtsTokenCount": null,
+                "totalTokenCount": 1908
+              },
+              "timeoutMs": 30000
+            }
+          ],
+          "firstAttempt": {
+            "output": {
+              "category": "billing",
+              "evidence": "Please email me a receipt for my telescope subscription"
+            },
+            "attempts": 1,
+            "latencyMs": 769,
+            "modelVersion": "gemini-3.5-flash-lite",
+            "usage": {
+              "promptTokenCount": 1881,
+              "candidatesTokenCount": 27,
+              "thoughtsTokenCount": null,
+              "totalTokenCount": 1908
+            },
+            "attemptLog": [
+              {
+                "attempt": 1,
+                "outcome": "success",
+                "stage": "decision",
+                "finishReason": "STOP",
+                "attemptLatencyMs": 769,
+                "candidateCount": 1,
+                "outputCharacters": 100,
+                "httpStatus": 200,
+                "modelVersion": "gemini-3.5-flash-lite",
+                "usage": {
+                  "promptTokenCount": 1881,
+                  "candidatesTokenCount": 27,
+                  "thoughtsTokenCount": null,
+                  "totalTokenCount": 1908
+                },
+                "timeoutMs": 30000
+              }
+            ]
+          },
+          "reliability": {
+            "version": "bounded-v8",
+            "timeoutMs": 30000,
+            "totalTimeoutMs": 65000,
+            "maxAttempts": 2,
+            "recovered": false,
+            "retryDeferred": null
+          }
+        },
+        "updated": {
+          "output": {
+            "category": "billing",
+            "evidence": "Please email me a receipt for my telescope subscription"
+          },
+          "attempts": 1,
+          "latencyMs": 604,
+          "modelVersion": "gemini-3.5-flash-lite",
+          "usage": {
+            "promptTokenCount": 2146,
+            "candidatesTokenCount": 21,
+            "thoughtsTokenCount": null,
+            "totalTokenCount": 2167
+          },
+          "attemptLog": [
+            {
+              "attempt": 1,
+              "outcome": "success",
+              "stage": "decision",
+              "finishReason": "STOP",
+              "attemptLatencyMs": 604,
+              "candidateCount": 1,
+              "outputCharacters": 49,
+              "httpStatus": 200,
+              "modelVersion": "gemini-3.5-flash-lite",
+              "usage": {
+                "promptTokenCount": 2146,
+                "candidatesTokenCount": 21,
+                "thoughtsTokenCount": null,
+                "totalTokenCount": 2167
+              },
+              "timeoutMs": 30000
+            }
+          ],
+          "evidenceReference": {
+            "id": "s2",
+            "field": "subject",
+            "start": 0,
+            "end": 55
+          },
+          "firstAttempt": {
+            "output": {
+              "category": "billing",
+              "evidence": "Please email me a receipt for my telescope subscription"
+            },
+            "attempts": 1,
+            "latencyMs": 604,
+            "modelVersion": "gemini-3.5-flash-lite",
+            "usage": {
+              "promptTokenCount": 2146,
+              "candidatesTokenCount": 21,
+              "thoughtsTokenCount": null,
+              "totalTokenCount": 2167
+            },
+            "attemptLog": [
+              {
+                "attempt": 1,
+                "outcome": "success",
+                "stage": "decision",
+                "finishReason": "STOP",
+                "attemptLatencyMs": 604,
+                "candidateCount": 1,
+                "outputCharacters": 49,
+                "httpStatus": 200,
+                "modelVersion": "gemini-3.5-flash-lite",
+                "usage": {
+                  "promptTokenCount": 2146,
+                  "candidatesTokenCount": 21,
+                  "thoughtsTokenCount": null,
+                  "totalTokenCount": 2167
+                },
+                "timeoutMs": 30000
+              }
+            ],
+            "evidenceReference": {
+              "id": "s2",
+              "field": "subject",
+              "start": 0,
+              "end": 55
+            }
+          },
+          "reliability": {
+            "version": "bounded-v8",
+            "timeoutMs": 30000,
+            "totalTimeoutMs": 65000,
+            "maxAttempts": 2,
+            "recovered": false,
+            "retryDeferred": null
+          }
+        }
+      },
+      "semantic": {
+        "updated": {
+          "id": "evidence-026",
+          "sourceExact": true,
+          "supportsReturnedDecision": true,
+          "coversSufficientReferenceBundle": true,
+          "coveredBundleIndexes": [
+            0
+          ],
+          "criteriaAmbiguous": false,
+          "optionalContextCoverage": "none",
+          "rationale": "Receipt delivery request supports billing; web purchase and yesterday absent.",
+          "reviewerSourceExact": true,
+          "routingCorrect": true
+        },
+        "previous": {
+          "id": "evidence-032",
+          "sourceExact": true,
+          "supportsReturnedDecision": true,
+          "coversSufficientReferenceBundle": true,
+          "coveredBundleIndexes": [
+            0
+          ],
+          "criteriaAmbiguous": false,
+          "optionalContextCoverage": "none",
+          "rationale": "Receipt delivery request supports billing; web purchase and yesterday absent.",
+          "reviewerSourceExact": true,
+          "routingCorrect": true
+        }
+      }
+    },
+    {
+      "id": "v13-003",
+      "stratum": "length_boundary",
+      "expected": {
+        "route": null,
+        "requiresHumanReview": true
+      },
+      "baseline": {
+        "id": "v13-003",
+        "route": "billing",
+        "requiresHumanReview": false,
+        "reason": "single_route_match",
+        "matchedCategories": [
+          "billing"
+        ],
+        "source": "rules-baseline"
+      },
+      "previousFirst": {
+        "id": "v13-003",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "model_requested_review",
+        "source": "gemini"
+      },
+      "previous": {
+        "id": "v13-003",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "model_requested_review",
+        "source": "gemini"
+      },
+      "updatedFirst": {
+        "id": "v13-003",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "model_requested_review",
+        "source": "gemini"
+      },
+      "updated": {
+        "id": "v13-003",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "model_requested_review",
+        "source": "gemini"
+      },
+      "guardedPrevious": {
+        "id": "v13-003",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "model_requested_review",
+        "source": "guarded-gemini"
+      },
+      "guardedUpdated": {
+        "id": "v13-003",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "model_requested_review",
+        "source": "guarded-gemini"
+      },
+      "providers": {
+        "previous": {
+          "output": {
+            "category": "review",
+            "evidence": "Two requests for the map service"
+          },
+          "attempts": 1,
+          "latencyMs": 1618,
+          "modelVersion": "gemini-3.5-flash-lite",
+          "usage": {
+            "promptTokenCount": 1891,
+            "candidatesTokenCount": 24,
+            "thoughtsTokenCount": null,
+            "totalTokenCount": 1915
+          },
+          "attemptLog": [
+            {
+              "attempt": 1,
+              "outcome": "success",
+              "stage": "decision",
+              "finishReason": "STOP",
+              "attemptLatencyMs": 1618,
+              "candidateCount": 1,
+              "outputCharacters": 76,
+              "httpStatus": 200,
+              "modelVersion": "gemini-3.5-flash-lite",
+              "usage": {
+                "promptTokenCount": 1891,
+                "candidatesTokenCount": 24,
+                "thoughtsTokenCount": null,
+                "totalTokenCount": 1915
+              },
+              "timeoutMs": 30000
+            }
+          ],
+          "firstAttempt": {
+            "output": {
+              "category": "review",
+              "evidence": "Two requests for the map service"
+            },
+            "attempts": 1,
+            "latencyMs": 1618,
+            "modelVersion": "gemini-3.5-flash-lite",
+            "usage": {
+              "promptTokenCount": 1891,
+              "candidatesTokenCount": 24,
+              "thoughtsTokenCount": null,
+              "totalTokenCount": 1915
+            },
+            "attemptLog": [
+              {
+                "attempt": 1,
+                "outcome": "success",
+                "stage": "decision",
+                "finishReason": "STOP",
+                "attemptLatencyMs": 1618,
+                "candidateCount": 1,
+                "outputCharacters": 76,
+                "httpStatus": 200,
+                "modelVersion": "gemini-3.5-flash-lite",
+                "usage": {
+                  "promptTokenCount": 1891,
+                  "candidatesTokenCount": 24,
+                  "thoughtsTokenCount": null,
+                  "totalTokenCount": 1915
+                },
+                "timeoutMs": 30000
+              }
+            ]
+          },
+          "reliability": {
+            "version": "bounded-v8",
+            "timeoutMs": 30000,
+            "totalTimeoutMs": 65000,
+            "maxAttempts": 2,
+            "recovered": false,
+            "retryDeferred": null
+          }
+        },
+        "updated": {
+          "output": {
+            "category": "review",
+            "evidence": "Please restore the missing labels on my map exports, and send me a receipt for the annual cartography subscription."
+          },
+          "attempts": 1,
+          "latencyMs": 731,
+          "modelVersion": "gemini-3.5-flash-lite",
+          "usage": {
+            "promptTokenCount": 2180,
+            "candidatesTokenCount": 21,
+            "thoughtsTokenCount": null,
+            "totalTokenCount": 2201
+          },
+          "attemptLog": [
+            {
+              "attempt": 1,
+              "outcome": "success",
+              "stage": "decision",
+              "finishReason": "STOP",
+              "attemptLatencyMs": 731,
+              "candidateCount": 1,
+              "outputCharacters": 48,
+              "httpStatus": 200,
+              "modelVersion": "gemini-3.5-flash-lite",
+              "usage": {
+                "promptTokenCount": 2180,
+                "candidatesTokenCount": 21,
+                "thoughtsTokenCount": null,
+                "totalTokenCount": 2201
+              },
+              "timeoutMs": 30000
+            }
+          ],
+          "evidenceReference": {
+            "id": "s0",
+            "field": "body",
+            "start": 0,
+            "end": 115
+          },
+          "firstAttempt": {
+            "output": {
+              "category": "review",
+              "evidence": "Please restore the missing labels on my map exports, and send me a receipt for the annual cartography subscription."
+            },
+            "attempts": 1,
+            "latencyMs": 731,
+            "modelVersion": "gemini-3.5-flash-lite",
+            "usage": {
+              "promptTokenCount": 2180,
+              "candidatesTokenCount": 21,
+              "thoughtsTokenCount": null,
+              "totalTokenCount": 2201
+            },
+            "attemptLog": [
+              {
+                "attempt": 1,
+                "outcome": "success",
+                "stage": "decision",
+                "finishReason": "STOP",
+                "attemptLatencyMs": 731,
+                "candidateCount": 1,
+                "outputCharacters": 48,
+                "httpStatus": 200,
+                "modelVersion": "gemini-3.5-flash-lite",
+                "usage": {
+                  "promptTokenCount": 2180,
+                  "candidatesTokenCount": 21,
+                  "thoughtsTokenCount": null,
+                  "totalTokenCount": 2201
+                },
+                "timeoutMs": 30000
+              }
+            ],
+            "evidenceReference": {
+              "id": "s0",
+              "field": "body",
+              "start": 0,
+              "end": 115
+            }
+          },
+          "reliability": {
+            "version": "bounded-v8",
+            "timeoutMs": 30000,
+            "totalTimeoutMs": 65000,
+            "maxAttempts": 2,
+            "recovered": false,
+            "retryDeferred": null
+          }
+        }
+      },
+      "semantic": {
+        "previous": {
+          "id": "evidence-002",
+          "sourceExact": true,
+          "supportsReturnedDecision": false,
+          "coversSufficientReferenceBundle": false,
+          "coveredBundleIndexes": [],
+          "criteriaAmbiguous": false,
+          "optionalContextCoverage": "none",
+          "rationale": "FAIL: Generic count heading conveys neither export-label restoration nor receipt delivery; full context requires review but quote supplies neither substantive intent.",
+          "reviewerSourceExact": true,
+          "routingCorrect": true
+        },
+        "updated": {
+          "id": "evidence-004",
+          "sourceExact": true,
+          "supportsReturnedDecision": true,
+          "coversSufficientReferenceBundle": true,
+          "coveredBundleIndexes": [
+            0
+          ],
+          "criteriaAmbiguous": false,
+          "optionalContextCoverage": "full",
+          "rationale": "Both export-label restoration and receipt delivery, including annual cartography subscription.",
+          "reviewerSourceExact": true,
+          "routingCorrect": true
+        }
+      }
+    },
+    {
+      "id": "v13-007",
+      "stratum": "length_boundary",
+      "expected": {
+        "route": null,
+        "requiresHumanReview": true
+      },
+      "baseline": {
+        "id": "v13-007",
+        "route": "billing",
+        "requiresHumanReview": false,
+        "reason": "single_route_match",
+        "matchedCategories": [
+          "billing"
+        ],
+        "source": "rules-baseline"
+      },
+      "previousFirst": {
+        "id": "v13-007",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "model_requested_review",
+        "source": "gemini"
+      },
+      "previous": {
+        "id": "v13-007",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "model_requested_review",
+        "source": "gemini"
+      },
+      "updatedFirst": {
+        "id": "v13-007",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "model_requested_review",
+        "source": "gemini"
+      },
+      "updated": {
+        "id": "v13-007",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "model_requested_review",
+        "source": "gemini"
+      },
+      "guardedPrevious": {
+        "id": "v13-007",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "model_requested_review",
+        "source": "guarded-gemini"
+      },
+      "guardedUpdated": {
+        "id": "v13-007",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "model_requested_review",
+        "source": "guarded-gemini"
+      },
+      "providers": {
+        "previous": {
+          "output": {
+            "category": "review",
+            "evidence": "I need to change the card used for my workshop subscription, and the attendance chart will not open in the browser."
+          },
+          "attempts": 1,
+          "latencyMs": 7867,
+          "modelVersion": "gemini-3.5-flash-lite",
+          "usage": {
+            "promptTokenCount": 1888,
+            "candidatesTokenCount": 40,
+            "thoughtsTokenCount": null,
+            "totalTokenCount": 1928
+          },
+          "attemptLog": [
+            {
+              "attempt": 1,
+              "outcome": "success",
+              "stage": "decision",
+              "finishReason": "STOP",
+              "attemptLatencyMs": 7867,
+              "candidateCount": 1,
+              "outputCharacters": 159,
+              "httpStatus": 200,
+              "modelVersion": "gemini-3.5-flash-lite",
+              "usage": {
+                "promptTokenCount": 1888,
+                "candidatesTokenCount": 40,
+                "thoughtsTokenCount": null,
+                "totalTokenCount": 1928
+              },
+              "timeoutMs": 30000
+            }
+          ],
+          "firstAttempt": {
+            "output": {
+              "category": "review",
+              "evidence": "I need to change the card used for my workshop subscription, and the attendance chart will not open in the browser."
+            },
+            "attempts": 1,
+            "latencyMs": 7867,
+            "modelVersion": "gemini-3.5-flash-lite",
+            "usage": {
+              "promptTokenCount": 1888,
+              "candidatesTokenCount": 40,
+              "thoughtsTokenCount": null,
+              "totalTokenCount": 1928
+            },
+            "attemptLog": [
+              {
+                "attempt": 1,
+                "outcome": "success",
+                "stage": "decision",
+                "finishReason": "STOP",
+                "attemptLatencyMs": 7867,
+                "candidateCount": 1,
+                "outputCharacters": 159,
+                "httpStatus": 200,
+                "modelVersion": "gemini-3.5-flash-lite",
+                "usage": {
+                  "promptTokenCount": 1888,
+                  "candidatesTokenCount": 40,
+                  "thoughtsTokenCount": null,
+                  "totalTokenCount": 1928
+                },
+                "timeoutMs": 30000
+              }
+            ]
+          },
+          "reliability": {
+            "version": "bounded-v8",
+            "timeoutMs": 30000,
+            "totalTimeoutMs": 65000,
+            "maxAttempts": 2,
+            "recovered": false,
+            "retryDeferred": null
+          }
+        },
+        "updated": {
+          "output": {
+            "category": "review",
+            "evidence": "I need to change the card used for my workshop subscription, and the attendance chart will not open in the browser."
+          },
+          "attempts": 1,
+          "latencyMs": 820,
+          "modelVersion": "gemini-3.5-flash-lite",
+          "usage": {
+            "promptTokenCount": 2174,
+            "candidatesTokenCount": 21,
+            "thoughtsTokenCount": null,
+            "totalTokenCount": 2195
+          },
+          "attemptLog": [
+            {
+              "attempt": 1,
+              "outcome": "success",
+              "stage": "decision",
+              "finishReason": "STOP",
+              "attemptLatencyMs": 820,
+              "candidateCount": 1,
+              "outputCharacters": 48,
+              "httpStatus": 200,
+              "modelVersion": "gemini-3.5-flash-lite",
+              "usage": {
+                "promptTokenCount": 2174,
+                "candidatesTokenCount": 21,
+                "thoughtsTokenCount": null,
+                "totalTokenCount": 2195
+              },
+              "timeoutMs": 30000
+            }
+          ],
+          "evidenceReference": {
+            "id": "s0",
+            "field": "body",
+            "start": 0,
+            "end": 115
+          },
+          "firstAttempt": {
+            "output": {
+              "category": "review",
+              "evidence": "I need to change the card used for my workshop subscription, and the attendance chart will not open in the browser."
+            },
+            "attempts": 1,
+            "latencyMs": 820,
+            "modelVersion": "gemini-3.5-flash-lite",
+            "usage": {
+              "promptTokenCount": 2174,
+              "candidatesTokenCount": 21,
+              "thoughtsTokenCount": null,
+              "totalTokenCount": 2195
+            },
+            "attemptLog": [
+              {
+                "attempt": 1,
+                "outcome": "success",
+                "stage": "decision",
+                "finishReason": "STOP",
+                "attemptLatencyMs": 820,
+                "candidateCount": 1,
+                "outputCharacters": 48,
+                "httpStatus": 200,
+                "modelVersion": "gemini-3.5-flash-lite",
+                "usage": {
+                  "promptTokenCount": 2174,
+                  "candidatesTokenCount": 21,
+                  "thoughtsTokenCount": null,
+                  "totalTokenCount": 2195
+                },
+                "timeoutMs": 30000
+              }
+            ],
+            "evidenceReference": {
+              "id": "s0",
+              "field": "body",
+              "start": 0,
+              "end": 115
+            }
+          },
+          "reliability": {
+            "version": "bounded-v8",
+            "timeoutMs": 30000,
+            "totalTimeoutMs": 65000,
+            "maxAttempts": 2,
+            "recovered": false,
+            "retryDeferred": null
+          }
+        }
+      },
+      "semantic": {
+        "previous": {
+          "id": "evidence-005",
+          "sourceExact": true,
+          "supportsReturnedDecision": true,
+          "coversSufficientReferenceBundle": true,
+          "coveredBundleIndexes": [
+            0
+          ],
+          "criteriaAmbiguous": false,
+          "optionalContextCoverage": "full",
+          "rationale": "Both payment-card change and chart-opening failure, including browser.",
+          "reviewerSourceExact": true,
+          "routingCorrect": true
+        },
+        "updated": {
+          "id": "evidence-006",
+          "sourceExact": true,
+          "supportsReturnedDecision": true,
+          "coversSufficientReferenceBundle": true,
+          "coveredBundleIndexes": [
+            0
+          ],
+          "criteriaAmbiguous": false,
+          "optionalContextCoverage": "full",
+          "rationale": "Both payment-card change and chart-opening failure, including browser.",
+          "reviewerSourceExact": true,
+          "routingCorrect": true
+        }
+      }
+    },
+    {
+      "id": "v13-011",
+      "stratum": "generic_heading",
+      "expected": {
+        "route": null,
+        "requiresHumanReview": true
+      },
+      "baseline": {
+        "id": "v13-011",
+        "route": "billing",
+        "requiresHumanReview": false,
+        "reason": "single_route_match",
+        "matchedCategories": [
+          "billing"
+        ],
+        "source": "rules-baseline"
+      },
+      "previousFirst": {
+        "id": "v13-011",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "model_requested_review",
+        "source": "gemini"
+      },
+      "previous": {
+        "id": "v13-011",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "model_requested_review",
+        "source": "gemini"
+      },
+      "updatedFirst": {
+        "error": "provider_http_503",
+        "route": null,
+        "requiresHumanReview": true
+      },
+      "updated": {
+        "id": "v13-011",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "model_requested_review",
+        "source": "gemini"
+      },
+      "guardedPrevious": {
+        "id": "v13-011",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "model_requested_review",
+        "source": "guarded-gemini"
+      },
+      "guardedUpdated": {
+        "id": "v13-011",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "model_requested_review",
+        "source": "guarded-gemini"
+      },
+      "providers": {
+        "previous": {
+          "output": {
+            "category": "review",
+            "evidence": "I need a refund for the extra monthly charge, and the route planner freezes when I add a ferry."
+          },
+          "attempts": 1,
+          "latencyMs": 3976,
+          "modelVersion": "gemini-3.5-flash-lite",
+          "usage": {
+            "promptTokenCount": 1889,
+            "candidatesTokenCount": 38,
+            "thoughtsTokenCount": null,
+            "totalTokenCount": 1927
+          },
+          "attemptLog": [
+            {
+              "attempt": 1,
+              "outcome": "success",
+              "stage": "decision",
+              "finishReason": "STOP",
+              "attemptLatencyMs": 3976,
+              "candidateCount": 1,
+              "outputCharacters": 139,
+              "httpStatus": 200,
+              "modelVersion": "gemini-3.5-flash-lite",
+              "usage": {
+                "promptTokenCount": 1889,
+                "candidatesTokenCount": 38,
+                "thoughtsTokenCount": null,
+                "totalTokenCount": 1927
+              },
+              "timeoutMs": 30000
+            }
+          ],
+          "firstAttempt": {
+            "output": {
+              "category": "review",
+              "evidence": "I need a refund for the extra monthly charge, and the route planner freezes when I add a ferry."
+            },
+            "attempts": 1,
+            "latencyMs": 3976,
+            "modelVersion": "gemini-3.5-flash-lite",
+            "usage": {
+              "promptTokenCount": 1889,
+              "candidatesTokenCount": 38,
+              "thoughtsTokenCount": null,
+              "totalTokenCount": 1927
+            },
+            "attemptLog": [
+              {
+                "attempt": 1,
+                "outcome": "success",
+                "stage": "decision",
+                "finishReason": "STOP",
+                "attemptLatencyMs": 3976,
+                "candidateCount": 1,
+                "outputCharacters": 139,
+                "httpStatus": 200,
+                "modelVersion": "gemini-3.5-flash-lite",
+                "usage": {
+                  "promptTokenCount": 1889,
+                  "candidatesTokenCount": 38,
+                  "thoughtsTokenCount": null,
+                  "totalTokenCount": 1927
+                },
+                "timeoutMs": 30000
+              }
+            ]
+          },
+          "reliability": {
+            "version": "bounded-v8",
+            "timeoutMs": 30000,
+            "totalTimeoutMs": 65000,
+            "maxAttempts": 2,
+            "recovered": false,
+            "retryDeferred": null
+          }
+        },
+        "updated": {
+          "output": {
+            "category": "review",
+            "evidence": "I need a refund for the extra monthly charge, and the route planner freezes when I add a ferry."
+          },
+          "attempts": 2,
+          "latencyMs": 5552,
+          "modelVersion": "gemini-3.5-flash-lite",
+          "usage": {
+            "promptTokenCount": 2139,
+            "candidatesTokenCount": 21,
+            "thoughtsTokenCount": null,
+            "totalTokenCount": 2160
+          },
+          "attemptLog": [
+            {
+              "attempt": 1,
+              "outcome": "retry",
+              "error": "provider_http_503",
+              "stage": "http",
+              "latencyMs": 359,
+              "attemptLatencyMs": 359,
+              "httpStatus": 503,
+              "timeoutMs": 30000,
+              "retryDeferred": null,
+              "retryDelayMs": 4314,
+              "retryAfterKind": "absent"
+            },
+            {
+              "attempt": 2,
+              "outcome": "success",
+              "stage": "decision",
+              "finishReason": "STOP",
+              "attemptLatencyMs": 878,
+              "candidateCount": 1,
+              "outputCharacters": 48,
+              "httpStatus": 200,
+              "modelVersion": "gemini-3.5-flash-lite",
+              "usage": {
+                "promptTokenCount": 2139,
+                "candidatesTokenCount": 21,
+                "thoughtsTokenCount": null,
+                "totalTokenCount": 2160
+              },
+              "timeoutMs": 30000
+            }
+          ],
+          "evidenceReference": {
+            "id": "s0",
+            "field": "body",
+            "start": 0,
+            "end": 95
+          },
+          "firstAttempt": {
+            "error": "provider_http_503",
+            "attempts": 1,
+            "diagnostics": {
+              "stage": "http",
+              "latencyMs": 359,
+              "attemptLatencyMs": 359,
+              "httpStatus": 503
+            },
+            "attemptLog": [
+              {
+                "attempt": 1,
+                "outcome": "failure",
+                "error": "provider_http_503",
+                "stage": "http",
+                "latencyMs": 359,
+                "attemptLatencyMs": 359,
+                "httpStatus": 503,
+                "timeoutMs": 30000
+              }
+            ]
+          },
+          "reliability": {
+            "version": "bounded-v8",
+            "timeoutMs": 30000,
+            "totalTimeoutMs": 65000,
+            "maxAttempts": 2,
+            "recovered": true,
+            "retryDeferred": null
+          }
+        }
+      },
+      "semantic": {
+        "previous": {
+          "id": "evidence-013",
+          "sourceExact": true,
+          "supportsReturnedDecision": true,
+          "coversSufficientReferenceBundle": true,
+          "coveredBundleIndexes": [
+            0
+          ],
+          "criteriaAmbiguous": false,
+          "optionalContextCoverage": "full",
+          "rationale": "Refund and planner freezing both conveyed, with ferry trigger.",
+          "reviewerSourceExact": true,
+          "routingCorrect": true
+        },
+        "updated": {
+          "id": "evidence-034",
+          "sourceExact": true,
+          "supportsReturnedDecision": true,
+          "coversSufficientReferenceBundle": true,
+          "coveredBundleIndexes": [
+            0
+          ],
+          "criteriaAmbiguous": false,
+          "optionalContextCoverage": "full",
+          "rationale": "Refund and planner freezing both conveyed, with ferry trigger.",
+          "reviewerSourceExact": true,
+          "routingCorrect": true
+        }
+      }
+    },
+    {
+      "id": "v13-016",
+      "stratum": "generic_heading",
+      "expected": {
+        "route": null,
+        "requiresHumanReview": true
+      },
+      "baseline": {
+        "id": "v13-016",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "multiple_routes",
+        "matchedCategories": [
+          "access",
+          "billing"
+        ],
+        "source": "rules-baseline"
+      },
+      "previousFirst": {
+        "id": "v13-016",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "model_requested_review",
+        "source": "gemini"
+      },
+      "previous": {
+        "id": "v13-016",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "model_requested_review",
+        "source": "gemini"
+      },
+      "updatedFirst": {
+        "id": "v13-016",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "model_requested_review",
+        "source": "gemini"
+      },
+      "updated": {
+        "id": "v13-016",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "model_requested_review",
+        "source": "gemini"
+      },
+      "guardedPrevious": {
+        "id": "v13-016",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "model_requested_review",
+        "source": "guarded-gemini"
+      },
+      "guardedUpdated": {
+        "id": "v13-016",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "model_requested_review",
+        "source": "guarded-gemini"
+      },
+      "providers": {
+        "previous": {
+          "output": {
+            "category": "review",
+            "evidence": "Two items, thanks"
+          },
+          "attempts": 1,
+          "latencyMs": 2050,
+          "modelVersion": "gemini-3.5-flash-lite",
+          "usage": {
+            "promptTokenCount": 1885,
+            "candidatesTokenCount": 22,
+            "thoughtsTokenCount": null,
+            "totalTokenCount": 1907
+          },
+          "attemptLog": [
+            {
+              "attempt": 1,
+              "outcome": "success",
+              "stage": "decision",
+              "finishReason": "STOP",
+              "attemptLatencyMs": 2050,
+              "candidateCount": 1,
+              "outputCharacters": 61,
+              "httpStatus": 200,
+              "modelVersion": "gemini-3.5-flash-lite",
+              "usage": {
+                "promptTokenCount": 1885,
+                "candidatesTokenCount": 22,
+                "thoughtsTokenCount": null,
+                "totalTokenCount": 1907
+              },
+              "timeoutMs": 30000
+            }
+          ],
+          "firstAttempt": {
+            "output": {
+              "category": "review",
+              "evidence": "Two items, thanks"
+            },
+            "attempts": 1,
+            "latencyMs": 2050,
+            "modelVersion": "gemini-3.5-flash-lite",
+            "usage": {
+              "promptTokenCount": 1885,
+              "candidatesTokenCount": 22,
+              "thoughtsTokenCount": null,
+              "totalTokenCount": 1907
+            },
+            "attemptLog": [
+              {
+                "attempt": 1,
+                "outcome": "success",
+                "stage": "decision",
+                "finishReason": "STOP",
+                "attemptLatencyMs": 2050,
+                "candidateCount": 1,
+                "outputCharacters": 61,
+                "httpStatus": 200,
+                "modelVersion": "gemini-3.5-flash-lite",
+                "usage": {
+                  "promptTokenCount": 1885,
+                  "candidatesTokenCount": 22,
+                  "thoughtsTokenCount": null,
+                  "totalTokenCount": 1907
+                },
+                "timeoutMs": 30000
+              }
+            ]
+          },
+          "reliability": {
+            "version": "bounded-v8",
+            "timeoutMs": 30000,
+            "totalTimeoutMs": 65000,
+            "maxAttempts": 2,
+            "recovered": false,
+            "retryDeferred": null
+          }
+        },
+        "updated": {
+          "output": {
+            "category": "review",
+            "evidence": "Please help me sign in to the choir portal and send me the receipt for our subscription."
+          },
+          "attempts": 1,
+          "latencyMs": 773,
+          "modelVersion": "gemini-3.5-flash-lite",
+          "usage": {
+            "promptTokenCount": 2146,
+            "candidatesTokenCount": 21,
+            "thoughtsTokenCount": null,
+            "totalTokenCount": 2167
+          },
+          "attemptLog": [
+            {
+              "attempt": 1,
+              "outcome": "success",
+              "stage": "decision",
+              "finishReason": "STOP",
+              "attemptLatencyMs": 773,
+              "candidateCount": 1,
+              "outputCharacters": 48,
+              "httpStatus": 200,
+              "modelVersion": "gemini-3.5-flash-lite",
+              "usage": {
+                "promptTokenCount": 2146,
+                "candidatesTokenCount": 21,
+                "thoughtsTokenCount": null,
+                "totalTokenCount": 2167
+              },
+              "timeoutMs": 30000
+            }
+          ],
+          "evidenceReference": {
+            "id": "s0",
+            "field": "body",
+            "start": 0,
+            "end": 88
+          },
+          "firstAttempt": {
+            "output": {
+              "category": "review",
+              "evidence": "Please help me sign in to the choir portal and send me the receipt for our subscription."
+            },
+            "attempts": 1,
+            "latencyMs": 773,
+            "modelVersion": "gemini-3.5-flash-lite",
+            "usage": {
+              "promptTokenCount": 2146,
+              "candidatesTokenCount": 21,
+              "thoughtsTokenCount": null,
+              "totalTokenCount": 2167
+            },
+            "attemptLog": [
+              {
+                "attempt": 1,
+                "outcome": "success",
+                "stage": "decision",
+                "finishReason": "STOP",
+                "attemptLatencyMs": 773,
+                "candidateCount": 1,
+                "outputCharacters": 48,
+                "httpStatus": 200,
+                "modelVersion": "gemini-3.5-flash-lite",
+                "usage": {
+                  "promptTokenCount": 2146,
+                  "candidatesTokenCount": 21,
+                  "thoughtsTokenCount": null,
+                  "totalTokenCount": 2167
+                },
+                "timeoutMs": 30000
+              }
+            ],
+            "evidenceReference": {
+              "id": "s0",
+              "field": "body",
+              "start": 0,
+              "end": 88
+            }
+          },
+          "reliability": {
+            "version": "bounded-v8",
+            "timeoutMs": 30000,
+            "totalTimeoutMs": 65000,
+            "maxAttempts": 2,
+            "recovered": false,
+            "retryDeferred": null
+          }
+        }
+      },
+      "semantic": {
+        "previous": {
+          "id": "evidence-016",
+          "sourceExact": true,
+          "supportsReturnedDecision": false,
+          "coversSufficientReferenceBundle": false,
+          "coveredBundleIndexes": [],
+          "criteriaAmbiguous": false,
+          "optionalContextCoverage": "none",
+          "rationale": "FAIL: Generic item count conveys neither sign-in assistance nor receipt delivery; full context requires review but quote supplies neither substantive intent.",
+          "reviewerSourceExact": true,
+          "routingCorrect": true
+        },
+        "updated": {
+          "id": "evidence-039",
+          "sourceExact": true,
+          "supportsReturnedDecision": true,
+          "coversSufficientReferenceBundle": true,
+          "coveredBundleIndexes": [
+            0
+          ],
+          "criteriaAmbiguous": false,
+          "optionalContextCoverage": "full",
+          "rationale": "Sign-in assistance and receipt delivery both conveyed, including choir portal and subscription.",
+          "reviewerSourceExact": true,
+          "routingCorrect": true
+        }
+      }
+    },
+    {
+      "id": "v13-015",
+      "stratum": "subject_decisive",
+      "expected": {
+        "route": null,
+        "requiresHumanReview": true
+      },
+      "baseline": {
+        "id": "v13-015",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "no_supported_route",
+        "matchedCategories": [],
+        "source": "rules-baseline"
+      },
+      "previousFirst": {
+        "id": "v13-015",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "model_requested_review",
+        "source": "gemini"
+      },
+      "previous": {
+        "id": "v13-015",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "model_requested_review",
+        "source": "gemini"
+      },
+      "updatedFirst": {
+        "id": "v13-015",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "model_requested_review",
+        "source": "gemini"
+      },
+      "updated": {
+        "id": "v13-015",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "model_requested_review",
+        "source": "gemini"
+      },
+      "guardedPrevious": {
+        "id": "v13-015",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "model_requested_review",
+        "source": "guarded-gemini"
+      },
+      "guardedUpdated": {
+        "id": "v13-015",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "model_requested_review",
+        "source": "guarded-gemini"
+      },
+      "providers": {
+        "previous": {
+          "output": {
+            "category": "review",
+            "evidence": "My actual migraine prescription is visible in the public preview"
+          },
+          "attempts": 1,
+          "latencyMs": 1511,
+          "modelVersion": "gemini-3.5-flash-lite",
+          "usage": {
+            "promptTokenCount": 1883,
+            "candidatesTokenCount": 28,
+            "thoughtsTokenCount": null,
+            "totalTokenCount": 1911
+          },
+          "attemptLog": [
+            {
+              "attempt": 1,
+              "outcome": "success",
+              "stage": "decision",
+              "finishReason": "STOP",
+              "attemptLatencyMs": 1511,
+              "candidateCount": 1,
+              "outputCharacters": 108,
+              "httpStatus": 200,
+              "modelVersion": "gemini-3.5-flash-lite",
+              "usage": {
+                "promptTokenCount": 1883,
+                "candidatesTokenCount": 28,
+                "thoughtsTokenCount": null,
+                "totalTokenCount": 1911
+              },
+              "timeoutMs": 30000
+            }
+          ],
+          "firstAttempt": {
+            "output": {
+              "category": "review",
+              "evidence": "My actual migraine prescription is visible in the public preview"
+            },
+            "attempts": 1,
+            "latencyMs": 1511,
+            "modelVersion": "gemini-3.5-flash-lite",
+            "usage": {
+              "promptTokenCount": 1883,
+              "candidatesTokenCount": 28,
+              "thoughtsTokenCount": null,
+              "totalTokenCount": 1911
+            },
+            "attemptLog": [
+              {
+                "attempt": 1,
+                "outcome": "success",
+                "stage": "decision",
+                "finishReason": "STOP",
+                "attemptLatencyMs": 1511,
+                "candidateCount": 1,
+                "outputCharacters": 108,
+                "httpStatus": 200,
+                "modelVersion": "gemini-3.5-flash-lite",
+                "usage": {
+                  "promptTokenCount": 1883,
+                  "candidatesTokenCount": 28,
+                  "thoughtsTokenCount": null,
+                  "totalTokenCount": 1911
+                },
+                "timeoutMs": 30000
+              }
+            ]
+          },
+          "reliability": {
+            "version": "bounded-v8",
+            "timeoutMs": 30000,
+            "totalTimeoutMs": 65000,
+            "maxAttempts": 2,
+            "recovered": false,
+            "retryDeferred": null
+          }
+        },
+        "updated": {
+          "output": {
+            "category": "review",
+            "evidence": "My actual migraine prescription is visible in the public preview"
+          },
+          "attempts": 1,
+          "latencyMs": 769,
+          "modelVersion": "gemini-3.5-flash-lite",
+          "usage": {
+            "promptTokenCount": 2137,
+            "candidatesTokenCount": 21,
+            "thoughtsTokenCount": null,
+            "totalTokenCount": 2158
+          },
+          "attemptLog": [
+            {
+              "attempt": 1,
+              "outcome": "success",
+              "stage": "decision",
+              "finishReason": "STOP",
+              "attemptLatencyMs": 769,
+              "candidateCount": 1,
+              "outputCharacters": 48,
+              "httpStatus": 200,
+              "modelVersion": "gemini-3.5-flash-lite",
+              "usage": {
+                "promptTokenCount": 2137,
+                "candidatesTokenCount": 21,
+                "thoughtsTokenCount": null,
+                "totalTokenCount": 2158
+              },
+              "timeoutMs": 30000
+            }
+          ],
+          "evidenceReference": {
+            "id": "s1",
+            "field": "subject",
+            "start": 0,
+            "end": 64
+          },
+          "firstAttempt": {
+            "output": {
+              "category": "review",
+              "evidence": "My actual migraine prescription is visible in the public preview"
+            },
+            "attempts": 1,
+            "latencyMs": 769,
+            "modelVersion": "gemini-3.5-flash-lite",
+            "usage": {
+              "promptTokenCount": 2137,
+              "candidatesTokenCount": 21,
+              "thoughtsTokenCount": null,
+              "totalTokenCount": 2158
+            },
+            "attemptLog": [
+              {
+                "attempt": 1,
+                "outcome": "success",
+                "stage": "decision",
+                "finishReason": "STOP",
+                "attemptLatencyMs": 769,
+                "candidateCount": 1,
+                "outputCharacters": 48,
+                "httpStatus": 200,
+                "modelVersion": "gemini-3.5-flash-lite",
+                "usage": {
+                  "promptTokenCount": 2137,
+                  "candidatesTokenCount": 21,
+                  "thoughtsTokenCount": null,
+                  "totalTokenCount": 2158
+                },
+                "timeoutMs": 30000
+              }
+            ],
+            "evidenceReference": {
+              "id": "s1",
+              "field": "subject",
+              "start": 0,
+              "end": 64
+            }
+          },
+          "reliability": {
+            "version": "bounded-v8",
+            "timeoutMs": 30000,
+            "totalTimeoutMs": 65000,
+            "maxAttempts": 2,
+            "recovered": false,
+            "retryDeferred": null
+          }
+        }
+      },
+      "semantic": {
+        "updated": {
+          "id": "evidence-010",
+          "sourceExact": true,
+          "supportsReturnedDecision": true,
+          "coversSufficientReferenceBundle": true,
+          "coveredBundleIndexes": [
+            0
+          ],
+          "criteriaAmbiguous": false,
+          "optionalContextCoverage": "partial",
+          "rationale": "Actual personal migraine prescription independently supports review; public-preview visibility included, home journal tool absent.",
+          "reviewerSourceExact": true,
+          "routingCorrect": true
+        },
+        "previous": {
+          "id": "evidence-028",
+          "sourceExact": true,
+          "supportsReturnedDecision": true,
+          "coversSufficientReferenceBundle": true,
+          "coveredBundleIndexes": [
+            0
+          ],
+          "criteriaAmbiguous": false,
+          "optionalContextCoverage": "partial",
+          "rationale": "Actual personal migraine prescription independently supports review; public-preview visibility included, home journal tool absent.",
+          "reviewerSourceExact": true,
+          "routingCorrect": true
+        }
+      }
+    },
+    {
+      "id": "v13-019",
+      "stratum": "length_boundary",
+      "expected": {
+        "route": null,
+        "requiresHumanReview": true
+      },
+      "baseline": {
+        "id": "v13-019",
+        "route": "billing",
+        "requiresHumanReview": false,
+        "reason": "single_route_match",
+        "matchedCategories": [
+          "billing"
+        ],
+        "source": "rules-baseline"
+      },
+      "previousFirst": {
+        "error": "invalid_model_decision",
+        "route": null,
+        "requiresHumanReview": true
+      },
+      "previous": {
+        "error": "invalid_model_decision",
+        "route": null,
+        "requiresHumanReview": true
+      },
+      "updatedFirst": {
+        "id": "v13-019",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "model_requested_review",
+        "source": "gemini"
+      },
+      "updated": {
+        "id": "v13-019",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "model_requested_review",
+        "source": "gemini"
+      },
+      "guardedPrevious": {
+        "error": "invalid_model_decision",
+        "route": null,
+        "requiresHumanReview": true
+      },
+      "guardedUpdated": {
+        "id": "v13-019",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "model_requested_review",
+        "source": "guarded-gemini"
+      },
+      "providers": {
+        "previous": {
+          "error": "invalid_model_decision",
+          "attempts": 1,
+          "diagnostics": {
+            "stage": "decision",
+            "validationReason": "evidence_too_long",
+            "finishReason": "STOP",
+            "latencyMs": 2029,
+            "attemptLatencyMs": 2029,
+            "candidateCount": 1,
+            "outputCharacters": 165,
+            "evidenceCharacters": 121,
+            "httpStatus": 200,
+            "modelVersion": "gemini-3.5-flash-lite",
+            "usage": {
+              "promptTokenCount": 1890,
+              "candidatesTokenCount": 41,
+              "thoughtsTokenCount": null,
+              "totalTokenCount": 1931
+            }
+          },
+          "attemptLog": [
+            {
+              "attempt": 1,
+              "outcome": "failure",
+              "error": "invalid_model_decision",
+              "stage": "decision",
+              "validationReason": "evidence_too_long",
+              "finishReason": "STOP",
+              "latencyMs": 2029,
+              "attemptLatencyMs": 2029,
+              "candidateCount": 1,
+              "outputCharacters": 165,
+              "evidenceCharacters": 121,
+              "httpStatus": 200,
+              "modelVersion": "gemini-3.5-flash-lite",
+              "usage": {
+                "promptTokenCount": 1890,
+                "candidatesTokenCount": 41,
+                "thoughtsTokenCount": null,
+                "totalTokenCount": 1931
+              },
+              "timeoutMs": 30000,
+              "retryDeferred": "non_retryable",
+              "retryDelayMs": 0,
+              "retryAfterKind": "absent"
+            }
+          ],
+          "firstAttempt": {
+            "error": "invalid_model_decision",
+            "attempts": 1,
+            "diagnostics": {
+              "stage": "decision",
+              "validationReason": "evidence_too_long",
+              "finishReason": "STOP",
+              "latencyMs": 2029,
+              "attemptLatencyMs": 2029,
+              "candidateCount": 1,
+              "outputCharacters": 165,
+              "evidenceCharacters": 121,
+              "httpStatus": 200,
+              "modelVersion": "gemini-3.5-flash-lite",
+              "usage": {
+                "promptTokenCount": 1890,
+                "candidatesTokenCount": 41,
+                "thoughtsTokenCount": null,
+                "totalTokenCount": 1931
+              }
+            },
+            "attemptLog": [
+              {
+                "attempt": 1,
+                "outcome": "failure",
+                "error": "invalid_model_decision",
+                "stage": "decision",
+                "validationReason": "evidence_too_long",
+                "finishReason": "STOP",
+                "latencyMs": 2029,
+                "attemptLatencyMs": 2029,
+                "candidateCount": 1,
+                "outputCharacters": 165,
+                "evidenceCharacters": 121,
+                "httpStatus": 200,
+                "modelVersion": "gemini-3.5-flash-lite",
+                "usage": {
+                  "promptTokenCount": 1890,
+                  "candidatesTokenCount": 41,
+                  "thoughtsTokenCount": null,
+                  "totalTokenCount": 1931
+                },
+                "timeoutMs": 30000
+              }
+            ]
+          },
+          "reliability": {
+            "version": "bounded-v8",
+            "timeoutMs": 30000,
+            "totalTimeoutMs": 65000,
+            "maxAttempts": 2,
+            "recovered": false,
+            "retryDeferred": "non_retryable"
+          }
+        },
+        "updated": {
+          "output": {
+            "category": "review",
+            "evidence": "recipe timer stops whenever I lock the screen, and I want to update the payment card for my own cooking subscription."
+          },
+          "attempts": 1,
+          "latencyMs": 786,
+          "modelVersion": "gemini-3.5-flash-lite",
+          "usage": {
+            "promptTokenCount": 2213,
+            "candidatesTokenCount": 21,
+            "thoughtsTokenCount": null,
+            "totalTokenCount": 2234
+          },
+          "attemptLog": [
+            {
+              "attempt": 1,
+              "outcome": "success",
+              "stage": "decision",
+              "finishReason": "STOP",
+              "attemptLatencyMs": 786,
+              "candidateCount": 1,
+              "outputCharacters": 48,
+              "httpStatus": 200,
+              "modelVersion": "gemini-3.5-flash-lite",
+              "usage": {
+                "promptTokenCount": 2213,
+                "candidatesTokenCount": 21,
+                "thoughtsTokenCount": null,
+                "totalTokenCount": 2234
+              },
+              "timeoutMs": 30000
+            }
+          ],
+          "evidenceReference": {
+            "id": "s3",
+            "field": "body",
+            "start": 4,
+            "end": 121
+          },
+          "firstAttempt": {
+            "output": {
+              "category": "review",
+              "evidence": "recipe timer stops whenever I lock the screen, and I want to update the payment card for my own cooking subscription."
+            },
+            "attempts": 1,
+            "latencyMs": 786,
+            "modelVersion": "gemini-3.5-flash-lite",
+            "usage": {
+              "promptTokenCount": 2213,
+              "candidatesTokenCount": 21,
+              "thoughtsTokenCount": null,
+              "totalTokenCount": 2234
+            },
+            "attemptLog": [
+              {
+                "attempt": 1,
+                "outcome": "success",
+                "stage": "decision",
+                "finishReason": "STOP",
+                "attemptLatencyMs": 786,
+                "candidateCount": 1,
+                "outputCharacters": 48,
+                "httpStatus": 200,
+                "modelVersion": "gemini-3.5-flash-lite",
+                "usage": {
+                  "promptTokenCount": 2213,
+                  "candidatesTokenCount": 21,
+                  "thoughtsTokenCount": null,
+                  "totalTokenCount": 2234
+                },
+                "timeoutMs": 30000
+              }
+            ],
+            "evidenceReference": {
+              "id": "s3",
+              "field": "body",
+              "start": 4,
+              "end": 121
+            }
+          },
+          "reliability": {
+            "version": "bounded-v8",
+            "timeoutMs": 30000,
+            "totalTimeoutMs": 65000,
+            "maxAttempts": 2,
+            "recovered": false,
+            "retryDeferred": null
+          }
+        }
+      },
+      "semantic": {
+        "updated": {
+          "id": "evidence-035",
+          "sourceExact": true,
+          "supportsReturnedDecision": true,
+          "coversSufficientReferenceBundle": true,
+          "coveredBundleIndexes": [
+            0
+          ],
+          "criteriaAmbiguous": false,
+          "optionalContextCoverage": "full",
+          "rationale": "Timer stoppage and payment-card update both conveyed, including screen lock and own cooking subscription.",
+          "reviewerSourceExact": true,
+          "routingCorrect": true
+        }
+      }
+    },
+    {
+      "id": "v13-014",
+      "stratum": "generic_heading",
+      "expected": {
+        "route": "billing",
+        "requiresHumanReview": false
+      },
+      "baseline": {
+        "id": "v13-014",
+        "route": "billing",
+        "requiresHumanReview": false,
+        "reason": "single_route_match",
+        "matchedCategories": [
+          "billing"
+        ],
+        "source": "rules-baseline"
+      },
+      "previousFirst": {
+        "id": "v13-014",
+        "route": "billing",
+        "requiresHumanReview": false,
+        "reason": "model_route_proposal",
+        "source": "gemini"
+      },
+      "previous": {
+        "id": "v13-014",
+        "route": "billing",
+        "requiresHumanReview": false,
+        "reason": "model_route_proposal",
+        "source": "gemini"
+      },
+      "updatedFirst": {
+        "id": "v13-014",
+        "route": "billing",
+        "requiresHumanReview": false,
+        "reason": "model_route_proposal",
+        "source": "gemini"
+      },
+      "updated": {
+        "id": "v13-014",
+        "route": "billing",
+        "requiresHumanReview": false,
+        "reason": "model_route_proposal",
+        "source": "gemini"
+      },
+      "guardedPrevious": {
+        "id": "v13-014",
+        "route": "billing",
+        "requiresHumanReview": false,
+        "reason": "model_baseline_agreement",
+        "matchedCategories": [
+          "billing"
+        ],
+        "source": "guarded-gemini"
+      },
+      "guardedUpdated": {
+        "id": "v13-014",
+        "route": "billing",
+        "requiresHumanReview": false,
+        "reason": "model_baseline_agreement",
+        "matchedCategories": [
+          "billing"
+        ],
+        "source": "guarded-gemini"
+      },
+      "providers": {
+        "previous": {
+          "output": {
+            "category": "billing",
+            "evidence": "Please switch my subscription payment method from the old card to a new card."
+          },
+          "attempts": 1,
+          "latencyMs": 5172,
+          "modelVersion": "gemini-3.5-flash-lite",
+          "usage": {
+            "promptTokenCount": 1884,
+            "candidatesTokenCount": 32,
+            "thoughtsTokenCount": null,
+            "totalTokenCount": 1916
+          },
+          "attemptLog": [
+            {
+              "attempt": 1,
+              "outcome": "success",
+              "stage": "decision",
+              "finishReason": "STOP",
+              "attemptLatencyMs": 5172,
+              "candidateCount": 1,
+              "outputCharacters": 122,
+              "httpStatus": 200,
+              "modelVersion": "gemini-3.5-flash-lite",
+              "usage": {
+                "promptTokenCount": 1884,
+                "candidatesTokenCount": 32,
+                "thoughtsTokenCount": null,
+                "totalTokenCount": 1916
+              },
+              "timeoutMs": 30000
+            }
+          ],
+          "firstAttempt": {
+            "output": {
+              "category": "billing",
+              "evidence": "Please switch my subscription payment method from the old card to a new card."
+            },
+            "attempts": 1,
+            "latencyMs": 5172,
+            "modelVersion": "gemini-3.5-flash-lite",
+            "usage": {
+              "promptTokenCount": 1884,
+              "candidatesTokenCount": 32,
+              "thoughtsTokenCount": null,
+              "totalTokenCount": 1916
+            },
+            "attemptLog": [
+              {
+                "attempt": 1,
+                "outcome": "success",
+                "stage": "decision",
+                "finishReason": "STOP",
+                "attemptLatencyMs": 5172,
+                "candidateCount": 1,
+                "outputCharacters": 122,
+                "httpStatus": 200,
+                "modelVersion": "gemini-3.5-flash-lite",
+                "usage": {
+                  "promptTokenCount": 1884,
+                  "candidatesTokenCount": 32,
+                  "thoughtsTokenCount": null,
+                  "totalTokenCount": 1916
+                },
+                "timeoutMs": 30000
+              }
+            ]
+          },
+          "reliability": {
+            "version": "bounded-v8",
+            "timeoutMs": 30000,
+            "totalTimeoutMs": 65000,
+            "maxAttempts": 2,
+            "recovered": false,
+            "retryDeferred": null
+          }
+        },
+        "updated": {
+          "output": {
+            "category": "billing",
+            "evidence": "Please switch my subscription payment method from the old card to a new card."
+          },
+          "attempts": 1,
+          "latencyMs": 829,
+          "modelVersion": "gemini-3.5-flash-lite",
+          "usage": {
+            "promptTokenCount": 2144,
+            "candidatesTokenCount": 21,
+            "thoughtsTokenCount": null,
+            "totalTokenCount": 2165
+          },
+          "attemptLog": [
+            {
+              "attempt": 1,
+              "outcome": "success",
+              "stage": "decision",
+              "finishReason": "STOP",
+              "attemptLatencyMs": 829,
+              "candidateCount": 1,
+              "outputCharacters": 49,
+              "httpStatus": 200,
+              "modelVersion": "gemini-3.5-flash-lite",
+              "usage": {
+                "promptTokenCount": 2144,
+                "candidatesTokenCount": 21,
+                "thoughtsTokenCount": null,
+                "totalTokenCount": 2165
+              },
+              "timeoutMs": 30000
+            }
+          ],
+          "evidenceReference": {
+            "id": "s0",
+            "field": "body",
+            "start": 0,
+            "end": 77
+          },
+          "firstAttempt": {
+            "output": {
+              "category": "billing",
+              "evidence": "Please switch my subscription payment method from the old card to a new card."
+            },
+            "attempts": 1,
+            "latencyMs": 829,
+            "modelVersion": "gemini-3.5-flash-lite",
+            "usage": {
+              "promptTokenCount": 2144,
+              "candidatesTokenCount": 21,
+              "thoughtsTokenCount": null,
+              "totalTokenCount": 2165
+            },
+            "attemptLog": [
+              {
+                "attempt": 1,
+                "outcome": "success",
+                "stage": "decision",
+                "finishReason": "STOP",
+                "attemptLatencyMs": 829,
+                "candidateCount": 1,
+                "outputCharacters": 49,
+                "httpStatus": 200,
+                "modelVersion": "gemini-3.5-flash-lite",
+                "usage": {
+                  "promptTokenCount": 2144,
+                  "candidatesTokenCount": 21,
+                  "thoughtsTokenCount": null,
+                  "totalTokenCount": 2165
+                },
+                "timeoutMs": 30000
+              }
+            ],
+            "evidenceReference": {
+              "id": "s0",
+              "field": "body",
+              "start": 0,
+              "end": 77
+            }
+          },
+          "reliability": {
+            "version": "bounded-v8",
+            "timeoutMs": 30000,
+            "totalTimeoutMs": 65000,
+            "maxAttempts": 2,
+            "recovered": false,
+            "retryDeferred": null
+          }
+        }
+      },
+      "semantic": {
+        "previous": {
+          "id": "evidence-003",
+          "sourceExact": true,
+          "supportsReturnedDecision": true,
+          "coversSufficientReferenceBundle": true,
+          "coveredBundleIndexes": [
+            0
+          ],
+          "criteriaAmbiguous": false,
+          "optionalContextCoverage": "full",
+          "rationale": "Subscription payment-method change and old-card-to-new-card detail support billing.",
+          "reviewerSourceExact": true,
+          "routingCorrect": true
+        },
+        "updated": {
+          "id": "evidence-033",
+          "sourceExact": true,
+          "supportsReturnedDecision": true,
+          "coversSufficientReferenceBundle": true,
+          "coveredBundleIndexes": [
+            0
+          ],
+          "criteriaAmbiguous": false,
+          "optionalContextCoverage": "full",
+          "rationale": "Subscription payment-method change and old-card-to-new-card detail support billing.",
+          "reviewerSourceExact": true,
+          "routingCorrect": true
+        }
+      }
+    },
+    {
+      "id": "v13-002",
+      "stratum": "subject_decisive",
+      "expected": {
+        "route": "technical",
+        "requiresHumanReview": false
+      },
+      "baseline": {
+        "id": "v13-002",
+        "route": "technical",
+        "requiresHumanReview": false,
+        "reason": "single_route_match",
+        "matchedCategories": [
+          "technical"
+        ],
+        "source": "rules-baseline"
+      },
+      "previousFirst": {
+        "id": "v13-002",
+        "route": "technical",
+        "requiresHumanReview": false,
+        "reason": "model_route_proposal",
+        "source": "gemini"
+      },
+      "previous": {
+        "id": "v13-002",
+        "route": "technical",
+        "requiresHumanReview": false,
+        "reason": "model_route_proposal",
+        "source": "gemini"
+      },
+      "updatedFirst": {
+        "id": "v13-002",
+        "route": "technical",
+        "requiresHumanReview": false,
+        "reason": "model_route_proposal",
+        "source": "gemini"
+      },
+      "updated": {
+        "id": "v13-002",
+        "route": "technical",
+        "requiresHumanReview": false,
+        "reason": "model_route_proposal",
+        "source": "gemini"
+      },
+      "guardedPrevious": {
+        "id": "v13-002",
+        "route": "technical",
+        "requiresHumanReview": false,
+        "reason": "model_baseline_agreement",
+        "matchedCategories": [
+          "technical"
+        ],
+        "source": "guarded-gemini"
+      },
+      "guardedUpdated": {
+        "id": "v13-002",
+        "route": "technical",
+        "requiresHumanReview": false,
+        "reason": "model_baseline_agreement",
+        "matchedCategories": [
+          "technical"
+        ],
+        "source": "guarded-gemini"
+      },
+      "providers": {
+        "previous": {
+          "output": {
+            "category": "technical",
+            "evidence": "The panorama editor crashes whenever I rotate a crop"
+          },
+          "attempts": 1,
+          "latencyMs": 744,
+          "modelVersion": "gemini-3.5-flash-lite",
+          "usage": {
+            "promptTokenCount": 1884,
+            "candidatesTokenCount": 27,
+            "thoughtsTokenCount": null,
+            "totalTokenCount": 1911
+          },
+          "attemptLog": [
+            {
+              "attempt": 1,
+              "outcome": "success",
+              "stage": "decision",
+              "finishReason": "STOP",
+              "attemptLatencyMs": 744,
+              "candidateCount": 1,
+              "outputCharacters": 99,
+              "httpStatus": 200,
+              "modelVersion": "gemini-3.5-flash-lite",
+              "usage": {
+                "promptTokenCount": 1884,
+                "candidatesTokenCount": 27,
+                "thoughtsTokenCount": null,
+                "totalTokenCount": 1911
+              },
+              "timeoutMs": 30000
+            }
+          ],
+          "firstAttempt": {
+            "output": {
+              "category": "technical",
+              "evidence": "The panorama editor crashes whenever I rotate a crop"
+            },
+            "attempts": 1,
+            "latencyMs": 744,
+            "modelVersion": "gemini-3.5-flash-lite",
+            "usage": {
+              "promptTokenCount": 1884,
+              "candidatesTokenCount": 27,
+              "thoughtsTokenCount": null,
+              "totalTokenCount": 1911
+            },
+            "attemptLog": [
+              {
+                "attempt": 1,
+                "outcome": "success",
+                "stage": "decision",
+                "finishReason": "STOP",
+                "attemptLatencyMs": 744,
+                "candidateCount": 1,
+                "outputCharacters": 99,
+                "httpStatus": 200,
+                "modelVersion": "gemini-3.5-flash-lite",
+                "usage": {
+                  "promptTokenCount": 1884,
+                  "candidatesTokenCount": 27,
+                  "thoughtsTokenCount": null,
+                  "totalTokenCount": 1911
+                },
+                "timeoutMs": 30000
+              }
+            ]
+          },
+          "reliability": {
+            "version": "bounded-v8",
+            "timeoutMs": 30000,
+            "totalTimeoutMs": 65000,
+            "maxAttempts": 2,
+            "recovered": false,
+            "retryDeferred": null
+          }
+        },
+        "updated": {
+          "output": {
+            "category": "technical",
+            "evidence": "The panorama editor crashes whenever I rotate a crop"
+          },
+          "attempts": 1,
+          "latencyMs": 5216,
+          "modelVersion": "gemini-3.5-flash-lite",
+          "usage": {
+            "promptTokenCount": 2152,
+            "candidatesTokenCount": 21,
+            "thoughtsTokenCount": null,
+            "totalTokenCount": 2173
+          },
+          "attemptLog": [
+            {
+              "attempt": 1,
+              "outcome": "success",
+              "stage": "decision",
+              "finishReason": "STOP",
+              "attemptLatencyMs": 5216,
+              "candidateCount": 1,
+              "outputCharacters": 51,
+              "httpStatus": 200,
+              "modelVersion": "gemini-3.5-flash-lite",
+              "usage": {
+                "promptTokenCount": 2152,
+                "candidatesTokenCount": 21,
+                "thoughtsTokenCount": null,
+                "totalTokenCount": 2173
+              },
+              "timeoutMs": 30000
+            }
+          ],
+          "evidenceReference": {
+            "id": "s2",
+            "field": "subject",
+            "start": 0,
+            "end": 52
+          },
+          "firstAttempt": {
+            "output": {
+              "category": "technical",
+              "evidence": "The panorama editor crashes whenever I rotate a crop"
+            },
+            "attempts": 1,
+            "latencyMs": 5216,
+            "modelVersion": "gemini-3.5-flash-lite",
+            "usage": {
+              "promptTokenCount": 2152,
+              "candidatesTokenCount": 21,
+              "thoughtsTokenCount": null,
+              "totalTokenCount": 2173
+            },
+            "attemptLog": [
+              {
+                "attempt": 1,
+                "outcome": "success",
+                "stage": "decision",
+                "finishReason": "STOP",
+                "attemptLatencyMs": 5216,
+                "candidateCount": 1,
+                "outputCharacters": 51,
+                "httpStatus": 200,
+                "modelVersion": "gemini-3.5-flash-lite",
+                "usage": {
+                  "promptTokenCount": 2152,
+                  "candidatesTokenCount": 21,
+                  "thoughtsTokenCount": null,
+                  "totalTokenCount": 2173
+                },
+                "timeoutMs": 30000
+              }
+            ],
+            "evidenceReference": {
+              "id": "s2",
+              "field": "subject",
+              "start": 0,
+              "end": 52
+            }
+          },
+          "reliability": {
+            "version": "bounded-v8",
+            "timeoutMs": 30000,
+            "totalTimeoutMs": 65000,
+            "maxAttempts": 2,
+            "recovered": false,
+            "retryDeferred": null
+          }
+        }
+      },
+      "semantic": {
+        "previous": {
+          "id": "evidence-017",
+          "sourceExact": true,
+          "supportsReturnedDecision": true,
+          "coversSufficientReferenceBundle": true,
+          "coveredBundleIndexes": [
+            0
+          ],
+          "criteriaAmbiguous": false,
+          "optionalContextCoverage": "partial",
+          "rationale": "Editor crash supports technical; crop rotation included, desktop edition and photography club absent.",
+          "reviewerSourceExact": true,
+          "routingCorrect": true
+        },
+        "updated": {
+          "id": "evidence-027",
+          "sourceExact": true,
+          "supportsReturnedDecision": true,
+          "coversSufficientReferenceBundle": true,
+          "coveredBundleIndexes": [
+            0
+          ],
+          "criteriaAmbiguous": false,
+          "optionalContextCoverage": "partial",
+          "rationale": "Editor crash supports technical; crop rotation included, desktop edition and photography club absent.",
+          "reviewerSourceExact": true,
+          "routingCorrect": true
+        }
+      }
+    },
+    {
+      "id": "v13-018",
+      "stratum": "subject_decisive",
+      "expected": {
+        "route": "access",
+        "requiresHumanReview": false
+      },
+      "baseline": {
+        "id": "v13-018",
+        "route": "access",
+        "requiresHumanReview": false,
+        "reason": "single_route_match",
+        "matchedCategories": [
+          "access"
+        ],
+        "source": "rules-baseline"
+      },
+      "previousFirst": {
+        "id": "v13-018",
+        "route": "access",
+        "requiresHumanReview": false,
+        "reason": "model_route_proposal",
+        "source": "gemini"
+      },
+      "previous": {
+        "id": "v13-018",
+        "route": "access",
+        "requiresHumanReview": false,
+        "reason": "model_route_proposal",
+        "source": "gemini"
+      },
+      "updatedFirst": {
+        "id": "v13-018",
+        "route": "access",
+        "requiresHumanReview": false,
+        "reason": "model_route_proposal",
+        "source": "gemini"
+      },
+      "updated": {
+        "id": "v13-018",
+        "route": "access",
+        "requiresHumanReview": false,
+        "reason": "model_route_proposal",
+        "source": "gemini"
+      },
+      "guardedPrevious": {
+        "id": "v13-018",
+        "route": "access",
+        "requiresHumanReview": false,
+        "reason": "model_baseline_agreement",
+        "matchedCategories": [
+          "access"
+        ],
+        "source": "guarded-gemini"
+      },
+      "guardedUpdated": {
+        "id": "v13-018",
+        "route": "access",
+        "requiresHumanReview": false,
+        "reason": "model_baseline_agreement",
+        "matchedCategories": [
+          "access"
+        ],
+        "source": "guarded-gemini"
+      },
+      "providers": {
+        "previous": {
+          "output": {
+            "category": "access",
+            "evidence": "I cannot complete MFA because the authenticator code is rejected"
+          },
+          "attempts": 1,
+          "latencyMs": 1019,
+          "modelVersion": "gemini-3.5-flash-lite",
+          "usage": {
+            "promptTokenCount": 1890,
+            "candidatesTokenCount": 29,
+            "thoughtsTokenCount": null,
+            "totalTokenCount": 1919
+          },
+          "attemptLog": [
+            {
+              "attempt": 1,
+              "outcome": "success",
+              "stage": "decision",
+              "finishReason": "STOP",
+              "attemptLatencyMs": 1019,
+              "candidateCount": 1,
+              "outputCharacters": 108,
+              "httpStatus": 200,
+              "modelVersion": "gemini-3.5-flash-lite",
+              "usage": {
+                "promptTokenCount": 1890,
+                "candidatesTokenCount": 29,
+                "thoughtsTokenCount": null,
+                "totalTokenCount": 1919
+              },
+              "timeoutMs": 30000
+            }
+          ],
+          "firstAttempt": {
+            "output": {
+              "category": "access",
+              "evidence": "I cannot complete MFA because the authenticator code is rejected"
+            },
+            "attempts": 1,
+            "latencyMs": 1019,
+            "modelVersion": "gemini-3.5-flash-lite",
+            "usage": {
+              "promptTokenCount": 1890,
+              "candidatesTokenCount": 29,
+              "thoughtsTokenCount": null,
+              "totalTokenCount": 1919
+            },
+            "attemptLog": [
+              {
+                "attempt": 1,
+                "outcome": "success",
+                "stage": "decision",
+                "finishReason": "STOP",
+                "attemptLatencyMs": 1019,
+                "candidateCount": 1,
+                "outputCharacters": 108,
+                "httpStatus": 200,
+                "modelVersion": "gemini-3.5-flash-lite",
+                "usage": {
+                  "promptTokenCount": 1890,
+                  "candidatesTokenCount": 29,
+                  "thoughtsTokenCount": null,
+                  "totalTokenCount": 1919
+                },
+                "timeoutMs": 30000
+              }
+            ]
+          },
+          "reliability": {
+            "version": "bounded-v8",
+            "timeoutMs": 30000,
+            "totalTimeoutMs": 65000,
+            "maxAttempts": 2,
+            "recovered": false,
+            "retryDeferred": null
+          }
+        },
+        "updated": {
+          "output": {
+            "category": "access",
+            "evidence": "I cannot complete MFA because the authenticator code is rejected"
+          },
+          "attempts": 1,
+          "latencyMs": 2767,
+          "modelVersion": "gemini-3.5-flash-lite",
+          "usage": {
+            "promptTokenCount": 2211,
+            "candidatesTokenCount": 21,
+            "thoughtsTokenCount": null,
+            "totalTokenCount": 2232
+          },
+          "attemptLog": [
+            {
+              "attempt": 1,
+              "outcome": "success",
+              "stage": "decision",
+              "finishReason": "STOP",
+              "attemptLatencyMs": 2767,
+              "candidateCount": 1,
+              "outputCharacters": 48,
+              "httpStatus": 200,
+              "modelVersion": "gemini-3.5-flash-lite",
+              "usage": {
+                "promptTokenCount": 2211,
+                "candidatesTokenCount": 21,
+                "thoughtsTokenCount": null,
+                "totalTokenCount": 2232
+              },
+              "timeoutMs": 30000
+            }
+          ],
+          "evidenceReference": {
+            "id": "s4",
+            "field": "subject",
+            "start": 0,
+            "end": 64
+          },
+          "firstAttempt": {
+            "output": {
+              "category": "access",
+              "evidence": "I cannot complete MFA because the authenticator code is rejected"
+            },
+            "attempts": 1,
+            "latencyMs": 2767,
+            "modelVersion": "gemini-3.5-flash-lite",
+            "usage": {
+              "promptTokenCount": 2211,
+              "candidatesTokenCount": 21,
+              "thoughtsTokenCount": null,
+              "totalTokenCount": 2232
+            },
+            "attemptLog": [
+              {
+                "attempt": 1,
+                "outcome": "success",
+                "stage": "decision",
+                "finishReason": "STOP",
+                "attemptLatencyMs": 2767,
+                "candidateCount": 1,
+                "outputCharacters": 48,
+                "httpStatus": 200,
+                "modelVersion": "gemini-3.5-flash-lite",
+                "usage": {
+                  "promptTokenCount": 2211,
+                  "candidatesTokenCount": 21,
+                  "thoughtsTokenCount": null,
+                  "totalTokenCount": 2232
+                },
+                "timeoutMs": 30000
+              }
+            ],
+            "evidenceReference": {
+              "id": "s4",
+              "field": "subject",
+              "start": 0,
+              "end": 64
+            }
+          },
+          "reliability": {
+            "version": "bounded-v8",
+            "timeoutMs": 30000,
+            "totalTimeoutMs": 65000,
+            "maxAttempts": 2,
+            "recovered": false,
+            "retryDeferred": null
+          }
+        }
+      },
+      "semantic": {
+        "updated": {
+          "id": "evidence-008",
+          "sourceExact": true,
+          "supportsReturnedDecision": true,
+          "coversSufficientReferenceBundle": true,
+          "coveredBundleIndexes": [
+            0
+          ],
+          "criteriaAmbiguous": false,
+          "optionalContextCoverage": "none",
+          "rationale": "Rejected MFA authenticator code supports access; observatory and version availability absent.",
+          "reviewerSourceExact": true,
+          "routingCorrect": true
+        },
+        "previous": {
+          "id": "evidence-019",
+          "sourceExact": true,
+          "supportsReturnedDecision": true,
+          "coversSufficientReferenceBundle": true,
+          "coveredBundleIndexes": [
+            0
+          ],
+          "criteriaAmbiguous": false,
+          "optionalContextCoverage": "none",
+          "rationale": "Rejected MFA authenticator code supports access; observatory and version availability absent.",
+          "reviewerSourceExact": true,
+          "routingCorrect": true
+        }
+      }
+    }
+  ]
+}

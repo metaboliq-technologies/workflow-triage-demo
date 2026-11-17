@@ -1,0 +1,616 @@
+[
+  {
+    "id": "v13-001",
+    "stratum": "generic_heading",
+    "expected": {
+      "route": null,
+      "requiresHumanReview": true
+    },
+    "rationale": "Two substantive ordinary intents require review.",
+    "policyClause": "Protective precedence: multiple substantive intents",
+    "evidenceCriteria": {
+      "sufficientBundles": [
+        {
+          "trigger": "Two substantive ordinary intents require review.",
+          "facts": [
+            "Invoice request",
+            "Password recovery request"
+          ],
+          "exampleQuote": "resend my invoice and help me reset my password"
+        }
+      ],
+      "optionalContext": []
+    },
+    "spanAssessment": {
+      "shortestObservedQuote": "resend my invoice and help me reset my password",
+      "sourceField": "body",
+      "utf16Units": 47,
+      "rationale": "Shortest sufficient span observed during author inspection; no global minimality claim. No independently sufficient body alternative was observed for a subject-decisive case."
+    }
+  },
+  {
+    "id": "v13-002",
+    "stratum": "subject_decisive",
+    "expected": {
+      "route": "technical",
+      "requiresHumanReview": false
+    },
+    "rationale": "A concrete non-authentication application malfunction.",
+    "policyClause": "Intent sufficiency and ordinary routes: Technical",
+    "evidenceCriteria": {
+      "sufficientBundles": [
+        {
+          "trigger": "A concrete non-authentication application malfunction.",
+          "facts": [
+            "Editor crashes on crop rotation"
+          ],
+          "exampleQuote": "editor crashes whenever I rotate a crop"
+        }
+      ],
+      "optionalContext": [
+        "Desktop edition",
+        "Photography club"
+      ]
+    },
+    "spanAssessment": {
+      "shortestObservedQuote": "editor crashes whenever I rotate a crop",
+      "sourceField": "subject",
+      "utf16Units": 39,
+      "rationale": "Shortest sufficient span observed during author inspection; no global minimality claim. No independently sufficient body alternative was observed for a subject-decisive case."
+    }
+  },
+  {
+    "id": "v13-003",
+    "stratum": "length_boundary",
+    "expected": {
+      "route": null,
+      "requiresHumanReview": true
+    },
+    "rationale": "Two substantive ordinary intents require review.",
+    "policyClause": "Protective precedence: multiple substantive intents",
+    "evidenceCriteria": {
+      "sufficientBundles": [
+        {
+          "trigger": "Two substantive ordinary intents require review.",
+          "facts": [
+            "Map exports have missing labels",
+            "Receipt requested"
+          ],
+          "exampleQuote": "Please restore the missing labels on my map exports, and send me a receipt for the annual cartography subscription."
+        }
+      ],
+      "optionalContext": [
+        "Annual subscription",
+        "Cartography domain"
+      ]
+    },
+    "spanAssessment": {
+      "shortestObservedQuote": "missing labels on my map exports, and send me a receipt",
+      "sourceField": "body",
+      "utf16Units": 55,
+      "rationale": "A shorter contiguous sufficient alternative was observed; the longer bundle witness remains recorded. This is a search judgment, not a minimality proof."
+    }
+  },
+  {
+    "id": "v13-004",
+    "stratum": "generic_heading",
+    "expected": {
+      "route": "technical",
+      "requiresHumanReview": false
+    },
+    "rationale": "A specific subtitle synchronization malfunction.",
+    "policyClause": "Intent sufficiency and ordinary routes: Technical",
+    "evidenceCriteria": {
+      "sufficientBundles": [
+        {
+          "trigger": "A specific subtitle synchronization malfunction.",
+          "facts": [
+            "Subtitles lose synchronization after speed change"
+          ],
+          "exampleQuote": "subtitles drift behind the video after I change playback speed"
+        }
+      ],
+      "optionalContext": [
+        "Playback speed change"
+      ]
+    },
+    "spanAssessment": {
+      "shortestObservedQuote": "subtitles drift behind the video",
+      "sourceField": "body",
+      "utf16Units": 32,
+      "rationale": "Shortest sufficient span observed during author inspection; no global minimality claim. No independently sufficient body alternative was observed for a subject-decisive case."
+    }
+  },
+  {
+    "id": "v13-005",
+    "stratum": "subject_decisive",
+    "expected": {
+      "route": "billing",
+      "requiresHumanReview": false
+    },
+    "rationale": "An ordinary receipt request.",
+    "policyClause": "Intent sufficiency and ordinary routes: Billing",
+    "evidenceCriteria": {
+      "sufficientBundles": [
+        {
+          "trigger": "An ordinary receipt request.",
+          "facts": [
+            "Receipt requested for subscription"
+          ],
+          "exampleQuote": "email me a receipt"
+        }
+      ],
+      "optionalContext": [
+        "Web purchase",
+        "Yesterday"
+      ]
+    },
+    "spanAssessment": {
+      "shortestObservedQuote": "email me a receipt",
+      "sourceField": "subject",
+      "utf16Units": 18,
+      "rationale": "Shortest sufficient span observed during author inspection; no global minimality claim. No independently sufficient body alternative was observed for a subject-decisive case."
+    }
+  },
+  {
+    "id": "v13-006",
+    "stratum": "generic_heading",
+    "expected": {
+      "route": null,
+      "requiresHumanReview": true
+    },
+    "rationale": "Two substantive ordinary intents require review.",
+    "policyClause": "Protective precedence: multiple substantive intents",
+    "evidenceCriteria": {
+      "sufficientBundles": [
+        {
+          "trigger": "Two substantive ordinary intents require review.",
+          "facts": [
+            "Expired verification link",
+            "Seating print layout malfunction"
+          ],
+          "exampleQuote": "verification link has expired, and the seating diagram prints with every row on top of the next"
+        }
+      ],
+      "optionalContext": []
+    },
+    "spanAssessment": {
+      "shortestObservedQuote": "verification link has expired, and the seating diagram prints with every row on top of the next",
+      "sourceField": "body",
+      "utf16Units": 95,
+      "rationale": "Shortest sufficient span observed during author inspection; no global minimality claim. No independently sufficient body alternative was observed for a subject-decisive case."
+    }
+  },
+  {
+    "id": "v13-007",
+    "stratum": "length_boundary",
+    "expected": {
+      "route": null,
+      "requiresHumanReview": true
+    },
+    "rationale": "Two substantive ordinary intents require review.",
+    "policyClause": "Protective precedence: multiple substantive intents",
+    "evidenceCriteria": {
+      "sufficientBundles": [
+        {
+          "trigger": "Two substantive ordinary intents require review.",
+          "facts": [
+            "Change subscription payment card",
+            "Attendance chart fails to open"
+          ],
+          "exampleQuote": "I need to change the card used for my workshop subscription, and the attendance chart will not open in the browser."
+        }
+      ],
+      "optionalContext": [
+        "Browser"
+      ]
+    },
+    "spanAssessment": {
+      "shortestObservedQuote": "change the card used for my workshop subscription, and the attendance chart will not open",
+      "sourceField": "body",
+      "utf16Units": 89,
+      "rationale": "A shorter contiguous sufficient alternative was observed; the longer bundle witness remains recorded. This is a search judgment, not a minimality proof."
+    }
+  },
+  {
+    "id": "v13-008",
+    "stratum": "subject_decisive",
+    "expected": {
+      "route": null,
+      "requiresHumanReview": true
+    },
+    "rationale": "Suspected unauthorized account access.",
+    "policyClause": "Protective precedence: suspected takeover or unauthorized access",
+    "evidenceCriteria": {
+      "sufficientBundles": [
+        {
+          "trigger": "Suspected unauthorized account access.",
+          "facts": [
+            "Recovery email changed by another person",
+            "Change was unauthorized"
+          ],
+          "exampleQuote": "Someone else changed my recovery email without permission"
+        }
+      ],
+      "optionalContext": [
+        "Community archive account"
+      ]
+    },
+    "spanAssessment": {
+      "shortestObservedQuote": "Someone else changed my recovery email without permission",
+      "sourceField": "subject",
+      "utf16Units": 57,
+      "rationale": "Shortest sufficient span observed during author inspection; no global minimality claim. No independently sufficient body alternative was observed for a subject-decisive case."
+    }
+  },
+  {
+    "id": "v13-009",
+    "stratum": "generic_heading",
+    "expected": {
+      "route": "access",
+      "requiresHumanReview": false
+    },
+    "rationale": "A concrete signup verification problem.",
+    "policyClause": "Intent sufficiency and ordinary routes: Access",
+    "evidenceCriteria": {
+      "sufficientBundles": [
+        {
+          "trigger": "A concrete signup verification problem.",
+          "facts": [
+            "Signup rejects fresh verification code as expired"
+          ],
+          "exampleQuote": "signup page says my verification code has expired even when I paste the newest one"
+        }
+      ],
+      "optionalContext": [
+        "Newest code also rejected"
+      ]
+    },
+    "spanAssessment": {
+      "shortestObservedQuote": "signup page says my verification code has expired",
+      "sourceField": "body",
+      "utf16Units": 49,
+      "rationale": "Shortest sufficient span observed during author inspection; no global minimality claim. No independently sufficient body alternative was observed for a subject-decisive case."
+    }
+  },
+  {
+    "id": "v13-010",
+    "stratum": "length_boundary",
+    "expected": {
+      "route": null,
+      "requiresHumanReview": true
+    },
+    "rationale": "Two substantive ordinary intents require review.",
+    "policyClause": "Protective precedence: multiple substantive intents",
+    "evidenceCriteria": {
+      "sufficientBundles": [
+        {
+          "trigger": "Two substantive ordinary intents require review.",
+          "facts": [
+            "Verification email fails to arrive",
+            "Refund requested"
+          ],
+          "exampleQuote": "The verification email never arrives for my new library account, and I need a refund for the duplicate membership fee."
+        }
+      ],
+      "optionalContext": [
+        "Duplicate fee"
+      ]
+    },
+    "spanAssessment": {
+      "shortestObservedQuote": "verification email never arrives for my new library account, and I need a refund",
+      "sourceField": "body",
+      "utf16Units": 80,
+      "rationale": "A shorter contiguous sufficient alternative was observed; the longer bundle witness remains recorded. This is a search judgment, not a minimality proof."
+    }
+  },
+  {
+    "id": "v13-011",
+    "stratum": "generic_heading",
+    "expected": {
+      "route": null,
+      "requiresHumanReview": true
+    },
+    "rationale": "Two substantive ordinary intents require review.",
+    "policyClause": "Protective precedence: multiple substantive intents",
+    "evidenceCriteria": {
+      "sufficientBundles": [
+        {
+          "trigger": "Two substantive ordinary intents require review.",
+          "facts": [
+            "Refund requested",
+            "Route planner freezes"
+          ],
+          "exampleQuote": "refund for the extra monthly charge, and the route planner freezes when I add a ferry"
+        }
+      ],
+      "optionalContext": [
+        "Ferry triggers freezing"
+      ]
+    },
+    "spanAssessment": {
+      "shortestObservedQuote": "refund for the extra monthly charge, and the route planner freezes",
+      "sourceField": "body",
+      "utf16Units": 66,
+      "rationale": "Shortest sufficient span observed during author inspection; no global minimality claim. No independently sufficient body alternative was observed for a subject-decisive case."
+    }
+  },
+  {
+    "id": "v13-012",
+    "stratum": "subject_decisive",
+    "expected": {
+      "route": "technical",
+      "requiresHumanReview": false
+    },
+    "rationale": "A concrete export malfunction involving explicitly fictional material.",
+    "policyClause": "Sensitive-context scope: explicitly fictional material; Technical",
+    "evidenceCriteria": {
+      "sufficientBundles": [
+        {
+          "trigger": "A concrete export malfunction involving explicitly fictional material.",
+          "facts": [
+            "Notes lose indentation on export"
+          ],
+          "exampleQuote": "notes lose indentation when exported"
+        }
+      ],
+      "optionalContext": [
+        "Fictional dragon material about no actual person",
+        "Game prototype"
+      ]
+    },
+    "spanAssessment": {
+      "shortestObservedQuote": "notes lose indentation when exported",
+      "sourceField": "subject",
+      "utf16Units": 36,
+      "rationale": "Shortest sufficient span observed during author inspection; no global minimality claim. No independently sufficient body alternative was observed for a subject-decisive case."
+    }
+  },
+  {
+    "id": "v13-013",
+    "stratum": "length_boundary",
+    "expected": {
+      "route": null,
+      "requiresHumanReview": true
+    },
+    "rationale": "Two substantive ordinary intents require review.",
+    "policyClause": "Protective precedence: multiple substantive intents",
+    "evidenceCriteria": {
+      "sufficientBundles": [
+        {
+          "trigger": "Two substantive ordinary intents require review.",
+          "facts": [
+            "Account access recovery requested",
+            "Calendar view crashes"
+          ],
+          "exampleQuote": "Please recover access to my festival organizer account, and repair the calendar view that crashes when I move an event."
+        }
+      ],
+      "optionalContext": [
+        "Moving an event triggers crash"
+      ]
+    },
+    "spanAssessment": {
+      "shortestObservedQuote": "recover access to my festival organizer account, and repair the calendar view that crashes",
+      "sourceField": "body",
+      "utf16Units": 90,
+      "rationale": "A shorter contiguous sufficient alternative was observed; the longer bundle witness remains recorded. This is a search judgment, not a minimality proof."
+    }
+  },
+  {
+    "id": "v13-014",
+    "stratum": "generic_heading",
+    "expected": {
+      "route": "billing",
+      "requiresHumanReview": false
+    },
+    "rationale": "One ordinary payment-method request.",
+    "policyClause": "Intent sufficiency and ordinary routes: Billing",
+    "evidenceCriteria": {
+      "sufficientBundles": [
+        {
+          "trigger": "One ordinary payment-method request.",
+          "facts": [
+            "Subscription payment method change requested"
+          ],
+          "exampleQuote": "switch my subscription payment method from the old card to a new card"
+        }
+      ],
+      "optionalContext": [
+        "Old card to new card"
+      ]
+    },
+    "spanAssessment": {
+      "shortestObservedQuote": "switch my subscription payment method",
+      "sourceField": "body",
+      "utf16Units": 37,
+      "rationale": "Shortest sufficient span observed during author inspection; no global minimality claim. No independently sufficient body alternative was observed for a subject-decisive case."
+    }
+  },
+  {
+    "id": "v13-015",
+    "stratum": "subject_decisive",
+    "expected": {
+      "route": null,
+      "requiresHumanReview": true
+    },
+    "rationale": "Actual personal medical information requires review.",
+    "policyClause": "Sensitive-context scope: actual personal medication or treatment",
+    "evidenceCriteria": {
+      "sufficientBundles": [
+        {
+          "trigger": "Actual personal medical information requires review.",
+          "facts": [
+            "Actual personal prescription disclosed"
+          ],
+          "exampleQuote": "My actual migraine prescription"
+        }
+      ],
+      "optionalContext": [
+        "Public preview visibility",
+        "Home journal tool"
+      ]
+    },
+    "spanAssessment": {
+      "shortestObservedQuote": "My actual migraine prescription",
+      "sourceField": "subject",
+      "utf16Units": 31,
+      "rationale": "Shortest sufficient span observed during author inspection; no global minimality claim. No independently sufficient body alternative was observed for a subject-decisive case."
+    }
+  },
+  {
+    "id": "v13-016",
+    "stratum": "generic_heading",
+    "expected": {
+      "route": null,
+      "requiresHumanReview": true
+    },
+    "rationale": "Two substantive ordinary intents require review.",
+    "policyClause": "Protective precedence: multiple substantive intents",
+    "evidenceCriteria": {
+      "sufficientBundles": [
+        {
+          "trigger": "Two substantive ordinary intents require review.",
+          "facts": [
+            "Sign-in help requested",
+            "Receipt requested"
+          ],
+          "exampleQuote": "sign in to the choir portal and send me the receipt"
+        }
+      ],
+      "optionalContext": [
+        "Choir portal",
+        "Subscription"
+      ]
+    },
+    "spanAssessment": {
+      "shortestObservedQuote": "sign in to the choir portal and send me the receipt",
+      "sourceField": "body",
+      "utf16Units": 51,
+      "rationale": "Shortest sufficient span observed during author inspection; no global minimality claim. No independently sufficient body alternative was observed for a subject-decisive case."
+    }
+  },
+  {
+    "id": "v13-017",
+    "stratum": "length_boundary",
+    "expected": {
+      "route": null,
+      "requiresHumanReview": true
+    },
+    "rationale": "Two substantive ordinary intents require review.",
+    "policyClause": "Protective precedence: multiple substantive intents",
+    "evidenceCriteria": {
+      "sufficientBundles": [
+        {
+          "trigger": "Two substantive ordinary intents require review.",
+          "facts": [
+            "Sign-in PIN reset fails",
+            "Invoice requested"
+          ],
+          "exampleQuote": "I cannot reset my sign-in PIN for the new rehearsal portal, and I need an invoice for the ensemble subscription renewal."
+        }
+      ],
+      "optionalContext": [
+        "Ensemble renewal"
+      ]
+    },
+    "spanAssessment": {
+      "shortestObservedQuote": "cannot reset my sign-in PIN for the new rehearsal portal, and I need an invoice",
+      "sourceField": "body",
+      "utf16Units": 79,
+      "rationale": "A shorter contiguous sufficient alternative was observed; the longer bundle witness remains recorded. This is a search judgment, not a minimality proof."
+    }
+  },
+  {
+    "id": "v13-018",
+    "stratum": "subject_decisive",
+    "expected": {
+      "route": "access",
+      "requiresHumanReview": false
+    },
+    "rationale": "An ordinary MFA authentication malfunction.",
+    "policyClause": "Intent sufficiency and ordinary routes: Access",
+    "evidenceCriteria": {
+      "sufficientBundles": [
+        {
+          "trigger": "An ordinary MFA authentication malfunction.",
+          "facts": [
+            "MFA code rejection prevents authentication"
+          ],
+          "exampleQuote": "MFA because the authenticator code is rejected"
+        }
+      ],
+      "optionalContext": [
+        "Volunteer observatory",
+        "Version available"
+      ]
+    },
+    "spanAssessment": {
+      "shortestObservedQuote": "authenticator code is rejected",
+      "sourceField": "subject",
+      "utf16Units": 30,
+      "rationale": "Shortest sufficient span observed during author inspection; no global minimality claim. No independently sufficient body alternative was observed for a subject-decisive case."
+    }
+  },
+  {
+    "id": "v13-019",
+    "stratum": "length_boundary",
+    "expected": {
+      "route": null,
+      "requiresHumanReview": true
+    },
+    "rationale": "Two substantive ordinary intents require review.",
+    "policyClause": "Protective precedence: multiple substantive intents",
+    "evidenceCriteria": {
+      "sufficientBundles": [
+        {
+          "trigger": "Two substantive ordinary intents require review.",
+          "facts": [
+            "Recipe timer stops on screen lock",
+            "Subscription payment card update requested"
+          ],
+          "exampleQuote": "The recipe timer stops whenever I lock the screen, and I want to update the payment card for my own cooking subscription"
+        }
+      ],
+      "optionalContext": [
+        "Own cooking subscription"
+      ]
+    },
+    "spanAssessment": {
+      "shortestObservedQuote": "recipe timer stops whenever I lock the screen, and I want to update the payment card",
+      "sourceField": "body",
+      "utf16Units": 84,
+      "rationale": "A shorter contiguous sufficient alternative was observed; the longer bundle witness remains recorded. This is a search judgment, not a minimality proof."
+    }
+  },
+  {
+    "id": "v13-020",
+    "stratum": "generic_heading",
+    "expected": {
+      "route": "technical",
+      "requiresHumanReview": false
+    },
+    "rationale": "A concrete thumbnail display malfunction.",
+    "policyClause": "Intent sufficiency and ordinary routes: Technical",
+    "evidenceCriteria": {
+      "sufficientBundles": [
+        {
+          "trigger": "A concrete thumbnail display malfunction.",
+          "facts": [
+            "Timeline thumbnails are blank"
+          ],
+          "exampleQuote": "timeline thumbnails are blank"
+        }
+      ],
+      "optionalContext": [
+        "Clips play normally"
+      ]
+    },
+    "spanAssessment": {
+      "shortestObservedQuote": "timeline thumbnails are blank",
+      "sourceField": "body",
+      "utf16Units": 29,
+      "rationale": "Shortest sufficient span observed during author inspection; no global minimality claim. No independently sufficient body alternative was observed for a subject-decisive case."
+    }
+  }
+]

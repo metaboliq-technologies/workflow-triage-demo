@@ -1,0 +1,39 @@
+{
+  "round": 1,
+  "createdAt": "2026-11-17T12:07:04.066Z",
+  "author": "fresh-context AI author",
+  "aiOnly": true,
+  "providerCalls": 0,
+  "readScope": [
+    "BOUNDARY-POLICY-V13B.md",
+    "BOUNDARY-PROTOCOL-V13B.md"
+  ],
+  "policySha256": "815c92c7b3f54c1cd136e9334a0a0127798124e00f1fb0976592f0feb17b8e57",
+  "protocolSha256": "671f43844aef0f6aa84a59299bca05008f29d4d08960561e3b4c444e778eb408",
+  "frozenRuntimeCommitReportedByParent": "b2f88c720f7d9468025ed624c447386f4518f964",
+  "freezeVerification": "Reported by parent; author did not inspect runtime or repository.",
+  "limitations": [
+    "Fictional crafted English challenge prose designed around a contiguous evidence boundary, not representative customer traffic.",
+    "AI-only author assessment; independent reviewer confirmation is pending.",
+    "No mathematical global-minimum, human-validation, training-data-exclusion, production, or causal claim.",
+    "Neutral intervening text lengthens the contiguous span but is not a required semantic fact."
+  ],
+  "shorterSpanSearch": "Each case was inspected for single-intent short triggers, removable outer context, truncations, duplicate statements, sensitive/destructive/injection alternatives, and noun-only fragments. No sufficient below-110 span observed by author.",
+  "localChecks": {
+    "utf16Lengths": [
+      114,
+      115,
+      112,
+      120,
+      114,
+      110
+    ],
+    "allExactSingleField": true,
+    "normalBounds": true
+  },
+  "draftPreservation": "Round-one files must be retained unchanged if reviewer rejects any case; no provider outcomes informed authoring.",
+  "artifactSha256": {
+    "round-one-labels.json": "935bd0ecd8337d757dda0b91b604fcf67f71319da7ab53adb7b47c32ada59229",
+    "round-one-inputs.json": "b58df3cad704fafc37807e62d0c007fd3cc1d8484bc067f2ac97c6e8cab830e1"
+  }
+}

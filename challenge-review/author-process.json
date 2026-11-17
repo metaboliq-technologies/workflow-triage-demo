@@ -1,0 +1,64 @@
+{
+  "timestampUtc": "2026-11-17T11:50:20.0582237Z",
+  "runtimeProtocolFreeze": "ea01783e0d0228661d0e0a62907246801be55916",
+  "readScope": [
+    "../ROUTING-POLICY-V13.md",
+    "../OUTPUT-REVIEW-RUBRIC-V13.md"
+  ],
+  "hashes": {
+    "../ROUTING-POLICY-V13.md": "c46326b58ebe2d15574bc16aed3c6772eefa19225e7e5be83dae277d2ef4460b",
+    "../OUTPUT-REVIEW-RUBRIC-V13.md": "bcf1f4f8a77a09e3d7b71b14e36875099907a5e20d40632e10810bf010feb192",
+    "author-inputs.json": "bb37fa7d3faf17f0b511f28413bf45812d91c261464a37dcbe2178ec34589e2a",
+    "author-labels.json": "0ed8fbe4d839cb27f3b73c11e86400668c0bbce71920545664119dc4f17992a0"
+  },
+  "provenance": "Fresh-context AI-only authoring of fictional English requests. No human adjudication. No code, candidate options, historical results or cases, new results or other agent materials read. No provider calls. No claim of training-data exclusion, semantic novelty, or globally minimal evidence spans.",
+  "checks": {
+    "inputCount": 20,
+    "groupCounts": {
+      "generic_heading": 8,
+      "subject_decisive": 6,
+      "length_boundary": 6
+    },
+    "inputBoundsPassed": true,
+    "sourceExactQuotes4To120Passed": true,
+    "lengthWitnesses": [
+      {
+        "id": "v13-003",
+        "witnessUtf16Units": 115,
+        "shortestObservedUtf16Units": 55
+      },
+      {
+        "id": "v13-007",
+        "witnessUtf16Units": 115,
+        "shortestObservedUtf16Units": 89
+      },
+      {
+        "id": "v13-010",
+        "witnessUtf16Units": 118,
+        "shortestObservedUtf16Units": 80
+      },
+      {
+        "id": "v13-013",
+        "witnessUtf16Units": 119,
+        "shortestObservedUtf16Units": 90
+      },
+      {
+        "id": "v13-017",
+        "witnessUtf16Units": 120,
+        "shortestObservedUtf16Units": 79
+      },
+      {
+        "id": "v13-019",
+        "witnessUtf16Units": 120,
+        "shortestObservedUtf16Units": 84
+      }
+    ],
+    "lengthWitnessTargetAchieved": true
+  },
+  "limitations": [
+    "All six length-boundary cases have shorter sufficient alternatives observed and recorded; near-limit witnesses do not establish near-limit minimum evidence requirements.",
+    "No mathematical minimality proof or training-data exclusion proof is claimed.",
+    "Mechanical counts and source-exact quote checks do not establish semantic correctness."
+  ],
+  "preservation": "No existing output file overwritten; author inputs and labels saved as originals."
+}

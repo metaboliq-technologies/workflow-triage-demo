@@ -1,0 +1,57 @@
+[
+  {
+    "id": "evidence-001",
+    "caseId": "b13-006",
+    "arm": "updated"
+  },
+  {
+    "id": "evidence-002",
+    "caseId": "b13-001",
+    "arm": "previous"
+  },
+  {
+    "id": "evidence-003",
+    "caseId": "b13-006",
+    "arm": "previous"
+  },
+  {
+    "id": "evidence-004",
+    "caseId": "b13-003",
+    "arm": "updated"
+  },
+  {
+    "id": "evidence-005",
+    "caseId": "b13-002",
+    "arm": "previous"
+  },
+  {
+    "id": "evidence-006",
+    "caseId": "b13-004",
+    "arm": "previous"
+  },
+  {
+    "id": "evidence-007",
+    "caseId": "b13-001",
+    "arm": "updated"
+  },
+  {
+    "id": "evidence-008",
+    "caseId": "b13-005",
+    "arm": "updated"
+  },
+  {
+    "id": "evidence-009",
+    "caseId": "b13-003",
+    "arm": "previous"
+  },
+  {
+    "id": "evidence-010",
+    "caseId": "b13-002",
+    "arm": "updated"
+  },
+  {
+    "id": "evidence-011",
+    "caseId": "b13-004",
+    "arm": "updated"
+  }
+]

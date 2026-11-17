@@ -1,0 +1,1048 @@
+[
+  {
+    "id": "evidence-001",
+    "input": {
+      "subject": "Festival organizer support",
+      "body": "Please recover access to my festival organizer account, and repair the calendar view that crashes when I move an event."
+    },
+    "expected": {
+      "route": null,
+      "requiresHumanReview": true
+    },
+    "sufficientReferenceBundles": [
+      {
+        "trigger": "multiple substantive intents",
+        "facts": [
+          "Account access recovery request",
+          "Crashing calendar view repair request"
+        ]
+      }
+    ],
+    "optionalContext": [
+      "Moving an event triggers crash"
+    ],
+    "returned": {
+      "category": "review",
+      "evidence": "Please recover access to my festival organizer account, and repair the calendar view that crashes when I move an event."
+    }
+  },
+  {
+    "id": "evidence-002",
+    "input": {
+      "subject": "Two requests for the map service",
+      "body": "Please restore the missing labels on my map exports, and send me a receipt for the annual cartography subscription."
+    },
+    "expected": {
+      "route": null,
+      "requiresHumanReview": true
+    },
+    "sufficientReferenceBundles": [
+      {
+        "trigger": "multiple substantive intents",
+        "facts": [
+          "Map-export labels need restoration",
+          "Receipt request"
+        ]
+      }
+    ],
+    "optionalContext": [
+      "Annual subscription",
+      "Cartography domain"
+    ],
+    "returned": {
+      "category": "review",
+      "evidence": "Two requests for the map service"
+    }
+  },
+  {
+    "id": "evidence-003",
+    "input": {
+      "subject": "Could you take a look?",
+      "body": "Please switch my subscription payment method from the old card to a new card."
+    },
+    "expected": {
+      "route": "billing",
+      "requiresHumanReview": false
+    },
+    "sufficientReferenceBundles": [
+      {
+        "trigger": "one ordinary invoice, receipt, charge, payment method/failure, refund, renewal",
+        "facts": [
+          "Subscription payment-method change request"
+        ]
+      }
+    ],
+    "optionalContext": [
+      "Old card to new card"
+    ],
+    "returned": {
+      "category": "billing",
+      "evidence": "Please switch my subscription payment method from the old card to a new card."
+    }
+  },
+  {
+    "id": "evidence-004",
+    "input": {
+      "subject": "Two requests for the map service",
+      "body": "Please restore the missing labels on my map exports, and send me a receipt for the annual cartography subscription."
+    },
+    "expected": {
+      "route": null,
+      "requiresHumanReview": true
+    },
+    "sufficientReferenceBundles": [
+      {
+        "trigger": "multiple substantive intents",
+        "facts": [
+          "Map-export labels need restoration",
+          "Receipt request"
+        ]
+      }
+    ],
+    "optionalContext": [
+      "Annual subscription",
+      "Cartography domain"
+    ],
+    "returned": {
+      "category": "review",
+      "evidence": "Please restore the missing labels on my map exports, and send me a receipt for the annual cartography subscription."
+    }
+  },
+  {
+    "id": "evidence-005",
+    "input": {
+      "subject": "Workshop questions",
+      "body": "I need to change the card used for my workshop subscription, and the attendance chart will not open in the browser."
+    },
+    "expected": {
+      "route": null,
+      "requiresHumanReview": true
+    },
+    "sufficientReferenceBundles": [
+      {
+        "trigger": "multiple substantive intents",
+        "facts": [
+          "Subscription payment-card change request",
+          "Attendance chart fails to open"
+        ]
+      }
+    ],
+    "optionalContext": [
+      "Browser"
+    ],
+    "returned": {
+      "category": "review",
+      "evidence": "I need to change the card used for my workshop subscription, and the attendance chart will not open in the browser."
+    }
+  },
+  {
+    "id": "evidence-006",
+    "input": {
+      "subject": "Workshop questions",
+      "body": "I need to change the card used for my workshop subscription, and the attendance chart will not open in the browser."
+    },
+    "expected": {
+      "route": null,
+      "requiresHumanReview": true
+    },
+    "sufficientReferenceBundles": [
+      {
+        "trigger": "multiple substantive intents",
+        "facts": [
+          "Subscription payment-card change request",
+          "Attendance chart fails to open"
+        ]
+      }
+    ],
+    "optionalContext": [
+      "Browser"
+    ],
+    "returned": {
+      "category": "review",
+      "evidence": "I need to change the card used for my workshop subscription, and the attendance chart will not open in the browser."
+    }
+  },
+  {
+    "id": "evidence-007",
+    "input": {
+      "subject": "Rather urgent, please",
+      "body": "The signup page says my verification code has expired even when I paste the newest one."
+    },
+    "expected": {
+      "route": "access",
+      "requiresHumanReview": false
+    },
+    "sufficientReferenceBundles": [
+      {
+        "trigger": "Authentication/signup malfunctions stay access",
+        "facts": [
+          "Expired signup verification code"
+        ]
+      }
+    ],
+    "optionalContext": [
+      "Newest code also rejected"
+    ],
+    "returned": {
+      "category": "access",
+      "evidence": "verification code has expired even when I paste the newest one"
+    }
+  },
+  {
+    "id": "evidence-008",
+    "input": {
+      "subject": "I cannot complete MFA because the authenticator code is rejected",
+      "body": "The organization is a volunteer observatory; I can supply the app version if useful."
+    },
+    "expected": {
+      "route": "access",
+      "requiresHumanReview": false
+    },
+    "sufficientReferenceBundles": [
+      {
+        "trigger": "Authentication/signup malfunctions stay access",
+        "facts": [
+          "Rejected MFA authenticator code"
+        ]
+      }
+    ],
+    "optionalContext": [
+      "Volunteer observatory",
+      "Version available"
+    ],
+    "returned": {
+      "category": "access",
+      "evidence": "I cannot complete MFA because the authenticator code is rejected"
+    }
+  },
+  {
+    "id": "evidence-009",
+    "input": {
+      "subject": "Rehearsal portal questions",
+      "body": "I cannot reset my sign-in PIN for the new rehearsal portal, and I need an invoice for the ensemble subscription renewal."
+    },
+    "expected": {
+      "route": null,
+      "requiresHumanReview": true
+    },
+    "sufficientReferenceBundles": [
+      {
+        "trigger": "multiple substantive intents",
+        "facts": [
+          "Sign-in PIN reset failure",
+          "Invoice request"
+        ]
+      }
+    ],
+    "optionalContext": [
+      "Ensemble renewal"
+    ],
+    "returned": {
+      "category": "review",
+      "evidence": "I cannot reset my sign-in PIN for the new rehearsal portal, and I need an invoice for the ensemble subscription renewal."
+    }
+  },
+  {
+    "id": "evidence-010",
+    "input": {
+      "subject": "My actual migraine prescription is visible in the public preview",
+      "body": "This concerns the journal tool I use at home."
+    },
+    "expected": {
+      "route": null,
+      "requiresHumanReview": true
+    },
+    "sufficientReferenceBundles": [
+      {
+        "trigger": "actual personal diagnoses, medication, treatment/results",
+        "facts": [
+          "Requester actual migraine prescription"
+        ]
+      }
+    ],
+    "optionalContext": [
+      "Public preview visibility",
+      "Home journal tool"
+    ],
+    "returned": {
+      "category": "review",
+      "evidence": "My actual migraine prescription is visible in the public preview"
+    }
+  },
+  {
+    "id": "evidence-011",
+    "input": {
+      "subject": "A couple of things",
+      "body": "Please resend my invoice and help me reset my password."
+    },
+    "expected": {
+      "route": null,
+      "requiresHumanReview": true
+    },
+    "sufficientReferenceBundles": [
+      {
+        "trigger": "multiple substantive intents",
+        "facts": [
+          "Invoice resend request",
+          "Password reset assistance request"
+        ]
+      }
+    ],
+    "optionalContext": [],
+    "returned": {
+      "category": "review",
+      "evidence": "Please resend my invoice and help me reset my password."
+    }
+  },
+  {
+    "id": "evidence-012",
+    "input": {
+      "subject": "Assistance needed",
+      "body": "The timeline thumbnails are blank although the clips themselves play normally."
+    },
+    "expected": {
+      "route": "technical",
+      "requiresHumanReview": false
+    },
+    "sufficientReferenceBundles": [
+      {
+        "trigger": "one specific ordinary application feature malfunction; fictional records do not alone require review",
+        "facts": [
+          "Blank timeline thumbnails"
+        ]
+      }
+    ],
+    "optionalContext": [
+      "Clips play normally"
+    ],
+    "returned": {
+      "category": "technical",
+      "evidence": "The timeline thumbnails are blank although the clips themselves play normally."
+    }
+  },
+  {
+    "id": "evidence-013",
+    "input": {
+      "subject": "Help with these, please",
+      "body": "I need a refund for the extra monthly charge, and the route planner freezes when I add a ferry."
+    },
+    "expected": {
+      "route": null,
+      "requiresHumanReview": true
+    },
+    "sufficientReferenceBundles": [
+      {
+        "trigger": "multiple substantive intents",
+        "facts": [
+          "Refund for extra charge",
+          "Route planner freezes"
+        ]
+      }
+    ],
+    "optionalContext": [
+      "Ferry triggers freezing"
+    ],
+    "returned": {
+      "category": "review",
+      "evidence": "I need a refund for the extra monthly charge, and the route planner freezes when I add a ferry."
+    }
+  },
+  {
+    "id": "evidence-014",
+    "input": {
+      "subject": "Can someone assist?",
+      "body": "The subtitles drift behind the video after I change playback speed."
+    },
+    "expected": {
+      "route": "technical",
+      "requiresHumanReview": false
+    },
+    "sufficientReferenceBundles": [
+      {
+        "trigger": "one specific ordinary application feature malfunction; fictional records do not alone require review",
+        "facts": [
+          "Subtitle synchronization malfunction"
+        ]
+      }
+    ],
+    "optionalContext": [
+      "Playback speed change"
+    ],
+    "returned": {
+      "category": "technical",
+      "evidence": "The subtitles drift behind the video after I change playback speed."
+    }
+  },
+  {
+    "id": "evidence-015",
+    "input": {
+      "subject": "Someone else changed my recovery email without permission",
+      "body": "Please look into this for the community archive account."
+    },
+    "expected": {
+      "route": null,
+      "requiresHumanReview": true
+    },
+    "sufficientReferenceBundles": [
+      {
+        "trigger": "suspected takeover, unauthorized access",
+        "facts": [
+          "Another person changed requester recovery email",
+          "Change lacked permission"
+        ]
+      }
+    ],
+    "optionalContext": [
+      "Community archive account"
+    ],
+    "returned": {
+      "category": "review",
+      "evidence": "Someone else changed my recovery email without permission"
+    }
+  },
+  {
+    "id": "evidence-016",
+    "input": {
+      "subject": "Two items, thanks",
+      "body": "Please help me sign in to the choir portal and send me the receipt for our subscription."
+    },
+    "expected": {
+      "route": null,
+      "requiresHumanReview": true
+    },
+    "sufficientReferenceBundles": [
+      {
+        "trigger": "multiple substantive intents",
+        "facts": [
+          "Sign-in assistance request",
+          "Receipt delivery request"
+        ]
+      }
+    ],
+    "optionalContext": [
+      "Choir portal",
+      "Subscription"
+    ],
+    "returned": {
+      "category": "review",
+      "evidence": "Two items, thanks"
+    }
+  },
+  {
+    "id": "evidence-017",
+    "input": {
+      "subject": "The panorama editor crashes whenever I rotate a crop",
+      "body": "This is in the desktop edition used by our photography club."
+    },
+    "expected": {
+      "route": "technical",
+      "requiresHumanReview": false
+    },
+    "sufficientReferenceBundles": [
+      {
+        "trigger": "one specific ordinary application feature malfunction; fictional records do not alone require review",
+        "facts": [
+          "Editor crashes"
+        ]
+      }
+    ],
+    "optionalContext": [
+      "Crop rotation triggers crash",
+      "Desktop edition",
+      "Photography club"
+    ],
+    "returned": {
+      "category": "technical",
+      "evidence": "The panorama editor crashes whenever I rotate a crop"
+    }
+  },
+  {
+    "id": "evidence-018",
+    "input": {
+      "subject": "Library service help",
+      "body": "The verification email never arrives for my new library account, and I need a refund for the duplicate membership fee."
+    },
+    "expected": {
+      "route": null,
+      "requiresHumanReview": true
+    },
+    "sufficientReferenceBundles": [
+      {
+        "trigger": "multiple substantive intents",
+        "facts": [
+          "New-account verification email fails to arrive",
+          "Refund request"
+        ]
+      }
+    ],
+    "optionalContext": [
+      "Duplicate fee"
+    ],
+    "returned": {
+      "category": "review",
+      "evidence": "The verification email never arrives for my new library account, and I need a refund for the duplicate membership fee."
+    }
+  },
+  {
+    "id": "evidence-019",
+    "input": {
+      "subject": "I cannot complete MFA because the authenticator code is rejected",
+      "body": "The organization is a volunteer observatory; I can supply the app version if useful."
+    },
+    "expected": {
+      "route": "access",
+      "requiresHumanReview": false
+    },
+    "sufficientReferenceBundles": [
+      {
+        "trigger": "Authentication/signup malfunctions stay access",
+        "facts": [
+          "Rejected MFA authenticator code"
+        ]
+      }
+    ],
+    "optionalContext": [
+      "Volunteer observatory",
+      "Version available"
+    ],
+    "returned": {
+      "category": "access",
+      "evidence": "I cannot complete MFA because the authenticator code is rejected"
+    }
+  },
+  {
+    "id": "evidence-020",
+    "input": {
+      "subject": "Rehearsal portal questions",
+      "body": "I cannot reset my sign-in PIN for the new rehearsal portal, and I need an invoice for the ensemble subscription renewal."
+    },
+    "expected": {
+      "route": null,
+      "requiresHumanReview": true
+    },
+    "sufficientReferenceBundles": [
+      {
+        "trigger": "multiple substantive intents",
+        "facts": [
+          "Sign-in PIN reset failure",
+          "Invoice request"
+        ]
+      }
+    ],
+    "optionalContext": [
+      "Ensemble renewal"
+    ],
+    "returned": {
+      "category": "review",
+      "evidence": "I cannot reset my sign-in PIN for the new rehearsal portal, and I need an invoice for the ensemble subscription renewal."
+    }
+  },
+  {
+    "id": "evidence-021",
+    "input": {
+      "subject": "A couple of things",
+      "body": "Please resend my invoice and help me reset my password."
+    },
+    "expected": {
+      "route": null,
+      "requiresHumanReview": true
+    },
+    "sufficientReferenceBundles": [
+      {
+        "trigger": "multiple substantive intents",
+        "facts": [
+          "Invoice resend request",
+          "Password reset assistance request"
+        ]
+      }
+    ],
+    "optionalContext": [],
+    "returned": {
+      "category": "review",
+      "evidence": "Please resend my invoice and help me reset my password."
+    }
+  },
+  {
+    "id": "evidence-022",
+    "input": {
+      "subject": "My fictional dragon patient notes lose indentation when exported",
+      "body": "These are invented records about no actual person, used only for a game prototype."
+    },
+    "expected": {
+      "route": "technical",
+      "requiresHumanReview": false
+    },
+    "sufficientReferenceBundles": [
+      {
+        "trigger": "one specific ordinary application feature malfunction; fictional records do not alone require review",
+        "facts": [
+          "Notes lose indentation"
+        ]
+      }
+    ],
+    "optionalContext": [
+      "Export operation",
+      "Explicitly fictional dragon material about no actual person",
+      "Game prototype"
+    ],
+    "returned": {
+      "category": "technical",
+      "evidence": "My fictional dragon patient notes lose indentation when exported"
+    }
+  },
+  {
+    "id": "evidence-023",
+    "input": {
+      "subject": "My fictional dragon patient notes lose indentation when exported",
+      "body": "These are invented records about no actual person, used only for a game prototype."
+    },
+    "expected": {
+      "route": "technical",
+      "requiresHumanReview": false
+    },
+    "sufficientReferenceBundles": [
+      {
+        "trigger": "one specific ordinary application feature malfunction; fictional records do not alone require review",
+        "facts": [
+          "Notes lose indentation"
+        ]
+      }
+    ],
+    "optionalContext": [
+      "Export operation",
+      "Explicitly fictional dragon material about no actual person",
+      "Game prototype"
+    ],
+    "returned": {
+      "category": "technical",
+      "evidence": "My fictional dragon patient notes lose indentation when exported"
+    }
+  },
+  {
+    "id": "evidence-024",
+    "input": {
+      "subject": "Can someone assist?",
+      "body": "The subtitles drift behind the video after I change playback speed."
+    },
+    "expected": {
+      "route": "technical",
+      "requiresHumanReview": false
+    },
+    "sufficientReferenceBundles": [
+      {
+        "trigger": "one specific ordinary application feature malfunction; fictional records do not alone require review",
+        "facts": [
+          "Subtitle synchronization malfunction"
+        ]
+      }
+    ],
+    "optionalContext": [
+      "Playback speed change"
+    ],
+    "returned": {
+      "category": "technical",
+      "evidence": "The subtitles drift behind the video after I change playback speed."
+    }
+  },
+  {
+    "id": "evidence-025",
+    "input": {
+      "subject": "Library service help",
+      "body": "The verification email never arrives for my new library account, and I need a refund for the duplicate membership fee."
+    },
+    "expected": {
+      "route": null,
+      "requiresHumanReview": true
+    },
+    "sufficientReferenceBundles": [
+      {
+        "trigger": "multiple substantive intents",
+        "facts": [
+          "New-account verification email fails to arrive",
+          "Refund request"
+        ]
+      }
+    ],
+    "optionalContext": [
+      "Duplicate fee"
+    ],
+    "returned": {
+      "category": "review",
+      "evidence": "The verification email never arrives for my new library account, and I need a refund for the duplicate membership fee."
+    }
+  },
+  {
+    "id": "evidence-026",
+    "input": {
+      "subject": "Please email me a receipt for my telescope subscription",
+      "body": "The purchase was through the web edition yesterday."
+    },
+    "expected": {
+      "route": "billing",
+      "requiresHumanReview": false
+    },
+    "sufficientReferenceBundles": [
+      {
+        "trigger": "one ordinary invoice, receipt, charge, payment method/failure, refund, renewal",
+        "facts": [
+          "Receipt delivery request"
+        ]
+      }
+    ],
+    "optionalContext": [
+      "Web purchase",
+      "Yesterday"
+    ],
+    "returned": {
+      "category": "billing",
+      "evidence": "Please email me a receipt for my telescope subscription"
+    }
+  },
+  {
+    "id": "evidence-027",
+    "input": {
+      "subject": "The panorama editor crashes whenever I rotate a crop",
+      "body": "This is in the desktop edition used by our photography club."
+    },
+    "expected": {
+      "route": "technical",
+      "requiresHumanReview": false
+    },
+    "sufficientReferenceBundles": [
+      {
+        "trigger": "one specific ordinary application feature malfunction; fictional records do not alone require review",
+        "facts": [
+          "Editor crashes"
+        ]
+      }
+    ],
+    "optionalContext": [
+      "Crop rotation triggers crash",
+      "Desktop edition",
+      "Photography club"
+    ],
+    "returned": {
+      "category": "technical",
+      "evidence": "The panorama editor crashes whenever I rotate a crop"
+    }
+  },
+  {
+    "id": "evidence-028",
+    "input": {
+      "subject": "My actual migraine prescription is visible in the public preview",
+      "body": "This concerns the journal tool I use at home."
+    },
+    "expected": {
+      "route": null,
+      "requiresHumanReview": true
+    },
+    "sufficientReferenceBundles": [
+      {
+        "trigger": "actual personal diagnoses, medication, treatment/results",
+        "facts": [
+          "Requester actual migraine prescription"
+        ]
+      }
+    ],
+    "optionalContext": [
+      "Public preview visibility",
+      "Home journal tool"
+    ],
+    "returned": {
+      "category": "review",
+      "evidence": "My actual migraine prescription is visible in the public preview"
+    }
+  },
+  {
+    "id": "evidence-029",
+    "input": {
+      "subject": "1 / 2",
+      "body": "My verification link has expired, and the seating diagram prints with every row on top of the next."
+    },
+    "expected": {
+      "route": null,
+      "requiresHumanReview": true
+    },
+    "sufficientReferenceBundles": [
+      {
+        "trigger": "multiple substantive intents",
+        "facts": [
+          "Expired verification link",
+          "Diagram rows overlap when printed"
+        ]
+      }
+    ],
+    "optionalContext": [],
+    "returned": {
+      "category": "review",
+      "evidence": "My verification link has expired, and the seating diagram prints with every row on top of the next."
+    }
+  },
+  {
+    "id": "evidence-030",
+    "input": {
+      "subject": "Festival organizer support",
+      "body": "Please recover access to my festival organizer account, and repair the calendar view that crashes when I move an event."
+    },
+    "expected": {
+      "route": null,
+      "requiresHumanReview": true
+    },
+    "sufficientReferenceBundles": [
+      {
+        "trigger": "multiple substantive intents",
+        "facts": [
+          "Account access recovery request",
+          "Crashing calendar view repair request"
+        ]
+      }
+    ],
+    "optionalContext": [
+      "Moving an event triggers crash"
+    ],
+    "returned": {
+      "category": "review",
+      "evidence": "Please recover access to my festival organizer account, and repair the calendar view that crashes when I move an event."
+    }
+  },
+  {
+    "id": "evidence-031",
+    "input": {
+      "subject": "Someone else changed my recovery email without permission",
+      "body": "Please look into this for the community archive account."
+    },
+    "expected": {
+      "route": null,
+      "requiresHumanReview": true
+    },
+    "sufficientReferenceBundles": [
+      {
+        "trigger": "suspected takeover, unauthorized access",
+        "facts": [
+          "Another person changed requester recovery email",
+          "Change lacked permission"
+        ]
+      }
+    ],
+    "optionalContext": [
+      "Community archive account"
+    ],
+    "returned": {
+      "category": "review",
+      "evidence": "Someone else changed my recovery email without permission"
+    }
+  },
+  {
+    "id": "evidence-032",
+    "input": {
+      "subject": "Please email me a receipt for my telescope subscription",
+      "body": "The purchase was through the web edition yesterday."
+    },
+    "expected": {
+      "route": "billing",
+      "requiresHumanReview": false
+    },
+    "sufficientReferenceBundles": [
+      {
+        "trigger": "one ordinary invoice, receipt, charge, payment method/failure, refund, renewal",
+        "facts": [
+          "Receipt delivery request"
+        ]
+      }
+    ],
+    "optionalContext": [
+      "Web purchase",
+      "Yesterday"
+    ],
+    "returned": {
+      "category": "billing",
+      "evidence": "Please email me a receipt for my telescope subscription"
+    }
+  },
+  {
+    "id": "evidence-033",
+    "input": {
+      "subject": "Could you take a look?",
+      "body": "Please switch my subscription payment method from the old card to a new card."
+    },
+    "expected": {
+      "route": "billing",
+      "requiresHumanReview": false
+    },
+    "sufficientReferenceBundles": [
+      {
+        "trigger": "one ordinary invoice, receipt, charge, payment method/failure, refund, renewal",
+        "facts": [
+          "Subscription payment-method change request"
+        ]
+      }
+    ],
+    "optionalContext": [
+      "Old card to new card"
+    ],
+    "returned": {
+      "category": "billing",
+      "evidence": "Please switch my subscription payment method from the old card to a new card."
+    }
+  },
+  {
+    "id": "evidence-034",
+    "input": {
+      "subject": "Help with these, please",
+      "body": "I need a refund for the extra monthly charge, and the route planner freezes when I add a ferry."
+    },
+    "expected": {
+      "route": null,
+      "requiresHumanReview": true
+    },
+    "sufficientReferenceBundles": [
+      {
+        "trigger": "multiple substantive intents",
+        "facts": [
+          "Refund for extra charge",
+          "Route planner freezes"
+        ]
+      }
+    ],
+    "optionalContext": [
+      "Ferry triggers freezing"
+    ],
+    "returned": {
+      "category": "review",
+      "evidence": "I need a refund for the extra monthly charge, and the route planner freezes when I add a ferry."
+    }
+  },
+  {
+    "id": "evidence-035",
+    "input": {
+      "subject": "Cooking app assistance",
+      "body": "The recipe timer stops whenever I lock the screen, and I want to update the payment card for my own cooking subscription."
+    },
+    "expected": {
+      "route": null,
+      "requiresHumanReview": true
+    },
+    "sufficientReferenceBundles": [
+      {
+        "trigger": "multiple substantive intents",
+        "facts": [
+          "Recipe timer stops",
+          "Payment-card update requested"
+        ]
+      }
+    ],
+    "optionalContext": [
+      "Screen lock triggers stoppage",
+      "Own cooking subscription"
+    ],
+    "returned": {
+      "category": "review",
+      "evidence": "recipe timer stops whenever I lock the screen, and I want to update the payment card for my own cooking subscription."
+    }
+  },
+  {
+    "id": "evidence-036",
+    "input": {
+      "subject": "Assistance needed",
+      "body": "The timeline thumbnails are blank although the clips themselves play normally."
+    },
+    "expected": {
+      "route": "technical",
+      "requiresHumanReview": false
+    },
+    "sufficientReferenceBundles": [
+      {
+        "trigger": "one specific ordinary application feature malfunction; fictional records do not alone require review",
+        "facts": [
+          "Blank timeline thumbnails"
+        ]
+      }
+    ],
+    "optionalContext": [
+      "Clips play normally"
+    ],
+    "returned": {
+      "category": "technical",
+      "evidence": "The timeline thumbnails are blank although the clips themselves play normally."
+    }
+  },
+  {
+    "id": "evidence-037",
+    "input": {
+      "subject": "Rather urgent, please",
+      "body": "The signup page says my verification code has expired even when I paste the newest one."
+    },
+    "expected": {
+      "route": "access",
+      "requiresHumanReview": false
+    },
+    "sufficientReferenceBundles": [
+      {
+        "trigger": "Authentication/signup malfunctions stay access",
+        "facts": [
+          "Expired signup verification code"
+        ]
+      }
+    ],
+    "optionalContext": [
+      "Newest code also rejected"
+    ],
+    "returned": {
+      "category": "access",
+      "evidence": "The signup page says my verification code has expired even when I paste the newest one."
+    }
+  },
+  {
+    "id": "evidence-038",
+    "input": {
+      "subject": "1 / 2",
+      "body": "My verification link has expired, and the seating diagram prints with every row on top of the next."
+    },
+    "expected": {
+      "route": null,
+      "requiresHumanReview": true
+    },
+    "sufficientReferenceBundles": [
+      {
+        "trigger": "multiple substantive intents",
+        "facts": [
+          "Expired verification link",
+          "Diagram rows overlap when printed"
+        ]
+      }
+    ],
+    "optionalContext": [],
+    "returned": {
+      "category": "review",
+      "evidence": "My verification link has expired, and the seating diagram prints with every row on top of the next."
+    }
+  },
+  {
+    "id": "evidence-039",
+    "input": {
+      "subject": "Two items, thanks",
+      "body": "Please help me sign in to the choir portal and send me the receipt for our subscription."
+    },
+    "expected": {
+      "route": null,
+      "requiresHumanReview": true
+    },
+    "sufficientReferenceBundles": [
+      {
+        "trigger": "multiple substantive intents",
+        "facts": [
+          "Sign-in assistance request",
+          "Receipt delivery request"
+        ]
+      }
+    ],
+    "optionalContext": [
+      "Choir portal",
+      "Subscription"
+    ],
+    "returned": {
+      "category": "review",
+      "evidence": "Please help me sign in to the choir portal and send me the receipt for our subscription."
+    }
+  }
+]

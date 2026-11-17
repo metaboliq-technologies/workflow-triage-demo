@@ -1,0 +1,1839 @@
+{
+  "schemaVersion": 1,
+  "experiment": "paired-boundary-followup-v13b",
+  "humanReviewed": false,
+  "rawSha256": "fbeaa48781e02726cc8654ccd7fe590e24b08d518d5ff20e3505641a0fc28606",
+  "allCases": {
+    "previous": {
+      "total": 6,
+      "available": 5,
+      "routingCorrect": 5,
+      "sourceExact": 5,
+      "supportsReturnedDecision": 4,
+      "coversSufficientReferenceBundle": 4,
+      "jointRoutingSupportAndCoverage": 4,
+      "criteriaAmbiguous": 0,
+      "optionalContext": {
+        "not-applicable": 0,
+        "full": 0,
+        "partial": 4,
+        "none": 1
+      }
+    },
+    "updated": {
+      "total": 6,
+      "available": 6,
+      "routingCorrect": 6,
+      "sourceExact": 6,
+      "supportsReturnedDecision": 2,
+      "coversSufficientReferenceBundle": 2,
+      "jointRoutingSupportAndCoverage": 2,
+      "criteriaAmbiguous": 0,
+      "optionalContext": {
+        "not-applicable": 0,
+        "full": 0,
+        "partial": 4,
+        "none": 2
+      }
+    }
+  },
+  "byGroup": {
+    "forced_boundary": {
+      "caseIds": [
+        "b13-001",
+        "b13-005",
+        "b13-003",
+        "b13-004",
+        "b13-006",
+        "b13-002"
+      ],
+      "allCases": {
+        "previous": {
+          "total": 6,
+          "available": 5,
+          "routingCorrect": 5,
+          "sourceExact": 5,
+          "supportsReturnedDecision": 4,
+          "coversSufficientReferenceBundle": 4,
+          "jointRoutingSupportAndCoverage": 4,
+          "criteriaAmbiguous": 0,
+          "optionalContext": {
+            "not-applicable": 0,
+            "full": 0,
+            "partial": 4,
+            "none": 1
+          }
+        },
+        "updated": {
+          "total": 6,
+          "available": 6,
+          "routingCorrect": 6,
+          "sourceExact": 6,
+          "supportsReturnedDecision": 2,
+          "coversSufficientReferenceBundle": 2,
+          "jointRoutingSupportAndCoverage": 2,
+          "criteriaAmbiguous": 0,
+          "optionalContext": {
+            "not-applicable": 0,
+            "full": 0,
+            "partial": 4,
+            "none": 2
+          }
+        }
+      },
+      "commonValid": {
+        "previous": {
+          "total": 5,
+          "available": 5,
+          "routingCorrect": 5,
+          "sourceExact": 5,
+          "supportsReturnedDecision": 4,
+          "coversSufficientReferenceBundle": 4,
+          "jointRoutingSupportAndCoverage": 4,
+          "criteriaAmbiguous": 0,
+          "optionalContext": {
+            "not-applicable": 0,
+            "full": 0,
+            "partial": 4,
+            "none": 1
+          }
+        },
+        "updated": {
+          "total": 5,
+          "available": 5,
+          "routingCorrect": 5,
+          "sourceExact": 5,
+          "supportsReturnedDecision": 2,
+          "coversSufficientReferenceBundle": 2,
+          "jointRoutingSupportAndCoverage": 2,
+          "criteriaAmbiguous": 0,
+          "optionalContext": {
+            "not-applicable": 0,
+            "full": 0,
+            "partial": 3,
+            "none": 2
+          }
+        }
+      }
+    }
+  },
+  "commonValid": {
+    "caseIds": [
+      "b13-001",
+      "b13-003",
+      "b13-004",
+      "b13-006",
+      "b13-002"
+    ],
+    "metrics": {
+      "previous": {
+        "total": 5,
+        "available": 5,
+        "routingCorrect": 5,
+        "sourceExact": 5,
+        "supportsReturnedDecision": 4,
+        "coversSufficientReferenceBundle": 4,
+        "jointRoutingSupportAndCoverage": 4,
+        "criteriaAmbiguous": 0,
+        "optionalContext": {
+          "not-applicable": 0,
+          "full": 0,
+          "partial": 4,
+          "none": 1
+        }
+      },
+      "updated": {
+        "total": 5,
+        "available": 5,
+        "routingCorrect": 5,
+        "sourceExact": 5,
+        "supportsReturnedDecision": 2,
+        "coversSufficientReferenceBundle": 2,
+        "jointRoutingSupportAndCoverage": 2,
+        "criteriaAmbiguous": 0,
+        "optionalContext": {
+          "not-applicable": 0,
+          "full": 0,
+          "partial": 3,
+          "none": 2
+        }
+      }
+    }
+  },
+  "failures": [
+    {
+      "id": "b13-001",
+      "arm": "updated",
+      "result": {
+        "id": "b13-001",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "model_requested_review",
+        "source": "gemini"
+      },
+      "grade": {
+        "id": "evidence-007",
+        "sourceExact": true,
+        "supportsReturnedDecision": false,
+        "coversSufficientReferenceBundle": false,
+        "coveredBundleIndexes": [],
+        "criteriaAmbiguous": false,
+        "optionalContextCoverage": "partial",
+        "rationale": "The quote is exact, but 'my renewal' supplies a topic without the refund action. It conveys only the PIN-reset positive intent. The full request warrants review, but this evidence does not cover the conjunctive bundle. Context cannot restore the omitted substantive action.",
+        "reviewerSourceExact": true,
+        "routingCorrect": true
+      }
+    },
+    {
+      "id": "b13-005",
+      "arm": "previous",
+      "result": {
+        "error": "invalid_model_decision",
+        "route": null,
+        "requiresHumanReview": true
+      },
+      "grade": null
+    },
+    {
+      "id": "b13-005",
+      "arm": "updated",
+      "result": {
+        "id": "b13-005",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "model_requested_review",
+        "source": "gemini"
+      },
+      "grade": {
+        "id": "evidence-008",
+        "sourceExact": true,
+        "supportsReturnedDecision": false,
+        "coversSufficientReferenceBundle": false,
+        "coveredBundleIndexes": [],
+        "criteriaAmbiguous": false,
+        "optionalContextCoverage": "partial",
+        "rationale": "The quote is exact and conveys sending an invoice, but 'unlock my' truncates the object before identifying login access. The full request warrants review, but this quote does not convey the second complete substantive intent. Context cannot restore the omitted object.",
+        "reviewerSourceExact": true,
+        "routingCorrect": true
+      }
+    },
+    {
+      "id": "b13-006",
+      "arm": "updated",
+      "result": {
+        "id": "b13-006",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "model_requested_review",
+        "source": "gemini"
+      },
+      "grade": {
+        "id": "evidence-001",
+        "sourceExact": true,
+        "supportsReturnedDecision": false,
+        "coversSufficientReferenceBundle": false,
+        "coveredBundleIndexes": [],
+        "criteriaAmbiguous": false,
+        "optionalContextCoverage": "none",
+        "rationale": "The full request warrants review for search freezing plus PIN reset. The exact quote conveys only PIN reset, so it does not substantiate multi-intent review. No alternative protective trigger is apparent.",
+        "reviewerSourceExact": true,
+        "routingCorrect": true
+      }
+    },
+    {
+      "id": "b13-002",
+      "arm": "previous",
+      "result": {
+        "id": "b13-002",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "model_requested_review",
+        "source": "gemini"
+      },
+      "grade": {
+        "id": "evidence-005",
+        "sourceExact": true,
+        "supportsReturnedDecision": false,
+        "coversSufficientReferenceBundle": false,
+        "coveredBundleIndexes": [],
+        "criteriaAmbiguous": false,
+        "optionalContextCoverage": "none",
+        "rationale": "The subject is exact but only counts unnamed issues. Although the full body warrants review for login recovery and frozen export, the quote conveys neither substantive positive intent. No alternative protective trigger is apparent.",
+        "reviewerSourceExact": true,
+        "routingCorrect": true
+      }
+    },
+    {
+      "id": "b13-002",
+      "arm": "updated",
+      "result": {
+        "id": "b13-002",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "model_requested_review",
+        "source": "gemini"
+      },
+      "grade": {
+        "id": "evidence-010",
+        "sourceExact": true,
+        "supportsReturnedDecision": false,
+        "coversSufficientReferenceBundle": false,
+        "coveredBundleIndexes": [],
+        "criteriaAmbiguous": false,
+        "optionalContextCoverage": "none",
+        "rationale": "The subject is exact but only counts unnamed issues. Although the full body warrants review for login recovery and frozen export, the quote conveys neither substantive positive intent. No alternative protective trigger is apparent.",
+        "reviewerSourceExact": true,
+        "routingCorrect": true
+      }
+    }
+  ],
+  "rows": [
+    {
+      "id": "b13-001",
+      "stratum": "forced_boundary",
+      "expected": {
+        "route": null,
+        "requiresHumanReview": true
+      },
+      "baseline": {
+        "id": "b13-001",
+        "route": "billing",
+        "requiresHumanReview": false,
+        "reason": "single_route_match",
+        "matchedCategories": [
+          "billing"
+        ],
+        "source": "rules-baseline"
+      },
+      "previousFirst": {
+        "id": "b13-001",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "model_requested_review",
+        "source": "gemini"
+      },
+      "previous": {
+        "id": "b13-001",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "model_requested_review",
+        "source": "gemini"
+      },
+      "updatedFirst": {
+        "id": "b13-001",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "model_requested_review",
+        "source": "gemini"
+      },
+      "updated": {
+        "id": "b13-001",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "model_requested_review",
+        "source": "gemini"
+      },
+      "guardedPrevious": {
+        "id": "b13-001",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "model_requested_review",
+        "source": "guarded-gemini"
+      },
+      "guardedUpdated": {
+        "id": "b13-001",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "model_requested_review",
+        "source": "guarded-gemini"
+      },
+      "providers": {
+        "previous": {
+          "output": {
+            "category": "review",
+            "evidence": "Refund my renewal; for reference, the screen uses a plain gray theme with a small logo in its corner; reset my PIN."
+          },
+          "attempts": 1,
+          "latencyMs": 4556,
+          "modelVersion": "gemini-3.5-flash-lite",
+          "usage": {
+            "promptTokenCount": 1896,
+            "candidatesTokenCount": 43,
+            "thoughtsTokenCount": null,
+            "totalTokenCount": 1939
+          },
+          "attemptLog": [
+            {
+              "attempt": 1,
+              "outcome": "success",
+              "stage": "decision",
+              "finishReason": "STOP",
+              "attemptLatencyMs": 4556,
+              "candidateCount": 1,
+              "outputCharacters": 159,
+              "httpStatus": 200,
+              "modelVersion": "gemini-3.5-flash-lite",
+              "usage": {
+                "promptTokenCount": 1896,
+                "candidatesTokenCount": 43,
+                "thoughtsTokenCount": null,
+                "totalTokenCount": 1939
+              },
+              "timeoutMs": 30000
+            }
+          ],
+          "firstAttempt": {
+            "output": {
+              "category": "review",
+              "evidence": "Refund my renewal; for reference, the screen uses a plain gray theme with a small logo in its corner; reset my PIN."
+            },
+            "attempts": 1,
+            "latencyMs": 4556,
+            "modelVersion": "gemini-3.5-flash-lite",
+            "usage": {
+              "promptTokenCount": 1896,
+              "candidatesTokenCount": 43,
+              "thoughtsTokenCount": null,
+              "totalTokenCount": 1939
+            },
+            "attemptLog": [
+              {
+                "attempt": 1,
+                "outcome": "success",
+                "stage": "decision",
+                "finishReason": "STOP",
+                "attemptLatencyMs": 4556,
+                "candidateCount": 1,
+                "outputCharacters": 159,
+                "httpStatus": 200,
+                "modelVersion": "gemini-3.5-flash-lite",
+                "usage": {
+                  "promptTokenCount": 1896,
+                  "candidatesTokenCount": 43,
+                  "thoughtsTokenCount": null,
+                  "totalTokenCount": 1939
+                },
+                "timeoutMs": 30000
+              }
+            ]
+          },
+          "reliability": {
+            "version": "bounded-v8",
+            "timeoutMs": 30000,
+            "totalTimeoutMs": 65000,
+            "maxAttempts": 2,
+            "recovered": false,
+            "retryDeferred": null
+          }
+        },
+        "updated": {
+          "output": {
+            "category": "review",
+            "evidence": "my renewal; for reference, the screen uses a plain gray theme with a small logo in its corner; reset my PIN. Thank you."
+          },
+          "attempts": 1,
+          "latencyMs": 6755,
+          "modelVersion": "gemini-3.5-flash-lite",
+          "usage": {
+            "promptTokenCount": 2330,
+            "candidatesTokenCount": 21,
+            "thoughtsTokenCount": null,
+            "totalTokenCount": 2351
+          },
+          "attemptLog": [
+            {
+              "attempt": 1,
+              "outcome": "success",
+              "stage": "decision",
+              "finishReason": "STOP",
+              "attemptLatencyMs": 6754,
+              "candidateCount": 1,
+              "outputCharacters": 48,
+              "httpStatus": 200,
+              "modelVersion": "gemini-3.5-flash-lite",
+              "usage": {
+                "promptTokenCount": 2330,
+                "candidatesTokenCount": 21,
+                "thoughtsTokenCount": null,
+                "totalTokenCount": 2351
+              },
+              "timeoutMs": 30000
+            }
+          ],
+          "evidenceReference": {
+            "id": "s8",
+            "field": "body",
+            "start": 14,
+            "end": 133
+          },
+          "firstAttempt": {
+            "output": {
+              "category": "review",
+              "evidence": "my renewal; for reference, the screen uses a plain gray theme with a small logo in its corner; reset my PIN. Thank you."
+            },
+            "attempts": 1,
+            "latencyMs": 6755,
+            "modelVersion": "gemini-3.5-flash-lite",
+            "usage": {
+              "promptTokenCount": 2330,
+              "candidatesTokenCount": 21,
+              "thoughtsTokenCount": null,
+              "totalTokenCount": 2351
+            },
+            "attemptLog": [
+              {
+                "attempt": 1,
+                "outcome": "success",
+                "stage": "decision",
+                "finishReason": "STOP",
+                "attemptLatencyMs": 6754,
+                "candidateCount": 1,
+                "outputCharacters": 48,
+                "httpStatus": 200,
+                "modelVersion": "gemini-3.5-flash-lite",
+                "usage": {
+                  "promptTokenCount": 2330,
+                  "candidatesTokenCount": 21,
+                  "thoughtsTokenCount": null,
+                  "totalTokenCount": 2351
+                },
+                "timeoutMs": 30000
+              }
+            ],
+            "evidenceReference": {
+              "id": "s8",
+              "field": "body",
+              "start": 14,
+              "end": 133
+            }
+          },
+          "reliability": {
+            "version": "bounded-v8",
+            "timeoutMs": 30000,
+            "totalTimeoutMs": 65000,
+            "maxAttempts": 2,
+            "recovered": false,
+            "retryDeferred": null
+          }
+        }
+      },
+      "semantic": {
+        "previous": {
+          "id": "evidence-002",
+          "sourceExact": true,
+          "supportsReturnedDecision": true,
+          "coversSufficientReferenceBundle": true,
+          "coveredBundleIndexes": [
+            0
+          ],
+          "criteriaAmbiguous": false,
+          "optionalContextCoverage": "partial",
+          "rationale": "The exact quote expresses both refunding the renewal and resetting the PIN, fully covering bundle 0. The full request warrants review. Included middle screen details are optional; omitted greeting and closing are optional.",
+          "reviewerSourceExact": true,
+          "routingCorrect": true
+        },
+        "updated": {
+          "id": "evidence-007",
+          "sourceExact": true,
+          "supportsReturnedDecision": false,
+          "coversSufficientReferenceBundle": false,
+          "coveredBundleIndexes": [],
+          "criteriaAmbiguous": false,
+          "optionalContextCoverage": "partial",
+          "rationale": "The quote is exact, but 'my renewal' supplies a topic without the refund action. It conveys only the PIN-reset positive intent. The full request warrants review, but this evidence does not cover the conjunctive bundle. Context cannot restore the omitted substantive action.",
+          "reviewerSourceExact": true,
+          "routingCorrect": true
+        }
+      }
+    },
+    {
+      "id": "b13-005",
+      "stratum": "forced_boundary",
+      "expected": {
+        "route": null,
+        "requiresHumanReview": true
+      },
+      "baseline": {
+        "id": "b13-005",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "multiple_routes",
+        "matchedCategories": [
+          "access",
+          "billing"
+        ],
+        "source": "rules-baseline"
+      },
+      "previousFirst": {
+        "error": "invalid_model_decision",
+        "route": null,
+        "requiresHumanReview": true
+      },
+      "previous": {
+        "error": "invalid_model_decision",
+        "route": null,
+        "requiresHumanReview": true
+      },
+      "updatedFirst": {
+        "id": "b13-005",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "model_requested_review",
+        "source": "gemini"
+      },
+      "updated": {
+        "id": "b13-005",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "model_requested_review",
+        "source": "gemini"
+      },
+      "guardedPrevious": {
+        "error": "invalid_model_decision",
+        "route": null,
+        "requiresHumanReview": true
+      },
+      "guardedUpdated": {
+        "id": "b13-005",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "model_requested_review",
+        "source": "guarded-gemini"
+      },
+      "providers": {
+        "previous": {
+          "error": "invalid_model_decision",
+          "attempts": 1,
+          "diagnostics": {
+            "stage": "decision",
+            "validationReason": "evidence_too_long",
+            "finishReason": "STOP",
+            "latencyMs": 10430,
+            "attemptLatencyMs": 10429,
+            "candidateCount": 1,
+            "outputCharacters": 167,
+            "evidenceCharacters": 123,
+            "httpStatus": 200,
+            "modelVersion": "gemini-3.5-flash-lite",
+            "usage": {
+              "promptTokenCount": 1896,
+              "candidatesTokenCount": 45,
+              "thoughtsTokenCount": null,
+              "totalTokenCount": 1941
+            }
+          },
+          "attemptLog": [
+            {
+              "attempt": 1,
+              "outcome": "failure",
+              "error": "invalid_model_decision",
+              "stage": "decision",
+              "validationReason": "evidence_too_long",
+              "finishReason": "STOP",
+              "latencyMs": 10429,
+              "attemptLatencyMs": 10429,
+              "candidateCount": 1,
+              "outputCharacters": 167,
+              "evidenceCharacters": 123,
+              "httpStatus": 200,
+              "modelVersion": "gemini-3.5-flash-lite",
+              "usage": {
+                "promptTokenCount": 1896,
+                "candidatesTokenCount": 45,
+                "thoughtsTokenCount": null,
+                "totalTokenCount": 1941
+              },
+              "timeoutMs": 30000,
+              "retryDeferred": "non_retryable",
+              "retryDelayMs": 0,
+              "retryAfterKind": "absent"
+            }
+          ],
+          "firstAttempt": {
+            "error": "invalid_model_decision",
+            "attempts": 1,
+            "diagnostics": {
+              "stage": "decision",
+              "validationReason": "evidence_too_long",
+              "finishReason": "STOP",
+              "latencyMs": 10429,
+              "attemptLatencyMs": 10429,
+              "candidateCount": 1,
+              "outputCharacters": 167,
+              "evidenceCharacters": 123,
+              "httpStatus": 200,
+              "modelVersion": "gemini-3.5-flash-lite",
+              "usage": {
+                "promptTokenCount": 1896,
+                "candidatesTokenCount": 45,
+                "thoughtsTokenCount": null,
+                "totalTokenCount": 1941
+              }
+            },
+            "attemptLog": [
+              {
+                "attempt": 1,
+                "outcome": "failure",
+                "error": "invalid_model_decision",
+                "stage": "decision",
+                "validationReason": "evidence_too_long",
+                "finishReason": "STOP",
+                "latencyMs": 10429,
+                "attemptLatencyMs": 10429,
+                "candidateCount": 1,
+                "outputCharacters": 167,
+                "evidenceCharacters": 123,
+                "httpStatus": 200,
+                "modelVersion": "gemini-3.5-flash-lite",
+                "usage": {
+                  "promptTokenCount": 1896,
+                  "candidatesTokenCount": 45,
+                  "thoughtsTokenCount": null,
+                  "totalTokenCount": 1941
+                },
+                "timeoutMs": 30000
+              }
+            ]
+          },
+          "reliability": {
+            "version": "bounded-v8",
+            "timeoutMs": 30000,
+            "totalTimeoutMs": 65000,
+            "maxAttempts": 2,
+            "recovered": false,
+            "retryDeferred": "non_retryable"
+          }
+        },
+        "updated": {
+          "output": {
+            "category": "review",
+            "evidence": "Web app: Send my invoice; the desktop view has a pale gray background and a blue title above a white panel; unlock my"
+          },
+          "attempts": 1,
+          "latencyMs": 10450,
+          "modelVersion": "gemini-3.5-flash-lite",
+          "usage": {
+            "promptTokenCount": 2324,
+            "candidatesTokenCount": 21,
+            "thoughtsTokenCount": null,
+            "totalTokenCount": 2345
+          },
+          "attemptLog": [
+            {
+              "attempt": 1,
+              "outcome": "success",
+              "stage": "decision",
+              "finishReason": "STOP",
+              "attemptLatencyMs": 10450,
+              "candidateCount": 1,
+              "outputCharacters": 48,
+              "httpStatus": 200,
+              "modelVersion": "gemini-3.5-flash-lite",
+              "usage": {
+                "promptTokenCount": 2324,
+                "candidatesTokenCount": 21,
+                "thoughtsTokenCount": null,
+                "totalTokenCount": 2345
+              },
+              "timeoutMs": 30000
+            }
+          ],
+          "evidenceReference": {
+            "id": "s6",
+            "field": "subject",
+            "start": 0,
+            "end": 117
+          },
+          "firstAttempt": {
+            "output": {
+              "category": "review",
+              "evidence": "Web app: Send my invoice; the desktop view has a pale gray background and a blue title above a white panel; unlock my"
+            },
+            "attempts": 1,
+            "latencyMs": 10450,
+            "modelVersion": "gemini-3.5-flash-lite",
+            "usage": {
+              "promptTokenCount": 2324,
+              "candidatesTokenCount": 21,
+              "thoughtsTokenCount": null,
+              "totalTokenCount": 2345
+            },
+            "attemptLog": [
+              {
+                "attempt": 1,
+                "outcome": "success",
+                "stage": "decision",
+                "finishReason": "STOP",
+                "attemptLatencyMs": 10450,
+                "candidateCount": 1,
+                "outputCharacters": 48,
+                "httpStatus": 200,
+                "modelVersion": "gemini-3.5-flash-lite",
+                "usage": {
+                  "promptTokenCount": 2324,
+                  "candidatesTokenCount": 21,
+                  "thoughtsTokenCount": null,
+                  "totalTokenCount": 2345
+                },
+                "timeoutMs": 30000
+              }
+            ],
+            "evidenceReference": {
+              "id": "s6",
+              "field": "subject",
+              "start": 0,
+              "end": 117
+            }
+          },
+          "reliability": {
+            "version": "bounded-v8",
+            "timeoutMs": 30000,
+            "totalTimeoutMs": 65000,
+            "maxAttempts": 2,
+            "recovered": false,
+            "retryDeferred": null
+          }
+        }
+      },
+      "semantic": {
+        "updated": {
+          "id": "evidence-008",
+          "sourceExact": true,
+          "supportsReturnedDecision": false,
+          "coversSufficientReferenceBundle": false,
+          "coveredBundleIndexes": [],
+          "criteriaAmbiguous": false,
+          "optionalContextCoverage": "partial",
+          "rationale": "The quote is exact and conveys sending an invoice, but 'unlock my' truncates the object before identifying login access. The full request warrants review, but this quote does not convey the second complete substantive intent. Context cannot restore the omitted object.",
+          "reviewerSourceExact": true,
+          "routingCorrect": true
+        }
+      }
+    },
+    {
+      "id": "b13-003",
+      "stratum": "forced_boundary",
+      "expected": {
+        "route": null,
+        "requiresHumanReview": true
+      },
+      "baseline": {
+        "id": "b13-003",
+        "route": "billing",
+        "requiresHumanReview": false,
+        "reason": "single_route_match",
+        "matchedCategories": [
+          "billing"
+        ],
+        "source": "rules-baseline"
+      },
+      "previousFirst": {
+        "id": "b13-003",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "model_requested_review",
+        "source": "gemini"
+      },
+      "previous": {
+        "id": "b13-003",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "model_requested_review",
+        "source": "gemini"
+      },
+      "updatedFirst": {
+        "id": "b13-003",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "model_requested_review",
+        "source": "gemini"
+      },
+      "updated": {
+        "id": "b13-003",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "model_requested_review",
+        "source": "gemini"
+      },
+      "guardedPrevious": {
+        "id": "b13-003",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "model_requested_review",
+        "source": "guarded-gemini"
+      },
+      "guardedUpdated": {
+        "id": "b13-003",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "model_requested_review",
+        "source": "guarded-gemini"
+      },
+      "providers": {
+        "previous": {
+          "output": {
+            "category": "review",
+            "evidence": "Chart is blank here; the panel is on a wide screen with a gray border and a narrow blue top bar; send my receipt."
+          },
+          "attempts": 1,
+          "latencyMs": 3521,
+          "modelVersion": "gemini-3.5-flash-lite",
+          "usage": {
+            "promptTokenCount": 1894,
+            "candidatesTokenCount": 44,
+            "thoughtsTokenCount": null,
+            "totalTokenCount": 1938
+          },
+          "attemptLog": [
+            {
+              "attempt": 1,
+              "outcome": "success",
+              "stage": "decision",
+              "finishReason": "STOP",
+              "attemptLatencyMs": 3521,
+              "candidateCount": 1,
+              "outputCharacters": 157,
+              "httpStatus": 200,
+              "modelVersion": "gemini-3.5-flash-lite",
+              "usage": {
+                "promptTokenCount": 1894,
+                "candidatesTokenCount": 44,
+                "thoughtsTokenCount": null,
+                "totalTokenCount": 1938
+              },
+              "timeoutMs": 30000
+            }
+          ],
+          "firstAttempt": {
+            "output": {
+              "category": "review",
+              "evidence": "Chart is blank here; the panel is on a wide screen with a gray border and a narrow blue top bar; send my receipt."
+            },
+            "attempts": 1,
+            "latencyMs": 3521,
+            "modelVersion": "gemini-3.5-flash-lite",
+            "usage": {
+              "promptTokenCount": 1894,
+              "candidatesTokenCount": 44,
+              "thoughtsTokenCount": null,
+              "totalTokenCount": 1938
+            },
+            "attemptLog": [
+              {
+                "attempt": 1,
+                "outcome": "success",
+                "stage": "decision",
+                "finishReason": "STOP",
+                "attemptLatencyMs": 3521,
+                "candidateCount": 1,
+                "outputCharacters": 157,
+                "httpStatus": 200,
+                "modelVersion": "gemini-3.5-flash-lite",
+                "usage": {
+                  "promptTokenCount": 1894,
+                  "candidatesTokenCount": 44,
+                  "thoughtsTokenCount": null,
+                  "totalTokenCount": 1938
+                },
+                "timeoutMs": 30000
+              }
+            ]
+          },
+          "reliability": {
+            "version": "bounded-v8",
+            "timeoutMs": 30000,
+            "totalTimeoutMs": 65000,
+            "maxAttempts": 2,
+            "recovered": false,
+            "retryDeferred": null
+          }
+        },
+        "updated": {
+          "output": {
+            "category": "review",
+            "evidence": "Chart is blank here; the panel is on a wide screen with a gray border and a narrow blue top bar; send my receipt."
+          },
+          "attempts": 1,
+          "latencyMs": 6530,
+          "modelVersion": "gemini-3.5-flash-lite",
+          "usage": {
+            "promptTokenCount": 2309,
+            "candidatesTokenCount": 21,
+            "thoughtsTokenCount": null,
+            "totalTokenCount": 2330
+          },
+          "attemptLog": [
+            {
+              "attempt": 1,
+              "outcome": "success",
+              "stage": "decision",
+              "finishReason": "STOP",
+              "attemptLatencyMs": 6530,
+              "candidateCount": 1,
+              "outputCharacters": 48,
+              "httpStatus": 200,
+              "modelVersion": "gemini-3.5-flash-lite",
+              "usage": {
+                "promptTokenCount": 2309,
+                "candidatesTokenCount": 21,
+                "thoughtsTokenCount": null,
+                "totalTokenCount": 2330
+              },
+              "timeoutMs": 30000
+            }
+          ],
+          "evidenceReference": {
+            "id": "s4",
+            "field": "body",
+            "start": 0,
+            "end": 113
+          },
+          "firstAttempt": {
+            "output": {
+              "category": "review",
+              "evidence": "Chart is blank here; the panel is on a wide screen with a gray border and a narrow blue top bar; send my receipt."
+            },
+            "attempts": 1,
+            "latencyMs": 6530,
+            "modelVersion": "gemini-3.5-flash-lite",
+            "usage": {
+              "promptTokenCount": 2309,
+              "candidatesTokenCount": 21,
+              "thoughtsTokenCount": null,
+              "totalTokenCount": 2330
+            },
+            "attemptLog": [
+              {
+                "attempt": 1,
+                "outcome": "success",
+                "stage": "decision",
+                "finishReason": "STOP",
+                "attemptLatencyMs": 6530,
+                "candidateCount": 1,
+                "outputCharacters": 48,
+                "httpStatus": 200,
+                "modelVersion": "gemini-3.5-flash-lite",
+                "usage": {
+                  "promptTokenCount": 2309,
+                  "candidatesTokenCount": 21,
+                  "thoughtsTokenCount": null,
+                  "totalTokenCount": 2330
+                },
+                "timeoutMs": 30000
+              }
+            ],
+            "evidenceReference": {
+              "id": "s4",
+              "field": "body",
+              "start": 0,
+              "end": 113
+            }
+          },
+          "reliability": {
+            "version": "bounded-v8",
+            "timeoutMs": 30000,
+            "totalTimeoutMs": 65000,
+            "maxAttempts": 2,
+            "recovered": false,
+            "retryDeferred": null
+          }
+        }
+      },
+      "semantic": {
+        "updated": {
+          "id": "evidence-004",
+          "sourceExact": true,
+          "supportsReturnedDecision": true,
+          "coversSufficientReferenceBundle": true,
+          "coveredBundleIndexes": [
+            0
+          ],
+          "criteriaAmbiguous": false,
+          "optionalContextCoverage": "partial",
+          "rationale": "The exact quote conveys the blank-chart malfunction and receipt request, fully covering bundle 0 and supporting review. Screen and panel description are optional; closing and subject framing are omitted.",
+          "reviewerSourceExact": true,
+          "routingCorrect": true
+        },
+        "previous": {
+          "id": "evidence-009",
+          "sourceExact": true,
+          "supportsReturnedDecision": true,
+          "coversSufficientReferenceBundle": true,
+          "coveredBundleIndexes": [
+            0
+          ],
+          "criteriaAmbiguous": false,
+          "optionalContextCoverage": "partial",
+          "rationale": "The exact quote conveys the blank-chart malfunction and receipt request, fully covering bundle 0 and supporting review. Screen and panel description are optional; closing and subject framing are omitted.",
+          "reviewerSourceExact": true,
+          "routingCorrect": true
+        }
+      }
+    },
+    {
+      "id": "b13-004",
+      "stratum": "forced_boundary",
+      "expected": {
+        "route": null,
+        "requiresHumanReview": true
+      },
+      "baseline": {
+        "id": "b13-004",
+        "route": "billing",
+        "requiresHumanReview": false,
+        "reason": "single_route_match",
+        "matchedCategories": [
+          "billing"
+        ],
+        "source": "rules-baseline"
+      },
+      "previousFirst": {
+        "id": "b13-004",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "model_requested_review",
+        "source": "gemini"
+      },
+      "previous": {
+        "id": "b13-004",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "model_requested_review",
+        "source": "gemini"
+      },
+      "updatedFirst": {
+        "id": "b13-004",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "model_requested_review",
+        "source": "gemini"
+      },
+      "updated": {
+        "id": "b13-004",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "model_requested_review",
+        "source": "gemini"
+      },
+      "guardedPrevious": {
+        "id": "b13-004",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "model_requested_review",
+        "source": "guarded-gemini"
+      },
+      "guardedUpdated": {
+        "id": "b13-004",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "model_requested_review",
+        "source": "guarded-gemini"
+      },
+      "providers": {
+        "previous": {
+          "output": {
+            "category": "review",
+            "evidence": "Recover my PIN; the header has a small white logo beside a simple plain title in the upper left corner; refund my charge"
+          },
+          "attempts": 1,
+          "latencyMs": 781,
+          "modelVersion": "gemini-3.5-flash-lite",
+          "usage": {
+            "promptTokenCount": 1897,
+            "candidatesTokenCount": 43,
+            "thoughtsTokenCount": null,
+            "totalTokenCount": 1940
+          },
+          "attemptLog": [
+            {
+              "attempt": 1,
+              "outcome": "success",
+              "stage": "decision",
+              "finishReason": "STOP",
+              "attemptLatencyMs": 781,
+              "candidateCount": 1,
+              "outputCharacters": 164,
+              "httpStatus": 200,
+              "modelVersion": "gemini-3.5-flash-lite",
+              "usage": {
+                "promptTokenCount": 1897,
+                "candidatesTokenCount": 43,
+                "thoughtsTokenCount": null,
+                "totalTokenCount": 1940
+              },
+              "timeoutMs": 30000
+            }
+          ],
+          "firstAttempt": {
+            "output": {
+              "category": "review",
+              "evidence": "Recover my PIN; the header has a small white logo beside a simple plain title in the upper left corner; refund my charge"
+            },
+            "attempts": 1,
+            "latencyMs": 781,
+            "modelVersion": "gemini-3.5-flash-lite",
+            "usage": {
+              "promptTokenCount": 1897,
+              "candidatesTokenCount": 43,
+              "thoughtsTokenCount": null,
+              "totalTokenCount": 1940
+            },
+            "attemptLog": [
+              {
+                "attempt": 1,
+                "outcome": "success",
+                "stage": "decision",
+                "finishReason": "STOP",
+                "attemptLatencyMs": 781,
+                "candidateCount": 1,
+                "outputCharacters": 164,
+                "httpStatus": 200,
+                "modelVersion": "gemini-3.5-flash-lite",
+                "usage": {
+                  "promptTokenCount": 1897,
+                  "candidatesTokenCount": 43,
+                  "thoughtsTokenCount": null,
+                  "totalTokenCount": 1940
+                },
+                "timeoutMs": 30000
+              }
+            ]
+          },
+          "reliability": {
+            "version": "bounded-v8",
+            "timeoutMs": 30000,
+            "totalTimeoutMs": 65000,
+            "maxAttempts": 2,
+            "recovered": false,
+            "retryDeferred": null
+          }
+        },
+        "updated": {
+          "output": {
+            "category": "review",
+            "evidence": "Recover my PIN; the header has a small white logo beside a simple plain title in the upper left corner; refund my charge"
+          },
+          "attempts": 1,
+          "latencyMs": 7042,
+          "modelVersion": "gemini-3.5-flash-lite",
+          "usage": {
+            "promptTokenCount": 2330,
+            "candidatesTokenCount": 21,
+            "thoughtsTokenCount": null,
+            "totalTokenCount": 2351
+          },
+          "attemptLog": [
+            {
+              "attempt": 1,
+              "outcome": "success",
+              "stage": "decision",
+              "finishReason": "STOP",
+              "attemptLatencyMs": 7042,
+              "candidateCount": 1,
+              "outputCharacters": 48,
+              "httpStatus": 200,
+              "modelVersion": "gemini-3.5-flash-lite",
+              "usage": {
+                "promptTokenCount": 2330,
+                "candidatesTokenCount": 21,
+                "thoughtsTokenCount": null,
+                "totalTokenCount": 2351
+              },
+              "timeoutMs": 30000
+            }
+          ],
+          "evidenceReference": {
+            "id": "s8",
+            "field": "body",
+            "start": 30,
+            "end": 150
+          },
+          "firstAttempt": {
+            "output": {
+              "category": "review",
+              "evidence": "Recover my PIN; the header has a small white logo beside a simple plain title in the upper left corner; refund my charge"
+            },
+            "attempts": 1,
+            "latencyMs": 7042,
+            "modelVersion": "gemini-3.5-flash-lite",
+            "usage": {
+              "promptTokenCount": 2330,
+              "candidatesTokenCount": 21,
+              "thoughtsTokenCount": null,
+              "totalTokenCount": 2351
+            },
+            "attemptLog": [
+              {
+                "attempt": 1,
+                "outcome": "success",
+                "stage": "decision",
+                "finishReason": "STOP",
+                "attemptLatencyMs": 7042,
+                "candidateCount": 1,
+                "outputCharacters": 48,
+                "httpStatus": 200,
+                "modelVersion": "gemini-3.5-flash-lite",
+                "usage": {
+                  "promptTokenCount": 2330,
+                  "candidatesTokenCount": 21,
+                  "thoughtsTokenCount": null,
+                  "totalTokenCount": 2351
+                },
+                "timeoutMs": 30000
+              }
+            ],
+            "evidenceReference": {
+              "id": "s8",
+              "field": "body",
+              "start": 30,
+              "end": 150
+            }
+          },
+          "reliability": {
+            "version": "bounded-v8",
+            "timeoutMs": 30000,
+            "totalTimeoutMs": 65000,
+            "maxAttempts": 2,
+            "recovered": false,
+            "retryDeferred": null
+          }
+        }
+      },
+      "semantic": {
+        "previous": {
+          "id": "evidence-006",
+          "sourceExact": true,
+          "supportsReturnedDecision": true,
+          "coversSufficientReferenceBundle": true,
+          "coveredBundleIndexes": [
+            0
+          ],
+          "criteriaAmbiguous": false,
+          "optionalContextCoverage": "partial",
+          "rationale": "The exact quote conveys PIN recovery and a charge-refund request, fully covering bundle 0 and supporting review. Header appearance is optional; introductory desktop framing is omitted.",
+          "reviewerSourceExact": true,
+          "routingCorrect": true
+        },
+        "updated": {
+          "id": "evidence-011",
+          "sourceExact": true,
+          "supportsReturnedDecision": true,
+          "coversSufficientReferenceBundle": true,
+          "coveredBundleIndexes": [
+            0
+          ],
+          "criteriaAmbiguous": false,
+          "optionalContextCoverage": "partial",
+          "rationale": "The exact quote conveys PIN recovery and a charge-refund request, fully covering bundle 0 and supporting review. Header appearance is optional; introductory desktop framing is omitted.",
+          "reviewerSourceExact": true,
+          "routingCorrect": true
+        }
+      }
+    },
+    {
+      "id": "b13-006",
+      "stratum": "forced_boundary",
+      "expected": {
+        "route": null,
+        "requiresHumanReview": true
+      },
+      "baseline": {
+        "id": "b13-006",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "no_supported_route",
+        "matchedCategories": [],
+        "source": "rules-baseline"
+      },
+      "previousFirst": {
+        "id": "b13-006",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "model_requested_review",
+        "source": "gemini"
+      },
+      "previous": {
+        "id": "b13-006",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "model_requested_review",
+        "source": "gemini"
+      },
+      "updatedFirst": {
+        "error": "provider_http_503",
+        "route": null,
+        "requiresHumanReview": true
+      },
+      "updated": {
+        "id": "b13-006",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "model_requested_review",
+        "source": "gemini"
+      },
+      "guardedPrevious": {
+        "id": "b13-006",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "model_requested_review",
+        "source": "guarded-gemini"
+      },
+      "guardedUpdated": {
+        "id": "b13-006",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "model_requested_review",
+        "source": "guarded-gemini"
+      },
+      "providers": {
+        "previous": {
+          "output": {
+            "category": "review",
+            "evidence": "Search keeps freezing; the window has a thin blue frame and a small white logo next to its title; reset my PIN."
+          },
+          "attempts": 1,
+          "latencyMs": 703,
+          "modelVersion": "gemini-3.5-flash-lite",
+          "usage": {
+            "promptTokenCount": 1899,
+            "candidatesTokenCount": 42,
+            "thoughtsTokenCount": null,
+            "totalTokenCount": 1941
+          },
+          "attemptLog": [
+            {
+              "attempt": 1,
+              "outcome": "success",
+              "stage": "decision",
+              "finishReason": "STOP",
+              "attemptLatencyMs": 703,
+              "candidateCount": 1,
+              "outputCharacters": 155,
+              "httpStatus": 200,
+              "modelVersion": "gemini-3.5-flash-lite",
+              "usage": {
+                "promptTokenCount": 1899,
+                "candidatesTokenCount": 42,
+                "thoughtsTokenCount": null,
+                "totalTokenCount": 1941
+              },
+              "timeoutMs": 30000
+            }
+          ],
+          "firstAttempt": {
+            "output": {
+              "category": "review",
+              "evidence": "Search keeps freezing; the window has a thin blue frame and a small white logo next to its title; reset my PIN."
+            },
+            "attempts": 1,
+            "latencyMs": 703,
+            "modelVersion": "gemini-3.5-flash-lite",
+            "usage": {
+              "promptTokenCount": 1899,
+              "candidatesTokenCount": 42,
+              "thoughtsTokenCount": null,
+              "totalTokenCount": 1941
+            },
+            "attemptLog": [
+              {
+                "attempt": 1,
+                "outcome": "success",
+                "stage": "decision",
+                "finishReason": "STOP",
+                "attemptLatencyMs": 703,
+                "candidateCount": 1,
+                "outputCharacters": 155,
+                "httpStatus": 200,
+                "modelVersion": "gemini-3.5-flash-lite",
+                "usage": {
+                  "promptTokenCount": 1899,
+                  "candidatesTokenCount": 42,
+                  "thoughtsTokenCount": null,
+                  "totalTokenCount": 1941
+                },
+                "timeoutMs": 30000
+              }
+            ]
+          },
+          "reliability": {
+            "version": "bounded-v8",
+            "timeoutMs": 30000,
+            "totalTimeoutMs": 65000,
+            "maxAttempts": 2,
+            "recovered": false,
+            "retryDeferred": null
+          }
+        },
+        "updated": {
+          "output": {
+            "category": "review",
+            "evidence": "reset my PIN."
+          },
+          "attempts": 2,
+          "latencyMs": 7632,
+          "modelVersion": "gemini-3.5-flash-lite",
+          "usage": {
+            "promptTokenCount": 2359,
+            "candidatesTokenCount": 21,
+            "thoughtsTokenCount": null,
+            "totalTokenCount": 2380
+          },
+          "attemptLog": [
+            {
+              "attempt": 1,
+              "outcome": "retry",
+              "error": "provider_http_503",
+              "stage": "http",
+              "latencyMs": 1875,
+              "attemptLatencyMs": 1875,
+              "httpStatus": 503,
+              "timeoutMs": 30000,
+              "retryDeferred": null,
+              "retryDelayMs": 4554,
+              "retryAfterKind": "absent"
+            },
+            {
+              "attempt": 2,
+              "outcome": "success",
+              "stage": "decision",
+              "finishReason": "STOP",
+              "attemptLatencyMs": 1201,
+              "candidateCount": 1,
+              "outputCharacters": 48,
+              "httpStatus": 200,
+              "modelVersion": "gemini-3.5-flash-lite",
+              "usage": {
+                "promptTokenCount": 2359,
+                "candidatesTokenCount": 21,
+                "thoughtsTokenCount": null,
+                "totalTokenCount": 2380
+              },
+              "timeoutMs": 30000
+            }
+          ],
+          "evidenceReference": {
+            "id": "s3",
+            "field": "body",
+            "start": 113,
+            "end": 126
+          },
+          "firstAttempt": {
+            "error": "provider_http_503",
+            "attempts": 1,
+            "diagnostics": {
+              "stage": "http",
+              "latencyMs": 1875,
+              "attemptLatencyMs": 1875,
+              "httpStatus": 503
+            },
+            "attemptLog": [
+              {
+                "attempt": 1,
+                "outcome": "failure",
+                "error": "provider_http_503",
+                "stage": "http",
+                "latencyMs": 1875,
+                "attemptLatencyMs": 1875,
+                "httpStatus": 503,
+                "timeoutMs": 30000
+              }
+            ]
+          },
+          "reliability": {
+            "version": "bounded-v8",
+            "timeoutMs": 30000,
+            "totalTimeoutMs": 65000,
+            "maxAttempts": 2,
+            "recovered": true,
+            "retryDeferred": null
+          }
+        }
+      },
+      "semantic": {
+        "updated": {
+          "id": "evidence-001",
+          "sourceExact": true,
+          "supportsReturnedDecision": false,
+          "coversSufficientReferenceBundle": false,
+          "coveredBundleIndexes": [],
+          "criteriaAmbiguous": false,
+          "optionalContextCoverage": "none",
+          "rationale": "The full request warrants review for search freezing plus PIN reset. The exact quote conveys only PIN reset, so it does not substantiate multi-intent review. No alternative protective trigger is apparent.",
+          "reviewerSourceExact": true,
+          "routingCorrect": true
+        },
+        "previous": {
+          "id": "evidence-003",
+          "sourceExact": true,
+          "supportsReturnedDecision": true,
+          "coversSufficientReferenceBundle": true,
+          "coveredBundleIndexes": [
+            0
+          ],
+          "criteriaAmbiguous": false,
+          "optionalContextCoverage": "partial",
+          "rationale": "The exact quote expresses both the search-freezing malfunction and PIN-reset request, fully covering bundle 0 and supporting review. Middle visual details are optional; omitted greeting and theme assessment are optional.",
+          "reviewerSourceExact": true,
+          "routingCorrect": true
+        }
+      }
+    },
+    {
+      "id": "b13-002",
+      "stratum": "forced_boundary",
+      "expected": {
+        "route": null,
+        "requiresHumanReview": true
+      },
+      "baseline": {
+        "id": "b13-002",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "multiple_routes",
+        "matchedCategories": [
+          "access",
+          "technical"
+        ],
+        "source": "rules-baseline"
+      },
+      "previousFirst": {
+        "id": "b13-002",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "model_requested_review",
+        "source": "gemini"
+      },
+      "previous": {
+        "id": "b13-002",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "model_requested_review",
+        "source": "gemini"
+      },
+      "updatedFirst": {
+        "id": "b13-002",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "model_requested_review",
+        "source": "gemini"
+      },
+      "updated": {
+        "id": "b13-002",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "model_requested_review",
+        "source": "gemini"
+      },
+      "guardedPrevious": {
+        "id": "b13-002",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "model_requested_review",
+        "source": "guarded-gemini"
+      },
+      "guardedUpdated": {
+        "id": "b13-002",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "model_requested_review",
+        "source": "guarded-gemini"
+      },
+      "providers": {
+        "previous": {
+          "output": {
+            "category": "review",
+            "evidence": "Two app issues"
+          },
+          "attempts": 1,
+          "latencyMs": 1604,
+          "modelVersion": "gemini-3.5-flash-lite",
+          "usage": {
+            "promptTokenCount": 1902,
+            "candidatesTokenCount": 21,
+            "thoughtsTokenCount": null,
+            "totalTokenCount": 1923
+          },
+          "attemptLog": [
+            {
+              "attempt": 1,
+              "outcome": "success",
+              "stage": "decision",
+              "finishReason": "STOP",
+              "attemptLatencyMs": 1604,
+              "candidateCount": 1,
+              "outputCharacters": 58,
+              "httpStatus": 200,
+              "modelVersion": "gemini-3.5-flash-lite",
+              "usage": {
+                "promptTokenCount": 1902,
+                "candidatesTokenCount": 21,
+                "thoughtsTokenCount": null,
+                "totalTokenCount": 1923
+              },
+              "timeoutMs": 30000
+            }
+          ],
+          "firstAttempt": {
+            "output": {
+              "category": "review",
+              "evidence": "Two app issues"
+            },
+            "attempts": 1,
+            "latencyMs": 1604,
+            "modelVersion": "gemini-3.5-flash-lite",
+            "usage": {
+              "promptTokenCount": 1902,
+              "candidatesTokenCount": 21,
+              "thoughtsTokenCount": null,
+              "totalTokenCount": 1923
+            },
+            "attemptLog": [
+              {
+                "attempt": 1,
+                "outcome": "success",
+                "stage": "decision",
+                "finishReason": "STOP",
+                "attemptLatencyMs": 1604,
+                "candidateCount": 1,
+                "outputCharacters": 58,
+                "httpStatus": 200,
+                "modelVersion": "gemini-3.5-flash-lite",
+                "usage": {
+                  "promptTokenCount": 1902,
+                  "candidatesTokenCount": 21,
+                  "thoughtsTokenCount": null,
+                  "totalTokenCount": 1923
+                },
+                "timeoutMs": 30000
+              }
+            ]
+          },
+          "reliability": {
+            "version": "bounded-v8",
+            "timeoutMs": 30000,
+            "totalTimeoutMs": 65000,
+            "maxAttempts": 2,
+            "recovered": false,
+            "retryDeferred": null
+          }
+        },
+        "updated": {
+          "output": {
+            "category": "review",
+            "evidence": "Two app issues"
+          },
+          "attempts": 1,
+          "latencyMs": 2011,
+          "modelVersion": "gemini-3.5-flash-lite",
+          "usage": {
+            "promptTokenCount": 2353,
+            "candidatesTokenCount": 21,
+            "thoughtsTokenCount": null,
+            "totalTokenCount": 2374
+          },
+          "attemptLog": [
+            {
+              "attempt": 1,
+              "outcome": "success",
+              "stage": "decision",
+              "finishReason": "STOP",
+              "attemptLatencyMs": 2011,
+              "candidateCount": 1,
+              "outputCharacters": 48,
+              "httpStatus": 200,
+              "modelVersion": "gemini-3.5-flash-lite",
+              "usage": {
+                "promptTokenCount": 2353,
+                "candidatesTokenCount": 21,
+                "thoughtsTokenCount": null,
+                "totalTokenCount": 2374
+              },
+              "timeoutMs": 30000
+            }
+          ],
+          "evidenceReference": {
+            "id": "s9",
+            "field": "subject",
+            "start": 0,
+            "end": 14
+          },
+          "firstAttempt": {
+            "output": {
+              "category": "review",
+              "evidence": "Two app issues"
+            },
+            "attempts": 1,
+            "latencyMs": 2011,
+            "modelVersion": "gemini-3.5-flash-lite",
+            "usage": {
+              "promptTokenCount": 2353,
+              "candidatesTokenCount": 21,
+              "thoughtsTokenCount": null,
+              "totalTokenCount": 2374
+            },
+            "attemptLog": [
+              {
+                "attempt": 1,
+                "outcome": "success",
+                "stage": "decision",
+                "finishReason": "STOP",
+                "attemptLatencyMs": 2011,
+                "candidateCount": 1,
+                "outputCharacters": 48,
+                "httpStatus": 200,
+                "modelVersion": "gemini-3.5-flash-lite",
+                "usage": {
+                  "promptTokenCount": 2353,
+                  "candidatesTokenCount": 21,
+                  "thoughtsTokenCount": null,
+                  "totalTokenCount": 2374
+                },
+                "timeoutMs": 30000
+              }
+            ],
+            "evidenceReference": {
+              "id": "s9",
+              "field": "subject",
+              "start": 0,
+              "end": 14
+            }
+          },
+          "reliability": {
+            "version": "bounded-v8",
+            "timeoutMs": 30000,
+            "totalTimeoutMs": 65000,
+            "maxAttempts": 2,
+            "recovered": false,
+            "retryDeferred": null
+          }
+        }
+      },
+      "semantic": {
+        "previous": {
+          "id": "evidence-005",
+          "sourceExact": true,
+          "supportsReturnedDecision": false,
+          "coversSufficientReferenceBundle": false,
+          "coveredBundleIndexes": [],
+          "criteriaAmbiguous": false,
+          "optionalContextCoverage": "none",
+          "rationale": "The subject is exact but only counts unnamed issues. Although the full body warrants review for login recovery and frozen export, the quote conveys neither substantive positive intent. No alternative protective trigger is apparent.",
+          "reviewerSourceExact": true,
+          "routingCorrect": true
+        },
+        "updated": {
+          "id": "evidence-010",
+          "sourceExact": true,
+          "supportsReturnedDecision": false,
+          "coversSufficientReferenceBundle": false,
+          "coveredBundleIndexes": [],
+          "criteriaAmbiguous": false,
+          "optionalContextCoverage": "none",
+          "rationale": "The subject is exact but only counts unnamed issues. Although the full body warrants review for login recovery and frozen export, the quote conveys neither substantive positive intent. No alternative protective trigger is apparent.",
+          "reviewerSourceExact": true,
+          "routingCorrect": true
+        }
+      }
+    }
+  ]
+}

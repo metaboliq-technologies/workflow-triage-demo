@@ -1,0 +1,1539 @@
+{
+  "initialAgreement": {
+    "agreed": 20,
+    "total": 20
+  },
+  "routingDisagreements": [],
+  "unresolvedDisagreements": 0,
+  "humanReviewed": false,
+  "criteriaReview": [
+    {
+      "id": "v13-001",
+      "initialCriteria": {
+        "sufficientBundles": [
+          {
+            "trigger": "multiple substantive intents",
+            "facts": [
+              "Invoice resend request",
+              "Password reset assistance request"
+            ],
+            "exampleQuote": "resend my invoice and help me reset my password"
+          }
+        ],
+        "optionalContext": []
+      },
+      "authorCriteria": {
+        "sufficientBundles": [
+          {
+            "trigger": "Two substantive ordinary intents require review.",
+            "facts": [
+              "Invoice request",
+              "Password recovery request"
+            ],
+            "exampleQuote": "resend my invoice and help me reset my password"
+          }
+        ],
+        "optionalContext": []
+      },
+      "finalCriteria": {
+        "sufficientBundles": [
+          {
+            "trigger": "multiple substantive intents",
+            "facts": [
+              "Invoice resend request",
+              "Password reset assistance request"
+            ],
+            "exampleQuote": "resend my invoice and help me reset my password"
+          }
+        ],
+        "optionalContext": []
+      },
+      "rationale": "Routes agree. Final criteria require one sufficient trigger, preserve essential relationships, and avoid treating optional context as essential. No additional independent trigger observed beyond listed bundles.",
+      "explicitChanges": [
+        "Standardized final criteria around independently sufficient facts; optional details remain outside required facts."
+      ]
+    },
+    {
+      "id": "v13-002",
+      "initialCriteria": {
+        "sufficientBundles": [
+          {
+            "trigger": "one specific ordinary application feature malfunction; fictional records do not alone require review",
+            "facts": [
+              "Editor crashes on crop rotation"
+            ],
+            "exampleQuote": "editor crashes whenever I rotate a crop"
+          }
+        ],
+        "optionalContext": [
+          "Desktop edition; photography club"
+        ]
+      },
+      "authorCriteria": {
+        "sufficientBundles": [
+          {
+            "trigger": "A concrete non-authentication application malfunction.",
+            "facts": [
+              "Editor crashes on crop rotation"
+            ],
+            "exampleQuote": "editor crashes whenever I rotate a crop"
+          }
+        ],
+        "optionalContext": [
+          "Desktop edition",
+          "Photography club"
+        ]
+      },
+      "finalCriteria": {
+        "sufficientBundles": [
+          {
+            "trigger": "one specific ordinary application feature malfunction; fictional records do not alone require review",
+            "facts": [
+              "Editor crashes"
+            ],
+            "exampleQuote": "editor crashes whenever I rotate a crop"
+          }
+        ],
+        "optionalContext": [
+          "Crop rotation triggers crash",
+          "Desktop edition",
+          "Photography club"
+        ]
+      },
+      "rationale": "Routes agree. Final criteria require one sufficient trigger, preserve essential relationships, and avoid treating optional context as essential. No additional independent trigger observed beyond listed bundles.",
+      "explicitChanges": [
+        "Standardized final criteria around independently sufficient facts; optional details remain outside required facts.",
+        "Removed rotation condition from essential facts; concrete editor crash independently suffices. Newly observed shorter quote recorded."
+      ]
+    },
+    {
+      "id": "v13-003",
+      "initialCriteria": {
+        "sufficientBundles": [
+          {
+            "trigger": "multiple substantive intents",
+            "facts": [
+              "Map-export labels need restoration",
+              "Receipt request"
+            ],
+            "exampleQuote": "restore the missing labels on my map exports, and send me a receipt"
+          }
+        ],
+        "optionalContext": [
+          "Annual cartography subscription"
+        ]
+      },
+      "authorCriteria": {
+        "sufficientBundles": [
+          {
+            "trigger": "Two substantive ordinary intents require review.",
+            "facts": [
+              "Map exports have missing labels",
+              "Receipt requested"
+            ],
+            "exampleQuote": "Please restore the missing labels on my map exports, and send me a receipt for the annual cartography subscription."
+          }
+        ],
+        "optionalContext": [
+          "Annual subscription",
+          "Cartography domain"
+        ]
+      },
+      "finalCriteria": {
+        "sufficientBundles": [
+          {
+            "trigger": "multiple substantive intents",
+            "facts": [
+              "Map-export labels need restoration",
+              "Receipt request"
+            ],
+            "exampleQuote": "Please restore the missing labels on my map exports, and send me a receipt for the annual cartography subscription."
+          }
+        ],
+        "optionalContext": [
+          "Annual subscription",
+          "Cartography domain"
+        ]
+      },
+      "rationale": "Routes agree. Final criteria require one sufficient trigger, preserve essential relationships, and avoid treating optional context as essential. No additional independent trigger observed beyond listed bundles.",
+      "explicitChanges": [
+        "Standardized final criteria around independently sufficient facts; optional details remain outside required facts.",
+        "Retained original 110-120-unit author bundle exemplar while separately recording shorter sufficient evidence; no optional fact made required.",
+        "Adopted shorter author-observed span: explicit request verb is unnecessary when missing labels are a concrete symptom."
+      ]
+    },
+    {
+      "id": "v13-004",
+      "initialCriteria": {
+        "sufficientBundles": [
+          {
+            "trigger": "one specific ordinary application feature malfunction; fictional records do not alone require review",
+            "facts": [
+              "Subtitle synchronization malfunction"
+            ],
+            "exampleQuote": "subtitles drift behind the video"
+          }
+        ],
+        "optionalContext": [
+          "After playback-speed change"
+        ]
+      },
+      "authorCriteria": {
+        "sufficientBundles": [
+          {
+            "trigger": "A specific subtitle synchronization malfunction.",
+            "facts": [
+              "Subtitles lose synchronization after speed change"
+            ],
+            "exampleQuote": "subtitles drift behind the video after I change playback speed"
+          }
+        ],
+        "optionalContext": [
+          "Playback speed change"
+        ]
+      },
+      "finalCriteria": {
+        "sufficientBundles": [
+          {
+            "trigger": "one specific ordinary application feature malfunction; fictional records do not alone require review",
+            "facts": [
+              "Subtitle synchronization malfunction"
+            ],
+            "exampleQuote": "subtitles drift behind the video"
+          }
+        ],
+        "optionalContext": [
+          "Playback speed change"
+        ]
+      },
+      "rationale": "Routes agree. Final criteria require one sufficient trigger, preserve essential relationships, and avoid treating optional context as essential. No additional independent trigger observed beyond listed bundles.",
+      "explicitChanges": [
+        "Standardized final criteria around independently sufficient facts; optional details remain outside required facts.",
+        "Removed speed-change timing from required facts; subtitle drift independently establishes malfunction."
+      ]
+    },
+    {
+      "id": "v13-005",
+      "initialCriteria": {
+        "sufficientBundles": [
+          {
+            "trigger": "one ordinary invoice, receipt, charge, payment method/failure, refund, renewal",
+            "facts": [
+              "Receipt delivery request"
+            ],
+            "exampleQuote": "email me a receipt"
+          }
+        ],
+        "optionalContext": [
+          "Telescope subscription; web purchase yesterday"
+        ]
+      },
+      "authorCriteria": {
+        "sufficientBundles": [
+          {
+            "trigger": "An ordinary receipt request.",
+            "facts": [
+              "Receipt requested for subscription"
+            ],
+            "exampleQuote": "email me a receipt"
+          }
+        ],
+        "optionalContext": [
+          "Web purchase",
+          "Yesterday"
+        ]
+      },
+      "finalCriteria": {
+        "sufficientBundles": [
+          {
+            "trigger": "one ordinary invoice, receipt, charge, payment method/failure, refund, renewal",
+            "facts": [
+              "Receipt delivery request"
+            ],
+            "exampleQuote": "email me a receipt"
+          }
+        ],
+        "optionalContext": [
+          "Web purchase",
+          "Yesterday"
+        ]
+      },
+      "rationale": "Routes agree. Final criteria require one sufficient trigger, preserve essential relationships, and avoid treating optional context as essential. No additional independent trigger observed beyond listed bundles.",
+      "explicitChanges": [
+        "Standardized final criteria around independently sufficient facts; optional details remain outside required facts.",
+        "Subscription object is optional to a clear receipt request."
+      ]
+    },
+    {
+      "id": "v13-006",
+      "initialCriteria": {
+        "sufficientBundles": [
+          {
+            "trigger": "multiple substantive intents",
+            "facts": [
+              "Expired verification link",
+              "Diagram rows overlap when printed"
+            ],
+            "exampleQuote": "verification link has expired, and the seating diagram prints with every row on top of the next"
+          }
+        ],
+        "optionalContext": []
+      },
+      "authorCriteria": {
+        "sufficientBundles": [
+          {
+            "trigger": "Two substantive ordinary intents require review.",
+            "facts": [
+              "Expired verification link",
+              "Seating print layout malfunction"
+            ],
+            "exampleQuote": "verification link has expired, and the seating diagram prints with every row on top of the next"
+          }
+        ],
+        "optionalContext": []
+      },
+      "finalCriteria": {
+        "sufficientBundles": [
+          {
+            "trigger": "multiple substantive intents",
+            "facts": [
+              "Expired verification link",
+              "Diagram rows overlap when printed"
+            ],
+            "exampleQuote": "verification link has expired, and the seating diagram prints with every row on top of the next"
+          }
+        ],
+        "optionalContext": []
+      },
+      "rationale": "Routes agree. Final criteria require one sufficient trigger, preserve essential relationships, and avoid treating optional context as essential. No additional independent trigger observed beyond listed bundles.",
+      "explicitChanges": [
+        "Standardized final criteria around independently sufficient facts; optional details remain outside required facts."
+      ]
+    },
+    {
+      "id": "v13-007",
+      "initialCriteria": {
+        "sufficientBundles": [
+          {
+            "trigger": "multiple substantive intents",
+            "facts": [
+              "Subscription payment-card change request",
+              "Attendance chart fails to open"
+            ],
+            "exampleQuote": "change the card used for my workshop subscription, and the attendance chart will not open"
+          }
+        ],
+        "optionalContext": [
+          "Browser context"
+        ]
+      },
+      "authorCriteria": {
+        "sufficientBundles": [
+          {
+            "trigger": "Two substantive ordinary intents require review.",
+            "facts": [
+              "Change subscription payment card",
+              "Attendance chart fails to open"
+            ],
+            "exampleQuote": "I need to change the card used for my workshop subscription, and the attendance chart will not open in the browser."
+          }
+        ],
+        "optionalContext": [
+          "Browser"
+        ]
+      },
+      "finalCriteria": {
+        "sufficientBundles": [
+          {
+            "trigger": "multiple substantive intents",
+            "facts": [
+              "Subscription payment-card change request",
+              "Attendance chart fails to open"
+            ],
+            "exampleQuote": "I need to change the card used for my workshop subscription, and the attendance chart will not open in the browser."
+          }
+        ],
+        "optionalContext": [
+          "Browser"
+        ]
+      },
+      "rationale": "Routes agree. Final criteria require one sufficient trigger, preserve essential relationships, and avoid treating optional context as essential. No additional independent trigger observed beyond listed bundles.",
+      "explicitChanges": [
+        "Standardized final criteria around independently sufficient facts; optional details remain outside required facts.",
+        "Retained original 110-120-unit author bundle exemplar while separately recording shorter sufficient evidence; no optional fact made required."
+      ]
+    },
+    {
+      "id": "v13-008",
+      "initialCriteria": {
+        "sufficientBundles": [
+          {
+            "trigger": "suspected takeover, unauthorized access",
+            "facts": [
+              "Another actor changed requester recovery email without permission"
+            ],
+            "exampleQuote": "Someone else changed my recovery email without permission"
+          }
+        ],
+        "optionalContext": [
+          "Community archive account"
+        ]
+      },
+      "authorCriteria": {
+        "sufficientBundles": [
+          {
+            "trigger": "Suspected unauthorized account access.",
+            "facts": [
+              "Recovery email changed by another person",
+              "Change was unauthorized"
+            ],
+            "exampleQuote": "Someone else changed my recovery email without permission"
+          }
+        ],
+        "optionalContext": [
+          "Community archive account"
+        ]
+      },
+      "finalCriteria": {
+        "sufficientBundles": [
+          {
+            "trigger": "suspected takeover, unauthorized access",
+            "facts": [
+              "Another person changed requester recovery email",
+              "Change lacked permission"
+            ],
+            "exampleQuote": "Someone else changed my recovery email without permission"
+          }
+        ],
+        "optionalContext": [
+          "Community archive account"
+        ]
+      },
+      "rationale": "Routes agree. Final criteria require one sufficient trigger, preserve essential relationships, and avoid treating optional context as essential. No additional independent trigger observed beyond listed bundles.",
+      "explicitChanges": [
+        "Standardized final criteria around independently sufficient facts; optional details remain outside required facts.",
+        "Split incident relationship into explicit conjunctive facts without changing semantic requirement."
+      ]
+    },
+    {
+      "id": "v13-009",
+      "initialCriteria": {
+        "sufficientBundles": [
+          {
+            "trigger": "Authentication/signup malfunctions stay access",
+            "facts": [
+              "Expired signup verification code"
+            ],
+            "exampleQuote": "verification code has expired"
+          }
+        ],
+        "optionalContext": [
+          "Even newest pasted code fails"
+        ]
+      },
+      "authorCriteria": {
+        "sufficientBundles": [
+          {
+            "trigger": "A concrete signup verification problem.",
+            "facts": [
+              "Signup rejects fresh verification code as expired"
+            ],
+            "exampleQuote": "signup page says my verification code has expired even when I paste the newest one"
+          }
+        ],
+        "optionalContext": [
+          "Newest code also rejected"
+        ]
+      },
+      "finalCriteria": {
+        "sufficientBundles": [
+          {
+            "trigger": "Authentication/signup malfunctions stay access",
+            "facts": [
+              "Expired signup verification code"
+            ],
+            "exampleQuote": "verification code has expired"
+          }
+        ],
+        "optionalContext": [
+          "Newest code also rejected"
+        ]
+      },
+      "rationale": "Routes agree. Final criteria require one sufficient trigger, preserve essential relationships, and avoid treating optional context as essential. No additional independent trigger observed beyond listed bundles.",
+      "explicitChanges": [
+        "Standardized final criteria around independently sufficient facts; optional details remain outside required facts.",
+        "Freshness and signup-page wording are not required in the evidence: expired verification code suffices in full-request context."
+      ]
+    },
+    {
+      "id": "v13-010",
+      "initialCriteria": {
+        "sufficientBundles": [
+          {
+            "trigger": "multiple substantive intents",
+            "facts": [
+              "New-account verification email fails to arrive",
+              "Refund request"
+            ],
+            "exampleQuote": "verification email never arrives for my new library account, and I need a refund"
+          }
+        ],
+        "optionalContext": [
+          "Duplicate membership fee"
+        ]
+      },
+      "authorCriteria": {
+        "sufficientBundles": [
+          {
+            "trigger": "Two substantive ordinary intents require review.",
+            "facts": [
+              "Verification email fails to arrive",
+              "Refund requested"
+            ],
+            "exampleQuote": "The verification email never arrives for my new library account, and I need a refund for the duplicate membership fee."
+          }
+        ],
+        "optionalContext": [
+          "Duplicate fee"
+        ]
+      },
+      "finalCriteria": {
+        "sufficientBundles": [
+          {
+            "trigger": "multiple substantive intents",
+            "facts": [
+              "New-account verification email fails to arrive",
+              "Refund request"
+            ],
+            "exampleQuote": "The verification email never arrives for my new library account, and I need a refund for the duplicate membership fee."
+          }
+        ],
+        "optionalContext": [
+          "Duplicate fee"
+        ]
+      },
+      "rationale": "Routes agree. Final criteria require one sufficient trigger, preserve essential relationships, and avoid treating optional context as essential. No additional independent trigger observed beyond listed bundles.",
+      "explicitChanges": [
+        "Standardized final criteria around independently sufficient facts; optional details remain outside required facts.",
+        "Retained original 110-120-unit author bundle exemplar while separately recording shorter sufficient evidence; no optional fact made required."
+      ]
+    },
+    {
+      "id": "v13-011",
+      "initialCriteria": {
+        "sufficientBundles": [
+          {
+            "trigger": "multiple substantive intents",
+            "facts": [
+              "Refund for extra charge",
+              "Route planner freezes"
+            ],
+            "exampleQuote": "refund for the extra monthly charge, and the route planner freezes"
+          }
+        ],
+        "optionalContext": [
+          "Occurs on adding a ferry"
+        ]
+      },
+      "authorCriteria": {
+        "sufficientBundles": [
+          {
+            "trigger": "Two substantive ordinary intents require review.",
+            "facts": [
+              "Refund requested",
+              "Route planner freezes"
+            ],
+            "exampleQuote": "refund for the extra monthly charge, and the route planner freezes when I add a ferry"
+          }
+        ],
+        "optionalContext": [
+          "Ferry triggers freezing"
+        ]
+      },
+      "finalCriteria": {
+        "sufficientBundles": [
+          {
+            "trigger": "multiple substantive intents",
+            "facts": [
+              "Refund for extra charge",
+              "Route planner freezes"
+            ],
+            "exampleQuote": "refund for the extra monthly charge, and the route planner freezes"
+          }
+        ],
+        "optionalContext": [
+          "Ferry triggers freezing"
+        ]
+      },
+      "rationale": "Routes agree. Final criteria require one sufficient trigger, preserve essential relationships, and avoid treating optional context as essential. No additional independent trigger observed beyond listed bundles.",
+      "explicitChanges": [
+        "Standardized final criteria around independently sufficient facts; optional details remain outside required facts."
+      ]
+    },
+    {
+      "id": "v13-012",
+      "initialCriteria": {
+        "sufficientBundles": [
+          {
+            "trigger": "one specific ordinary application feature malfunction; fictional records do not alone require review",
+            "facts": [
+              "Notes lose indentation on export"
+            ],
+            "exampleQuote": "notes lose indentation when exported"
+          }
+        ],
+        "optionalContext": [
+          "Fictional dragon patient; invented records about no actual person; game prototype"
+        ]
+      },
+      "authorCriteria": {
+        "sufficientBundles": [
+          {
+            "trigger": "A concrete export malfunction involving explicitly fictional material.",
+            "facts": [
+              "Notes lose indentation on export"
+            ],
+            "exampleQuote": "notes lose indentation when exported"
+          }
+        ],
+        "optionalContext": [
+          "Fictional dragon material about no actual person",
+          "Game prototype"
+        ]
+      },
+      "finalCriteria": {
+        "sufficientBundles": [
+          {
+            "trigger": "one specific ordinary application feature malfunction; fictional records do not alone require review",
+            "facts": [
+              "Notes lose indentation"
+            ],
+            "exampleQuote": "notes lose indentation when exported"
+          }
+        ],
+        "optionalContext": [
+          "Export operation",
+          "Explicitly fictional dragon material about no actual person",
+          "Game prototype"
+        ]
+      },
+      "rationale": "Routes agree. Final criteria require one sufficient trigger, preserve essential relationships, and avoid treating optional context as essential. No additional independent trigger observed beyond listed bundles.",
+      "explicitChanges": [
+        "Standardized final criteria around independently sufficient facts; optional details remain outside required facts.",
+        "Indentation loss is independently a concrete malfunction; export condition is optional. Fictional scope is decisive to full-request interpretation but need not be repeated in ordinary symptom evidence."
+      ]
+    },
+    {
+      "id": "v13-013",
+      "initialCriteria": {
+        "sufficientBundles": [
+          {
+            "trigger": "multiple substantive intents",
+            "facts": [
+              "Account access recovery request",
+              "Crashing calendar view repair request"
+            ],
+            "exampleQuote": "recover access to my festival organizer account, and repair the calendar view that crashes"
+          }
+        ],
+        "optionalContext": [
+          "Crash occurs when moving event"
+        ]
+      },
+      "authorCriteria": {
+        "sufficientBundles": [
+          {
+            "trigger": "Two substantive ordinary intents require review.",
+            "facts": [
+              "Account access recovery requested",
+              "Calendar view crashes"
+            ],
+            "exampleQuote": "Please recover access to my festival organizer account, and repair the calendar view that crashes when I move an event."
+          }
+        ],
+        "optionalContext": [
+          "Moving an event triggers crash"
+        ]
+      },
+      "finalCriteria": {
+        "sufficientBundles": [
+          {
+            "trigger": "multiple substantive intents",
+            "facts": [
+              "Account access recovery request",
+              "Crashing calendar view repair request"
+            ],
+            "exampleQuote": "Please recover access to my festival organizer account, and repair the calendar view that crashes when I move an event."
+          }
+        ],
+        "optionalContext": [
+          "Moving an event triggers crash"
+        ]
+      },
+      "rationale": "Routes agree. Final criteria require one sufficient trigger, preserve essential relationships, and avoid treating optional context as essential. No additional independent trigger observed beyond listed bundles.",
+      "explicitChanges": [
+        "Standardized final criteria around independently sufficient facts; optional details remain outside required facts.",
+        "Retained original 110-120-unit author bundle exemplar while separately recording shorter sufficient evidence; no optional fact made required."
+      ]
+    },
+    {
+      "id": "v13-014",
+      "initialCriteria": {
+        "sufficientBundles": [
+          {
+            "trigger": "one ordinary invoice, receipt, charge, payment method/failure, refund, renewal",
+            "facts": [
+              "Subscription payment-method change request"
+            ],
+            "exampleQuote": "switch my subscription payment method"
+          }
+        ],
+        "optionalContext": [
+          "Old card to new card"
+        ]
+      },
+      "authorCriteria": {
+        "sufficientBundles": [
+          {
+            "trigger": "One ordinary payment-method request.",
+            "facts": [
+              "Subscription payment method change requested"
+            ],
+            "exampleQuote": "switch my subscription payment method from the old card to a new card"
+          }
+        ],
+        "optionalContext": [
+          "Old card to new card"
+        ]
+      },
+      "finalCriteria": {
+        "sufficientBundles": [
+          {
+            "trigger": "one ordinary invoice, receipt, charge, payment method/failure, refund, renewal",
+            "facts": [
+              "Subscription payment-method change request"
+            ],
+            "exampleQuote": "switch my subscription payment method"
+          }
+        ],
+        "optionalContext": [
+          "Old card to new card"
+        ]
+      },
+      "rationale": "Routes agree. Final criteria require one sufficient trigger, preserve essential relationships, and avoid treating optional context as essential. No additional independent trigger observed beyond listed bundles.",
+      "explicitChanges": [
+        "Standardized final criteria around independently sufficient facts; optional details remain outside required facts."
+      ]
+    },
+    {
+      "id": "v13-015",
+      "initialCriteria": {
+        "sufficientBundles": [
+          {
+            "trigger": "actual personal diagnoses, medication, treatment/results",
+            "facts": [
+              "Requester actual migraine prescription"
+            ],
+            "exampleQuote": "My actual migraine prescription"
+          }
+        ],
+        "optionalContext": [
+          "Prescription visible in public preview; home journal tool"
+        ]
+      },
+      "authorCriteria": {
+        "sufficientBundles": [
+          {
+            "trigger": "Actual personal medical information requires review.",
+            "facts": [
+              "Actual personal prescription disclosed"
+            ],
+            "exampleQuote": "My actual migraine prescription"
+          }
+        ],
+        "optionalContext": [
+          "Public preview visibility",
+          "Home journal tool"
+        ]
+      },
+      "finalCriteria": {
+        "sufficientBundles": [
+          {
+            "trigger": "actual personal diagnoses, medication, treatment/results",
+            "facts": [
+              "Requester actual migraine prescription"
+            ],
+            "exampleQuote": "My actual migraine prescription"
+          }
+        ],
+        "optionalContext": [
+          "Public preview visibility",
+          "Home journal tool"
+        ]
+      },
+      "rationale": "Routes agree. Final criteria require one sufficient trigger, preserve essential relationships, and avoid treating optional context as essential. No additional independent trigger observed beyond listed bundles.",
+      "explicitChanges": [
+        "Standardized final criteria around independently sufficient facts; optional details remain outside required facts."
+      ]
+    },
+    {
+      "id": "v13-016",
+      "initialCriteria": {
+        "sufficientBundles": [
+          {
+            "trigger": "multiple substantive intents",
+            "facts": [
+              "Sign-in assistance request",
+              "Receipt delivery request"
+            ],
+            "exampleQuote": "sign in to the choir portal and send me the receipt"
+          }
+        ],
+        "optionalContext": [
+          "Choir subscription"
+        ]
+      },
+      "authorCriteria": {
+        "sufficientBundles": [
+          {
+            "trigger": "Two substantive ordinary intents require review.",
+            "facts": [
+              "Sign-in help requested",
+              "Receipt requested"
+            ],
+            "exampleQuote": "sign in to the choir portal and send me the receipt"
+          }
+        ],
+        "optionalContext": [
+          "Choir portal",
+          "Subscription"
+        ]
+      },
+      "finalCriteria": {
+        "sufficientBundles": [
+          {
+            "trigger": "multiple substantive intents",
+            "facts": [
+              "Sign-in assistance request",
+              "Receipt delivery request"
+            ],
+            "exampleQuote": "sign in to the choir portal and send me the receipt"
+          }
+        ],
+        "optionalContext": [
+          "Choir portal",
+          "Subscription"
+        ]
+      },
+      "rationale": "Routes agree. Final criteria require one sufficient trigger, preserve essential relationships, and avoid treating optional context as essential. No additional independent trigger observed beyond listed bundles.",
+      "explicitChanges": [
+        "Standardized final criteria around independently sufficient facts; optional details remain outside required facts."
+      ]
+    },
+    {
+      "id": "v13-017",
+      "initialCriteria": {
+        "sufficientBundles": [
+          {
+            "trigger": "multiple substantive intents",
+            "facts": [
+              "Sign-in PIN reset failure",
+              "Invoice request"
+            ],
+            "exampleQuote": "cannot reset my sign-in PIN for the new rehearsal portal, and I need an invoice"
+          }
+        ],
+        "optionalContext": [
+          "Ensemble subscription renewal"
+        ]
+      },
+      "authorCriteria": {
+        "sufficientBundles": [
+          {
+            "trigger": "Two substantive ordinary intents require review.",
+            "facts": [
+              "Sign-in PIN reset fails",
+              "Invoice requested"
+            ],
+            "exampleQuote": "I cannot reset my sign-in PIN for the new rehearsal portal, and I need an invoice for the ensemble subscription renewal."
+          }
+        ],
+        "optionalContext": [
+          "Ensemble renewal"
+        ]
+      },
+      "finalCriteria": {
+        "sufficientBundles": [
+          {
+            "trigger": "multiple substantive intents",
+            "facts": [
+              "Sign-in PIN reset failure",
+              "Invoice request"
+            ],
+            "exampleQuote": "I cannot reset my sign-in PIN for the new rehearsal portal, and I need an invoice for the ensemble subscription renewal."
+          }
+        ],
+        "optionalContext": [
+          "Ensemble renewal"
+        ]
+      },
+      "rationale": "Routes agree. Final criteria require one sufficient trigger, preserve essential relationships, and avoid treating optional context as essential. No additional independent trigger observed beyond listed bundles.",
+      "explicitChanges": [
+        "Standardized final criteria around independently sufficient facts; optional details remain outside required facts.",
+        "Retained original 110-120-unit author bundle exemplar while separately recording shorter sufficient evidence; no optional fact made required."
+      ]
+    },
+    {
+      "id": "v13-018",
+      "initialCriteria": {
+        "sufficientBundles": [
+          {
+            "trigger": "Authentication/signup malfunctions stay access",
+            "facts": [
+              "Rejected MFA authenticator code"
+            ],
+            "exampleQuote": "authenticator code is rejected"
+          }
+        ],
+        "optionalContext": [
+          "Cannot complete MFA; volunteer observatory; version available"
+        ]
+      },
+      "authorCriteria": {
+        "sufficientBundles": [
+          {
+            "trigger": "An ordinary MFA authentication malfunction.",
+            "facts": [
+              "MFA code rejection prevents authentication"
+            ],
+            "exampleQuote": "MFA because the authenticator code is rejected"
+          }
+        ],
+        "optionalContext": [
+          "Volunteer observatory",
+          "Version available"
+        ]
+      },
+      "finalCriteria": {
+        "sufficientBundles": [
+          {
+            "trigger": "Authentication/signup malfunctions stay access",
+            "facts": [
+              "Rejected MFA authenticator code"
+            ],
+            "exampleQuote": "authenticator code is rejected"
+          }
+        ],
+        "optionalContext": [
+          "Volunteer observatory",
+          "Version available"
+        ]
+      },
+      "rationale": "Routes agree. Final criteria require one sufficient trigger, preserve essential relationships, and avoid treating optional context as essential. No additional independent trigger observed beyond listed bundles.",
+      "explicitChanges": [
+        "Standardized final criteria around independently sufficient facts; optional details remain outside required facts.",
+        "MFA inability need not be separately quoted: authenticator-code rejection concretely establishes access malfunction."
+      ]
+    },
+    {
+      "id": "v13-019",
+      "initialCriteria": {
+        "sufficientBundles": [
+          {
+            "trigger": "multiple substantive intents",
+            "facts": [
+              "Recipe timer stops on screen lock",
+              "Payment-card update request"
+            ],
+            "exampleQuote": "timer stops whenever I lock the screen, and I want to update the payment card"
+          }
+        ],
+        "optionalContext": [
+          "Personal cooking subscription"
+        ]
+      },
+      "authorCriteria": {
+        "sufficientBundles": [
+          {
+            "trigger": "Two substantive ordinary intents require review.",
+            "facts": [
+              "Recipe timer stops on screen lock",
+              "Subscription payment card update requested"
+            ],
+            "exampleQuote": "The recipe timer stops whenever I lock the screen, and I want to update the payment card for my own cooking subscription"
+          }
+        ],
+        "optionalContext": [
+          "Own cooking subscription"
+        ]
+      },
+      "finalCriteria": {
+        "sufficientBundles": [
+          {
+            "trigger": "multiple substantive intents",
+            "facts": [
+              "Recipe timer stops",
+              "Payment-card update requested"
+            ],
+            "exampleQuote": "The recipe timer stops whenever I lock the screen, and I want to update the payment card for my own cooking subscription"
+          }
+        ],
+        "optionalContext": [
+          "Screen lock triggers stoppage",
+          "Own cooking subscription"
+        ]
+      },
+      "rationale": "Routes agree. Final criteria require one sufficient trigger, preserve essential relationships, and avoid treating optional context as essential. No additional independent trigger observed beyond listed bundles.",
+      "explicitChanges": [
+        "Standardized final criteria around independently sufficient facts; optional details remain outside required facts.",
+        "Retained original 110-120-unit author bundle exemplar while separately recording shorter sufficient evidence; no optional fact made required.",
+        "Screen-lock condition is not required beyond concrete timer stoppage; intervening condition remains in contiguous quote."
+      ]
+    },
+    {
+      "id": "v13-020",
+      "initialCriteria": {
+        "sufficientBundles": [
+          {
+            "trigger": "one specific ordinary application feature malfunction; fictional records do not alone require review",
+            "facts": [
+              "Blank timeline thumbnails"
+            ],
+            "exampleQuote": "timeline thumbnails are blank"
+          }
+        ],
+        "optionalContext": [
+          "Clips themselves play normally"
+        ]
+      },
+      "authorCriteria": {
+        "sufficientBundles": [
+          {
+            "trigger": "A concrete thumbnail display malfunction.",
+            "facts": [
+              "Timeline thumbnails are blank"
+            ],
+            "exampleQuote": "timeline thumbnails are blank"
+          }
+        ],
+        "optionalContext": [
+          "Clips play normally"
+        ]
+      },
+      "finalCriteria": {
+        "sufficientBundles": [
+          {
+            "trigger": "one specific ordinary application feature malfunction; fictional records do not alone require review",
+            "facts": [
+              "Blank timeline thumbnails"
+            ],
+            "exampleQuote": "timeline thumbnails are blank"
+          }
+        ],
+        "optionalContext": [
+          "Clips play normally"
+        ]
+      },
+      "rationale": "Routes agree. Final criteria require one sufficient trigger, preserve essential relationships, and avoid treating optional context as essential. No additional independent trigger observed beyond listed bundles.",
+      "explicitChanges": [
+        "Standardized final criteria around independently sufficient facts; optional details remain outside required facts."
+      ]
+    }
+  ],
+  "spanReview": [
+    {
+      "id": "v13-001",
+      "authorSpan": {
+        "shortestObservedQuote": "resend my invoice and help me reset my password",
+        "sourceField": "body",
+        "utf16Units": 47,
+        "rationale": "Shortest sufficient span observed during author inspection; no global minimality claim. No independently sufficient body alternative was observed for a subject-decisive case."
+      },
+      "initialSpan": {
+        "shortestObservedQuote": "resend my invoice and help me reset my password",
+        "sourceField": "body",
+        "utf16Units": 47,
+        "rationale": "Shortest sufficient contiguous quote observed in independent semantic search, assessed in full-request context. Optional context is unnecessary. Both substantive intents are retained where applicable. This is not proof of global minimality."
+      },
+      "finalSpan": {
+        "shortestObservedQuote": "resend my invoice and help me reset my password",
+        "sourceField": "body",
+        "utf16Units": 47,
+        "rationale": "Shortest sufficient quote observed after comparing independent judgments and searching for removable optional endpoint details. Assessed in full-request context; not a proof of global minimality."
+      },
+      "rationale": "Shortest sufficient quote observed after comparing independent judgments and searching for removable optional endpoint details. Assessed in full-request context; not a proof of global minimality."
+    },
+    {
+      "id": "v13-002",
+      "authorSpan": {
+        "shortestObservedQuote": "editor crashes whenever I rotate a crop",
+        "sourceField": "subject",
+        "utf16Units": 39,
+        "rationale": "Shortest sufficient span observed during author inspection; no global minimality claim. No independently sufficient body alternative was observed for a subject-decisive case."
+      },
+      "initialSpan": {
+        "shortestObservedQuote": "editor crashes whenever I rotate a crop",
+        "sourceField": "subject",
+        "utf16Units": 39,
+        "rationale": "Shortest sufficient contiguous quote observed in independent semantic search, assessed in full-request context. Optional context is unnecessary. Both substantive intents are retained where applicable. This is not proof of global minimality."
+      },
+      "finalSpan": {
+        "shortestObservedQuote": "editor crashes",
+        "sourceField": "subject",
+        "utf16Units": 14,
+        "rationale": "Shortest sufficient quote observed after comparing independent judgments and searching for removable optional endpoint details. Assessed in full-request context; not a proof of global minimality. Body checked: no independently sufficient ordinary intent, concrete symptom or protective disclosure is present. For the fictional-notes case the body clarifies benign scope but does not independently establish a software malfunction."
+      },
+      "rationale": "Shortest sufficient quote observed after comparing independent judgments and searching for removable optional endpoint details. Assessed in full-request context; not a proof of global minimality. Body checked: no independently sufficient ordinary intent, concrete symptom or protective disclosure is present. For the fictional-notes case the body clarifies benign scope but does not independently establish a software malfunction."
+    },
+    {
+      "id": "v13-003",
+      "authorSpan": {
+        "shortestObservedQuote": "missing labels on my map exports, and send me a receipt",
+        "sourceField": "body",
+        "utf16Units": 55,
+        "rationale": "A shorter contiguous sufficient alternative was observed; the longer bundle witness remains recorded. This is a search judgment, not a minimality proof."
+      },
+      "initialSpan": {
+        "shortestObservedQuote": "restore the missing labels on my map exports, and send me a receipt",
+        "sourceField": "body",
+        "utf16Units": 67,
+        "rationale": "Shortest sufficient contiguous quote observed in independent semantic search, assessed in full-request context. Optional context is unnecessary. Both substantive intents are retained where applicable. This is not proof of global minimality."
+      },
+      "finalSpan": {
+        "shortestObservedQuote": "missing labels on my map exports, and send me a receipt",
+        "sourceField": "body",
+        "utf16Units": 55,
+        "rationale": "Shortest sufficient quote observed after comparing independent judgments and searching for removable optional endpoint details. Assessed in full-request context; not a proof of global minimality."
+      },
+      "rationale": "Shortest sufficient quote observed after comparing independent judgments and searching for removable optional endpoint details. Assessed in full-request context; not a proof of global minimality."
+    },
+    {
+      "id": "v13-004",
+      "authorSpan": {
+        "shortestObservedQuote": "subtitles drift behind the video",
+        "sourceField": "body",
+        "utf16Units": 32,
+        "rationale": "Shortest sufficient span observed during author inspection; no global minimality claim. No independently sufficient body alternative was observed for a subject-decisive case."
+      },
+      "initialSpan": {
+        "shortestObservedQuote": "subtitles drift behind the video",
+        "sourceField": "body",
+        "utf16Units": 32,
+        "rationale": "Shortest sufficient contiguous quote observed in independent semantic search, assessed in full-request context. Optional context is unnecessary. Both substantive intents are retained where applicable. This is not proof of global minimality."
+      },
+      "finalSpan": {
+        "shortestObservedQuote": "subtitles drift behind the video",
+        "sourceField": "body",
+        "utf16Units": 32,
+        "rationale": "Shortest sufficient quote observed after comparing independent judgments and searching for removable optional endpoint details. Assessed in full-request context; not a proof of global minimality."
+      },
+      "rationale": "Shortest sufficient quote observed after comparing independent judgments and searching for removable optional endpoint details. Assessed in full-request context; not a proof of global minimality."
+    },
+    {
+      "id": "v13-005",
+      "authorSpan": {
+        "shortestObservedQuote": "email me a receipt",
+        "sourceField": "subject",
+        "utf16Units": 18,
+        "rationale": "Shortest sufficient span observed during author inspection; no global minimality claim. No independently sufficient body alternative was observed for a subject-decisive case."
+      },
+      "initialSpan": {
+        "shortestObservedQuote": "email me a receipt",
+        "sourceField": "subject",
+        "utf16Units": 18,
+        "rationale": "Shortest sufficient contiguous quote observed in independent semantic search, assessed in full-request context. Optional context is unnecessary. Both substantive intents are retained where applicable. This is not proof of global minimality."
+      },
+      "finalSpan": {
+        "shortestObservedQuote": "email me a receipt",
+        "sourceField": "subject",
+        "utf16Units": 18,
+        "rationale": "Shortest sufficient quote observed after comparing independent judgments and searching for removable optional endpoint details. Assessed in full-request context; not a proof of global minimality. Body checked: no independently sufficient ordinary intent, concrete symptom or protective disclosure is present. For the fictional-notes case the body clarifies benign scope but does not independently establish a software malfunction."
+      },
+      "rationale": "Shortest sufficient quote observed after comparing independent judgments and searching for removable optional endpoint details. Assessed in full-request context; not a proof of global minimality. Body checked: no independently sufficient ordinary intent, concrete symptom or protective disclosure is present. For the fictional-notes case the body clarifies benign scope but does not independently establish a software malfunction."
+    },
+    {
+      "id": "v13-006",
+      "authorSpan": {
+        "shortestObservedQuote": "verification link has expired, and the seating diagram prints with every row on top of the next",
+        "sourceField": "body",
+        "utf16Units": 95,
+        "rationale": "Shortest sufficient span observed during author inspection; no global minimality claim. No independently sufficient body alternative was observed for a subject-decisive case."
+      },
+      "initialSpan": {
+        "shortestObservedQuote": "verification link has expired, and the seating diagram prints with every row on top of the next",
+        "sourceField": "body",
+        "utf16Units": 95,
+        "rationale": "Shortest sufficient contiguous quote observed in independent semantic search, assessed in full-request context. Optional context is unnecessary. Both substantive intents are retained where applicable. This is not proof of global minimality."
+      },
+      "finalSpan": {
+        "shortestObservedQuote": "verification link has expired, and the seating diagram prints with every row on top of the next",
+        "sourceField": "body",
+        "utf16Units": 95,
+        "rationale": "Shortest sufficient quote observed after comparing independent judgments and searching for removable optional endpoint details. Assessed in full-request context; not a proof of global minimality."
+      },
+      "rationale": "Shortest sufficient quote observed after comparing independent judgments and searching for removable optional endpoint details. Assessed in full-request context; not a proof of global minimality."
+    },
+    {
+      "id": "v13-007",
+      "authorSpan": {
+        "shortestObservedQuote": "change the card used for my workshop subscription, and the attendance chart will not open",
+        "sourceField": "body",
+        "utf16Units": 89,
+        "rationale": "A shorter contiguous sufficient alternative was observed; the longer bundle witness remains recorded. This is a search judgment, not a minimality proof."
+      },
+      "initialSpan": {
+        "shortestObservedQuote": "change the card used for my workshop subscription, and the attendance chart will not open",
+        "sourceField": "body",
+        "utf16Units": 89,
+        "rationale": "Shortest sufficient contiguous quote observed in independent semantic search, assessed in full-request context. Optional context is unnecessary. Both substantive intents are retained where applicable. This is not proof of global minimality."
+      },
+      "finalSpan": {
+        "shortestObservedQuote": "change the card used for my workshop subscription, and the attendance chart will not open",
+        "sourceField": "body",
+        "utf16Units": 89,
+        "rationale": "Shortest sufficient quote observed after comparing independent judgments and searching for removable optional endpoint details. Assessed in full-request context; not a proof of global minimality."
+      },
+      "rationale": "Shortest sufficient quote observed after comparing independent judgments and searching for removable optional endpoint details. Assessed in full-request context; not a proof of global minimality."
+    },
+    {
+      "id": "v13-008",
+      "authorSpan": {
+        "shortestObservedQuote": "Someone else changed my recovery email without permission",
+        "sourceField": "subject",
+        "utf16Units": 57,
+        "rationale": "Shortest sufficient span observed during author inspection; no global minimality claim. No independently sufficient body alternative was observed for a subject-decisive case."
+      },
+      "initialSpan": {
+        "shortestObservedQuote": "Someone else changed my recovery email without permission",
+        "sourceField": "subject",
+        "utf16Units": 57,
+        "rationale": "Shortest sufficient contiguous quote observed in independent semantic search, assessed in full-request context. Optional context is unnecessary. Both substantive intents are retained where applicable. This is not proof of global minimality."
+      },
+      "finalSpan": {
+        "shortestObservedQuote": "Someone else changed my recovery email without permission",
+        "sourceField": "subject",
+        "utf16Units": 57,
+        "rationale": "Shortest sufficient quote observed after comparing independent judgments and searching for removable optional endpoint details. Assessed in full-request context; not a proof of global minimality. Body checked: no independently sufficient ordinary intent, concrete symptom or protective disclosure is present. For the fictional-notes case the body clarifies benign scope but does not independently establish a software malfunction."
+      },
+      "rationale": "Shortest sufficient quote observed after comparing independent judgments and searching for removable optional endpoint details. Assessed in full-request context; not a proof of global minimality. Body checked: no independently sufficient ordinary intent, concrete symptom or protective disclosure is present. For the fictional-notes case the body clarifies benign scope but does not independently establish a software malfunction."
+    },
+    {
+      "id": "v13-009",
+      "authorSpan": {
+        "shortestObservedQuote": "signup page says my verification code has expired",
+        "sourceField": "body",
+        "utf16Units": 49,
+        "rationale": "Shortest sufficient span observed during author inspection; no global minimality claim. No independently sufficient body alternative was observed for a subject-decisive case."
+      },
+      "initialSpan": {
+        "shortestObservedQuote": "verification code has expired",
+        "sourceField": "body",
+        "utf16Units": 29,
+        "rationale": "Shortest sufficient contiguous quote observed in independent semantic search, assessed in full-request context. Optional context is unnecessary. Both substantive intents are retained where applicable. This is not proof of global minimality."
+      },
+      "finalSpan": {
+        "shortestObservedQuote": "verification code has expired",
+        "sourceField": "body",
+        "utf16Units": 29,
+        "rationale": "Shortest sufficient quote observed after comparing independent judgments and searching for removable optional endpoint details. Assessed in full-request context; not a proof of global minimality."
+      },
+      "rationale": "Shortest sufficient quote observed after comparing independent judgments and searching for removable optional endpoint details. Assessed in full-request context; not a proof of global minimality."
+    },
+    {
+      "id": "v13-010",
+      "authorSpan": {
+        "shortestObservedQuote": "verification email never arrives for my new library account, and I need a refund",
+        "sourceField": "body",
+        "utf16Units": 80,
+        "rationale": "A shorter contiguous sufficient alternative was observed; the longer bundle witness remains recorded. This is a search judgment, not a minimality proof."
+      },
+      "initialSpan": {
+        "shortestObservedQuote": "verification email never arrives for my new library account, and I need a refund",
+        "sourceField": "body",
+        "utf16Units": 80,
+        "rationale": "Shortest sufficient contiguous quote observed in independent semantic search, assessed in full-request context. Optional context is unnecessary. Both substantive intents are retained where applicable. This is not proof of global minimality."
+      },
+      "finalSpan": {
+        "shortestObservedQuote": "verification email never arrives for my new library account, and I need a refund",
+        "sourceField": "body",
+        "utf16Units": 80,
+        "rationale": "Shortest sufficient quote observed after comparing independent judgments and searching for removable optional endpoint details. Assessed in full-request context; not a proof of global minimality."
+      },
+      "rationale": "Shortest sufficient quote observed after comparing independent judgments and searching for removable optional endpoint details. Assessed in full-request context; not a proof of global minimality."
+    },
+    {
+      "id": "v13-011",
+      "authorSpan": {
+        "shortestObservedQuote": "refund for the extra monthly charge, and the route planner freezes",
+        "sourceField": "body",
+        "utf16Units": 66,
+        "rationale": "Shortest sufficient span observed during author inspection; no global minimality claim. No independently sufficient body alternative was observed for a subject-decisive case."
+      },
+      "initialSpan": {
+        "shortestObservedQuote": "refund for the extra monthly charge, and the route planner freezes",
+        "sourceField": "body",
+        "utf16Units": 66,
+        "rationale": "Shortest sufficient contiguous quote observed in independent semantic search, assessed in full-request context. Optional context is unnecessary. Both substantive intents are retained where applicable. This is not proof of global minimality."
+      },
+      "finalSpan": {
+        "shortestObservedQuote": "refund for the extra monthly charge, and the route planner freezes",
+        "sourceField": "body",
+        "utf16Units": 66,
+        "rationale": "Shortest sufficient quote observed after comparing independent judgments and searching for removable optional endpoint details. Assessed in full-request context; not a proof of global minimality."
+      },
+      "rationale": "Shortest sufficient quote observed after comparing independent judgments and searching for removable optional endpoint details. Assessed in full-request context; not a proof of global minimality."
+    },
+    {
+      "id": "v13-012",
+      "authorSpan": {
+        "shortestObservedQuote": "notes lose indentation when exported",
+        "sourceField": "subject",
+        "utf16Units": 36,
+        "rationale": "Shortest sufficient span observed during author inspection; no global minimality claim. No independently sufficient body alternative was observed for a subject-decisive case."
+      },
+      "initialSpan": {
+        "shortestObservedQuote": "notes lose indentation when exported",
+        "sourceField": "subject",
+        "utf16Units": 36,
+        "rationale": "Shortest sufficient contiguous quote observed in independent semantic search, assessed in full-request context. Optional context is unnecessary. Both substantive intents are retained where applicable. This is not proof of global minimality."
+      },
+      "finalSpan": {
+        "shortestObservedQuote": "notes lose indentation",
+        "sourceField": "subject",
+        "utf16Units": 22,
+        "rationale": "Shortest sufficient quote observed after comparing independent judgments and searching for removable optional endpoint details. Assessed in full-request context; not a proof of global minimality. Body checked: no independently sufficient ordinary intent, concrete symptom or protective disclosure is present. For the fictional-notes case the body clarifies benign scope but does not independently establish a software malfunction."
+      },
+      "rationale": "Shortest sufficient quote observed after comparing independent judgments and searching for removable optional endpoint details. Assessed in full-request context; not a proof of global minimality. Body checked: no independently sufficient ordinary intent, concrete symptom or protective disclosure is present. For the fictional-notes case the body clarifies benign scope but does not independently establish a software malfunction."
+    },
+    {
+      "id": "v13-013",
+      "authorSpan": {
+        "shortestObservedQuote": "recover access to my festival organizer account, and repair the calendar view that crashes",
+        "sourceField": "body",
+        "utf16Units": 90,
+        "rationale": "A shorter contiguous sufficient alternative was observed; the longer bundle witness remains recorded. This is a search judgment, not a minimality proof."
+      },
+      "initialSpan": {
+        "shortestObservedQuote": "recover access to my festival organizer account, and repair the calendar view that crashes",
+        "sourceField": "body",
+        "utf16Units": 90,
+        "rationale": "Shortest sufficient contiguous quote observed in independent semantic search, assessed in full-request context. Optional context is unnecessary. Both substantive intents are retained where applicable. This is not proof of global minimality."
+      },
+      "finalSpan": {
+        "shortestObservedQuote": "recover access to my festival organizer account, and repair the calendar view that crashes",
+        "sourceField": "body",
+        "utf16Units": 90,
+        "rationale": "Shortest sufficient quote observed after comparing independent judgments and searching for removable optional endpoint details. Assessed in full-request context; not a proof of global minimality."
+      },
+      "rationale": "Shortest sufficient quote observed after comparing independent judgments and searching for removable optional endpoint details. Assessed in full-request context; not a proof of global minimality."
+    },
+    {
+      "id": "v13-014",
+      "authorSpan": {
+        "shortestObservedQuote": "switch my subscription payment method",
+        "sourceField": "body",
+        "utf16Units": 37,
+        "rationale": "Shortest sufficient span observed during author inspection; no global minimality claim. No independently sufficient body alternative was observed for a subject-decisive case."
+      },
+      "initialSpan": {
+        "shortestObservedQuote": "switch my subscription payment method",
+        "sourceField": "body",
+        "utf16Units": 37,
+        "rationale": "Shortest sufficient contiguous quote observed in independent semantic search, assessed in full-request context. Optional context is unnecessary. Both substantive intents are retained where applicable. This is not proof of global minimality."
+      },
+      "finalSpan": {
+        "shortestObservedQuote": "switch my subscription payment method",
+        "sourceField": "body",
+        "utf16Units": 37,
+        "rationale": "Shortest sufficient quote observed after comparing independent judgments and searching for removable optional endpoint details. Assessed in full-request context; not a proof of global minimality."
+      },
+      "rationale": "Shortest sufficient quote observed after comparing independent judgments and searching for removable optional endpoint details. Assessed in full-request context; not a proof of global minimality."
+    },
+    {
+      "id": "v13-015",
+      "authorSpan": {
+        "shortestObservedQuote": "My actual migraine prescription",
+        "sourceField": "subject",
+        "utf16Units": 31,
+        "rationale": "Shortest sufficient span observed during author inspection; no global minimality claim. No independently sufficient body alternative was observed for a subject-decisive case."
+      },
+      "initialSpan": {
+        "shortestObservedQuote": "My actual migraine prescription",
+        "sourceField": "subject",
+        "utf16Units": 31,
+        "rationale": "Shortest sufficient contiguous quote observed in independent semantic search, assessed in full-request context. Optional context is unnecessary. Both substantive intents are retained where applicable. This is not proof of global minimality."
+      },
+      "finalSpan": {
+        "shortestObservedQuote": "My actual migraine prescription",
+        "sourceField": "subject",
+        "utf16Units": 31,
+        "rationale": "Shortest sufficient quote observed after comparing independent judgments and searching for removable optional endpoint details. Assessed in full-request context; not a proof of global minimality. Body checked: no independently sufficient ordinary intent, concrete symptom or protective disclosure is present. For the fictional-notes case the body clarifies benign scope but does not independently establish a software malfunction."
+      },
+      "rationale": "Shortest sufficient quote observed after comparing independent judgments and searching for removable optional endpoint details. Assessed in full-request context; not a proof of global minimality. Body checked: no independently sufficient ordinary intent, concrete symptom or protective disclosure is present. For the fictional-notes case the body clarifies benign scope but does not independently establish a software malfunction."
+    },
+    {
+      "id": "v13-016",
+      "authorSpan": {
+        "shortestObservedQuote": "sign in to the choir portal and send me the receipt",
+        "sourceField": "body",
+        "utf16Units": 51,
+        "rationale": "Shortest sufficient span observed during author inspection; no global minimality claim. No independently sufficient body alternative was observed for a subject-decisive case."
+      },
+      "initialSpan": {
+        "shortestObservedQuote": "sign in to the choir portal and send me the receipt",
+        "sourceField": "body",
+        "utf16Units": 51,
+        "rationale": "Shortest sufficient contiguous quote observed in independent semantic search, assessed in full-request context. Optional context is unnecessary. Both substantive intents are retained where applicable. This is not proof of global minimality."
+      },
+      "finalSpan": {
+        "shortestObservedQuote": "sign in to the choir portal and send me the receipt",
+        "sourceField": "body",
+        "utf16Units": 51,
+        "rationale": "Shortest sufficient quote observed after comparing independent judgments and searching for removable optional endpoint details. Assessed in full-request context; not a proof of global minimality."
+      },
+      "rationale": "Shortest sufficient quote observed after comparing independent judgments and searching for removable optional endpoint details. Assessed in full-request context; not a proof of global minimality."
+    },
+    {
+      "id": "v13-017",
+      "authorSpan": {
+        "shortestObservedQuote": "cannot reset my sign-in PIN for the new rehearsal portal, and I need an invoice",
+        "sourceField": "body",
+        "utf16Units": 79,
+        "rationale": "A shorter contiguous sufficient alternative was observed; the longer bundle witness remains recorded. This is a search judgment, not a minimality proof."
+      },
+      "initialSpan": {
+        "shortestObservedQuote": "cannot reset my sign-in PIN for the new rehearsal portal, and I need an invoice",
+        "sourceField": "body",
+        "utf16Units": 79,
+        "rationale": "Shortest sufficient contiguous quote observed in independent semantic search, assessed in full-request context. Optional context is unnecessary. Both substantive intents are retained where applicable. This is not proof of global minimality."
+      },
+      "finalSpan": {
+        "shortestObservedQuote": "cannot reset my sign-in PIN for the new rehearsal portal, and I need an invoice",
+        "sourceField": "body",
+        "utf16Units": 79,
+        "rationale": "Shortest sufficient quote observed after comparing independent judgments and searching for removable optional endpoint details. Assessed in full-request context; not a proof of global minimality."
+      },
+      "rationale": "Shortest sufficient quote observed after comparing independent judgments and searching for removable optional endpoint details. Assessed in full-request context; not a proof of global minimality."
+    },
+    {
+      "id": "v13-018",
+      "authorSpan": {
+        "shortestObservedQuote": "authenticator code is rejected",
+        "sourceField": "subject",
+        "utf16Units": 30,
+        "rationale": "Shortest sufficient span observed during author inspection; no global minimality claim. No independently sufficient body alternative was observed for a subject-decisive case."
+      },
+      "initialSpan": {
+        "shortestObservedQuote": "authenticator code is rejected",
+        "sourceField": "subject",
+        "utf16Units": 30,
+        "rationale": "Shortest sufficient contiguous quote observed in independent semantic search, assessed in full-request context. Optional context is unnecessary. Both substantive intents are retained where applicable. This is not proof of global minimality."
+      },
+      "finalSpan": {
+        "shortestObservedQuote": "authenticator code is rejected",
+        "sourceField": "subject",
+        "utf16Units": 30,
+        "rationale": "Shortest sufficient quote observed after comparing independent judgments and searching for removable optional endpoint details. Assessed in full-request context; not a proof of global minimality. Body checked: no independently sufficient ordinary intent, concrete symptom or protective disclosure is present. For the fictional-notes case the body clarifies benign scope but does not independently establish a software malfunction."
+      },
+      "rationale": "Shortest sufficient quote observed after comparing independent judgments and searching for removable optional endpoint details. Assessed in full-request context; not a proof of global minimality. Body checked: no independently sufficient ordinary intent, concrete symptom or protective disclosure is present. For the fictional-notes case the body clarifies benign scope but does not independently establish a software malfunction."
+    },
+    {
+      "id": "v13-019",
+      "authorSpan": {
+        "shortestObservedQuote": "recipe timer stops whenever I lock the screen, and I want to update the payment card",
+        "sourceField": "body",
+        "utf16Units": 84,
+        "rationale": "A shorter contiguous sufficient alternative was observed; the longer bundle witness remains recorded. This is a search judgment, not a minimality proof."
+      },
+      "initialSpan": {
+        "shortestObservedQuote": "timer stops whenever I lock the screen, and I want to update the payment card",
+        "sourceField": "body",
+        "utf16Units": 77,
+        "rationale": "Shortest sufficient contiguous quote observed in independent semantic search, assessed in full-request context. Optional context is unnecessary. Both substantive intents are retained where applicable. This is not proof of global minimality."
+      },
+      "finalSpan": {
+        "shortestObservedQuote": "timer stops whenever I lock the screen, and I want to update the payment card",
+        "sourceField": "body",
+        "utf16Units": 77,
+        "rationale": "Shortest sufficient quote observed after comparing independent judgments and searching for removable optional endpoint details. Assessed in full-request context; not a proof of global minimality."
+      },
+      "rationale": "Shortest sufficient quote observed after comparing independent judgments and searching for removable optional endpoint details. Assessed in full-request context; not a proof of global minimality."
+    },
+    {
+      "id": "v13-020",
+      "authorSpan": {
+        "shortestObservedQuote": "timeline thumbnails are blank",
+        "sourceField": "body",
+        "utf16Units": 29,
+        "rationale": "Shortest sufficient span observed during author inspection; no global minimality claim. No independently sufficient body alternative was observed for a subject-decisive case."
+      },
+      "initialSpan": {
+        "shortestObservedQuote": "timeline thumbnails are blank",
+        "sourceField": "body",
+        "utf16Units": 29,
+        "rationale": "Shortest sufficient contiguous quote observed in independent semantic search, assessed in full-request context. Optional context is unnecessary. Both substantive intents are retained where applicable. This is not proof of global minimality."
+      },
+      "finalSpan": {
+        "shortestObservedQuote": "timeline thumbnails are blank",
+        "sourceField": "body",
+        "utf16Units": 29,
+        "rationale": "Shortest sufficient quote observed after comparing independent judgments and searching for removable optional endpoint details. Assessed in full-request context; not a proof of global minimality."
+      },
+      "rationale": "Shortest sufficient quote observed after comparing independent judgments and searching for removable optional endpoint details. Assessed in full-request context; not a proof of global minimality."
+    }
+  ],
+  "designShortfalls": [
+    {
+      "id": "v13-003",
+      "type": "near-limit evidence not forced",
+      "authorWitnessUnits": 115,
+      "shorterObservedUnits": 67,
+      "rationale": "Intervening optional language and removable endpoint detail make a shorter sufficient witness possible. Preserve case and longer exemplar; this is not a forced length-boundary test."
+    },
+    {
+      "id": "v13-007",
+      "type": "near-limit evidence not forced",
+      "authorWitnessUnits": 115,
+      "shorterObservedUnits": 89,
+      "rationale": "Intervening optional language and removable endpoint detail make a shorter sufficient witness possible. Preserve case and longer exemplar; this is not a forced length-boundary test."
+    },
+    {
+      "id": "v13-010",
+      "type": "near-limit evidence not forced",
+      "authorWitnessUnits": 118,
+      "shorterObservedUnits": 80,
+      "rationale": "Intervening optional language and removable endpoint detail make a shorter sufficient witness possible. Preserve case and longer exemplar; this is not a forced length-boundary test."
+    },
+    {
+      "id": "v13-013",
+      "type": "near-limit evidence not forced",
+      "authorWitnessUnits": 119,
+      "shorterObservedUnits": 90,
+      "rationale": "Intervening optional language and removable endpoint detail make a shorter sufficient witness possible. Preserve case and longer exemplar; this is not a forced length-boundary test."
+    },
+    {
+      "id": "v13-017",
+      "type": "near-limit evidence not forced",
+      "authorWitnessUnits": 120,
+      "shorterObservedUnits": 79,
+      "rationale": "Intervening optional language and removable endpoint detail make a shorter sufficient witness possible. Preserve case and longer exemplar; this is not a forced length-boundary test."
+    },
+    {
+      "id": "v13-019",
+      "type": "near-limit evidence not forced",
+      "authorWitnessUnits": 120,
+      "shorterObservedUnits": 77,
+      "rationale": "Intervening optional language and removable endpoint detail make a shorter sufficient witness possible. Preserve case and longer exemplar; this is not a forced length-boundary test."
+    }
+  ],
+  "primaryPreRunInput": {
+    "disclosedInput": "Primary implementer noted all six length cases have shorter sufficient witnesses and therefore do not force near-limit evidence; preserve cases and report shortfall without artificial fact inflation.",
+    "assessment": "Independently confirmed from original inputs and both sealed records before any provider results. Original author exemplars retained. No runtime code/options/results inspected.",
+    "limitations": [
+      "AI-only review, not human adjudication",
+      "Shared policy interpretation biases and missed alternatives remain possible",
+      "Observed shortest quotes are not proofs of global minima",
+      "A targeted synthetic set does not establish representative customer performance"
+    ]
+  }
+}

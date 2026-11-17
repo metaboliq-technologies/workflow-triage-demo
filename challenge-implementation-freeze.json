@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "version": "evidence-challenge-v13",
+  "frozenAt": "2026-11-17T11:47:52.883Z",
+  "caseInspectionByImplementerBeforeFreeze": false,
+  "humanReviewed": false,
+  "adaptersUnchanged": true,
+  "primaryImplementerExposure": "Historical v11/v12 cases/results; no v13 cases created or inspected",
+  "files": {
+    "model-adapter.mjs": "5a3db4ba79a3dee844c6c402463dd5c03ef83d46e676c4ebe14c0c16afefb6a1",
+    "reliable-adapter.mjs": "ab28c650366db3d20a6be702f432ef7e5e615a56a6ff26758d1098c81fc62a7d",
+    "sensitive-adapter.mjs": "c525e603460bc2d5c45db60fcddfa6ba83b70b81f709ad1d466865c25692319b",
+    "completeness-adapter.mjs": "02eca8dd6f4685a45fba0fdb78a110c0c0fe1e083fd9dc6d9b7d54b7ae6a0528",
+    "sufficient-adapter.mjs": "fdca1d3c3a7b1adb0a82d8bd3e9c2658d5c73e584d9dd8c686fc53836163b734",
+    "selection-options.mjs": "4a381124a7fec7f72ab209684420d4e1216f11f2bca81f46b29cbaf0295c556b",
+    "selection-core.mjs": "67cdeab3af44cb6b50ca8646ade4d334d08aabbaaec838522c5264af778200ce",
+    "selection-reliable.mjs": "451f0c5ef2d62917ab961dfdc92224b9f0f1652143a96ff40ef2c16cb6edeab4",
+    "selection-adapter.mjs": "eacaa55beadc09a6b40acce7b604269127d3935165ef32b7b4d9e165fbdf523c",
+    "selection-runner.mjs": "9a3b30dd43249ddf1aa442dcada88cc465bc409bc5de906ba91b95b7feedb534",
+    "challenge-evaluation.mjs": "8e78d77c4aab9ff0f6037c3bd5fe6277ee2e13c14f009df927e1dc42af6a6586",
+    "triage.mjs": "15f49d62481a71da7d2eef83b8b18fcecaab0e1893873a3a88f81c37cf6a9978",
+    "compare.mjs": "953ee7809e350e8f4a228da398fd14f54c9beb3ae33b830910edef4a556b2c49",
+    "ROUTING-POLICY-V13.md": "c46326b58ebe2d15574bc16aed3c6772eefa19225e7e5be83dae277d2ef4460b",
+    "OUTPUT-REVIEW-RUBRIC-V13.md": "bcf1f4f8a77a09e3d7b71b14e36875099907a5e20d40632e10810bf010feb192"
+  }
+}

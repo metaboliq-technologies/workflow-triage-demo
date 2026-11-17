@@ -24,7 +24,9 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           MBQ_ALLOW_SYNTHETIC_MODEL_RUN: 'yes'
         run: |
-          if test -f sensitive-implementation-freeze.json; then
+          if test -f sensitive-continuation-plan.json; then
+            node sensitive-continuation.mjs
+          elif test -f sensitive-implementation-freeze.json; then
             node sensitive-evaluation.mjs
           elif test -f reliability-implementation-freeze.json; then
             node reliability-evaluation.mjs
@@ -49,6 +51,7 @@ jobs:
             negation-comparison.local.json
             reliability-comparison.local.json
             sensitive-comparison.local.json
+            sensitive-continuation.local.json
           retention-days: 14
       - name: Print saved synthetic report without more provider calls
         if: always()
@@ -59,3 +62,4 @@ jobs:
           test ! -f negation-comparison.local.json || cat negation-comparison.local.json
           test ! -f reliability-comparison.local.json || cat reliability-comparison.local.json
           test ! -f sensitive-comparison.local.json || cat sensitive-comparison.local.json
+          test ! -f sensitive-continuation.local.json || cat sensitive-continuation.local.json

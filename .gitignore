@@ -38,3 +38,6 @@ sealed-v10-output-review/
 
 # Separate bounded completeness continuation
 completeness-continuation.local.json
+
+# Bounded sufficient-evidence comparison
+sufficient-comparison.local.json

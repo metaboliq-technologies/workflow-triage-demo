@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "caseCount": 20,
+  "humanReviewed": false,
+  "initialReviewerBlinded": true,
+  "initialAgreement": {
+    "agreed": 20,
+    "total": 20
+  },
+  "unresolvedDisagreements": 0,
+  "initialLabelsSha256": "85d29a76fb421f2f4f70a964ecb3fbd1ee5e5ce1ecd082edee6741d90f27ca73",
+  "datasetSha256": "59390dfb44cf7baf28e7c9cbbf338f3ec14d76cb0dd2b3d6970052e497563a72",
+  "policySha256": "b9995f0b34c52d242d6bb670e6366fa39a942dfc95b0342124f8833b6dc45af4",
+  "originalFiles": {
+    "author-inputs.json": "44f525f6c1c1df0105b13e6a0332c69af730275e673011f1e7e39fdb8648cf86",
+    "author-labels.json": "65616b439d9c6d8a236a1a81583a2edf157285ec869c93ddc849c086529bb094",
+    "author-process.json": "90934ed5bb412e8d87a78a39d136211ceb07f76a32c053dbcb817479464338fd",
+    "reviewer-initial-labels.json": "85d29a76fb421f2f4f70a964ecb3fbd1ee5e5ce1ecd082edee6741d90f27ca73",
+    "reviewer-initial-process.json": "970ef29fb871f58442f3895d53ddc77bcc9f79de6272a42fe2b7e49036fbcc1e",
+    "final-labels.json": "1d413b7aeff5ddd8b54f5fad7cf81062d54148813679c450ccf03cd8951da9b2",
+    "review-resolutions.json": "942b893f50422617ca70184651642356d22c2eff016843c2f261326956ea3697",
+    "final-reviewed-labels.json": "352e277223eb2c4b099b3789ef08fcc2308b1550939124e13fed08c4f0ed122e",
+    "review-resolutions-supplemental.json": "e583258a2c756543e1fc0fe08c0f58e8607f09b9d30a0748e8b4a5ae70fa3f91"
+  },
+  "implementationFreezeCommit": "3aaacbdeb8c16e1704a4d8e9ed1b9470e4f49ef5",
+  "initialJudgmentsSealCommit": "dd153230c4db1876809567aec92dd10b58fd08ed",
+  "primaryReviewerExposure": "Historical results and current labels after implementation freeze; pre-run sufficiency suggestions recorded in reconciliation",
+  "noveltyAuditSha256": "9eecaa2abde54d47c887042885ff72b1ced9277d5349ac92952ef88b7f1e1e04",
+  "noveltyLimitations": "No duplicate bodies; three reused subject lines and several historical pattern similarities. Not proof of unseen semantics or exclusion from training.",
+  "frozenAt": "2026-11-17T09:59:07.376Z"
+}

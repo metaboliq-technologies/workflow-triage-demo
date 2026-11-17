@@ -1,0 +1,8 @@
+import test from 'node:test';import assert from 'node:assert/strict';import {summarizeSufficient} from './sufficient-grades.mjs';
+const request={id:'development-only',subject:'Development',body:'development evidence one and two'};
+const dataset={cases:[{input:request,evidenceCriteria:{sufficientBundles:[{facts:['one']},{facts:['two']}],optionalContext:[]}}]};
+const raw={rows:[{id:request.id,expected:{route:null,requiresHumanReview:true},previous:{route:null,requiresHumanReview:true},updated:{error:'provider_http_429',route:null,requiresHumanReview:true}}]};
+const items=[{id:'blind-1',returned:{category:'review',evidence:'development evidence'}}],map=[{id:'blind-1',caseId:request.id,arm:'previous'}];
+const grade={id:'blind-1',supportsReturnedDecision:true,coversSufficientReferenceBundle:true,coveredBundleIndexes:[1],criteriaAmbiguous:false,optionalContextCoverage:'not-applicable',rationale:'Second sufficient alternative, not union of both.'};
+test('one alternative bundle earns coverage; unavailable review earns no credit or common-valid pair',()=>{const r=summarizeSufficient(raw,dataset,items,map,[grade]);assert.equal(r.allCases.previous.jointRoutingSupportAndCoverage,1);assert.equal(r.allCases.updated.routingCorrect,0);assert.equal(r.commonValid.caseIds.length,0);assert.equal(r.failures[0].result.error,'provider_http_429');});
+test('missing, duplicate, unsupported bundle indexes and fabricated quotes reject grades',()=>{assert.throws(()=>summarizeSufficient(raw,dataset,items,map,[]));assert.throws(()=>summarizeSufficient(raw,dataset,items,map,[{...grade,coveredBundleIndexes:[2]}]));assert.throws(()=>summarizeSufficient(raw,dataset,[{...items[0],returned:{evidence:'invented evidence'}}],map,[grade]));});

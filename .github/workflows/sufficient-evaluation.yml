@@ -1,0 +1,43 @@
+name: Sufficient evidence evaluation v11
+on:
+  push:
+    branches: ['eval/sufficient-v11-2026-11-17']
+    paths: ['sufficient-execution-plan.json']
+permissions:
+  contents: read
+concurrency:
+  group: synthetic-model-comparison
+  cancel-in-progress: false
+jobs:
+  compare:
+    runs-on: ubuntu-latest
+    timeout-minutes: 50
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v6
+        with:
+          node-version: '22'
+      - name: Test contracts and frozen implementation
+        run: npm test
+      - name: Compare frozen adapters on newly AI-reviewed fictional requests
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          MBQ_ALLOW_SYNTHETIC_MODEL_RUN: 'yes'
+        run: node sufficient-evaluation.mjs
+      - name: Retain checkpoint even on failure
+        if: always()
+        uses: actions/upload-artifact@v7
+        with:
+          name: sufficient-evaluation-${{ github.run_id }}
+          path: sufficient-comparison.local.json
+          retention-days: 14
+      - name: Print frozen checkpoint without further model calls
+        if: always()
+        run: |
+          if test -f sufficient-comparison.local.json; then
+            echo SUFFICIENT_CHECKPOINT_BEGIN
+            cat sufficient-comparison.local.json
+            echo SUFFICIENT_CHECKPOINT_END
+          fi

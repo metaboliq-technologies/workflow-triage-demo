@@ -35,3 +35,6 @@ completeness-comparison.local.json
 sealed-v10-author/
 sealed-v10-review/
 sealed-v10-output-review/
+
+# Separate bounded completeness continuation
+completeness-continuation.local.json

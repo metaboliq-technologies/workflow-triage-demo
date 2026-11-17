@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "caseCount": 20,
+  "humanReviewed": false,
+  "initialReviewerBlinded": true,
+  "initialAgreement": {
+    "agreed": 20,
+    "total": 20
+  },
+  "unresolvedDisagreements": 0,
+  "initialLabelsSha256": "fb723ba4d035665ddff626c713f89475edaf5c046db0daaea39f39df6eb30d6d",
+  "datasetSha256": "32726d2407a72b361e5e6483ebbd55f02702406bd40b8365fba83f6ea34638fe",
+  "policySha256": "f37d22e76bb9dc9af29830f1ee1fd72384eed2cca4735803da00e6410191da39",
+  "originalFiles": {
+    "author-inputs.json": "9b0a39388dc31d8e59ee039d00f05ba42525a6a9306b351e2105b41dd4eb1689",
+    "author-labels.json": "f304f71ec98a8821eee9277738a5f3ca460f9a470073605a1ddd175a157662a8",
+    "author-process.json": "186c2a876aaad160ec31f055bad866133a5d494bda26bc0c719b115e80fa35c9",
+    "reviewer-initial-labels.json": "fb723ba4d035665ddff626c713f89475edaf5c046db0daaea39f39df6eb30d6d",
+    "reviewer-initial-process.json": "8bbb44b809b124be11fc4614d759dc9f61547a19673d3626eadab375dfeb8045",
+    "final-labels.json": "df6cbf70877306565c8a84ca5cf24aed063cd4735edc1dc7a377909c3b0beada",
+    "review-resolutions.json": "777c3a9bb8caed0c349a14022f50222c7fcad97685a7ae82a5d42fce886f741a"
+  },
+  "implementationFreezeCommit": "69d82af981e8969ab7e07a3137d15be6281ff345",
+  "initialJudgmentsSealCommit": "380e47fc91085f1cc93f4804461bae75a5f61d19",
+  "primaryReviewerExposure": "Historical outcomes; fresh cases only after implementation freeze; pre-run reconciliation exposed to author labels",
+  "noveltyAuditSha256": "57294f4af3440e3bf9a31e2e3c359bb7842759d34e9303f11dc0271dd15bea3d",
+  "frozenAt": "2026-11-17T10:52:27.745Z"
+}

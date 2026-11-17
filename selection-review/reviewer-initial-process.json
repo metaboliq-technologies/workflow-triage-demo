@@ -1,0 +1,14 @@
+{
+  "initialLabelsSha256": "fb723ba4d035665ddff626c713f89475edaf5c046db0daaea39f39df6eb30d6d",
+  "timestamp": "2026-11-17T10:50:44.579Z",
+  "authorLabelExposure": false,
+  "humanReviewed": false,
+  "caseCount": 20,
+  "readScope": [
+    "ROUTING-POLICY-V12.md",
+    "OUTPUT-REVIEW-RUBRIC-V12.md",
+    "selection-review/author-inputs.json"
+  ],
+  "feasibilityCheck": "All alternative quotes checked source-exact and 4–120 JavaScript UTF-16 units.",
+  "vagueIntentNote": "For v12-018 the quote anchors the vague request; absence of concrete intent is assessed over the complete request and is not literally quotable."
+}

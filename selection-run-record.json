@@ -1,0 +1,12 @@
+{
+  "runId": 44068933144,
+  "jobId": 133989831066,
+  "workflowConclusion": "failure",
+  "experimentStatus": "complete",
+  "sourceCommit": "f4fa8f5ef28efe7c45cace29e58a26daa92968b4",
+  "startedAt": "2026-11-17T10:53:20.434Z",
+  "completedAt": "2026-11-17T11:16:11.781Z",
+  "checkpointPreserved": true,
+  "preflightTests": 115,
+  "reason": "The runner reports first-attempt failures even when permitted retries recover and coverage completes."
+}

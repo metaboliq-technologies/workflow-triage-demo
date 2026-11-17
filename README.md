@@ -142,3 +142,7 @@ This repository is separate from MetaboliQ's proprietary website and application
 ## Sufficient evidence comparison v11
 
 [Full v11 results and limitations](sufficient-results.md): 40 classifications, 46 attempts, 37 valid final outputs. On 17 common-valid pairs, no routing or AI-rated support gain; frozen bundle coverage 15/17 to 16/17 includes a criteria ambiguity. All-case joint success 17/20 for both. Three final failures and every retry remain recorded. Separate AI author/label/evidence reviewers; no human validation. Do not rerun the saved live evaluation. Reproduce the audit offline with `node verify-sufficient-evaluation.mjs`.
+
+## Bounded evidence selection v12
+
+[Full v12 evaluation and limitations](selection-results.md): 40 classifications and 45 attempts, all final outputs valid. Updated routing and blind AI-rated evidence support are 20/20, current v11 19/20, and rules routing 9/20; the observed difference is one classifier-injection review miss. Neither arm reproduces the original generic-heading or length failure in this set, so target-failure reduction is unmeasured. Five HTTP 503 attempts recover. Candidate IDs bound quotes and exclude recognized generic headings, but change the extraction pipeline and increase measured tokens; no human validation or production-readiness claim. Audit offline with `node verify-selection-evaluation.mjs`; do not rerun the saved live workflow.

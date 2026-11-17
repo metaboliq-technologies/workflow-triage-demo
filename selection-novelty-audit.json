@@ -1,0 +1,208 @@
+{
+  "method": "Exact bodies/subjects and lowercase ASCII word-set Jaccard, not semantic novelty or training exclusion",
+  "priorRequests": 396,
+  "exactBodyDuplicateCases": 0,
+  "reusedSubjectCases": 0,
+  "rows": [
+    {
+      "id": "v12-001",
+      "exactBodyDuplicates": [],
+      "identicalPriorSubjects": [],
+      "closestBody": {
+        "id": "v4-018",
+        "file": "reviewed-evaluation.json",
+        "jaccard": 0.15217391304347827
+      }
+    },
+    {
+      "id": "v12-002",
+      "exactBodyDuplicates": [],
+      "identicalPriorSubjects": [],
+      "closestBody": {
+        "id": "v2-027",
+        "file": "fresh-evaluation.json",
+        "jaccard": 0.21212121212121213
+      }
+    },
+    {
+      "id": "v12-003",
+      "exactBodyDuplicates": [],
+      "identicalPriorSubjects": [],
+      "closestBody": {
+        "id": "v11-005",
+        "file": "sufficient-evaluation.json",
+        "jaccard": 0.30303030303030304
+      }
+    },
+    {
+      "id": "v12-004",
+      "exactBodyDuplicates": [],
+      "identicalPriorSubjects": [],
+      "closestBody": {
+        "id": "v4-022",
+        "file": "reviewed-evaluation.json",
+        "jaccard": 0.18181818181818182
+      }
+    },
+    {
+      "id": "v12-005",
+      "exactBodyDuplicates": [],
+      "identicalPriorSubjects": [],
+      "closestBody": {
+        "id": "v10-007",
+        "file": "completeness-evaluation.json",
+        "jaccard": 0.2413793103448276
+      }
+    },
+    {
+      "id": "v12-006",
+      "exactBodyDuplicates": [],
+      "identicalPriorSubjects": [],
+      "closestBody": {
+        "id": "v11-006",
+        "file": "sufficient-evaluation.json",
+        "jaccard": 0.2
+      }
+    },
+    {
+      "id": "v12-007",
+      "exactBodyDuplicates": [],
+      "identicalPriorSubjects": [],
+      "closestBody": {
+        "id": "v2-039",
+        "file": "fresh-evaluation.json",
+        "jaccard": 0.2222222222222222
+      }
+    },
+    {
+      "id": "v12-008",
+      "exactBodyDuplicates": [],
+      "identicalPriorSubjects": [],
+      "closestBody": {
+        "id": "v7-014",
+        "file": "negation-evaluation.json",
+        "jaccard": 0.16666666666666666
+      }
+    },
+    {
+      "id": "v12-009",
+      "exactBodyDuplicates": [],
+      "identicalPriorSubjects": [],
+      "closestBody": {
+        "id": "v7-011",
+        "file": "negation-evaluation.json",
+        "jaccard": 0.325
+      }
+    },
+    {
+      "id": "v12-010",
+      "exactBodyDuplicates": [],
+      "identicalPriorSubjects": [],
+      "closestBody": {
+        "id": "v9-026",
+        "file": "sensitive-evaluation.json",
+        "jaccard": 0.2222222222222222
+      }
+    },
+    {
+      "id": "v12-011",
+      "exactBodyDuplicates": [],
+      "identicalPriorSubjects": [],
+      "closestBody": {
+        "id": "v7-031",
+        "file": "negation-evaluation.json",
+        "jaccard": 0.1590909090909091
+      }
+    },
+    {
+      "id": "v12-012",
+      "exactBodyDuplicates": [],
+      "identicalPriorSubjects": [],
+      "closestBody": {
+        "id": "v6-037",
+        "file": "vague-evaluation.json",
+        "jaccard": 0.24
+      }
+    },
+    {
+      "id": "v12-013",
+      "exactBodyDuplicates": [],
+      "identicalPriorSubjects": [],
+      "closestBody": {
+        "id": "v6-030",
+        "file": "vague-evaluation.json",
+        "jaccard": 0.15
+      }
+    },
+    {
+      "id": "v12-014",
+      "exactBodyDuplicates": [],
+      "identicalPriorSubjects": [],
+      "closestBody": {
+        "id": "v6-014",
+        "file": "vague-evaluation.json",
+        "jaccard": 0.25
+      }
+    },
+    {
+      "id": "v12-015",
+      "exactBodyDuplicates": [],
+      "identicalPriorSubjects": [],
+      "closestBody": {
+        "id": "v7-026",
+        "file": "negation-evaluation.json",
+        "jaccard": 0.24489795918367346
+      }
+    },
+    {
+      "id": "v12-016",
+      "exactBodyDuplicates": [],
+      "identicalPriorSubjects": [],
+      "closestBody": {
+        "id": "v9-001",
+        "file": "sensitive-evaluation.json",
+        "jaccard": 0.21428571428571427
+      }
+    },
+    {
+      "id": "v12-017",
+      "exactBodyDuplicates": [],
+      "identicalPriorSubjects": [],
+      "closestBody": {
+        "id": "v10-016",
+        "file": "completeness-evaluation.json",
+        "jaccard": 0.21428571428571427
+      }
+    },
+    {
+      "id": "v12-018",
+      "exactBodyDuplicates": [],
+      "identicalPriorSubjects": [],
+      "closestBody": {
+        "id": "v9-024",
+        "file": "sensitive-evaluation.json",
+        "jaccard": 0.275
+      }
+    },
+    {
+      "id": "v12-019",
+      "exactBodyDuplicates": [],
+      "identicalPriorSubjects": [],
+      "closestBody": {
+        "id": "v8-036",
+        "file": "reliability-evaluation.json",
+        "jaccard": 0.1702127659574468
+      }
+    },
+    {
+      "id": "v12-020",
+      "exactBodyDuplicates": [],
+      "identicalPriorSubjects": [],
+      "closestBody": {
+        "id": "v6-019",
+        "file": "vague-evaluation.json",
+        "jaccard": 0.15555555555555556
+      }
+    }
+  ]
+}

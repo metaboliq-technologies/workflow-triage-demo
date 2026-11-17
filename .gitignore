@@ -41,3 +41,6 @@ completeness-continuation.local.json
 
 # Bounded sufficient-evidence comparison
 sufficient-comparison.local.json
+
+# Bounded selection comparison
+selection-comparison.local.json

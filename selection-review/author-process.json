@@ -1,0 +1,27 @@
+{
+  "authorship": "AI-authored fictional English support requests and reference labels",
+  "readScope": [
+    "../ROUTING-POLICY-V12.md",
+    "../OUTPUT-REVIEW-RUBRIC-V12.md"
+  ],
+  "timestampUTC": "2026-11-17T10:48:55.057Z",
+  "freezeCommitReportedByCoordinator": "remotely69d82af981e8969ab7e07a3137d15be6281ff345",
+  "checks": {
+    "caseCount": 20,
+    "strataCounts": {
+      "ordinary_evidence": 4,
+      "security_context": 4,
+      "multi_intent_scope": 4,
+      "sensitive_scope": 4,
+      "protective_scope": 4
+    },
+    "exactSingleFieldQuotes": true,
+    "quoteUTF16Range": "4-120",
+    "modelCalls": 0
+  },
+  "sha256": {
+    "author-inputs.json": "9b0a39388dc31d8e59ee039d00f05ba42525a6a9306b351e2105b41dd4eb1689",
+    "author-labels.json": "f304f71ec98a8821eee9277738a5f3ca460f9a470073605a1ddd175a157662a8"
+  },
+  "limitations": "AI authorship is not human validation; no training-data exclusion or semantic novelty is established."
+}

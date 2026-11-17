@@ -1,0 +1,504 @@
+{
+  "method": "Pre-run mechanical witness containment, not semantic coverage or a quote whitelist; labels/cases unchanged",
+  "rows": [
+    {
+      "id": "v13-001",
+      "genericSubjectExcluded": false,
+      "candidateCount": 3,
+      "stratum": "generic_heading",
+      "spanAssessment": {
+        "shortestObservedQuote": "resend my invoice and help me reset my password",
+        "sourceField": "body",
+        "utf16Units": 47,
+        "rationale": "Shortest sufficient quote observed after comparing independent judgments and searching for removable optional endpoint details. Assessed in full-request context; not a proof of global minimality."
+      },
+      "shortestObservedContainedInCandidateIds": [
+        "s0"
+      ],
+      "bodyOver120": false,
+      "witnesses": [
+        {
+          "trigger": "multiple substantive intents",
+          "exampleQuote": "resend my invoice and help me reset my password",
+          "containedInCandidateIds": [
+            "s0"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "v13-008",
+      "genericSubjectExcluded": false,
+      "candidateCount": 4,
+      "stratum": "subject_decisive",
+      "spanAssessment": {
+        "shortestObservedQuote": "Someone else changed my recovery email without permission",
+        "sourceField": "subject",
+        "utf16Units": 57,
+        "rationale": "Shortest sufficient quote observed after comparing independent judgments and searching for removable optional endpoint details. Assessed in full-request context; not a proof of global minimality. Body checked: no independently sufficient ordinary intent, concrete symptom or protective disclosure is present. For the fictional-notes case the body clarifies benign scope but does not independently establish a software malfunction."
+      },
+      "shortestObservedContainedInCandidateIds": [
+        "s2"
+      ],
+      "bodyOver120": false,
+      "witnesses": [
+        {
+          "trigger": "suspected takeover, unauthorized access",
+          "exampleQuote": "Someone else changed my recovery email without permission",
+          "containedInCandidateIds": [
+            "s2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "v13-020",
+      "genericSubjectExcluded": false,
+      "candidateCount": 3,
+      "stratum": "generic_heading",
+      "spanAssessment": {
+        "shortestObservedQuote": "timeline thumbnails are blank",
+        "sourceField": "body",
+        "utf16Units": 29,
+        "rationale": "Shortest sufficient quote observed after comparing independent judgments and searching for removable optional endpoint details. Assessed in full-request context; not a proof of global minimality."
+      },
+      "shortestObservedContainedInCandidateIds": [
+        "s0"
+      ],
+      "bodyOver120": false,
+      "witnesses": [
+        {
+          "trigger": "one specific ordinary application feature malfunction; fictional records do not alone require review",
+          "exampleQuote": "timeline thumbnails are blank",
+          "containedInCandidateIds": [
+            "s0"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "v13-006",
+      "genericSubjectExcluded": false,
+      "candidateCount": 4,
+      "stratum": "generic_heading",
+      "spanAssessment": {
+        "shortestObservedQuote": "verification link has expired, and the seating diagram prints with every row on top of the next",
+        "sourceField": "body",
+        "utf16Units": 95,
+        "rationale": "Shortest sufficient quote observed after comparing independent judgments and searching for removable optional endpoint details. Assessed in full-request context; not a proof of global minimality."
+      },
+      "shortestObservedContainedInCandidateIds": [
+        "s0"
+      ],
+      "bodyOver120": false,
+      "witnesses": [
+        {
+          "trigger": "multiple substantive intents",
+          "exampleQuote": "verification link has expired, and the seating diagram prints with every row on top of the next",
+          "containedInCandidateIds": [
+            "s0"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "v13-009",
+      "genericSubjectExcluded": false,
+      "candidateCount": 3,
+      "stratum": "generic_heading",
+      "spanAssessment": {
+        "shortestObservedQuote": "verification code has expired",
+        "sourceField": "body",
+        "utf16Units": 29,
+        "rationale": "Shortest sufficient quote observed after comparing independent judgments and searching for removable optional endpoint details. Assessed in full-request context; not a proof of global minimality."
+      },
+      "shortestObservedContainedInCandidateIds": [
+        "s0"
+      ],
+      "bodyOver120": false,
+      "witnesses": [
+        {
+          "trigger": "Authentication/signup malfunctions stay access",
+          "exampleQuote": "verification code has expired",
+          "containedInCandidateIds": [
+            "s0"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "v13-012",
+      "genericSubjectExcluded": false,
+      "candidateCount": 4,
+      "stratum": "subject_decisive",
+      "spanAssessment": {
+        "shortestObservedQuote": "notes lose indentation",
+        "sourceField": "subject",
+        "utf16Units": 22,
+        "rationale": "Shortest sufficient quote observed after comparing independent judgments and searching for removable optional endpoint details. Assessed in full-request context; not a proof of global minimality. Body checked: no independently sufficient ordinary intent, concrete symptom or protective disclosure is present. For the fictional-notes case the body clarifies benign scope but does not independently establish a software malfunction."
+      },
+      "shortestObservedContainedInCandidateIds": [
+        "s2"
+      ],
+      "bodyOver120": false,
+      "witnesses": [
+        {
+          "trigger": "one specific ordinary application feature malfunction; fictional records do not alone require review",
+          "exampleQuote": "notes lose indentation when exported",
+          "containedInCandidateIds": [
+            "s2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "v13-017",
+      "genericSubjectExcluded": false,
+      "candidateCount": 4,
+      "stratum": "length_boundary",
+      "spanAssessment": {
+        "shortestObservedQuote": "cannot reset my sign-in PIN for the new rehearsal portal, and I need an invoice",
+        "sourceField": "body",
+        "utf16Units": 79,
+        "rationale": "Shortest sufficient quote observed after comparing independent judgments and searching for removable optional endpoint details. Assessed in full-request context; not a proof of global minimality."
+      },
+      "shortestObservedContainedInCandidateIds": [
+        "s0"
+      ],
+      "bodyOver120": false,
+      "witnesses": [
+        {
+          "trigger": "multiple substantive intents",
+          "exampleQuote": "I cannot reset my sign-in PIN for the new rehearsal portal, and I need an invoice for the ensemble subscription renewal.",
+          "containedInCandidateIds": [
+            "s0"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "v13-004",
+      "genericSubjectExcluded": false,
+      "candidateCount": 3,
+      "stratum": "generic_heading",
+      "spanAssessment": {
+        "shortestObservedQuote": "subtitles drift behind the video",
+        "sourceField": "body",
+        "utf16Units": 32,
+        "rationale": "Shortest sufficient quote observed after comparing independent judgments and searching for removable optional endpoint details. Assessed in full-request context; not a proof of global minimality."
+      },
+      "shortestObservedContainedInCandidateIds": [
+        "s0"
+      ],
+      "bodyOver120": false,
+      "witnesses": [
+        {
+          "trigger": "one specific ordinary application feature malfunction; fictional records do not alone require review",
+          "exampleQuote": "subtitles drift behind the video",
+          "containedInCandidateIds": [
+            "s0"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "v13-013",
+      "genericSubjectExcluded": false,
+      "candidateCount": 4,
+      "stratum": "length_boundary",
+      "spanAssessment": {
+        "shortestObservedQuote": "recover access to my festival organizer account, and repair the calendar view that crashes",
+        "sourceField": "body",
+        "utf16Units": 90,
+        "rationale": "Shortest sufficient quote observed after comparing independent judgments and searching for removable optional endpoint details. Assessed in full-request context; not a proof of global minimality."
+      },
+      "shortestObservedContainedInCandidateIds": [
+        "s0"
+      ],
+      "bodyOver120": false,
+      "witnesses": [
+        {
+          "trigger": "multiple substantive intents",
+          "exampleQuote": "Please recover access to my festival organizer account, and repair the calendar view that crashes when I move an event.",
+          "containedInCandidateIds": [
+            "s0"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "v13-010",
+      "genericSubjectExcluded": false,
+      "candidateCount": 4,
+      "stratum": "length_boundary",
+      "spanAssessment": {
+        "shortestObservedQuote": "verification email never arrives for my new library account, and I need a refund",
+        "sourceField": "body",
+        "utf16Units": 80,
+        "rationale": "Shortest sufficient quote observed after comparing independent judgments and searching for removable optional endpoint details. Assessed in full-request context; not a proof of global minimality."
+      },
+      "shortestObservedContainedInCandidateIds": [
+        "s0"
+      ],
+      "bodyOver120": false,
+      "witnesses": [
+        {
+          "trigger": "multiple substantive intents",
+          "exampleQuote": "The verification email never arrives for my new library account, and I need a refund for the duplicate membership fee.",
+          "containedInCandidateIds": [
+            "s0"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "v13-005",
+      "genericSubjectExcluded": false,
+      "candidateCount": 4,
+      "stratum": "subject_decisive",
+      "spanAssessment": {
+        "shortestObservedQuote": "email me a receipt",
+        "sourceField": "subject",
+        "utf16Units": 18,
+        "rationale": "Shortest sufficient quote observed after comparing independent judgments and searching for removable optional endpoint details. Assessed in full-request context; not a proof of global minimality. Body checked: no independently sufficient ordinary intent, concrete symptom or protective disclosure is present. For the fictional-notes case the body clarifies benign scope but does not independently establish a software malfunction."
+      },
+      "shortestObservedContainedInCandidateIds": [
+        "s2"
+      ],
+      "bodyOver120": false,
+      "witnesses": [
+        {
+          "trigger": "one ordinary invoice, receipt, charge, payment method/failure, refund, renewal",
+          "exampleQuote": "email me a receipt",
+          "containedInCandidateIds": [
+            "s2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "v13-003",
+      "genericSubjectExcluded": false,
+      "candidateCount": 4,
+      "stratum": "length_boundary",
+      "spanAssessment": {
+        "shortestObservedQuote": "missing labels on my map exports, and send me a receipt",
+        "sourceField": "body",
+        "utf16Units": 55,
+        "rationale": "Shortest sufficient quote observed after comparing independent judgments and searching for removable optional endpoint details. Assessed in full-request context; not a proof of global minimality."
+      },
+      "shortestObservedContainedInCandidateIds": [
+        "s0"
+      ],
+      "bodyOver120": false,
+      "witnesses": [
+        {
+          "trigger": "multiple substantive intents",
+          "exampleQuote": "Please restore the missing labels on my map exports, and send me a receipt for the annual cartography subscription.",
+          "containedInCandidateIds": [
+            "s0"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "v13-007",
+      "genericSubjectExcluded": false,
+      "candidateCount": 4,
+      "stratum": "length_boundary",
+      "spanAssessment": {
+        "shortestObservedQuote": "change the card used for my workshop subscription, and the attendance chart will not open",
+        "sourceField": "body",
+        "utf16Units": 89,
+        "rationale": "Shortest sufficient quote observed after comparing independent judgments and searching for removable optional endpoint details. Assessed in full-request context; not a proof of global minimality."
+      },
+      "shortestObservedContainedInCandidateIds": [
+        "s0"
+      ],
+      "bodyOver120": false,
+      "witnesses": [
+        {
+          "trigger": "multiple substantive intents",
+          "exampleQuote": "I need to change the card used for my workshop subscription, and the attendance chart will not open in the browser.",
+          "containedInCandidateIds": [
+            "s0"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "v13-011",
+      "genericSubjectExcluded": true,
+      "candidateCount": 2,
+      "stratum": "generic_heading",
+      "spanAssessment": {
+        "shortestObservedQuote": "refund for the extra monthly charge, and the route planner freezes",
+        "sourceField": "body",
+        "utf16Units": 66,
+        "rationale": "Shortest sufficient quote observed after comparing independent judgments and searching for removable optional endpoint details. Assessed in full-request context; not a proof of global minimality."
+      },
+      "shortestObservedContainedInCandidateIds": [
+        "s0"
+      ],
+      "bodyOver120": false,
+      "witnesses": [
+        {
+          "trigger": "multiple substantive intents",
+          "exampleQuote": "refund for the extra monthly charge, and the route planner freezes",
+          "containedInCandidateIds": [
+            "s0"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "v13-016",
+      "genericSubjectExcluded": false,
+      "candidateCount": 3,
+      "stratum": "generic_heading",
+      "spanAssessment": {
+        "shortestObservedQuote": "sign in to the choir portal and send me the receipt",
+        "sourceField": "body",
+        "utf16Units": 51,
+        "rationale": "Shortest sufficient quote observed after comparing independent judgments and searching for removable optional endpoint details. Assessed in full-request context; not a proof of global minimality."
+      },
+      "shortestObservedContainedInCandidateIds": [
+        "s0"
+      ],
+      "bodyOver120": false,
+      "witnesses": [
+        {
+          "trigger": "multiple substantive intents",
+          "exampleQuote": "sign in to the choir portal and send me the receipt",
+          "containedInCandidateIds": [
+            "s0"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "v13-015",
+      "genericSubjectExcluded": false,
+      "candidateCount": 3,
+      "stratum": "subject_decisive",
+      "spanAssessment": {
+        "shortestObservedQuote": "My actual migraine prescription",
+        "sourceField": "subject",
+        "utf16Units": 31,
+        "rationale": "Shortest sufficient quote observed after comparing independent judgments and searching for removable optional endpoint details. Assessed in full-request context; not a proof of global minimality. Body checked: no independently sufficient ordinary intent, concrete symptom or protective disclosure is present. For the fictional-notes case the body clarifies benign scope but does not independently establish a software malfunction."
+      },
+      "shortestObservedContainedInCandidateIds": [
+        "s1"
+      ],
+      "bodyOver120": false,
+      "witnesses": [
+        {
+          "trigger": "actual personal diagnoses, medication, treatment/results",
+          "exampleQuote": "My actual migraine prescription",
+          "containedInCandidateIds": [
+            "s1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "v13-019",
+      "genericSubjectExcluded": false,
+      "candidateCount": 5,
+      "stratum": "length_boundary",
+      "spanAssessment": {
+        "shortestObservedQuote": "timer stops whenever I lock the screen, and I want to update the payment card",
+        "sourceField": "body",
+        "utf16Units": 77,
+        "rationale": "Shortest sufficient quote observed after comparing independent judgments and searching for removable optional endpoint details. Assessed in full-request context; not a proof of global minimality."
+      },
+      "shortestObservedContainedInCandidateIds": [
+        "s0",
+        "s3"
+      ],
+      "bodyOver120": true,
+      "witnesses": [
+        {
+          "trigger": "multiple substantive intents",
+          "exampleQuote": "The recipe timer stops whenever I lock the screen, and I want to update the payment card for my own cooking subscription",
+          "containedInCandidateIds": []
+        }
+      ]
+    },
+    {
+      "id": "v13-014",
+      "genericSubjectExcluded": false,
+      "candidateCount": 3,
+      "stratum": "generic_heading",
+      "spanAssessment": {
+        "shortestObservedQuote": "switch my subscription payment method",
+        "sourceField": "body",
+        "utf16Units": 37,
+        "rationale": "Shortest sufficient quote observed after comparing independent judgments and searching for removable optional endpoint details. Assessed in full-request context; not a proof of global minimality."
+      },
+      "shortestObservedContainedInCandidateIds": [
+        "s0"
+      ],
+      "bodyOver120": false,
+      "witnesses": [
+        {
+          "trigger": "one ordinary invoice, receipt, charge, payment method/failure, refund, renewal",
+          "exampleQuote": "switch my subscription payment method",
+          "containedInCandidateIds": [
+            "s0"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "v13-002",
+      "genericSubjectExcluded": false,
+      "candidateCount": 4,
+      "stratum": "subject_decisive",
+      "spanAssessment": {
+        "shortestObservedQuote": "editor crashes",
+        "sourceField": "subject",
+        "utf16Units": 14,
+        "rationale": "Shortest sufficient quote observed after comparing independent judgments and searching for removable optional endpoint details. Assessed in full-request context; not a proof of global minimality. Body checked: no independently sufficient ordinary intent, concrete symptom or protective disclosure is present. For the fictional-notes case the body clarifies benign scope but does not independently establish a software malfunction."
+      },
+      "shortestObservedContainedInCandidateIds": [
+        "s2"
+      ],
+      "bodyOver120": false,
+      "witnesses": [
+        {
+          "trigger": "one specific ordinary application feature malfunction; fictional records do not alone require review",
+          "exampleQuote": "editor crashes whenever I rotate a crop",
+          "containedInCandidateIds": [
+            "s2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "v13-018",
+      "genericSubjectExcluded": false,
+      "candidateCount": 6,
+      "stratum": "subject_decisive",
+      "spanAssessment": {
+        "shortestObservedQuote": "authenticator code is rejected",
+        "sourceField": "subject",
+        "utf16Units": 30,
+        "rationale": "Shortest sufficient quote observed after comparing independent judgments and searching for removable optional endpoint details. Assessed in full-request context; not a proof of global minimality. Body checked: no independently sufficient ordinary intent, concrete symptom or protective disclosure is present. For the fictional-notes case the body clarifies benign scope but does not independently establish a software malfunction."
+      },
+      "shortestObservedContainedInCandidateIds": [
+        "s4"
+      ],
+      "bodyOver120": false,
+      "witnesses": [
+        {
+          "trigger": "Authentication/signup malfunctions stay access",
+          "exampleQuote": "authenticator code is rejected",
+          "containedInCandidateIds": [
+            "s4"
+          ]
+        }
+      ]
+    }
+  ]
+}

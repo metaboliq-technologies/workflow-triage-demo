@@ -1,0 +1,27 @@
+{
+  "assembledAt": "2026-11-17T07:29:42.232Z",
+  "runSha256": "86d9a6556a5604018502b208fe043edb71d14a02a2b8942836f733b44680def6",
+  "items": 10,
+  "plan": {
+    "schemaVersion": 1,
+    "preparedAt": "2026-11-17T07:11:37.984Z",
+    "beforeLiveCalls": true,
+    "datasetSha256": "61ef09d01060c07e088b367b689393214433d8c08e10c2568ef436cf2b817a8a",
+    "files": {
+      "OUTPUT-REVIEW-RUBRIC-V10.md": "fcfd89f8c85fee3ec9b59edd88b006cac3ab0f84bde545540001c6ae8e917471",
+      "completeness-grades.mjs": "3405207f4d4689783c0a22a6867875a5cd908ddcd72ca0a76c5378ceed0bceb0",
+      "completeness-grades.test.mjs": "149d5d99eb8f54a8b36b3463a777fe7d116ee0933573fcc243cebcb21769fd48"
+    },
+    "blindShuffleSeed": 10427691,
+    "method": "LCG Fisher-Yates over valid final outputs; pseudonym IDs assigned after shuffle; arm map sealed until independent AI grades saved",
+    "unavailableOutputs": "zero semantic and routing credit in all20 per-arm denominators; not sent to judge",
+    "metrics": [
+      "routing exact match",
+      "AI evidence support for returned policy decision",
+      "AI reference minimum-fact coverage",
+      "joint routing plus support plus coverage"
+    ],
+    "criteriaLimitation": "Frozen reference-fact coverage is not proof of a uniquely minimal explanation. Support judged separately; over-demanding/ambiguous criteria flagged. Not human adjudication."
+  },
+  "armMapSealedUntilInitialGrades": true
+}

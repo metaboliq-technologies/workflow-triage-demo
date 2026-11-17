@@ -1,0 +1,52 @@
+[
+  {
+    "itemId": "evidence-001",
+    "caseId": "v10-004",
+    "arm": "updated"
+  },
+  {
+    "itemId": "evidence-002",
+    "caseId": "v10-003",
+    "arm": "previous"
+  },
+  {
+    "itemId": "evidence-003",
+    "caseId": "v10-005",
+    "arm": "updated"
+  },
+  {
+    "itemId": "evidence-004",
+    "caseId": "v10-005",
+    "arm": "previous"
+  },
+  {
+    "itemId": "evidence-005",
+    "caseId": "v10-002",
+    "arm": "previous"
+  },
+  {
+    "itemId": "evidence-006",
+    "caseId": "v10-002",
+    "arm": "updated"
+  },
+  {
+    "itemId": "evidence-007",
+    "caseId": "v10-004",
+    "arm": "previous"
+  },
+  {
+    "itemId": "evidence-008",
+    "caseId": "v10-001",
+    "arm": "previous"
+  },
+  {
+    "itemId": "evidence-009",
+    "caseId": "v10-001",
+    "arm": "updated"
+  },
+  {
+    "itemId": "evidence-010",
+    "caseId": "v10-003",
+    "arm": "updated"
+  }
+]

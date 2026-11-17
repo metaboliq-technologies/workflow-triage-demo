@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "separate-context-ai-label-and-criteria-review",
+  "humanReviewed": false,
+  "caseCount": 20,
+  "initialAgreement": {
+    "agreed": 20,
+    "total": 20
+  },
+  "resolvedDisagreements": 0,
+  "unresolvedDisagreements": 0,
+  "initialReviewerLabelsExcludeStrata": true,
+  "datasetSha256": "61ef09d01060c07e088b367b689393214433d8c08e10c2568ef436cf2b817a8a",
+  "policySha256": "76a40c6daa6e8040777d96942ab7d8b76e4a944042d863b2570e642590711fe9",
+  "originalFiles": {
+    "author-inputs.json": "514df40e7fe99489a5c814aa6b3185e2c853ccfc74177605720ed0f932e3b285",
+    "author-labels.json": "f7cbb66a442ffb9720a9c901d8d77e0e28bad4400a1d416d46976e1a96f7ac20",
+    "reviewer-initial-labels.json": "417a0f42f533c8a17e6c7546e45b88eaf61d9c67accd84a7a74d6bf8f5e4b592",
+    "review-resolutions.json": "056288213c3d7cc7f77ea21e0311aa70eba9f14e5702bc8aa4035627aaeec4d3",
+    "final-labels.json": "4970a57724fc52ab8252cc422a80c44ddd186c123945618eb9e7bb626c57a089"
+  },
+  "implementationFrozenAt": "2026-11-17T07:07:21.010Z",
+  "assembledAt": "2026-11-17T07:10:34.860Z",
+  "exactBodyReuseFromNinePriorSets": 0,
+  "caseReplacements": 0,
+  "authorProcess": {
+    "version": "v10",
+    "provenance": "AI-authored fictional English support cases; no human adjudication",
+    "authoredAtUtc": "2026-11-17 07:04:04 UTC",
+    "onlyPolicyRead": true,
+    "sourceRead": "ROUTING-POLICY-V10.md",
+    "otherInputsRead": [],
+    "drafting": "Twenty cases composed in group order before assigning IDs. IDs assigned only after deterministic shuffle.",
+    "shuffle": {
+      "algorithm": "Fisher-Yates with xorshift32 unsigned state; j=nextUint32() modulo (i+1)",
+      "seedDecimal": 281083886,
+      "seedHex": "0x10C0FFEE",
+      "permutationOneBasedDraftIndexes": [
+        11,
+        19,
+        5,
+        9,
+        7,
+        16,
+        17,
+        4,
+        20,
+        15,
+        1,
+        14,
+        10,
+        2,
+        12,
+        8,
+        18,
+        6,
+        3,
+        13
+      ]
+    },
+    "counts": {
+      "total": 20,
+      "security_context": 4,
+      "sensitive_scope": 4,
+      "multi_intent_scope": 4,
+      "ordinary_evidence": 4,
+      "protective_scope": 4
+    },
+    "validation": {
+      "sourceExactExampleQuotes": true,
+      "utf16Bounds": "All example quotes have 4–120 JavaScript UTF-16 code units",
+      "singleFieldQuotes": true,
+      "semanticMinimumFacts": true
+    },
+    "limitations": [
+      "AI authorship and self-checking do not constitute independent review or human adjudication.",
+      "All scenarios are fictional; words such as real and actual describe the fictional case's asserted scope.",
+      "No implementation, prior cases, or result files were read.",
+      "Single-span feasibility is an author assessment, pending independent reviewer assessment.",
+      "No claim of training-data exclusion."
+    ],
+    "sealed": "Author case content and labels withheld from implementer until implementation frozen."
+  },
+  "criteriaReviewCount": 20,
+  "limitations": "AI-authored and separately blind AI-reviewed labels/semantic criteria, not human adjudication. Examples establish assessed single-span feasibility, not a whitelist. Correlated errors remain possible. Set is now seen."
+}

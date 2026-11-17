@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "frozenAt": "2026-11-17T07:07:21.010Z",
+  "caseInspectionByImplementerBeforeFreeze": false,
+  "files": {
+    "model-adapter.mjs": "5a3db4ba79a3dee844c6c402463dd5c03ef83d46e676c4ebe14c0c16afefb6a1",
+    "reliable-adapter.mjs": "ab28c650366db3d20a6be702f432ef7e5e615a56a6ff26758d1098c81fc62a7d",
+    "sensitive-adapter.mjs": "c525e603460bc2d5c45db60fcddfa6ba83b70b81f709ad1d466865c25692319b",
+    "completeness-adapter.mjs": "02eca8dd6f4685a45fba0fdb78a110c0c0fe1e083fd9dc6d9b7d54b7ae6a0528",
+    "completeness-runner.mjs": "60bdc2ce84b313d759b91b1bb1ab1bd6cbad4d2235df27b4e5dee2e20fd2ceaf",
+    "completeness-review.mjs": "cc2c672b1c8a15a2adcd4774c20fbf7b96e01a709e3c121d27ca98534fe0c0e8",
+    "completeness-evaluation.mjs": "4832f4a4a7e111d0183fe1e038960185b41cc35e61c95da72146c65182e88b4b",
+    "triage.mjs": "15f49d62481a71da7d2eef83b8b18fcecaab0e1893873a3a88f81c37cf6a9978",
+    "compare.mjs": "953ee7809e350e8f4a228da398fd14f54c9beb3ae33b830910edef4a556b2c49",
+    "ROUTING-POLICY-V10.md": "76a40c6daa6e8040777d96942ab7d8b76e4a944042d863b2570e642590711fe9"
+  },
+  "testsPassedBeforeFreeze": 87,
+  "limits": {
+    "cases": 20,
+    "arms": 2,
+    "maxClassifications": 40,
+    "maxAttempts": 80,
+    "attemptTimeoutMs": 30000,
+    "totalTimeoutMs": 65000,
+    "spacingMs": 15000
+  },
+  "design": "paired v9 versus v10; exact-quote mechanics plus separate blind AI semantic output review"
+}

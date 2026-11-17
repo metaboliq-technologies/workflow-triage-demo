@@ -1,0 +1,519 @@
+{
+  "schemaVersion": 1,
+  "run": {
+    "status": "stopped",
+    "sourceCommit": "7e8ce73a4bf3d4e2da9af8283bb187b900f42213",
+    "startedAt": "2026-11-17T07:21:16.724Z",
+    "completedAt": "2026-11-17T07:24:09.561Z",
+    "invocations": 11,
+    "apiAttempts": 11,
+    "stopReason": "provider_http_429"
+  },
+  "summaries": {
+    "previous": {
+      "total": 20,
+      "available": 5,
+      "errors": 15,
+      "correct": 5,
+      "exactMatchRate": 0.25,
+      "proposals": 1,
+      "correctProposals": 1,
+      "proposalPrecision": 1,
+      "expectedReview": 13,
+      "caughtReview": 4,
+      "reviewRecall": 0.3076923076923077,
+      "unnecessaryReview": 0,
+      "evidenceSupport": 5,
+      "referenceCoverage": 5,
+      "joint": 5,
+      "denominator": 20
+    },
+    "updated": {
+      "total": 20,
+      "available": 5,
+      "errors": 15,
+      "correct": 5,
+      "exactMatchRate": 0.25,
+      "proposals": 1,
+      "correctProposals": 1,
+      "proposalPrecision": 1,
+      "expectedReview": 13,
+      "caughtReview": 4,
+      "reviewRecall": 0.3076923076923077,
+      "unnecessaryReview": 0,
+      "evidenceSupport": 5,
+      "referenceCoverage": 5,
+      "joint": 5,
+      "denominator": 20
+    }
+  },
+  "baseline": {
+    "total": 20,
+    "available": 20,
+    "errors": 0,
+    "correct": 10,
+    "exactMatchRate": 0.5,
+    "proposals": 9,
+    "correctProposals": 3,
+    "proposalPrecision": 0.3333333333333333,
+    "expectedReview": 13,
+    "caughtReview": 7,
+    "reviewRecall": 0.5384615384615384,
+    "unnecessaryReview": 4
+  },
+  "allRoutingMetrics": {
+    "baseline": {
+      "total": 20,
+      "available": 20,
+      "errors": 0,
+      "correct": 10,
+      "exactMatchRate": 0.5,
+      "proposals": 9,
+      "correctProposals": 3,
+      "proposalPrecision": 0.3333333333333333,
+      "expectedReview": 13,
+      "caughtReview": 7,
+      "reviewRecall": 0.5384615384615384,
+      "unnecessaryReview": 4
+    },
+    "previousFirst": {
+      "total": 20,
+      "available": 5,
+      "errors": 15,
+      "correct": 5,
+      "exactMatchRate": 0.25,
+      "proposals": 1,
+      "correctProposals": 1,
+      "proposalPrecision": 1,
+      "expectedReview": 13,
+      "caughtReview": 4,
+      "reviewRecall": 0.3076923076923077,
+      "unnecessaryReview": 0
+    },
+    "previous": {
+      "total": 20,
+      "available": 5,
+      "errors": 15,
+      "correct": 5,
+      "exactMatchRate": 0.25,
+      "proposals": 1,
+      "correctProposals": 1,
+      "proposalPrecision": 1,
+      "expectedReview": 13,
+      "caughtReview": 4,
+      "reviewRecall": 0.3076923076923077,
+      "unnecessaryReview": 0
+    },
+    "updatedFirst": {
+      "total": 20,
+      "available": 5,
+      "errors": 15,
+      "correct": 5,
+      "exactMatchRate": 0.25,
+      "proposals": 1,
+      "correctProposals": 1,
+      "proposalPrecision": 1,
+      "expectedReview": 13,
+      "caughtReview": 4,
+      "reviewRecall": 0.3076923076923077,
+      "unnecessaryReview": 0
+    },
+    "updated": {
+      "total": 20,
+      "available": 5,
+      "errors": 15,
+      "correct": 5,
+      "exactMatchRate": 0.25,
+      "proposals": 1,
+      "correctProposals": 1,
+      "proposalPrecision": 1,
+      "expectedReview": 13,
+      "caughtReview": 4,
+      "reviewRecall": 0.3076923076923077,
+      "unnecessaryReview": 0
+    },
+    "guardedPrevious": {
+      "total": 20,
+      "available": 5,
+      "errors": 15,
+      "correct": 5,
+      "exactMatchRate": 0.25,
+      "proposals": 1,
+      "correctProposals": 1,
+      "proposalPrecision": 1,
+      "expectedReview": 13,
+      "caughtReview": 4,
+      "reviewRecall": 0.3076923076923077,
+      "unnecessaryReview": 0
+    },
+    "guardedUpdated": {
+      "total": 20,
+      "available": 5,
+      "errors": 15,
+      "correct": 5,
+      "exactMatchRate": 0.25,
+      "proposals": 1,
+      "correctProposals": 1,
+      "proposalPrecision": 1,
+      "expectedReview": 13,
+      "caughtReview": 4,
+      "reviewRecall": 0.3076923076923077,
+      "unnecessaryReview": 0
+    }
+  },
+  "paired": {
+    "commonValid": 5,
+    "previousRouting": 5,
+    "updatedRouting": 5,
+    "evidenceSupportsReturnedDecision": {
+      "previousOnly": 0,
+      "updatedOnly": 0,
+      "both": 5,
+      "neither": 0
+    },
+    "referenceFactsCovered": {
+      "previousOnly": 0,
+      "updatedOnly": 0,
+      "both": 5,
+      "neither": 0
+    }
+  },
+  "failures": [
+    {
+      "caseId": "v10-006",
+      "arm": "previous",
+      "unattempted": "not_attempted_after_provider_http_429"
+    },
+    {
+      "caseId": "v10-006",
+      "arm": "updated",
+      "attempt": 1,
+      "outcome": "failure",
+      "error": "provider_http_429",
+      "stage": "http",
+      "latencyMs": 180,
+      "attemptLatencyMs": 180,
+      "httpStatus": 429,
+      "timeoutMs": 30000,
+      "retryDeferred": "non_retryable",
+      "retryDelayMs": 0,
+      "retryAfterKind": "absent"
+    },
+    {
+      "caseId": "v10-007",
+      "arm": "previous",
+      "unattempted": "not_attempted_after_provider_http_429"
+    },
+    {
+      "caseId": "v10-007",
+      "arm": "updated",
+      "unattempted": "not_attempted_after_provider_http_429"
+    },
+    {
+      "caseId": "v10-008",
+      "arm": "previous",
+      "unattempted": "not_attempted_after_provider_http_429"
+    },
+    {
+      "caseId": "v10-008",
+      "arm": "updated",
+      "unattempted": "not_attempted_after_provider_http_429"
+    },
+    {
+      "caseId": "v10-009",
+      "arm": "previous",
+      "unattempted": "not_attempted_after_provider_http_429"
+    },
+    {
+      "caseId": "v10-009",
+      "arm": "updated",
+      "unattempted": "not_attempted_after_provider_http_429"
+    },
+    {
+      "caseId": "v10-010",
+      "arm": "previous",
+      "unattempted": "not_attempted_after_provider_http_429"
+    },
+    {
+      "caseId": "v10-010",
+      "arm": "updated",
+      "unattempted": "not_attempted_after_provider_http_429"
+    },
+    {
+      "caseId": "v10-011",
+      "arm": "previous",
+      "unattempted": "not_attempted_after_provider_http_429"
+    },
+    {
+      "caseId": "v10-011",
+      "arm": "updated",
+      "unattempted": "not_attempted_after_provider_http_429"
+    },
+    {
+      "caseId": "v10-012",
+      "arm": "previous",
+      "unattempted": "not_attempted_after_provider_http_429"
+    },
+    {
+      "caseId": "v10-012",
+      "arm": "updated",
+      "unattempted": "not_attempted_after_provider_http_429"
+    },
+    {
+      "caseId": "v10-013",
+      "arm": "previous",
+      "unattempted": "not_attempted_after_provider_http_429"
+    },
+    {
+      "caseId": "v10-013",
+      "arm": "updated",
+      "unattempted": "not_attempted_after_provider_http_429"
+    },
+    {
+      "caseId": "v10-014",
+      "arm": "previous",
+      "unattempted": "not_attempted_after_provider_http_429"
+    },
+    {
+      "caseId": "v10-014",
+      "arm": "updated",
+      "unattempted": "not_attempted_after_provider_http_429"
+    },
+    {
+      "caseId": "v10-015",
+      "arm": "previous",
+      "unattempted": "not_attempted_after_provider_http_429"
+    },
+    {
+      "caseId": "v10-015",
+      "arm": "updated",
+      "unattempted": "not_attempted_after_provider_http_429"
+    },
+    {
+      "caseId": "v10-016",
+      "arm": "previous",
+      "unattempted": "not_attempted_after_provider_http_429"
+    },
+    {
+      "caseId": "v10-016",
+      "arm": "updated",
+      "unattempted": "not_attempted_after_provider_http_429"
+    },
+    {
+      "caseId": "v10-017",
+      "arm": "previous",
+      "unattempted": "not_attempted_after_provider_http_429"
+    },
+    {
+      "caseId": "v10-017",
+      "arm": "updated",
+      "unattempted": "not_attempted_after_provider_http_429"
+    },
+    {
+      "caseId": "v10-018",
+      "arm": "previous",
+      "unattempted": "not_attempted_after_provider_http_429"
+    },
+    {
+      "caseId": "v10-018",
+      "arm": "updated",
+      "unattempted": "not_attempted_after_provider_http_429"
+    },
+    {
+      "caseId": "v10-019",
+      "arm": "previous",
+      "unattempted": "not_attempted_after_provider_http_429"
+    },
+    {
+      "caseId": "v10-019",
+      "arm": "updated",
+      "unattempted": "not_attempted_after_provider_http_429"
+    },
+    {
+      "caseId": "v10-020",
+      "arm": "previous",
+      "unattempted": "not_attempted_after_provider_http_429"
+    },
+    {
+      "caseId": "v10-020",
+      "arm": "updated",
+      "unattempted": "not_attempted_after_provider_http_429"
+    }
+  ],
+  "judgments": [
+    {
+      "itemId": "evidence-001",
+      "caseId": "v10-004",
+      "arm": "updated",
+      "evidenceSupportsReturnedDecision": true,
+      "referenceFactsCovered": true,
+      "coveredFacts": [
+        0,
+        1
+      ],
+      "missingFacts": [],
+      "rationale": "The quote supports review by explicitly combining a login PIN reset and duplicate-charge refund, and covers both reference facts.",
+      "referenceAmbiguity": null
+    },
+    {
+      "itemId": "evidence-002",
+      "caseId": "v10-003",
+      "arm": "previous",
+      "evidenceSupportsReturnedDecision": true,
+      "referenceFactsCovered": true,
+      "coveredFacts": [
+        0
+      ],
+      "missingFacts": [],
+      "rationale": "The quote supports sensitive-context review by explicitly identifying actual personal medication history and daily insulin dose; the reference fact is fully covered.",
+      "referenceAmbiguity": null
+    },
+    {
+      "itemId": "evidence-003",
+      "caseId": "v10-005",
+      "arm": "updated",
+      "evidenceSupportsReturnedDecision": true,
+      "referenceFactsCovered": true,
+      "coveredFacts": [
+        0
+      ],
+      "missingFacts": [],
+      "rationale": "The quote explicitly discloses a real personal overdue loan balance, supporting sensitive-context review and fully covering the reference fact.",
+      "referenceAmbiguity": null
+    },
+    {
+      "itemId": "evidence-004",
+      "caseId": "v10-005",
+      "arm": "previous",
+      "evidenceSupportsReturnedDecision": true,
+      "referenceFactsCovered": true,
+      "coveredFacts": [
+        0
+      ],
+      "missingFacts": [],
+      "rationale": "The quote explicitly discloses a real personal overdue loan balance, supporting sensitive-context review and fully covering the reference fact.",
+      "referenceAmbiguity": null
+    },
+    {
+      "itemId": "evidence-005",
+      "caseId": "v10-002",
+      "arm": "previous",
+      "evidenceSupportsReturnedDecision": true,
+      "referenceFactsCovered": true,
+      "coveredFacts": [
+        0
+      ],
+      "missingFacts": [],
+      "rationale": "The quote contains only generic dissatisfaction and an unspecified request to sort it out, supporting review for insufficient intent and covering the reference fact.",
+      "referenceAmbiguity": null
+    },
+    {
+      "itemId": "evidence-006",
+      "caseId": "v10-002",
+      "arm": "updated",
+      "evidenceSupportsReturnedDecision": true,
+      "referenceFactsCovered": true,
+      "coveredFacts": [
+        0
+      ],
+      "missingFacts": [],
+      "rationale": "The quote contains only generic dissatisfaction and an unspecified request to sort it out, supporting review for insufficient intent and covering the reference fact.",
+      "referenceAmbiguity": null
+    },
+    {
+      "itemId": "evidence-007",
+      "caseId": "v10-004",
+      "arm": "previous",
+      "evidenceSupportsReturnedDecision": true,
+      "referenceFactsCovered": true,
+      "coveredFacts": [
+        0,
+        1
+      ],
+      "missingFacts": [],
+      "rationale": "The quote supports review by explicitly combining a login PIN reset and duplicate-charge refund, and covers both reference facts.",
+      "referenceAmbiguity": null
+    },
+    {
+      "itemId": "evidence-008",
+      "caseId": "v10-001",
+      "arm": "previous",
+      "evidenceSupportsReturnedDecision": true,
+      "referenceFactsCovered": true,
+      "coveredFacts": [
+        0
+      ],
+      "missingFacts": [],
+      "rationale": "The quote explicitly requests cancellation only of the paid subscription, supporting billing and fully covering the reference fact.",
+      "referenceAmbiguity": null
+    },
+    {
+      "itemId": "evidence-009",
+      "caseId": "v10-001",
+      "arm": "updated",
+      "evidenceSupportsReturnedDecision": true,
+      "referenceFactsCovered": true,
+      "coveredFacts": [
+        0
+      ],
+      "missingFacts": [],
+      "rationale": "The quote explicitly requests cancellation only of the paid subscription, supporting billing and fully covering the reference fact.",
+      "referenceAmbiguity": null
+    },
+    {
+      "itemId": "evidence-010",
+      "caseId": "v10-003",
+      "arm": "updated",
+      "evidenceSupportsReturnedDecision": true,
+      "referenceFactsCovered": true,
+      "coveredFacts": [
+        0
+      ],
+      "missingFacts": [],
+      "rationale": "The quote supports sensitive-context review by explicitly identifying actual personal medication history and daily insulin dose; the reference fact is fully covered.",
+      "referenceAmbiguity": null
+    }
+  ],
+  "limitations": [
+    "Synthetic AI-authored cases and separate AI labels/evidence judgments; no human adjudication.",
+    "One small run with fixed alternating order; not a stable reliability estimate or production evidence.",
+    "Frozen minimum facts can demand more than the smallest sufficient trigger; support and coverage remain separate.",
+    "Single unchanged 4–120 character quote from one input field; not general multi-span explanation completeness.",
+    "Unavailable or invalid outputs retain zero credit in all-case denominators; common-valid comparisons exclude failures."
+  ],
+  "observedUsage": {
+    "previous": {
+      "attempts": 5,
+      "attemptLatenciesMs": [
+        14802,
+        677,
+        770,
+        750,
+        862
+      ],
+      "usageRecordedAttempts": 5,
+      "usageMissingAttempts": 0,
+      "promptTokens": 6496,
+      "candidateTokens": 137,
+      "totalTokens": 6633,
+      "note": "Sums cover recorded usage only; missing usage is unknown, not zero."
+    },
+    "updated": {
+      "attempts": 6,
+      "attemptLatenciesMs": [
+        1110,
+        912,
+        791,
+        1098,
+        770,
+        180
+      ],
+      "usageRecordedAttempts": 5,
+      "usageMissingAttempts": 1,
+      "promptTokens": 8026,
+      "candidateTokens": 141,
+      "totalTokens": 8167,
+      "note": "Sums cover recorded usage only; missing usage is unknown, not zero."
+    }
+  }
+}

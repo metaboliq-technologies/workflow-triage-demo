@@ -1,6 +1,6 @@
 {
   "authorship": "AI-only fictional synthetic English requests",
-  "round": 1,
+  "round": 2,
   "implementationFrozenCommitReportedByParent": "dae5e02ffa19c72c9d68b0f8d806c409940c586f",
   "readSources": [
     "ROUTING-POLICY-V14.md",
@@ -31,5 +31,16 @@
       116
     ],
     "independentBoundaryConfirmation": "pending separate reviewer"
+  },
+  "roundTwo": {
+    "reason": "Varied boundary neutral framing and placement to meet prospective design criterion.",
+    "preservedRoundOne": [
+      "round-one-inputs.json",
+      "round-one-labels.json",
+      "round-one-process.json"
+    ],
+    "changeRecord": "author-round-two-changes.json",
+    "initialIndependentSpanConfirmationReportedByParent": "All six spans independently confirmed 114–116 units before this framing-only revision.",
+    "exposure": "Read only existing author-owned files for revision; no implementation, source, outputs, history, or provider calls inspected."
   }
 }

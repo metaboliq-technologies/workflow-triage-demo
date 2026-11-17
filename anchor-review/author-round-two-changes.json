@@ -1,0 +1,67 @@
+{
+  "round": 2,
+  "authorization": "Parent requested only boundary prefix/suffix/placement variation after initial independent reviewer seal.",
+  "unchanged": "All labels, facts, shortest quotes, paired symptoms, internal neutral spans, and all nonboundary cases.",
+  "changes": [
+    {
+      "id": "v14-004",
+      "reason": "Prospective eligibility correction: vary neutral prefix/suffix framing and position, after blind initial judgments sealed; paired symptoms and intervening shortest witness remain unchanged.",
+      "oldBody": "For reference: Login loops. The screen has a blue border, a gray footer, and a small logo beside the heading. Also, charts freeze. Thank you.",
+      "newBody": "Login loops. The screen has a blue border, a gray footer, and a small logo beside the heading. Also, charts freeze.",
+      "witnessUnchanged": true,
+      "witnessUtf16Units": 114,
+      "prefixUtf16Units": 0,
+      "suffixUtf16Units": 0
+    },
+    {
+      "id": "v14-007",
+      "reason": "Prospective eligibility correction: vary neutral prefix/suffix framing and position, after blind initial judgments sealed; paired symptoms and intervening shortest witness remain unchanged.",
+      "oldBody": "For reference: Signup stalls. I am writing from the desk by the window, using the usual browser this afternoon. Also, uploads fail. Thank you.",
+      "newBody": "Signup stalls. I am writing from the desk by the window, using the usual browser this afternoon. Also, uploads fail. That is everything I observed this afternoon.",
+      "witnessUnchanged": true,
+      "witnessUtf16Units": 115,
+      "prefixUtf16Units": 0,
+      "suffixUtf16Units": 46
+    },
+    {
+      "id": "v14-010",
+      "reason": "Prospective eligibility correction: vary neutral prefix/suffix framing and position, after blind initial judgments sealed; paired symptoms and intervening shortest witness remain unchanged.",
+      "oldBody": "For reference: MFA fails. The page has its usual white background, small sidebar, and a plain title at the top. Also, search hangs. Thank you.",
+      "newBody": "At the shared desk I made the following note: MFA fails. The page has its usual white background, small sidebar, and a plain title at the top. Also, search hangs.",
+      "witnessUnchanged": true,
+      "witnessUtf16Units": 115,
+      "prefixUtf16Units": 46,
+      "suffixUtf16Units": 0
+    },
+    {
+      "id": "v14-013",
+      "reason": "Prospective eligibility correction: vary neutral prefix/suffix framing and position, after blind initial judgments sealed; paired symptoms and intervening shortest witness remain unchanged.",
+      "oldBody": "For reference: Invoices duplicate. My note is on plain paper beside a green pen and a mug near the office window. Also, login fails. Thank you.",
+      "newBody": "The office was quiet when I checked. Here is what I saw: Invoices duplicate. My note is on plain paper beside a green pen and a mug near the office window. Also, login fails. I can provide another observation later.",
+      "witnessUnchanged": true,
+      "witnessUtf16Units": 116,
+      "prefixUtf16Units": 57,
+      "suffixUtf16Units": 41
+    },
+    {
+      "id": "v14-016",
+      "reason": "Prospective eligibility correction: vary neutral prefix/suffix framing and position, after blind initial judgments sealed; paired symptoms and intervening shortest witness remain unchanged.",
+      "oldBody": "For reference: Payments fail. The desktop has the standard wallpaper, and the room has a shelf near the window. Also, maps freeze. Thank you.",
+      "newBody": "Payments fail. The desktop has the standard wallpaper, and the room has a shelf near the window. Also, maps freeze. The window was open, and the wall clock showed the usual time. I wrote this down before leaving the desk.",
+      "witnessUnchanged": true,
+      "witnessUtf16Units": 114,
+      "prefixUtf16Units": 0,
+      "suffixUtf16Units": 106
+    },
+    {
+      "id": "v14-019",
+      "reason": "Prospective eligibility correction: vary neutral prefix/suffix framing and position, after blind initial judgments sealed; paired symptoms and intervening shortest witness remain unchanged.",
+      "oldBody": "For reference: Receipts vanish. I have placed this note beside the keyboard, under the ordinary desk lamp today. Also, signup loops. Thank you.",
+      "newBody": "Before lunch, I opened the usual browser and sat at the desk beside the lamp. I then recorded the following observations for the support queue. Receipts vanish. I have placed this note beside the keyboard, under the ordinary desk lamp today. Also, signup loops.",
+      "witnessUnchanged": true,
+      "witnessUtf16Units": 116,
+      "prefixUtf16Units": 144,
+      "suffixUtf16Units": 0
+    }
+  ]
+}

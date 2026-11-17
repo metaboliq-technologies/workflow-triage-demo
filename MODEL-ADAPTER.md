@@ -88,3 +88,7 @@ The live comparison should report all cases and failures, not just examples that
 ## Sufficient-evidence v11 candidate
 
 `createSufficientAdapter` in `sufficient-adapter.mjs` adds a single-sufficient-trigger clarification to the explicit v10 adapter. Routing policy, one exact 4–120 UTF-16 quote, Gemini model and bounded-v8 retries stay fixed. It remains an experimental explicit adapter, not an established improvement. The [v11 results](sufficient-results.md) preserve all 40 attempted classifications, three final failures, unsupported generic-subject evidence and the reference-criteria miss. No historical results were replaced.
+
+## Bounded selection v12 candidate
+
+`createSelectionAdapter` in `selection-adapter.mjs` retains the public category/evidence schema but uses an internal bounded source-span ID selection format. `selection-options.mjs` generates exact 4–120 UTF-16 spans and excludes recognized generic headings while preserving meaningful subjects. Invalid IDs fail closed; no quote repair or formatting retry. The current v11 adapter and all historical source remain unchanged. See [v12 results](selection-results.md) for the one observed injection-review difference, five recovered 503 attempts, no demonstrated reduction of the original target failures and AI-only limits. This explicit experimental adapter is not made the default.

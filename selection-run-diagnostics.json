@@ -1,0 +1,634 @@
+{
+  "schemaVersion": 1,
+  "sourceCommit": "f4fa8f5ef28efe7c45cace29e58a26daa92968b4",
+  "startedAt": "2026-11-17T10:53:20.434Z",
+  "completedAt": "2026-11-17T11:16:11.781Z",
+  "status": "complete",
+  "inFlight": null,
+  "stopReason": null,
+  "invocations": 40,
+  "attempts": 45,
+  "validFinal": 40,
+  "unattempted": [],
+  "commonValidIds": [
+    "v12-008",
+    "v12-003",
+    "v12-014",
+    "v12-015",
+    "v12-009",
+    "v12-017",
+    "v12-013",
+    "v12-006",
+    "v12-001",
+    "v12-019",
+    "v12-005",
+    "v12-002",
+    "v12-012",
+    "v12-010",
+    "v12-020",
+    "v12-011",
+    "v12-004",
+    "v12-018",
+    "v12-016",
+    "v12-007"
+  ],
+  "firstFailures": [
+    {
+      "id": "v12-001",
+      "arm": "previous",
+      "firstError": "provider_http_503",
+      "recovered": true,
+      "finalError": null,
+      "finalOutput": {
+        "category": "technical",
+        "evidence": "The gallery preview turns every landscape photograph sideways."
+      }
+    },
+    {
+      "id": "v12-005",
+      "arm": "previous",
+      "firstError": "provider_http_503",
+      "recovered": true,
+      "finalError": null,
+      "finalOutput": {
+        "category": "review",
+        "evidence": "Erase my workspace permanently"
+      }
+    },
+    {
+      "id": "v12-005",
+      "arm": "updated",
+      "firstError": "provider_http_503",
+      "recovered": true,
+      "finalError": null,
+      "finalOutput": {
+        "category": "review",
+        "evidence": "Erase my workspace permanently, but keep my downloaded files."
+      }
+    },
+    {
+      "id": "v12-002",
+      "arm": "updated",
+      "firstError": "provider_http_503",
+      "recovered": true,
+      "finalError": null,
+      "finalOutput": {
+        "category": "review",
+        "evidence": "Someone changed my recovery phone without my permission"
+      }
+    },
+    {
+      "id": "v12-012",
+      "arm": "previous",
+      "firstError": "provider_http_503",
+      "recovered": true,
+      "finalError": null,
+      "finalOutput": {
+        "category": "review",
+        "evidence": "My savings balance is down to 43 pounds, and I am behind on rent."
+      }
+    }
+  ],
+  "failedAttempts": [
+    {
+      "id": "v12-001",
+      "arm": "previous",
+      "attempt": 1,
+      "outcome": "retry",
+      "error": "provider_http_503",
+      "stage": "http",
+      "latencyMs": 1643,
+      "attemptLatencyMs": 1643,
+      "httpStatus": 503,
+      "timeoutMs": 30000,
+      "retryDeferred": null,
+      "retryDelayMs": 4660,
+      "retryAfterKind": "absent"
+    },
+    {
+      "id": "v12-005",
+      "arm": "previous",
+      "attempt": 1,
+      "outcome": "retry",
+      "error": "provider_http_503",
+      "stage": "http",
+      "latencyMs": 288,
+      "attemptLatencyMs": 288,
+      "httpStatus": 503,
+      "timeoutMs": 30000,
+      "retryDeferred": null,
+      "retryDelayMs": 4338,
+      "retryAfterKind": "absent"
+    },
+    {
+      "id": "v12-005",
+      "arm": "updated",
+      "attempt": 1,
+      "outcome": "retry",
+      "error": "provider_http_503",
+      "stage": "http",
+      "latencyMs": 7996,
+      "attemptLatencyMs": 7996,
+      "httpStatus": 503,
+      "timeoutMs": 30000,
+      "retryDeferred": null,
+      "retryDelayMs": 4535,
+      "retryAfterKind": "absent"
+    },
+    {
+      "id": "v12-002",
+      "arm": "updated",
+      "attempt": 1,
+      "outcome": "retry",
+      "error": "provider_http_503",
+      "stage": "http",
+      "latencyMs": 467,
+      "attemptLatencyMs": 467,
+      "httpStatus": 503,
+      "timeoutMs": 30000,
+      "retryDeferred": null,
+      "retryDelayMs": 4620,
+      "retryAfterKind": "absent"
+    },
+    {
+      "id": "v12-012",
+      "arm": "previous",
+      "attempt": 1,
+      "outcome": "retry",
+      "error": "provider_http_503",
+      "stage": "http",
+      "latencyMs": 851,
+      "attemptLatencyMs": 851,
+      "httpStatus": 503,
+      "timeoutMs": 30000,
+      "retryDeferred": null,
+      "retryDelayMs": 4037,
+      "retryAfterKind": "absent"
+    }
+  ],
+  "knownUsage": {
+    "attemptsWithUsage": 40,
+    "totalTokenCount": 86962,
+    "attemptsWithoutUsage": 5,
+    "unknownUsageIsNotZero": true
+  },
+  "baselineMisses": [
+    {
+      "id": "v12-003",
+      "expected": {
+        "route": null,
+        "requiresHumanReview": true
+      },
+      "result": {
+        "id": "v12-003",
+        "route": "billing",
+        "requiresHumanReview": false,
+        "reason": "single_route_match",
+        "matchedCategories": [
+          "billing"
+        ],
+        "source": "rules-baseline"
+      }
+    },
+    {
+      "id": "v12-014",
+      "expected": {
+        "route": null,
+        "requiresHumanReview": true
+      },
+      "result": {
+        "id": "v12-014",
+        "route": "billing",
+        "requiresHumanReview": false,
+        "reason": "single_route_match",
+        "matchedCategories": [
+          "billing"
+        ],
+        "source": "rules-baseline"
+      }
+    },
+    {
+      "id": "v12-015",
+      "expected": {
+        "route": "access",
+        "requiresHumanReview": false
+      },
+      "result": {
+        "id": "v12-015",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "no_supported_route",
+        "matchedCategories": [],
+        "source": "rules-baseline"
+      }
+    },
+    {
+      "id": "v12-006",
+      "expected": {
+        "route": "technical",
+        "requiresHumanReview": false
+      },
+      "result": {
+        "id": "v12-006",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "no_supported_route",
+        "matchedCategories": [],
+        "source": "rules-baseline"
+      }
+    },
+    {
+      "id": "v12-001",
+      "expected": {
+        "route": "technical",
+        "requiresHumanReview": false
+      },
+      "result": {
+        "id": "v12-001",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "security_signal",
+        "matchedCategories": [],
+        "source": "rules-baseline"
+      }
+    },
+    {
+      "id": "v12-019",
+      "expected": {
+        "route": "technical",
+        "requiresHumanReview": false
+      },
+      "result": {
+        "id": "v12-019",
+        "route": "access",
+        "requiresHumanReview": false,
+        "reason": "single_route_match",
+        "matchedCategories": [
+          "access"
+        ],
+        "source": "rules-baseline"
+      }
+    },
+    {
+      "id": "v12-012",
+      "expected": {
+        "route": null,
+        "requiresHumanReview": true
+      },
+      "result": {
+        "id": "v12-012",
+        "route": "billing",
+        "requiresHumanReview": false,
+        "reason": "single_route_match",
+        "matchedCategories": [
+          "billing"
+        ],
+        "source": "rules-baseline"
+      }
+    },
+    {
+      "id": "v12-020",
+      "expected": {
+        "route": null,
+        "requiresHumanReview": true
+      },
+      "result": {
+        "id": "v12-020",
+        "route": "billing",
+        "requiresHumanReview": false,
+        "reason": "single_route_match",
+        "matchedCategories": [
+          "billing"
+        ],
+        "source": "rules-baseline"
+      }
+    },
+    {
+      "id": "v12-011",
+      "expected": {
+        "route": "technical",
+        "requiresHumanReview": false
+      },
+      "result": {
+        "id": "v12-011",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "security_signal",
+        "matchedCategories": [],
+        "source": "rules-baseline"
+      }
+    },
+    {
+      "id": "v12-004",
+      "expected": {
+        "route": null,
+        "requiresHumanReview": true
+      },
+      "result": {
+        "id": "v12-004",
+        "route": "technical",
+        "requiresHumanReview": false,
+        "reason": "single_route_match",
+        "matchedCategories": [
+          "technical"
+        ],
+        "source": "rules-baseline"
+      }
+    },
+    {
+      "id": "v12-016",
+      "expected": {
+        "route": null,
+        "requiresHumanReview": true
+      },
+      "result": {
+        "id": "v12-016",
+        "route": "billing",
+        "requiresHumanReview": false,
+        "reason": "single_route_match",
+        "matchedCategories": [
+          "billing"
+        ],
+        "source": "rules-baseline"
+      }
+    }
+  ],
+  "guardUnnecessary": {
+    "previous": [
+      "v12-015",
+      "v12-006",
+      "v12-001",
+      "v12-019",
+      "v12-011"
+    ],
+    "updated": [
+      "v12-015",
+      "v12-006",
+      "v12-001",
+      "v12-019",
+      "v12-011"
+    ]
+  },
+  "selectionReferences": [
+    {
+      "id": "v12-008",
+      "reference": {
+        "id": "s0",
+        "field": "body",
+        "start": 0,
+        "end": 61
+      },
+      "knownCandidate": true,
+      "sourceExact": true,
+      "quoteUnits": 61,
+      "subjectGeneric": false
+    },
+    {
+      "id": "v12-003",
+      "reference": {
+        "id": "s0",
+        "field": "body",
+        "start": 0,
+        "end": 60
+      },
+      "knownCandidate": true,
+      "sourceExact": true,
+      "quoteUnits": 60,
+      "subjectGeneric": false
+    },
+    {
+      "id": "v12-014",
+      "reference": {
+        "id": "s0",
+        "field": "body",
+        "start": 0,
+        "end": 48
+      },
+      "knownCandidate": true,
+      "sourceExact": true,
+      "quoteUnits": 48,
+      "subjectGeneric": true
+    },
+    {
+      "id": "v12-015",
+      "reference": {
+        "id": "s8",
+        "field": "body",
+        "start": 130,
+        "end": 243
+      },
+      "knownCandidate": true,
+      "sourceExact": true,
+      "quoteUnits": 113,
+      "subjectGeneric": false
+    },
+    {
+      "id": "v12-009",
+      "reference": {
+        "id": "s0",
+        "field": "body",
+        "start": 0,
+        "end": 60
+      },
+      "knownCandidate": true,
+      "sourceExact": true,
+      "quoteUnits": 60,
+      "subjectGeneric": false
+    },
+    {
+      "id": "v12-017",
+      "reference": {
+        "id": "s0",
+        "field": "body",
+        "start": 0,
+        "end": 76
+      },
+      "knownCandidate": true,
+      "sourceExact": true,
+      "quoteUnits": 76,
+      "subjectGeneric": false
+    },
+    {
+      "id": "v12-013",
+      "reference": {
+        "id": "s0",
+        "field": "body",
+        "start": 0,
+        "end": 82
+      },
+      "knownCandidate": true,
+      "sourceExact": true,
+      "quoteUnits": 82,
+      "subjectGeneric": false
+    },
+    {
+      "id": "v12-006",
+      "reference": {
+        "id": "s1",
+        "field": "body",
+        "start": 107,
+        "end": 167
+      },
+      "knownCandidate": true,
+      "sourceExact": true,
+      "quoteUnits": 60,
+      "subjectGeneric": false
+    },
+    {
+      "id": "v12-001",
+      "reference": {
+        "id": "s0",
+        "field": "body",
+        "start": 0,
+        "end": 62
+      },
+      "knownCandidate": true,
+      "sourceExact": true,
+      "quoteUnits": 62,
+      "subjectGeneric": false
+    },
+    {
+      "id": "v12-019",
+      "reference": {
+        "id": "s8",
+        "field": "subject",
+        "start": 0,
+        "end": 54
+      },
+      "knownCandidate": true,
+      "sourceExact": true,
+      "quoteUnits": 54,
+      "subjectGeneric": false
+    },
+    {
+      "id": "v12-005",
+      "reference": {
+        "id": "s0",
+        "field": "body",
+        "start": 0,
+        "end": 61
+      },
+      "knownCandidate": true,
+      "sourceExact": true,
+      "quoteUnits": 61,
+      "subjectGeneric": false
+    },
+    {
+      "id": "v12-002",
+      "reference": {
+        "id": "s8",
+        "field": "subject",
+        "start": 0,
+        "end": 55
+      },
+      "knownCandidate": true,
+      "sourceExact": true,
+      "quoteUnits": 55,
+      "subjectGeneric": false
+    },
+    {
+      "id": "v12-012",
+      "reference": {
+        "id": "s0",
+        "field": "body",
+        "start": 0,
+        "end": 65
+      },
+      "knownCandidate": true,
+      "sourceExact": true,
+      "quoteUnits": 65,
+      "subjectGeneric": false
+    },
+    {
+      "id": "v12-010",
+      "reference": {
+        "id": "s0",
+        "field": "body",
+        "start": 0,
+        "end": 50
+      },
+      "knownCandidate": true,
+      "sourceExact": true,
+      "quoteUnits": 50,
+      "subjectGeneric": false
+    },
+    {
+      "id": "v12-020",
+      "reference": {
+        "id": "s0",
+        "field": "body",
+        "start": 0,
+        "end": 74
+      },
+      "knownCandidate": true,
+      "sourceExact": true,
+      "quoteUnits": 74,
+      "subjectGeneric": true
+    },
+    {
+      "id": "v12-011",
+      "reference": {
+        "id": "s0",
+        "field": "body",
+        "start": 0,
+        "end": 69
+      },
+      "knownCandidate": true,
+      "sourceExact": true,
+      "quoteUnits": 69,
+      "subjectGeneric": false
+    },
+    {
+      "id": "v12-004",
+      "reference": {
+        "id": "s0",
+        "field": "body",
+        "start": 0,
+        "end": 57
+      },
+      "knownCandidate": true,
+      "sourceExact": true,
+      "quoteUnits": 57,
+      "subjectGeneric": false
+    },
+    {
+      "id": "v12-018",
+      "reference": {
+        "id": "s0",
+        "field": "body",
+        "start": 0,
+        "end": 21
+      },
+      "knownCandidate": true,
+      "sourceExact": true,
+      "quoteUnits": 21,
+      "subjectGeneric": false
+    },
+    {
+      "id": "v12-016",
+      "reference": {
+        "id": "s1",
+        "field": "body",
+        "start": 51,
+        "end": 123
+      },
+      "knownCandidate": true,
+      "sourceExact": true,
+      "quoteUnits": 72,
+      "subjectGeneric": false
+    },
+    {
+      "id": "v12-007",
+      "reference": {
+        "id": "s8",
+        "field": "subject",
+        "start": 0,
+        "end": 33
+      },
+      "knownCandidate": true,
+      "sourceExact": true,
+      "quoteUnits": 33,
+      "subjectGeneric": false
+    }
+  ]
+}

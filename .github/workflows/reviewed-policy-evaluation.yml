@@ -25,7 +25,11 @@ jobs:
           MBQ_ALLOW_SYNTHETIC_MODEL_RUN: 'yes'
         run: |
           if test -f completeness-continuation-plan.json; then
-            node completeness-continuation.mjs
+            if test -f completeness-continuation-comparison.json; then
+              echo "Continuation already recorded; no provider calls. Read completeness-continuation-results.md."
+            else
+              node completeness-continuation.mjs
+            fi
           elif test -f completeness-implementation-freeze.json; then
             node completeness-evaluation.mjs
           elif test -f sensitive-continuation-plan.json; then

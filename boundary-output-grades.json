@@ -1,0 +1,124 @@
+[
+  {
+    "id": "evidence-001",
+    "sourceExact": true,
+    "supportsReturnedDecision": false,
+    "coversSufficientReferenceBundle": false,
+    "coveredBundleIndexes": [],
+    "criteriaAmbiguous": false,
+    "optionalContextCoverage": "none",
+    "rationale": "The full request warrants review for search freezing plus PIN reset. The exact quote conveys only PIN reset, so it does not substantiate multi-intent review. No alternative protective trigger is apparent."
+  },
+  {
+    "id": "evidence-002",
+    "sourceExact": true,
+    "supportsReturnedDecision": true,
+    "coversSufficientReferenceBundle": true,
+    "coveredBundleIndexes": [
+      0
+    ],
+    "criteriaAmbiguous": false,
+    "optionalContextCoverage": "partial",
+    "rationale": "The exact quote expresses both refunding the renewal and resetting the PIN, fully covering bundle 0. The full request warrants review. Included middle screen details are optional; omitted greeting and closing are optional."
+  },
+  {
+    "id": "evidence-003",
+    "sourceExact": true,
+    "supportsReturnedDecision": true,
+    "coversSufficientReferenceBundle": true,
+    "coveredBundleIndexes": [
+      0
+    ],
+    "criteriaAmbiguous": false,
+    "optionalContextCoverage": "partial",
+    "rationale": "The exact quote expresses both the search-freezing malfunction and PIN-reset request, fully covering bundle 0 and supporting review. Middle visual details are optional; omitted greeting and theme assessment are optional."
+  },
+  {
+    "id": "evidence-004",
+    "sourceExact": true,
+    "supportsReturnedDecision": true,
+    "coversSufficientReferenceBundle": true,
+    "coveredBundleIndexes": [
+      0
+    ],
+    "criteriaAmbiguous": false,
+    "optionalContextCoverage": "partial",
+    "rationale": "The exact quote conveys the blank-chart malfunction and receipt request, fully covering bundle 0 and supporting review. Screen and panel description are optional; closing and subject framing are omitted."
+  },
+  {
+    "id": "evidence-005",
+    "sourceExact": true,
+    "supportsReturnedDecision": false,
+    "coversSufficientReferenceBundle": false,
+    "coveredBundleIndexes": [],
+    "criteriaAmbiguous": false,
+    "optionalContextCoverage": "none",
+    "rationale": "The subject is exact but only counts unnamed issues. Although the full body warrants review for login recovery and frozen export, the quote conveys neither substantive positive intent. No alternative protective trigger is apparent."
+  },
+  {
+    "id": "evidence-006",
+    "sourceExact": true,
+    "supportsReturnedDecision": true,
+    "coversSufficientReferenceBundle": true,
+    "coveredBundleIndexes": [
+      0
+    ],
+    "criteriaAmbiguous": false,
+    "optionalContextCoverage": "partial",
+    "rationale": "The exact quote conveys PIN recovery and a charge-refund request, fully covering bundle 0 and supporting review. Header appearance is optional; introductory desktop framing is omitted."
+  },
+  {
+    "id": "evidence-007",
+    "sourceExact": true,
+    "supportsReturnedDecision": false,
+    "coversSufficientReferenceBundle": false,
+    "coveredBundleIndexes": [],
+    "criteriaAmbiguous": false,
+    "optionalContextCoverage": "partial",
+    "rationale": "The quote is exact, but 'my renewal' supplies a topic without the refund action. It conveys only the PIN-reset positive intent. The full request warrants review, but this evidence does not cover the conjunctive bundle. Context cannot restore the omitted substantive action."
+  },
+  {
+    "id": "evidence-008",
+    "sourceExact": true,
+    "supportsReturnedDecision": false,
+    "coversSufficientReferenceBundle": false,
+    "coveredBundleIndexes": [],
+    "criteriaAmbiguous": false,
+    "optionalContextCoverage": "partial",
+    "rationale": "The quote is exact and conveys sending an invoice, but 'unlock my' truncates the object before identifying login access. The full request warrants review, but this quote does not convey the second complete substantive intent. Context cannot restore the omitted object."
+  },
+  {
+    "id": "evidence-009",
+    "sourceExact": true,
+    "supportsReturnedDecision": true,
+    "coversSufficientReferenceBundle": true,
+    "coveredBundleIndexes": [
+      0
+    ],
+    "criteriaAmbiguous": false,
+    "optionalContextCoverage": "partial",
+    "rationale": "The exact quote conveys the blank-chart malfunction and receipt request, fully covering bundle 0 and supporting review. Screen and panel description are optional; closing and subject framing are omitted."
+  },
+  {
+    "id": "evidence-010",
+    "sourceExact": true,
+    "supportsReturnedDecision": false,
+    "coversSufficientReferenceBundle": false,
+    "coveredBundleIndexes": [],
+    "criteriaAmbiguous": false,
+    "optionalContextCoverage": "none",
+    "rationale": "The subject is exact but only counts unnamed issues. Although the full body warrants review for login recovery and frozen export, the quote conveys neither substantive positive intent. No alternative protective trigger is apparent."
+  },
+  {
+    "id": "evidence-011",
+    "sourceExact": true,
+    "supportsReturnedDecision": true,
+    "coversSufficientReferenceBundle": true,
+    "coveredBundleIndexes": [
+      0
+    ],
+    "criteriaAmbiguous": false,
+    "optionalContextCoverage": "partial",
+    "rationale": "The exact quote conveys PIN recovery and a charge-refund request, fully covering bundle 0 and supporting review. Header appearance is optional; introductory desktop framing is omitted."
+  }
+]

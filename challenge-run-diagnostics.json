@@ -1,0 +1,614 @@
+{
+  "schemaVersion": 1,
+  "sourceCommit": "57caaccab87dc471096a9f7ae7354240e368e575",
+  "startedAt": "2026-11-17T11:55:28.958Z",
+  "completedAt": "2026-11-17T12:16:53.149Z",
+  "status": "complete",
+  "inFlight": null,
+  "stopReason": null,
+  "invocations": 40,
+  "attempts": 43,
+  "validFinal": 39,
+  "unattempted": [],
+  "commonValidIds": [
+    "v13-001",
+    "v13-008",
+    "v13-020",
+    "v13-006",
+    "v13-009",
+    "v13-012",
+    "v13-017",
+    "v13-004",
+    "v13-013",
+    "v13-010",
+    "v13-005",
+    "v13-003",
+    "v13-007",
+    "v13-011",
+    "v13-016",
+    "v13-015",
+    "v13-014",
+    "v13-002",
+    "v13-018"
+  ],
+  "firstFailures": [
+    {
+      "id": "v13-017",
+      "arm": "previous",
+      "firstError": "provider_http_503",
+      "recovered": true,
+      "finalError": null,
+      "finalOutput": {
+        "category": "review",
+        "evidence": "I cannot reset my sign-in PIN for the new rehearsal portal, and I need an invoice for the ensemble subscription renewal."
+      }
+    },
+    {
+      "id": "v13-013",
+      "arm": "updated",
+      "firstError": "provider_http_503",
+      "recovered": true,
+      "finalError": null,
+      "finalOutput": {
+        "category": "review",
+        "evidence": "Please recover access to my festival organizer account, and repair the calendar view that crashes when I move an event."
+      }
+    },
+    {
+      "id": "v13-011",
+      "arm": "updated",
+      "firstError": "provider_http_503",
+      "recovered": true,
+      "finalError": null,
+      "finalOutput": {
+        "category": "review",
+        "evidence": "I need a refund for the extra monthly charge, and the route planner freezes when I add a ferry."
+      }
+    },
+    {
+      "id": "v13-019",
+      "arm": "previous",
+      "firstError": "invalid_model_decision",
+      "recovered": false,
+      "finalError": "invalid_model_decision",
+      "finalOutput": null
+    }
+  ],
+  "failedAttempts": [
+    {
+      "id": "v13-017",
+      "arm": "previous",
+      "attempt": 1,
+      "outcome": "retry",
+      "error": "provider_http_503",
+      "stage": "http",
+      "latencyMs": 1445,
+      "attemptLatencyMs": 1445,
+      "httpStatus": 503,
+      "timeoutMs": 30000,
+      "retryDeferred": null,
+      "retryDelayMs": 4213,
+      "retryAfterKind": "absent"
+    },
+    {
+      "id": "v13-013",
+      "arm": "updated",
+      "attempt": 1,
+      "outcome": "retry",
+      "error": "provider_http_503",
+      "stage": "http",
+      "latencyMs": 1025,
+      "attemptLatencyMs": 1025,
+      "httpStatus": 503,
+      "timeoutMs": 30000,
+      "retryDeferred": null,
+      "retryDelayMs": 4250,
+      "retryAfterKind": "absent"
+    },
+    {
+      "id": "v13-011",
+      "arm": "updated",
+      "attempt": 1,
+      "outcome": "retry",
+      "error": "provider_http_503",
+      "stage": "http",
+      "latencyMs": 359,
+      "attemptLatencyMs": 359,
+      "httpStatus": 503,
+      "timeoutMs": 30000,
+      "retryDeferred": null,
+      "retryDelayMs": 4314,
+      "retryAfterKind": "absent"
+    },
+    {
+      "id": "v13-019",
+      "arm": "previous",
+      "attempt": 1,
+      "outcome": "failure",
+      "error": "invalid_model_decision",
+      "stage": "decision",
+      "validationReason": "evidence_too_long",
+      "finishReason": "STOP",
+      "latencyMs": 2029,
+      "attemptLatencyMs": 2029,
+      "candidateCount": 1,
+      "outputCharacters": 165,
+      "evidenceCharacters": 121,
+      "httpStatus": 200,
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 1890,
+        "candidatesTokenCount": 41,
+        "thoughtsTokenCount": null,
+        "totalTokenCount": 1931
+      },
+      "timeoutMs": 30000,
+      "retryDeferred": "non_retryable",
+      "retryDelayMs": 0,
+      "retryAfterKind": "absent"
+    }
+  ],
+  "knownUsage": {
+    "attemptsWithUsage": 40,
+    "totalTokenCount": 81960,
+    "attemptsWithoutUsage": 3,
+    "unknownUsageIsNotZero": true
+  },
+  "baselineMisses": [
+    {
+      "id": "v13-020",
+      "expected": {
+        "route": "technical",
+        "requiresHumanReview": false
+      },
+      "result": {
+        "id": "v13-020",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "no_supported_route",
+        "matchedCategories": [],
+        "source": "rules-baseline"
+      }
+    },
+    {
+      "id": "v13-009",
+      "expected": {
+        "route": "access",
+        "requiresHumanReview": false
+      },
+      "result": {
+        "id": "v13-009",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "no_supported_route",
+        "matchedCategories": [],
+        "source": "rules-baseline"
+      }
+    },
+    {
+      "id": "v13-012",
+      "expected": {
+        "route": "technical",
+        "requiresHumanReview": false
+      },
+      "result": {
+        "id": "v13-012",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "sensitive_context",
+        "matchedCategories": [],
+        "source": "rules-baseline"
+      }
+    },
+    {
+      "id": "v13-017",
+      "expected": {
+        "route": null,
+        "requiresHumanReview": true
+      },
+      "result": {
+        "id": "v13-017",
+        "route": "billing",
+        "requiresHumanReview": false,
+        "reason": "single_route_match",
+        "matchedCategories": [
+          "billing"
+        ],
+        "source": "rules-baseline"
+      }
+    },
+    {
+      "id": "v13-004",
+      "expected": {
+        "route": "technical",
+        "requiresHumanReview": false
+      },
+      "result": {
+        "id": "v13-004",
+        "route": null,
+        "requiresHumanReview": true,
+        "reason": "no_supported_route",
+        "matchedCategories": [],
+        "source": "rules-baseline"
+      }
+    },
+    {
+      "id": "v13-013",
+      "expected": {
+        "route": null,
+        "requiresHumanReview": true
+      },
+      "result": {
+        "id": "v13-013",
+        "route": "technical",
+        "requiresHumanReview": false,
+        "reason": "single_route_match",
+        "matchedCategories": [
+          "technical"
+        ],
+        "source": "rules-baseline"
+      }
+    },
+    {
+      "id": "v13-010",
+      "expected": {
+        "route": null,
+        "requiresHumanReview": true
+      },
+      "result": {
+        "id": "v13-010",
+        "route": "billing",
+        "requiresHumanReview": false,
+        "reason": "single_route_match",
+        "matchedCategories": [
+          "billing"
+        ],
+        "source": "rules-baseline"
+      }
+    },
+    {
+      "id": "v13-003",
+      "expected": {
+        "route": null,
+        "requiresHumanReview": true
+      },
+      "result": {
+        "id": "v13-003",
+        "route": "billing",
+        "requiresHumanReview": false,
+        "reason": "single_route_match",
+        "matchedCategories": [
+          "billing"
+        ],
+        "source": "rules-baseline"
+      }
+    },
+    {
+      "id": "v13-007",
+      "expected": {
+        "route": null,
+        "requiresHumanReview": true
+      },
+      "result": {
+        "id": "v13-007",
+        "route": "billing",
+        "requiresHumanReview": false,
+        "reason": "single_route_match",
+        "matchedCategories": [
+          "billing"
+        ],
+        "source": "rules-baseline"
+      }
+    },
+    {
+      "id": "v13-011",
+      "expected": {
+        "route": null,
+        "requiresHumanReview": true
+      },
+      "result": {
+        "id": "v13-011",
+        "route": "billing",
+        "requiresHumanReview": false,
+        "reason": "single_route_match",
+        "matchedCategories": [
+          "billing"
+        ],
+        "source": "rules-baseline"
+      }
+    },
+    {
+      "id": "v13-019",
+      "expected": {
+        "route": null,
+        "requiresHumanReview": true
+      },
+      "result": {
+        "id": "v13-019",
+        "route": "billing",
+        "requiresHumanReview": false,
+        "reason": "single_route_match",
+        "matchedCategories": [
+          "billing"
+        ],
+        "source": "rules-baseline"
+      }
+    }
+  ],
+  "guardUnnecessary": {
+    "previous": [
+      "v13-020",
+      "v13-009",
+      "v13-012",
+      "v13-004"
+    ],
+    "updated": [
+      "v13-020",
+      "v13-009",
+      "v13-012",
+      "v13-004"
+    ]
+  },
+  "selectionReferences": [
+    {
+      "id": "v13-001",
+      "reference": {
+        "id": "s0",
+        "field": "body",
+        "start": 0,
+        "end": 55
+      },
+      "knownCandidate": true,
+      "sourceExact": true,
+      "quoteUnits": 55,
+      "subjectGeneric": false
+    },
+    {
+      "id": "v13-008",
+      "reference": {
+        "id": "s2",
+        "field": "subject",
+        "start": 0,
+        "end": 57
+      },
+      "knownCandidate": true,
+      "sourceExact": true,
+      "quoteUnits": 57,
+      "subjectGeneric": false
+    },
+    {
+      "id": "v13-020",
+      "reference": {
+        "id": "s0",
+        "field": "body",
+        "start": 0,
+        "end": 78
+      },
+      "knownCandidate": true,
+      "sourceExact": true,
+      "quoteUnits": 78,
+      "subjectGeneric": false
+    },
+    {
+      "id": "v13-006",
+      "reference": {
+        "id": "s0",
+        "field": "body",
+        "start": 0,
+        "end": 99
+      },
+      "knownCandidate": true,
+      "sourceExact": true,
+      "quoteUnits": 99,
+      "subjectGeneric": false
+    },
+    {
+      "id": "v13-009",
+      "reference": {
+        "id": "s0",
+        "field": "body",
+        "start": 0,
+        "end": 87
+      },
+      "knownCandidate": true,
+      "sourceExact": true,
+      "quoteUnits": 87,
+      "subjectGeneric": false
+    },
+    {
+      "id": "v13-012",
+      "reference": {
+        "id": "s2",
+        "field": "subject",
+        "start": 0,
+        "end": 64
+      },
+      "knownCandidate": true,
+      "sourceExact": true,
+      "quoteUnits": 64,
+      "subjectGeneric": false
+    },
+    {
+      "id": "v13-017",
+      "reference": {
+        "id": "s0",
+        "field": "body",
+        "start": 0,
+        "end": 120
+      },
+      "knownCandidate": true,
+      "sourceExact": true,
+      "quoteUnits": 120,
+      "subjectGeneric": false
+    },
+    {
+      "id": "v13-004",
+      "reference": {
+        "id": "s0",
+        "field": "body",
+        "start": 0,
+        "end": 67
+      },
+      "knownCandidate": true,
+      "sourceExact": true,
+      "quoteUnits": 67,
+      "subjectGeneric": false
+    },
+    {
+      "id": "v13-013",
+      "reference": {
+        "id": "s0",
+        "field": "body",
+        "start": 0,
+        "end": 119
+      },
+      "knownCandidate": true,
+      "sourceExact": true,
+      "quoteUnits": 119,
+      "subjectGeneric": false
+    },
+    {
+      "id": "v13-010",
+      "reference": {
+        "id": "s0",
+        "field": "body",
+        "start": 0,
+        "end": 118
+      },
+      "knownCandidate": true,
+      "sourceExact": true,
+      "quoteUnits": 118,
+      "subjectGeneric": false
+    },
+    {
+      "id": "v13-005",
+      "reference": {
+        "id": "s2",
+        "field": "subject",
+        "start": 0,
+        "end": 55
+      },
+      "knownCandidate": true,
+      "sourceExact": true,
+      "quoteUnits": 55,
+      "subjectGeneric": false
+    },
+    {
+      "id": "v13-003",
+      "reference": {
+        "id": "s0",
+        "field": "body",
+        "start": 0,
+        "end": 115
+      },
+      "knownCandidate": true,
+      "sourceExact": true,
+      "quoteUnits": 115,
+      "subjectGeneric": false
+    },
+    {
+      "id": "v13-007",
+      "reference": {
+        "id": "s0",
+        "field": "body",
+        "start": 0,
+        "end": 115
+      },
+      "knownCandidate": true,
+      "sourceExact": true,
+      "quoteUnits": 115,
+      "subjectGeneric": false
+    },
+    {
+      "id": "v13-011",
+      "reference": {
+        "id": "s0",
+        "field": "body",
+        "start": 0,
+        "end": 95
+      },
+      "knownCandidate": true,
+      "sourceExact": true,
+      "quoteUnits": 95,
+      "subjectGeneric": true
+    },
+    {
+      "id": "v13-016",
+      "reference": {
+        "id": "s0",
+        "field": "body",
+        "start": 0,
+        "end": 88
+      },
+      "knownCandidate": true,
+      "sourceExact": true,
+      "quoteUnits": 88,
+      "subjectGeneric": false
+    },
+    {
+      "id": "v13-015",
+      "reference": {
+        "id": "s1",
+        "field": "subject",
+        "start": 0,
+        "end": 64
+      },
+      "knownCandidate": true,
+      "sourceExact": true,
+      "quoteUnits": 64,
+      "subjectGeneric": false
+    },
+    {
+      "id": "v13-019",
+      "reference": {
+        "id": "s3",
+        "field": "body",
+        "start": 4,
+        "end": 121
+      },
+      "knownCandidate": true,
+      "sourceExact": true,
+      "quoteUnits": 117,
+      "subjectGeneric": false
+    },
+    {
+      "id": "v13-014",
+      "reference": {
+        "id": "s0",
+        "field": "body",
+        "start": 0,
+        "end": 77
+      },
+      "knownCandidate": true,
+      "sourceExact": true,
+      "quoteUnits": 77,
+      "subjectGeneric": false
+    },
+    {
+      "id": "v13-002",
+      "reference": {
+        "id": "s2",
+        "field": "subject",
+        "start": 0,
+        "end": 52
+      },
+      "knownCandidate": true,
+      "sourceExact": true,
+      "quoteUnits": 52,
+      "subjectGeneric": false
+    },
+    {
+      "id": "v13-018",
+      "reference": {
+        "id": "s4",
+        "field": "subject",
+        "start": 0,
+        "end": 64
+      },
+      "knownCandidate": true,
+      "sourceExact": true,
+      "quoteUnits": 64,
+      "subjectGeneric": false
+    }
+  ]
+}

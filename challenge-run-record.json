@@ -1,0 +1,11 @@
+{
+  "runId": 44078346737,
+  "jobId": 134022090937,
+  "workflowConclusion": "failure",
+  "experimentStatus": "complete",
+  "sourceCommit": "57caaccab87dc471096a9f7ae7354240e368e575",
+  "startedAt": "2026-11-17T11:55:28.958Z",
+  "completedAt": "2026-11-17T12:16:53.149Z",
+  "checkpointPreserved": true,
+  "preflightTests": 121
+}

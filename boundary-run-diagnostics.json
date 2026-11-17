@@ -1,0 +1,228 @@
+{
+  "schemaVersion": 1,
+  "sourceCommit": "e9527bd03fe608baf76f7ddd2053422bddee6710",
+  "startedAt": "2026-11-17T12:19:52.021Z",
+  "completedAt": "2026-11-17T12:26:24.291Z",
+  "status": "complete",
+  "inFlight": null,
+  "stopReason": null,
+  "invocations": 12,
+  "attempts": 13,
+  "validFinal": 11,
+  "unattempted": [],
+  "commonValidIds": [
+    "b13-001",
+    "b13-003",
+    "b13-004",
+    "b13-006",
+    "b13-002"
+  ],
+  "firstFailures": [
+    {
+      "id": "b13-005",
+      "arm": "previous",
+      "firstError": "invalid_model_decision",
+      "recovered": false,
+      "finalError": "invalid_model_decision",
+      "finalOutput": null
+    },
+    {
+      "id": "b13-006",
+      "arm": "updated",
+      "firstError": "provider_http_503",
+      "recovered": true,
+      "finalError": null,
+      "finalOutput": {
+        "category": "review",
+        "evidence": "reset my PIN."
+      }
+    }
+  ],
+  "failedAttempts": [
+    {
+      "id": "b13-005",
+      "arm": "previous",
+      "attempt": 1,
+      "outcome": "failure",
+      "error": "invalid_model_decision",
+      "stage": "decision",
+      "validationReason": "evidence_too_long",
+      "finishReason": "STOP",
+      "latencyMs": 10429,
+      "attemptLatencyMs": 10429,
+      "candidateCount": 1,
+      "outputCharacters": 167,
+      "evidenceCharacters": 123,
+      "httpStatus": 200,
+      "modelVersion": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 1896,
+        "candidatesTokenCount": 45,
+        "thoughtsTokenCount": null,
+        "totalTokenCount": 1941
+      },
+      "timeoutMs": 30000,
+      "retryDeferred": "non_retryable",
+      "retryDelayMs": 0,
+      "retryAfterKind": "absent"
+    },
+    {
+      "id": "b13-006",
+      "arm": "updated",
+      "attempt": 1,
+      "outcome": "retry",
+      "error": "provider_http_503",
+      "stage": "http",
+      "latencyMs": 1875,
+      "attemptLatencyMs": 1875,
+      "httpStatus": 503,
+      "timeoutMs": 30000,
+      "retryDeferred": null,
+      "retryDelayMs": 4554,
+      "retryAfterKind": "absent"
+    }
+  ],
+  "knownUsage": {
+    "attemptsWithUsage": 12,
+    "totalTokenCount": 25753,
+    "attemptsWithoutUsage": 1,
+    "unknownUsageIsNotZero": true
+  },
+  "baselineMisses": [
+    {
+      "id": "b13-001",
+      "expected": {
+        "route": null,
+        "requiresHumanReview": true
+      },
+      "result": {
+        "id": "b13-001",
+        "route": "billing",
+        "requiresHumanReview": false,
+        "reason": "single_route_match",
+        "matchedCategories": [
+          "billing"
+        ],
+        "source": "rules-baseline"
+      }
+    },
+    {
+      "id": "b13-003",
+      "expected": {
+        "route": null,
+        "requiresHumanReview": true
+      },
+      "result": {
+        "id": "b13-003",
+        "route": "billing",
+        "requiresHumanReview": false,
+        "reason": "single_route_match",
+        "matchedCategories": [
+          "billing"
+        ],
+        "source": "rules-baseline"
+      }
+    },
+    {
+      "id": "b13-004",
+      "expected": {
+        "route": null,
+        "requiresHumanReview": true
+      },
+      "result": {
+        "id": "b13-004",
+        "route": "billing",
+        "requiresHumanReview": false,
+        "reason": "single_route_match",
+        "matchedCategories": [
+          "billing"
+        ],
+        "source": "rules-baseline"
+      }
+    }
+  ],
+  "guardUnnecessary": {
+    "previous": [],
+    "updated": []
+  },
+  "selectionReferences": [
+    {
+      "id": "b13-001",
+      "reference": {
+        "id": "s8",
+        "field": "body",
+        "start": 14,
+        "end": 133
+      },
+      "knownCandidate": true,
+      "sourceExact": true,
+      "quoteUnits": 119,
+      "subjectGeneric": false
+    },
+    {
+      "id": "b13-005",
+      "reference": {
+        "id": "s6",
+        "field": "subject",
+        "start": 0,
+        "end": 117
+      },
+      "knownCandidate": true,
+      "sourceExact": true,
+      "quoteUnits": 117,
+      "subjectGeneric": false
+    },
+    {
+      "id": "b13-003",
+      "reference": {
+        "id": "s4",
+        "field": "body",
+        "start": 0,
+        "end": 113
+      },
+      "knownCandidate": true,
+      "sourceExact": true,
+      "quoteUnits": 113,
+      "subjectGeneric": false
+    },
+    {
+      "id": "b13-004",
+      "reference": {
+        "id": "s8",
+        "field": "body",
+        "start": 30,
+        "end": 150
+      },
+      "knownCandidate": true,
+      "sourceExact": true,
+      "quoteUnits": 120,
+      "subjectGeneric": false
+    },
+    {
+      "id": "b13-006",
+      "reference": {
+        "id": "s3",
+        "field": "body",
+        "start": 113,
+        "end": 126
+      },
+      "knownCandidate": true,
+      "sourceExact": true,
+      "quoteUnits": 13,
+      "subjectGeneric": false
+    },
+    {
+      "id": "b13-002",
+      "reference": {
+        "id": "s9",
+        "field": "subject",
+        "start": 0,
+        "end": 14
+      },
+      "knownCandidate": true,
+      "sourceExact": true,
+      "quoteUnits": 14,
+      "subjectGeneric": false
+    }
+  ]
+}

@@ -92,3 +92,7 @@ The live comparison should report all cases and failures, not just examples that
 ## Bounded selection v12 candidate
 
 `createSelectionAdapter` in `selection-adapter.mjs` retains the public category/evidence schema but uses an internal bounded source-span ID selection format. `selection-options.mjs` generates exact 4–120 UTF-16 spans and excludes recognized generic headings while preserving meaningful subjects. Invalid IDs fail closed; no quote repair or formatting retry. The current v11 adapter and all historical source remain unchanged. See [v12 results](selection-results.md) for the one observed injection-review difference, five recovered 503 attempts, no demonstrated reduction of the original target failures and AI-only limits. This explicit experimental adapter is not made the default.
+
+## Focused challenge findings; adapters unchanged
+
+[Challenge v13](challenge-results.md) and [separate v13b follow-up](boundary-results.md) compare the same explicit v11/v12 adapters without tuning. The main set favors v12, but the stronger six-case follow-up regresses joint routing/support/coverage from4/6 to2/6. Missing candidate spans, a truncated selected object and a generic heading can yield valid bounded evidence that is semantically incomplete. Format bounds alone are not sufficient. Historical records/defaults stay intact; this remains experimental and AI-reviewed.

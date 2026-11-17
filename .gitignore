@@ -44,3 +44,7 @@ sufficient-comparison.local.json
 
 # Bounded selection comparison
 selection-comparison.local.json
+
+# Preserved focused challenge and bounded follow-up
+challenge-comparison.local.json
+boundary-comparison.local.json
